@@ -1,0 +1,3726 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  26 DEC 2015 14:35
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Positive_Pressure_Ventilation_Report_122615.tex
+(./Positive_Pressure_Ventilation_Report_122615.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count87
+\float@exts=\toks14
+\float@box=\box26
+\@float@everytoks=\toks15
+\@floatcapt=\box27
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen105
+\captionmargin@=\dimen106
+\captionwidth=\dimen107
+\caption@tempdima=\dimen108
+\caption@indent=\dimen109
+\caption@parindent=\dimen110
+\caption@hangindent=\dimen111
+)
+\c@ContinuedFloat=\count89
+Package caption Info: float package is loaded.
+)
+\c@KVtest=\count90
+\sf@farskip=\skip43
+\sf@captopadj=\dimen112
+\sf@capskip=\skip44
+\sf@nearskip=\skip45
+\c@subfigure=\count91
+\c@subfigure@save=\count92
+\c@lofdepth=\count93
+\c@subtable=\count94
+\c@subtable@save=\count95
+\c@lotdepth=\count96
+\sf@top=\skip46
+\sf@bottom=\skip47
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count97
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/04/20 v2.0e eso-pic (RN)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count98
+\cp@tempcnt=\count99
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks17
+\AP@partial=\box28
+\AP@footins=\box29
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks18
+\footnotemargin=\dimen113
+\c@pp@next@reset=\count100
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+\CenteringLeftskip=\skip48
+\RaggedLeftLeftskip=\skip49
+\RaggedRightLeftskip=\skip50
+\CenteringRightskip=\skip51
+\RaggedLeftRightskip=\skip52
+\RaggedRightRightskip=\skip53
+\CenteringParfillskip=\skip54
+\RaggedLeftParfillskip=\skip55
+\RaggedRightParfillskip=\skip56
+\JustifyingParfillskip=\skip57
+\CenteringParindent=\skip58
+\RaggedLeftParindent=\skip59
+\RaggedRightParindent=\skip60
+\JustifyingParindent=\skip61
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language80
+LaTeX Info: Redefining \_ on input line 43.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count101
+\Gm@cntv=\count102
+\c@Gm@tempcnt=\count103
+\Gm@bindingoffset=\dimen114
+\Gm@wd@mp=\dimen115
+\Gm@odd@mp=\dimen116
+\Gm@even@mp=\dimen117
+\Gm@layoutwidth=\dimen118
+\Gm@layoutheight=\dimen119
+\Gm@layouthoffset=\dimen120
+\Gm@layoutvoffset=\dimen121
+\Gm@dimlist=\toks19
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen122
+\extrarowheight=\dimen123
+\NC@list=\toks20
+\extratabsurround=\skip62
+\backup@length=\skip63
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2015/03/01 v5547 L3 programming layer (loader) 
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2015/03/01 v5547 L3 programming layer (code) 
+L3 Module: l3bootstrap 2015/02/28 v5542 L3 Bootstrap code
+L3 Module: l3names 2015/02/24 v5535 L3 Namespace for primitives
+L3 Module: l3basics 2015/01/27 v5500 L3 Basic definitions
+L3 Module: l3expan 2014/11/27 v5472 L3 Argument expansion
+L3 Module: l3tl 2015/01/27 v5500 L3 Token lists
+L3 Module: l3str 2015/03/01 v5545 L3 Strings
+L3 Module: l3seq 2014/08/23 v5354 L3 Sequences and stacks
+L3 Module: l3int 2015/02/21 v5529 L3 Integers
+\c_max_int=\count104
+\l_tmpa_int=\count105
+\l_tmpb_int=\count106
+\g_tmpa_int=\count107
+\g_tmpb_int=\count108
+L3 Module: l3quark 2014/08/23 v5354 L3 Quarks
+L3 Module: l3prg 2014/08/23 v5354 L3 Control structures
+\g__prg_map_int=\count109
+L3 Module: l3clist 2014/08/23 v5354 L3 Comma separated lists
+L3 Module: l3token 2014/09/15 v5422 L3 Experimental token manipulation
+L3 Module: l3prop 2014/08/23 v5354 L3 Property lists
+L3 Module: l3msg 2015/02/26 v5537 L3 Messages
+L3 Module: l3file 2014/08/24 v5369 L3 File and I/O operations
+\l_iow_line_count_int=\count110
+\l__iow_target_count_int=\count111
+\l__iow_current_line_int=\count112
+\l__iow_current_word_int=\count113
+\l__iow_current_indentation_int=\count114
+L3 Module: l3skip 2014/08/23 v5354 L3 Dimensions and skips
+\c_zero_dim=\dimen124
+\c_max_dim=\dimen125
+\l_tmpa_dim=\dimen126
+\l_tmpb_dim=\dimen127
+\g_tmpa_dim=\dimen128
+\g_tmpb_dim=\dimen129
+\c_zero_skip=\skip64
+\c_max_skip=\skip65
+\l_tmpa_skip=\skip66
+\l_tmpb_skip=\skip67
+\g_tmpa_skip=\skip68
+\g_tmpb_skip=\skip69
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+L3 Module: l3keys 2015/01/27 v5500 L3 Key-value interfaces
+\g__keyval_level_int=\count115
+\l_keys_choice_int=\count116
+L3 Module: l3fp 2014/08/22 v5336 L3 Floating points
+\c__fp_leading_shift_int=\count117
+\c__fp_middle_shift_int=\count118
+\c__fp_trailing_shift_int=\count119
+\c__fp_big_leading_shift_int=\count120
+\c__fp_big_middle_shift_int=\count121
+\c__fp_big_trailing_shift_int=\count122
+\c__fp_Bigg_leading_shift_int=\count123
+\c__fp_Bigg_middle_shift_int=\count124
+\c__fp_Bigg_trailing_shift_int=\count125
+L3 Module: l3box 2014/08/23 v5354 L3 Experimental boxes
+\c_empty_box=\box30
+\l_tmpa_box=\box31
+\l_tmpb_box=\box32
+\g_tmpa_box=\box33
+\g_tmpb_box=\box34
+L3 Module: l3coffins 2014/08/23 v5354 L3 Coffin code layer
+\l__coffin_internal_box=\box35
+\l__coffin_internal_dim=\dimen130
+\l__coffin_offset_x_dim=\dimen131
+\l__coffin_offset_y_dim=\dimen132
+\l__coffin_x_dim=\dimen133
+\l__coffin_y_dim=\dimen134
+\l__coffin_x_prime_dim=\dimen135
+\l__coffin_y_prime_dim=\dimen136
+\c_empty_coffin=\box36
+\l__coffin_aligned_coffin=\box37
+\l__coffin_aligned_internal_coffin=\box38
+\l_tmpa_coffin=\box39
+\l_tmpb_coffin=\box40
+\l__coffin_display_coffin=\box41
+\l__coffin_display_coord_coffin=\box42
+\l__coffin_display_pole_coffin=\box43
+\l__coffin_display_offset_dim=\dimen137
+\l__coffin_display_x_dim=\dimen138
+\l__coffin_display_y_dim=\dimen139
+L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
+L3 Module: l3candidates 2015/03/01 v5544 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen140
+\l__box_bottom_dim=\dimen141
+\l__box_left_dim=\dimen142
+\l__box_right_dim=\dimen143
+\l__box_top_new_dim=\dimen144
+\l__box_bottom_new_dim=\dimen145
+\l__box_left_new_dim=\dimen146
+\l__box_right_new_dim=\dimen147
+\l__box_internal_box=\box44
+\l__coffin_bounding_shift_dim=\dimen148
+\l__coffin_left_corner_dim=\dimen149
+\l__coffin_right_corner_dim=\dimen150
+\l__coffin_bottom_corner_dim=\dimen151
+\l__coffin_top_corner_dim=\dimen152
+\l__coffin_scaled_total_height_dim=\dimen153
+\l__coffin_scaled_width_dim=\dimen154
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def
+File: l3unicode-data.def 2015/03/01 v5544 L3 Unicode data
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2015/03/01 v5544 L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count126
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2014/11/25 v5471 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count127
+\l__xparse_m_args_int=\count128
+\l__xparse_mandatory_args_int=\count129
+\l__xparse_processor_int=\count130
+\l__xparse_v_nesting_int=\count131
+)
+Package: siunitx 2015/01/21 v2.6e A comprehensive (SI) units package
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks21
+\ex@=\dimen155
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2014/11/25 v5471 LaTeX2e option processing using LaTeX3 keys
+)
+Variant \tl_if_blank:VTF already defined; not changing it on line 50
+\l__siunitx_tmp_box=\box45
+\l__siunitx_tmp_dim=\dimen156
+\l__siunitx_tmp_int=\count132
+Variant \prop_get:NVNT already defined; not changing it on line 380
+Variant \prop_get:NVNF already defined; not changing it on line 381
+Variant \prop_get:NVNTF already defined; not changing it on line 382
+\l__siunitx_number_mantissa_length_int=\count133
+\l__siunitx_number_uncert_length_int=\count134
+\l__siunitx_round_int=\count135
+\l__siunitx_process_decimal_int=\count136
+\l__siunitx_process_uncertainty_int=\count137
+\l__siunitx_process_fixed_int=\count138
+\l__siunitx_process_integer_min_int=\count139
+\l__siunitx_process_precision_int=\count140
+\l__siunitx_group_min_int=\count141
+\l__siunitx_angle_marker_box=\box46
+\l__siunitx_angle_unit_box=\box47
+\l__siunitx_angle_marker_dim=\dimen157
+\l__siunitx_angle_unit_dim=\dimen158
+\l__siunitx_unit_int=\count142
+\l__siunitx_unit_denominator_int=\count143
+\l__siunitx_unit_numerator_int=\count144
+\l__siunitx_unit_prefix_int=\count145
+\l__siunitx_unit_prefix_base_int=\count146
+\l__siunitx_unit_prefix_gram_int=\count147
+\l__siunitx_number_product_int=\count148
+\c__siunitx_one_fill_skip=\skip70
+\l__siunitx_table_unit_align_skip=\skip71
+\l__siunitx_table_exponent_dim=\dimen159
+\l__siunitx_table_integer_dim=\dimen160
+\l__siunitx_table_mantissa_dim=\dimen161
+\l__siunitx_table_marker_dim=\dimen162
+\l__siunitx_table_result_dim=\dimen163
+\l__siunitx_table_uncert_dim=\dimen164
+\l__siunitx_table_fill_pre_dim=\dimen165
+\l__siunitx_table_fill_post_dim=\dimen166
+\l__siunitx_table_fill_mid_dim=\dimen167
+\l__siunitx_table_pre_box=\box48
+\l__siunitx_table_post_box=\box49
+\l__siunitx_table_mantissa_box=\box50
+\l__siunitx_table_result_box=\box51
+\l__siunitx_table_number_align_skip=\skip72
+\l__siunitx_table_text_align_skip=\skip73
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7176.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPostPower with sig. 'mm' on line 7179.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7182.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrePower with sig. 'mm' on line 7185.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIQualifier with sig. 'mm' on line 7188.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7191.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7194.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7209.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \num with sig. 'om' on line 7217.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7225.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numrange with sig. 'omm' on line 7233.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7244.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIrange with sig. 'ommm' on line 7255.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SI with sig. 'omom' on line 7266.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sisetup with sig. 'm' on line 7269.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tablenum with sig. 'om' on line 7281.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \si with sig. 'om' on line 7292.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_num:w with sig. 'om' on line 7339.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_numrange:w with sig. 'omm' on line
+. 7341.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_SI:w with sig. 'omom' on line 7343.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_SIlist:w with sig. 'omm' on line 7345.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_SIrange:w with sig. 'ommm' on line
+. 7347.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_si:w with sig. 'om' on line 7348.
+.................................................
+\g__file_internal_ior=\read1
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/translator.sty
+Package: translator 2010/06/12 ver 1.10
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/translator-lang
+uage-mappings.tex)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks22
+\SOUL@lasttoken=\toks23
+\SOUL@cmds=\toks24
+\SOUL@buffer=\toks25
+\SOUL@token=\toks26
+\SOUL@spaceskip=\skip74
+\SOUL@ttwidth=\dimen168
+\SOUL@uldp=\dimen169
+\SOUL@ulht=\dimen170
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box52
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2009/09/02 v1.0a change counter resetting
+)
+(./Positive_Pressure_Ventilation_Report_122615.aux)
+\openout1 = `Positive_Pressure_Ventilation_Report_122615.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count149
+\scratchdimen=\dimen171
+\scratchbox=\box53
+\nofMPsegments=\count150
+\nofMParguments=\count151
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count152
+\MPscratchDim=\dimen172
+\MPnumerator=\count153
+\makeMPintoPDFobject=\count154
+\everyMPtoPDFconversion=\toks28
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: threeparttable package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box54
+Package ragged2e Info: ABD: executing \RaggedRight on input line 31.
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 31.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=18.06749pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-basic-dictionary/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+File: siunitx-abbreviations.cfg 2015/01/21 v2.6e siunitx: Abbreviated units
+)
+\c__siunitx_mathsf_int=\count155
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 31.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 31.
+\c__siunitx_mathtt_int=\count156
+\GPT@outputbox=\box55
+
+Overfull \hbox (3.70905pt too wide) in paragraph at lines 44--44
+[]\OT1/cmr/bx/n/20.74 Study of the Ef-fec-tive-ness of Fire Ser-vice Pos-i-tive
+ 
+ []
+
+
+Overfull \hbox (2.58324pt too wide) in paragraph at lines 44--44
+\OT1/cmr/bx/n/20.74 Pres-sure Ven-ti-la-tion Dur-ing Fire At-tack in Sin-gle 
+ []
+
+
+Overfull \hbox (16.10982pt too wide) in paragraph at lines 44--44
+\OT1/cmr/bx/n/20.74 Fam-ily Homes In-cor-po-rat-ing Mod-ern Con-struc-tion 
+ []
+
+<0_Images/Section_1/ULLogoWhite.pdf, id=1, 252.945pt x 252.945pt>
+File: 0_Images/Section_1/ULLogoWhite.pdf Graphic file (type pdf)
+
+<use 0_Images/Section_1/ULLogoWhite.pdf>
+Package pdftex.def Info: 0_Images/Section_1/ULLogoWhite.pdf used on input line 
+59.
+(pdftex.def)             Requested size: 54.2025pt x 54.2007pt.
+
+<0_Images/CoverImage.jpg, id=2, 810.3876pt x 547.3248pt>
+File: 0_Images/CoverImage.jpg Graphic file (type jpg)
+
+<use 0_Images/CoverImage.jpg>
+Package pdftex.def Info: 0_Images/CoverImage.jpg used on input line 62.
+(pdftex.def)             Requested size: 505.89pt x 341.66792pt.
+ [1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./0_Ima
+ges/Section_1/ULLogoWhite.pdf> <./0_Images/CoverImage.jpg>]
+Overfull \hbox (3.54492pt too wide) in paragraph at lines 67--68
+\OT1/cmr/m/n/9 of res-i-den-tial fires as a re-sult of the changes in home con-
+struc-tion ma-te-ri-als, con-tents, size and ge-om-e-try 
+ []
+
+
+Overfull \hbox (4.61714pt too wide) in paragraph at lines 67--68
+\OT1/cmr/m/n/9 over the past 30 years com-pounds our lack of un-der-stand-ing o
+f the ef-fects of ven-ti-la-tion on fire be-hav-ior. 
+ []
+
+
+Overfull \hbox (12.8497pt too wide) in paragraph at lines 69--70
+\OT1/cmr/m/n/9 fire be-hav-ior. The ex-per-i-men-tal re-sults will be used to d
+e-velop tac-ti-cal con-sid-er-a-tions out-lin-ing fire-fight-ing 
+ []
+
+
+Overfull \hbox (13.8011pt too wide) in paragraph at lines 69--70
+\OT1/cmr/m/n/9 which stud-ied the im-pact of hor-i-zon-tal ven-ti-la-tion throu
+gh doors and win-dows and (EMW-2010-FP-00661) 
+ []
+
+
+Overfull \hbox (2.55814pt too wide) in paragraph at lines 69--70
+\OT1/cmr/m/n/9 which stud-ied the im-pact of ver-ti-cal ven-ti-la-tion through 
+the roof. This project will ad-dress the con-cerns 
+ []
+
+[1]
+Overfull \hbox (5.10698pt too wide) in paragraph at lines 75--76
+\OT1/cmr/m/n/10 fires an-nu-ally. [[]] These fires caused an es-ti-mated an-nua
+l av-er-age of 2,820 civil-ian deaths and 13,780 civil-ian 
+ []
+
+
+Overfull \hbox (0.91238pt too wide) in paragraph at lines 75--76
+\OT1/cmr/m/n/10 the same time, fire-fighter deaths oc-cur-ring in-side struc-tu
+res has con-tin-ued to climb over the past 30 years.4 
+ []
+
+
+Overfull \hbox (2.60689pt too wide) in paragraph at lines 96--97
+[]\OT1/cmr/m/n/10 Furniture was ac-quired for the ex-per-i-ments such that each
+ room of fur-ni-ture was the same from ex-per-i-ment 
+ []
+
+[2] <0_Images/Furniture/KitchenTable.jpg, id=32, 673.7973pt x 513.5988pt>
+File: 0_Images/Furniture/KitchenTable.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/KitchenTable.jpg>
+Package pdftex.def Info: 0_Images/Furniture/KitchenTable.jpg used on input line
+ 133.
+(pdftex.def)             Requested size: 85.35826pt x 65.06174pt.
+
+<0_Images/Furniture/KitchenTableChair.jpg, id=33, 429.7656pt x 458.4327pt>
+File: 0_Images/Furniture/KitchenTableChair.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/KitchenTableChair.jpg>
+Package pdftex.def Info: 0_Images/Furniture/KitchenTableChair.jpg used on input
+ line 134.
+(pdftex.def)             Requested size: 85.35826pt x 91.04836pt.
+
+<0_Images/Furniture/NightStand.jpg, id=34, 611.886pt x 479.1501pt>
+File: 0_Images/Furniture/NightStand.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/NightStand.jpg>
+Package pdftex.def Info: 0_Images/Furniture/NightStand.jpg used on input line 1
+35.
+(pdftex.def)             Requested size: 85.35826pt x 66.83928pt.
+
+<0_Images/Furniture/BoxSpring.jpg, id=35, 575.751pt x 615.7404pt>
+File: 0_Images/Furniture/BoxSpring.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/BoxSpring.jpg>
+Package pdftex.def Info: 0_Images/Furniture/BoxSpring.jpg used on input line 13
+6.
+(pdftex.def)             Requested size: 85.35826pt x 91.286pt.
+
+<0_Images/Furniture/Matress.jpg, id=36, 504.9264pt x 573.1011pt>
+File: 0_Images/Furniture/Matress.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/Matress.jpg>
+Package pdftex.def Info: 0_Images/Furniture/Matress.jpg used on input line 137.
+
+(pdftex.def)             Requested size: 85.35826pt x 96.88371pt.
+
+<0_Images/Furniture/HeadBoard.jpg, id=37, 982.6311pt x 620.5584pt>
+File: 0_Images/Furniture/HeadBoard.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/HeadBoard.jpg>
+Package pdftex.def Info: 0_Images/Furniture/HeadBoard.jpg used on input line 13
+8.
+(pdftex.def)             Requested size: 85.35826pt x 53.89723pt.
+
+<0_Images/Furniture/Dresser_TVStand.jpg, id=38, 662.475pt x 439.8834pt>
+File: 0_Images/Furniture/Dresser_TVStand.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/Dresser_TVStand.jpg>
+Package pdftex.def Info: 0_Images/Furniture/Dresser_TVStand.jpg used on input l
+ine 139.
+(pdftex.def)             Requested size: 85.35826pt x 56.67673pt.
+
+<0_Images/Furniture/FootStool.jpg, id=39, 516.4896pt x 376.5267pt>
+File: 0_Images/Furniture/FootStool.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/FootStool.jpg>
+Package pdftex.def Info: 0_Images/Furniture/FootStool.jpg used on input line 14
+0.
+(pdftex.def)             Requested size: 85.35826pt x 62.2219pt.
+
+<0_Images/Furniture/EndTable.jpg, id=40, 490.2315pt x 421.0932pt>
+File: 0_Images/Furniture/EndTable.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/EndTable.jpg>
+Package pdftex.def Info: 0_Images/Furniture/EndTable.jpg used on input line 141
+.
+(pdftex.def)             Requested size: 85.35826pt x 73.31973pt.
+
+<0_Images/Furniture/CoffeeTable.jpg, id=41, 574.3056pt x 381.8265pt>
+File: 0_Images/Furniture/CoffeeTable.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/CoffeeTable.jpg>
+Package pdftex.def Info: 0_Images/Furniture/CoffeeTable.jpg used on input line 
+142.
+(pdftex.def)             Requested size: 85.35826pt x 56.74713pt.
+
+<0_Images/Furniture/Lamp_and_Shade.jpg, id=42, 429.7656pt x 416.0343pt>
+File: 0_Images/Furniture/Lamp_and_Shade.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/Lamp_and_Shade.jpg>
+Package pdftex.def Info: 0_Images/Furniture/Lamp_and_Shade.jpg used on input li
+ne 143.
+(pdftex.def)             Requested size: 85.35826pt x 82.6277pt.
+
+<0_Images/Furniture/Chair(Yellow).jpg, id=43, 801.4743pt x 532.1481pt>
+File: 0_Images/Furniture/Chair(Yellow).jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/Chair(Yellow).jpg>
+Package pdftex.def Info: 0_Images/Furniture/Chair(Yellow).jpg used on input lin
+e 144.
+(pdftex.def)             Requested size: 85.35826pt x 56.66888pt.
+
+<0_Images/Furniture/Chair(Brown).jpg, id=44, 971.5497pt x 645.3711pt>
+File: 0_Images/Furniture/Chair(Brown).jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/Chair(Brown).jpg>
+Package pdftex.def Info: 0_Images/Furniture/Chair(Brown).jpg used on input line
+ 145.
+(pdftex.def)             Requested size: 85.35826pt x 56.69238pt.
+
+<0_Images/Furniture/SleeperSofa(Green).jpg, id=45, 862.1811pt x 538.6524pt>
+File: 0_Images/Furniture/SleeperSofa(Green).jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/SleeperSofa(Green).jpg>
+Package pdftex.def Info: 0_Images/Furniture/SleeperSofa(Green).jpg used on inpu
+t line 146.
+(pdftex.def)             Requested size: 85.35826pt x 53.32593pt.
+
+<0_Images/Furniture/SleeperSofa(Orange).jpg, id=46, 806.0514pt x 571.8966pt>
+File: 0_Images/Furniture/SleeperSofa(Orange).jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/SleeperSofa(Orange).jpg>
+Package pdftex.def Info: 0_Images/Furniture/SleeperSofa(Orange).jpg used on inp
+ut line 147.
+(pdftex.def)             Requested size: 85.35826pt x 60.5614pt.
+
+<0_Images/Furniture/Curtian.jpg, id=47, 976.6086pt x 648.7437pt>
+File: 0_Images/Furniture/Curtian.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/Curtian.jpg>
+Package pdftex.def Info: 0_Images/Furniture/Curtian.jpg used on input line 148.
+
+(pdftex.def)             Requested size: 85.35826pt x 56.70157pt.
+
+Overfull \hbox (10.91241pt too wide) in paragraph at lines 155--156
+\OT1/cmr/m/n/10 cof-fee ta-ble, chair, two pic-tures, lamp with shade and two c
+ur-tains . The floor was cov-ered with polyurethane 
+ []
+
+
+Overfull \hbox (4.77374pt too wide) in paragraph at lines 155--156
+\OT1/cmr/m/n/10 foam padding and polyester car-pet. Fig-ure 6.2[] shows both th
+e sin-gle story liv-ing room and two story fam-ily 
+ []
+
+
+<0_Images/Furniture/SingleStoryLivingRoom.jpg, id=48, 846.0408pt x 686.0832pt>
+File: 0_Images/Furniture/SingleStoryLivingRoom.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/SingleStoryLivingRoom.jpg>
+Package pdftex.def Info: 0_Images/Furniture/SingleStoryLivingRoom.jpg used on i
+nput line 160.
+(pdftex.def)             Requested size: 216.81pt x 175.81258pt.
+
+<0_Images/Furniture/TwoStoryFamilyRoom.jpg, id=49, 1032.9792pt x 686.0832pt>
+File: 0_Images/Furniture/TwoStoryFamilyRoom.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/TwoStoryFamilyRoom.jpg>
+Package pdftex.def Info: 0_Images/Furniture/TwoStoryFamilyRoom.jpg used on inpu
+t line 161.
+(pdftex.def)             Requested size: 216.81pt x 143.99797pt.
+ [3] [4 <./0_Images/Furniture/KitchenTable.jpg> <./0_Images/Furniture/KitchenTa
+bleChair.jpg> <./0_Images/Furniture/NightStand.jpg> <./0_Images/Furniture/BoxSp
+ring.jpg> <./0_Images/Furniture/Matress.jpg> <./0_Images/Furniture/HeadBoard.jp
+g> <./0_Images/Furniture/Dresser_TVStand.jpg> <./0_Images/Furniture/FootStool.j
+pg> <./0_Images/Furniture/EndTable.jpg> <./0_Images/Furniture/CoffeeTable.jpg> 
+<./0_Images/Furniture/Lamp_and_Shade.jpg> <./0_Images/Furniture/Chair(Yellow).j
+pg> <./0_Images/Furniture/Chair(Brown).jpg> <./0_Images/Furniture/SleeperSofa(G
+reen).jpg> <./0_Images/Furniture/SleeperSofa(Orange).jpg> <./0_Images/Furniture
+/Curtian.jpg>]
+Overfull \hbox (2.57916pt too wide) in paragraph at lines 167--168
+\OT1/cmr/m/n/10 th Sin-gle Story the mas-ter bed-room also con-tained a brown c
+hair. The floor was cov-ered with polyurethane 
+ []
+
+<0_Images/Furniture/1StoryMaster.jpg, id=57, 1032.9792pt x 686.0832pt>
+File: 0_Images/Furniture/1StoryMaster.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/1StoryMaster.jpg>
+Package pdftex.def Info: 0_Images/Furniture/1StoryMaster.jpg used on input line
+ 172.
+(pdftex.def)             Requested size: 216.81pt x 143.99797pt.
+
+<0_Images/Furniture/2StoryMaster.jpg, id=58, 1032.9792pt x 686.0832pt>
+File: 0_Images/Furniture/2StoryMaster.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/2StoryMaster.jpg>
+Package pdftex.def Info: 0_Images/Furniture/2StoryMaster.jpg used on input line
+ 173.
+(pdftex.def)             Requested size: 216.81pt x 143.99797pt.
+
+Overfull \hbox (8.32915pt too wide) in paragraph at lines 179--180
+[]\OT1/cmr/m/n/10 The re-main-der of the bed-rooms in both houses were fur-nish
+ed with the same bed, tele-vi-sion stand, tele-vi-sion 
+ []
+
+
+Overfull \hbox (0.66249pt too wide) in paragraph at lines 179--180
+\OT1/cmr/m/n/10 and floor-ing com-pli-ment as well as a light brown dresser, an
+d head-board. For fires lo-cated in the bed-rooms 
+ []
+
+
+Overfull \hbox (1.4403pt too wide) in paragraph at lines 179--180
+\OT1/cmr/m/n/10 an ad-di-tional mat-tress was added to the bed to ex-tend burn 
+du-ra-tion. Fig-ure 6.4[] shows the fur-ni-ture setup 
+ []
+
+<0_Images/Furniture/1StoryBed2.jpg, id=59, 1032.9792pt x 686.0832pt>
+File: 0_Images/Furniture/1StoryBed2.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/1StoryBed2.jpg>
+Package pdftex.def Info: 0_Images/Furniture/1StoryBed2.jpg used on input line 1
+84.
+(pdftex.def)             Requested size: 216.81pt x 143.99797pt.
+
+<0_Images/Furniture/1StoryBed3.jpg, id=60, 686.0832pt x 1032.9792pt>
+File: 0_Images/Furniture/1StoryBed3.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/1StoryBed3.jpg>
+Package pdftex.def Info: 0_Images/Furniture/1StoryBed3.jpg used on input line 1
+85.
+(pdftex.def)             Requested size: 108.405pt x 163.21523pt.
+
+<0_Images/Furniture/2StoryBed2.jpg, id=61, 1032.9792pt x 686.0832pt>
+File: 0_Images/Furniture/2StoryBed2.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/2StoryBed2.jpg>
+Package pdftex.def Info: 0_Images/Furniture/2StoryBed2.jpg used on input line 1
+86.
+(pdftex.def)             Requested size: 216.81pt x 143.99797pt.
+
+<0_Images/Furniture/2StoryBed3.jpg, id=62, 1032.9792pt x 686.0832pt>
+File: 0_Images/Furniture/2StoryBed3.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/2StoryBed3.jpg>
+Package pdftex.def Info: 0_Images/Furniture/2StoryBed3.jpg used on input line 1
+87.
+(pdftex.def)             Requested size: 216.81pt x 143.99797pt.
+
+<0_Images/Furniture/2StoryBed4.jpg, id=63, 1032.9792pt x 686.0832pt>
+File: 0_Images/Furniture/2StoryBed4.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/2StoryBed4.jpg>
+Package pdftex.def Info: 0_Images/Furniture/2StoryBed4.jpg used on input line 1
+90.
+(pdftex.def)             Requested size: 216.81pt x 143.99797pt.
+ [5 <./0_Images/Furniture/SingleStoryLivingRoom.jpg> <./0_Images/Furniture/TwoS
+toryFamilyRoom.jpg> <./0_Images/Furniture/1StoryMaster.jpg> <./0_Images/Furnitu
+re/2StoryMaster.jpg>]
+<0_Images/Furniture/1StoryDining.jpg, id=67, 1032.9792pt x 686.0832pt>
+File: 0_Images/Furniture/1StoryDining.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/1StoryDining.jpg>
+Package pdftex.def Info: 0_Images/Furniture/1StoryDining.jpg used on input line
+ 200.
+(pdftex.def)             Requested size: 216.81pt x 143.99797pt.
+
+<0_Images/Furniture/2StoryDining.jpg, id=68, 1032.9792pt x 686.0832pt>
+File: 0_Images/Furniture/2StoryDining.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/2StoryDining.jpg>
+Package pdftex.def Info: 0_Images/Furniture/2StoryDining.jpg used on input line
+ 201.
+(pdftex.def)             Requested size: 216.81pt x 143.99797pt.
+ [6 <./0_Images/Furniture/1StoryBed2.jpg> <./0_Images/Furniture/1StoryBed3.jpg>
+ <./0_Images/Furniture/2StoryBed2.jpg> <./0_Images/Furniture/2StoryBed3.jpg> <.
+/0_Images/Furniture/2StoryBed4.jpg>]
+<0_Images/Furniture/1StoryKitchen.jpg, id=73, 1032.9792pt x 686.0832pt>
+File: 0_Images/Furniture/1StoryKitchen.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/1StoryKitchen.jpg>
+Package pdftex.def Info: 0_Images/Furniture/1StoryKitchen.jpg used on input lin
+e 212.
+(pdftex.def)             Requested size: 216.81pt x 143.99797pt.
+
+<0_Images/Furniture/2StoryKitchen.jpg, id=74, 1032.9792pt x 686.0832pt>
+File: 0_Images/Furniture/2StoryKitchen.jpg Graphic file (type jpg)
+
+<use 0_Images/Furniture/2StoryKitchen.jpg>
+Package pdftex.def Info: 0_Images/Furniture/2StoryKitchen.jpg used on input lin
+e 213.
+(pdftex.def)             Requested size: 216.81pt x 143.99797pt.
+
+<0_Images/Furniture/Single_Story_Furniture_Layout.pdf, id=75, 548.7094pt x 233.
+9942pt>
+File: 0_Images/Furniture/Single_Story_Furniture_Layout.pdf Graphic file (type p
+df)
+ <use 0_Images/Furniture/Single_Story_Furniture_Layout.pdf>
+Package pdftex.def Info: 0_Images/Furniture/Single_Story_Furniture_Layout.pdf u
+sed on input line 221.
+(pdftex.def)             Requested size: 469.75502pt x 200.33133pt.
+ [7 <./0_Images/Furniture/1StoryDining.jpg> <./0_Images/Furniture/2StoryDining.
+jpg> <./0_Images/Furniture/1StoryKitchen.jpg> <./0_Images/Furniture/2StoryKitch
+en.jpg>]
+Overfull \hbox (5.82924pt too wide) in paragraph at lines 226--227
+[]\OT1/cmr/m/n/10 For ex-act lo-ca-tions and ex-act quan-ti-ties of fur-ni-ture
+ see Fig-ure 6.7[] and Fig-ure 6.8[] for lay-out and di-men-sions 
+ []
+
+
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/Furniture/Two_Story_Furni
+ture_Layout.pdf): PDF inclusion: found PDF version <1.6>, but at most version <
+1.5> allowed
+
+<0_Images/Furniture/Two_Story_Furniture_Layout.pdf, id=79, 555.78459pt x 607.10
+071pt>
+File: 0_Images/Furniture/Two_Story_Furniture_Layout.pdf Graphic file (type pdf)
+
+ <use 0_Images/Furniture/Two_Story_Furniture_Layout.pdf>
+Package pdftex.def Info: 0_Images/Furniture/Two_Story_Furniture_Layout.pdf used
+ on input line 230.
+(pdftex.def)             Requested size: 469.75502pt x 513.12927pt.
+ [8 <./0_Images/Furniture/Single_Story_Furniture_Layout.pdf>]
+Overfull \hbox (5.80132pt too wide) in paragraph at lines 237--238
+\OT1/cmr/m/n/10 ob-served. Ta-ble 6.2[] shows the fur-ni-ture tested and peak h
+eat re-lease rate, to-tal en-ergy re-leased and burnout 
+ []
+
+
+Overfull \hbox (3.41238pt too wide) in paragraph at lines 241--260
+[][] 
+ []
+
+[9 <./0_Images/Furniture/Two_Story_Furniture_Layout.pdf>]
+Overfull \hbox (13.88478pt too wide) in paragraph at lines 262--263
+\OT1/cmr/m/n/10 391kW be-tween min-i-mum and max-i-mum, the to-tal en-ergy re-l
+eased was within 22MJ of be-tween the min-i-mum 
+ []
+
+
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/Furniture/ChairYellow_HRR
+.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowe
+d
+<0_Images/Furniture/ChairYellow_HRR.pdf, id=127, 669.40439pt x 459.7112pt>
+File: 0_Images/Furniture/ChairYellow_HRR.pdf Graphic file (type pdf)
+
+<use 0_Images/Furniture/ChairYellow_HRR.pdf>
+Package pdftex.def Info: 0_Images/Furniture/ChairYellow_HRR.pdf used on input l
+ine 266.
+(pdftex.def)             Requested size: 469.75502pt x 322.60933pt.
+ [10]
+Overfull \hbox (4.69025pt too wide) in paragraph at lines 271--272
+\OT1/cmr/m/n/10 oc-cur-ring within 4 and 45 Sec-onds to 5 min-utes of ig-ni-tio
+n. The Brown Chair 1 grew slightly faster how-ever 
+ []
+
+
+Overfull \hbox (10.27373pt too wide) in paragraph at lines 271--272
+\OT1/cmr/m/n/10 min-i-mum and max-i-mum, the to-tal en-ergy re-leased was withi
+n 67MJ of be-tween the min-i-mum and max-i-mum.  
+ []
+
+
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/Furniture/BrownChair_HRR.
+pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+
+<0_Images/Furniture/BrownChair_HRR.pdf, id=131, 660.66698pt x 493.31654pt>
+File: 0_Images/Furniture/BrownChair_HRR.pdf Graphic file (type pdf)
+
+<use 0_Images/Furniture/BrownChair_HRR.pdf>
+Package pdftex.def Info: 0_Images/Furniture/BrownChair_HRR.pdf used on input li
+ne 275.
+(pdftex.def)             Requested size: 391.9777pt x 292.69151pt.
+ [11 <./0_Images/Furniture/ChairYellow_HRR.pdf>]
+Overfull \hbox (4.91238pt too wide) in paragraph at lines 280--281
+\OT1/cmr/m/n/10 The growth of the Sleeper Sofa (Or-ange) was very sim-i-lar wit
+h all three chairs tested with peak heat re-lease 
+ []
+
+
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/Furniture/Sofa_Orange_HRR
+.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowe
+d
+<0_Images/Furniture/Sofa_Orange_HRR.pdf, id=143, 670.07628pt x 506.75824pt>
+File: 0_Images/Furniture/Sofa_Orange_HRR.pdf Graphic file (type pdf)
+
+<use 0_Images/Furniture/Sofa_Orange_HRR.pdf>
+Package pdftex.def Info: 0_Images/Furniture/Sofa_Orange_HRR.pdf used on input l
+ine 284.
+(pdftex.def)             Requested size: 387.01881pt x 292.69151pt.
+ [12 <./0_Images/Furniture/BrownChair_HRR.pdf>]
+Overfull \hbox (15.27374pt too wide) in paragraph at lines 289--290
+\OT1/cmr/m/n/10 min-i-mum and max-i-mum, the to-tal en-ergy re-leased was withi
+n 103MJ of be-tween the min-i-mum and max-i-mum.  
+ []
+
+
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/Furniture/Sofa_Green_HRR.
+pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+
+<0_Images/Furniture/Sofa_Green_HRR.pdf, id=156, 672.76497pt x 504.06969pt>
+File: 0_Images/Furniture/Sofa_Green_HRR.pdf Graphic file (type pdf)
+
+<use 0_Images/Furniture/Sofa_Green_HRR.pdf>
+Package pdftex.def Info: 0_Images/Furniture/Sofa_Green_HRR.pdf used on input li
+ne 293.
+(pdftex.def)             Requested size: 390.64537pt x 292.69151pt.
+ [13 <./0_Images/Furniture/Sofa_Orange_HRR.pdf>]
+Overfull \hbox (5.69028pt too wide) in paragraph at lines 298--299
+\OT1/cmr/m/n/10 the min-i-mum and max-i-mum. The dif-fer-ence in the to-tal en-
+ergy re-lease can be ex-plained due to the dif-fer-ent 
+ []
+
+
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/Furniture/Bed_HRR.pdf): P
+DF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<0_Images/Furniture/Bed_HRR.pdf, id=168, 680.8302pt x 458.36714pt>
+File: 0_Images/Furniture/Bed_HRR.pdf Graphic file (type pdf)
+
+<use 0_Images/Furniture/Bed_HRR.pdf>
+Package pdftex.def Info: 0_Images/Furniture/Bed_HRR.pdf used on input line 302.
+
+(pdftex.def)             Requested size: 434.7637pt x 292.69151pt.
+ [14 <./0_Images/Furniture/Sofa_Green_HRR.pdf>]
+Overfull \hbox (28.07921pt too wide) in paragraph at lines 308--309
+\OT1/cmr/m/n/10 com-part-ment fires along with fires within a res-i-den-tial st
+ruc-ture [[]] [[]]. In or-der to pro-vide fur-ther un-der-stand-ing 
+ []
+
+
+<0_Images/Vent_Limited_Room/Furnished_Overall.jpg, id=180, 1032.9792pt x 686.08
+32pt>
+File: 0_Images/Vent_Limited_Room/Furnished_Overall.jpg Graphic file (type jpg)
+ <use 0_Images/Vent_Limited_Room/Furnished_Overall.jpg>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/Furnished_Overall.jpg used 
+on input line 319.
+(pdftex.def)             Requested size: 142.26378pt x 94.48067pt.
+
+<0_Images/Vent_Limited_Room/Furnished_Left_Side.jpg, id=181, 1032.9792pt x 686.
+0832pt>
+File: 0_Images/Vent_Limited_Room/Furnished_Left_Side.jpg Graphic file (type jpg
+)
+ <use 0_Images/Vent_Limited_Room/Furnished_Left_Side.jpg>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/Furnished_Left_Side.jpg use
+d on input line 320.
+(pdftex.def)             Requested size: 142.26378pt x 94.48067pt.
+
+<0_Images/Vent_Limited_Room/Furnished_Center.jpg, id=182, 1032.9792pt x 686.083
+2pt>
+File: 0_Images/Vent_Limited_Room/Furnished_Center.jpg Graphic file (type jpg)
+ <use 0_Images/Vent_Limited_Room/Furnished_Center.jpg>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/Furnished_Center.jpg used o
+n input line 321.
+(pdftex.def)             Requested size: 142.26378pt x 94.48067pt.
+
+<0_Images/Vent_Limited_Room/Furnished_Center_Right.jpg, id=183, 1032.9792pt x 6
+86.0832pt>
+File: 0_Images/Vent_Limited_Room/Furnished_Center_Right.jpg Graphic file (type 
+jpg)
+ <use 0_Images/Vent_Limited_Room/Furnished_Center_Right.jpg>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/Furnished_Center_Right.jpg 
+used on input line 324.
+(pdftex.def)             Requested size: 142.26378pt x 94.48067pt.
+
+<0_Images/Vent_Limited_Room/Furnished_Right_Side.jpg, id=184, 1032.9792pt x 686
+.0832pt>
+File: 0_Images/Vent_Limited_Room/Furnished_Right_Side.jpg Graphic file (type jp
+g)
+ <use 0_Images/Vent_Limited_Room/Furnished_Right_Side.jpg>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/Furnished_Right_Side.jpg us
+ed on input line 325.
+(pdftex.def)             Requested size: 142.26378pt x 94.48067pt.
+ [15 <./0_Images/Furniture/Bed_HRR.pdf>]
+<0_Images/Vent_Limited_Room/Furnished_Room.jpg, id=197, 3357.54375pt x 3525.17p
+t>
+File: 0_Images/Vent_Limited_Room/Furnished_Room.jpg Graphic file (type jpg)
+ <use 0_Images/Vent_Limited_Room/Furnished_Room.jpg>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/Furnished_Room.jpg used on 
+input line 333.
+(pdftex.def)             Requested size: 216.81pt x 227.5842pt.
+
+<0_Images/Vent_Limited_Room/furnished_screenshot(1).png, id=198, 722.7pt x 529.
+98pt>
+File: 0_Images/Vent_Limited_Room/furnished_screenshot(1).png Graphic file (type
+ png)
+ <use 0_Images/Vent_Limited_Room/furnished_screenshot(1).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/furnished_screenshot(1).png
+ used on input line 344.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/furnished_screenshot(2).png, id=199, 722.7pt x 529.
+98pt>
+File: 0_Images/Vent_Limited_Room/furnished_screenshot(2).png Graphic file (type
+ png)
+ <use 0_Images/Vent_Limited_Room/furnished_screenshot(2).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/furnished_screenshot(2).png
+ used on input line 345.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/furnished_screenshot(3).png, id=200, 722.7pt x 529.
+98pt>
+File: 0_Images/Vent_Limited_Room/furnished_screenshot(3).png Graphic file (type
+ png)
+ <use 0_Images/Vent_Limited_Room/furnished_screenshot(3).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/furnished_screenshot(3).png
+ used on input line 346.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/furnished_screenshot(4).png, id=201, 722.7pt x 529.
+98pt>
+File: 0_Images/Vent_Limited_Room/furnished_screenshot(4).png Graphic file (type
+ png)
+ <use 0_Images/Vent_Limited_Room/furnished_screenshot(4).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/furnished_screenshot(4).png
+ used on input line 347.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/furnished_screenshot(5).png, id=202, 722.7pt x 529.
+98pt>
+File: 0_Images/Vent_Limited_Room/furnished_screenshot(5).png Graphic file (type
+ png)
+ <use 0_Images/Vent_Limited_Room/furnished_screenshot(5).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/furnished_screenshot(5).png
+ used on input line 348.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/furnished_screenshot(6).png, id=203, 722.7pt x 529.
+98pt>
+File: 0_Images/Vent_Limited_Room/furnished_screenshot(6).png Graphic file (type
+ png)
+ <use 0_Images/Vent_Limited_Room/furnished_screenshot(6).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/furnished_screenshot(6).png
+ used on input line 349.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/furnished_screenshot(7).png, id=204, 722.7pt x 529.
+98pt>
+File: 0_Images/Vent_Limited_Room/furnished_screenshot(7).png Graphic file (type
+ png)
+ <use 0_Images/Vent_Limited_Room/furnished_screenshot(7).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/furnished_screenshot(7).png
+ used on input line 350.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/furnished_screenshot(8).png, id=205, 722.7pt x 529.
+98pt>
+File: 0_Images/Vent_Limited_Room/furnished_screenshot(8).png Graphic file (type
+ png)
+ <use 0_Images/Vent_Limited_Room/furnished_screenshot(8).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/furnished_screenshot(8).png
+ used on input line 351.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/furnished_screenshot(10).png, id=206, 722.7pt x 529
+.98pt>
+File: 0_Images/Vent_Limited_Room/furnished_screenshot(10).png Graphic file (typ
+e png)
+ <use 0_Images/Vent_Limited_Room/furnished_screenshot(10).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/furnished_screenshot(10).pn
+g used on input line 352.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/furnished_screenshot(11).png, id=207, 722.7pt x 529
+.98pt>
+File: 0_Images/Vent_Limited_Room/furnished_screenshot(11).png Graphic file (typ
+e png)
+ <use 0_Images/Vent_Limited_Room/furnished_screenshot(11).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/furnished_screenshot(11).pn
+g used on input line 353.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/furnished_screenshot(12).png, id=208, 722.7pt x 529
+.98pt>
+File: 0_Images/Vent_Limited_Room/furnished_screenshot(12).png Graphic file (typ
+e png)
+ <use 0_Images/Vent_Limited_Room/furnished_screenshot(12).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/furnished_screenshot(12).pn
+g used on input line 354.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/furnished_screenshot(13).png, id=209, 722.7pt x 529
+.98pt>
+File: 0_Images/Vent_Limited_Room/furnished_screenshot(13).png Graphic file (typ
+e png)
+ <use 0_Images/Vent_Limited_Room/furnished_screenshot(13).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/furnished_screenshot(13).pn
+g used on input line 355.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/furnished_screenshot(14).png, id=210, 722.7pt x 529
+.98pt>
+File: 0_Images/Vent_Limited_Room/furnished_screenshot(14).png Graphic file (typ
+e png)
+ <use 0_Images/Vent_Limited_Room/furnished_screenshot(14).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/furnished_screenshot(14).pn
+g used on input line 356.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/furnished_screenshot(15).png, id=211, 722.7pt x 529
+.98pt>
+File: 0_Images/Vent_Limited_Room/furnished_screenshot(15).png Graphic file (typ
+e png)
+ <use 0_Images/Vent_Limited_Room/furnished_screenshot(15).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/furnished_screenshot(15).pn
+g used on input line 357.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/furnished_screenshot(16).png, id=212, 722.7pt x 529
+.98pt>
+File: 0_Images/Vent_Limited_Room/furnished_screenshot(16).png Graphic file (typ
+e png)
+ <use 0_Images/Vent_Limited_Room/furnished_screenshot(16).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/furnished_screenshot(16).pn
+g used on input line 358.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/furnished_screenshot(17).png, id=213, 722.7pt x 529
+.98pt>
+File: 0_Images/Vent_Limited_Room/furnished_screenshot(17).png Graphic file (typ
+e png)
+ <use 0_Images/Vent_Limited_Room/furnished_screenshot(17).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/furnished_screenshot(17).pn
+g used on input line 362.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/furnished_screenshot(18).png, id=214, 722.7pt x 529
+.98pt>
+File: 0_Images/Vent_Limited_Room/furnished_screenshot(18).png Graphic file (typ
+e png)
+ <use 0_Images/Vent_Limited_Room/furnished_screenshot(18).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/furnished_screenshot(18).pn
+g used on input line 363.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+ [16 <./0_Images/Vent_Limited_Room/Furnished_Overall.jpg> <./0_Images/Vent_Limi
+ted_Room/Furnished_Left_Side.jpg> <./0_Images/Vent_Limited_Room/Furnished_Cente
+r.jpg> <./0_Images/Vent_Limited_Room/Furnished_Center_Right.jpg> <./0_Images/Ve
+nt_Limited_Room/Furnished_Right_Side.jpg> <./0_Images/Vent_Limited_Room/Furnish
+ed_Room.jpg>]
+Overfull \vbox (1.78813pt too high) has occurred while \output is active []
+
+
+[17 <./0_Images/Vent_Limited_Room/furnished_screenshot(1).png (PNG copy)> <./0_
+Images/Vent_Limited_Room/furnished_screenshot(2).png (PNG copy)> <./0_Images/Ve
+nt_Limited_Room/furnished_screenshot(3).png (PNG copy)> <./0_Images/Vent_Limite
+d_Room/furnished_screenshot(4).png (PNG copy)> <./0_Images/Vent_Limited_Room/fu
+rnished_screenshot(5).png (PNG copy)> <./0_Images/Vent_Limited_Room/furnished_s
+creenshot(6).png (PNG copy)> <./0_Images/Vent_Limited_Room/furnished_screenshot
+(7).png (PNG copy)> <./0_Images/Vent_Limited_Room/furnished_screenshot(8).png (
+PNG copy)> <./0_Images/Vent_Limited_Room/furnished_screenshot(10).png (PNG copy
+)> <./0_Images/Vent_Limited_Room/furnished_screenshot(11).png (PNG copy)> <./0_
+Images/Vent_Limited_Room/furnished_screenshot(12).png (PNG copy)> <./0_Images/V
+ent_Limited_Room/furnished_screenshot(13).png (PNG copy)> <./0_Images/Vent_Limi
+ted_Room/furnished_screenshot(14).png (PNG copy)> <./0_Images/Vent_Limited_Room
+/furnished_screenshot(15).png (PNG copy)> <./0_Images/Vent_Limited_Room/furnish
+ed_screenshot(16).png (PNG copy)> <./0_Images/Vent_Limited_Room/furnished_scree
+nshot(17).png (PNG copy)> <./0_Images/Vent_Limited_Room/furnished_screenshot(18
+).png (PNG copy)>]
+<0_Images/Vent_Limited_Room/Horder1.jpg, id=221, 1032.9792pt x 686.0832pt>
+File: 0_Images/Vent_Limited_Room/Horder1.jpg Graphic file (type jpg)
+
+<use 0_Images/Vent_Limited_Room/Horder1.jpg>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/Horder1.jpg used on input l
+ine 377.
+(pdftex.def)             Requested size: 142.26378pt x 94.48067pt.
+
+<0_Images/Vent_Limited_Room/Horder2.jpg, id=222, 1032.9792pt x 686.0832pt>
+File: 0_Images/Vent_Limited_Room/Horder2.jpg Graphic file (type jpg)
+
+<use 0_Images/Vent_Limited_Room/Horder2.jpg>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/Horder2.jpg used on input l
+ine 378.
+(pdftex.def)             Requested size: 142.26378pt x 94.48067pt.
+
+<0_Images/Vent_Limited_Room/Horder3.jpg, id=223, 1032.9792pt x 686.0832pt>
+File: 0_Images/Vent_Limited_Room/Horder3.jpg Graphic file (type jpg)
+
+<use 0_Images/Vent_Limited_Room/Horder3.jpg>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/Horder3.jpg used on input l
+ine 379.
+(pdftex.def)             Requested size: 142.26378pt x 94.48067pt.
+
+<0_Images/Vent_Limited_Room/HorderRoom.jpg, id=224, 5637.06pt x 3580.37625pt>
+File: 0_Images/Vent_Limited_Room/HorderRoom.jpg Graphic file (type jpg)
+
+<use 0_Images/Vent_Limited_Room/HorderRoom.jpg>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/HorderRoom.jpg used on inpu
+t line 387.
+(pdftex.def)             Requested size: 361.34999pt x 229.50934pt.
+
+<0_Images/Vent_Limited_Room/horder(1).png, id=225, 722.7pt x 529.98pt>
+File: 0_Images/Vent_Limited_Room/horder(1).png Graphic file (type png)
+
+<use 0_Images/Vent_Limited_Room/horder(1).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/horder(1).png used on input
+ line 397.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/horder(2).png, id=226, 722.7pt x 529.98pt>
+File: 0_Images/Vent_Limited_Room/horder(2).png Graphic file (type png)
+
+<use 0_Images/Vent_Limited_Room/horder(2).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/horder(2).png used on input
+ line 398.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/horder(3).png, id=227, 722.7pt x 529.98pt>
+File: 0_Images/Vent_Limited_Room/horder(3).png Graphic file (type png)
+
+<use 0_Images/Vent_Limited_Room/horder(3).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/horder(3).png used on input
+ line 399.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/horder(4).png, id=228, 722.7pt x 529.98pt>
+File: 0_Images/Vent_Limited_Room/horder(4).png Graphic file (type png)
+
+<use 0_Images/Vent_Limited_Room/horder(4).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/horder(4).png used on input
+ line 400.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/horder(5).png, id=229, 722.7pt x 529.98pt>
+File: 0_Images/Vent_Limited_Room/horder(5).png Graphic file (type png)
+
+<use 0_Images/Vent_Limited_Room/horder(5).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/horder(5).png used on input
+ line 401.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/horder(6).png, id=230, 722.7pt x 529.98pt>
+File: 0_Images/Vent_Limited_Room/horder(6).png Graphic file (type png)
+
+<use 0_Images/Vent_Limited_Room/horder(6).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/horder(6).png used on input
+ line 402.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/horder(7).png, id=231, 722.7pt x 529.98pt>
+File: 0_Images/Vent_Limited_Room/horder(7).png Graphic file (type png)
+
+<use 0_Images/Vent_Limited_Room/horder(7).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/horder(7).png used on input
+ line 403.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/horder(8).png, id=232, 722.7pt x 529.98pt>
+File: 0_Images/Vent_Limited_Room/horder(8).png Graphic file (type png)
+
+<use 0_Images/Vent_Limited_Room/horder(8).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/horder(8).png used on input
+ line 404.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/horder(9).png, id=233, 722.7pt x 529.98pt>
+File: 0_Images/Vent_Limited_Room/horder(9).png Graphic file (type png)
+
+<use 0_Images/Vent_Limited_Room/horder(9).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/horder(9).png used on input
+ line 405.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/horder(10).png, id=234, 722.7pt x 529.98pt>
+File: 0_Images/Vent_Limited_Room/horder(10).png Graphic file (type png)
+
+<use 0_Images/Vent_Limited_Room/horder(10).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/horder(10).png used on inpu
+t line 406.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/horder(11).png, id=235, 722.7pt x 529.98pt>
+File: 0_Images/Vent_Limited_Room/horder(11).png Graphic file (type png)
+
+<use 0_Images/Vent_Limited_Room/horder(11).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/horder(11).png used on inpu
+t line 407.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/horder(11a).png, id=236, 722.7pt x 529.98pt>
+File: 0_Images/Vent_Limited_Room/horder(11a).png Graphic file (type png)
+
+<use 0_Images/Vent_Limited_Room/horder(11a).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/horder(11a).png used on inp
+ut line 408.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/horder(12).png, id=237, 722.7pt x 529.98pt>
+File: 0_Images/Vent_Limited_Room/horder(12).png Graphic file (type png)
+
+<use 0_Images/Vent_Limited_Room/horder(12).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/horder(12).png used on inpu
+t line 412.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+
+<0_Images/Vent_Limited_Room/horder(13).png, id=238, 722.7pt x 529.98pt>
+File: 0_Images/Vent_Limited_Room/horder(13).png Graphic file (type png)
+
+<use 0_Images/Vent_Limited_Room/horder(13).png>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/horder(13).png used on inpu
+t line 413.
+(pdftex.def)             Requested size: 110.96556pt x 81.3697pt.
+ [18 <./0_Images/Vent_Limited_Room/Horder1.jpg> <./0_Images/Vent_Limited_Room/H
+order2.jpg> <./0_Images/Vent_Limited_Room/Horder3.jpg> <./0_Images/Vent_Limited
+_Room/HorderRoom.jpg>]
+Overfull \hbox (0.857pt too wide) in paragraph at lines 422--423
+\OT1/cmr/m/n/10 con-sump-tion calorime-ter. Al-though the com-part-ment ge-om-e
+-try was iden-ti-cal the fuel load was sig-nif-i-cantly 
+ []
+
+[19 <./0_Images/Vent_Limited_Room/horder(1).png (PNG copy)> <./0_Images/Vent_Li
+mited_Room/horder(2).png (PNG copy)> <./0_Images/Vent_Limited_Room/horder(3).pn
+g (PNG copy)> <./0_Images/Vent_Limited_Room/horder(4).png (PNG copy)> <./0_Imag
+es/Vent_Limited_Room/horder(5).png (PNG copy)> <./0_Images/Vent_Limited_Room/ho
+rder(6).png (PNG copy)> <./0_Images/Vent_Limited_Room/horder(7).png (PNG copy)>
+ <./0_Images/Vent_Limited_Room/horder(8).png (PNG copy)> <./0_Images/Vent_Limit
+ed_Room/horder(9).png (PNG copy)> <./0_Images/Vent_Limited_Room/horder(10).png 
+(PNG copy)> <./0_Images/Vent_Limited_Room/horder(11).png (PNG copy)> <./0_Image
+s/Vent_Limited_Room/horder(11a).png (PNG copy)> <./0_Images/Vent_Limited_Room/h
+order(12).png (PNG copy)> <./0_Images/Vent_Limited_Room/horder(13).png (PNG cop
+y)>]
+Overfull \hbox (7.69026pt too wide) in paragraph at lines 424--425
+\OT1/cmr/m/n/10 over fur-nished com-part-ment reached a sim-i-lar peak heat re-
+lease rate at just un-der 6 min-utes and main-tained 
+ []
+
+
+Overfull \hbox (25.3014pt too wide) in paragraph at lines 424--425
+\OT1/cmr/m/n/10 that through the fail-ure of the ceil-ing at 10 min-utes at whi
+ch time it in-creased. The over fur-nished com-part-ment 
+ []
+
+
+Overfull \hbox (5.46806pt too wide) in paragraph at lines 426--427
+\OT1/cmr/m/n/10 re-lease for the over fur-nished com-part-ment was ap-prox-i-ma
+tely 3500MJ and it had yet to en-ter a fuel lim-ited 
+ []
+
+
+<0_Images/Vent_Limited_Room/Compartment_Burn_Chart.pdf, id=246, 672.12727pt x 4
+71.1244pt>
+File: 0_Images/Vent_Limited_Room/Compartment_Burn_Chart.pdf Graphic file (type 
+pdf)
+ <use 0_Images/Vent_Limited_Room/Compartment_Burn_Chart.pdf>
+Package pdftex.def Info: 0_Images/Vent_Limited_Room/Compartment_Burn_Chart.pdf 
+used on input line 441.
+(pdftex.def)             Requested size: 361.34999pt x 253.28194pt.
+
+Overfull \hbox (23.57909pt too wide) in paragraph at lines 447--448
+\OT1/cmr/m/n/10 and pos-i-tive pres-sure ven-ti-la-tion cold flow ex-per-i-ment
+s were con-ducted. The re-sults of the cold flow ex-per-i-ments 
+ []
+
+
+Overfull \hbox (10.30138pt too wide) in paragraph at lines 447--448
+\OT1/cmr/m/n/10 A to-tal of 24 ex-per-i-ments were run us-ing six dif-fer-ent f
+ans pro-vided by Leader, Ram-Fan, Su-per-Vac, Tem-pest, 
+ []
+
+[20 <./0_Images/Vent_Limited_Room/Compartment_Burn_Chart.pdf>]
+<0_Images/ColdFlow/SingleStory_Sensors.png, id=262, 2497.33pt x 1502.61375pt>
+File: 0_Images/ColdFlow/SingleStory_Sensors.png Graphic file (type png)
+
+<use 0_Images/ColdFlow/SingleStory_Sensors.png>
+Package pdftex.def Info: 0_Images/ColdFlow/SingleStory_Sensors.png used on inpu
+t line 478.
+(pdftex.def)             Requested size: 361.34999pt x 217.40338pt.
+ [21]
+
+Package caption Warning: \label without proper \caption on input line 502.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:ColdFlowConfig_SingleStory' on page 22 undefined 
+on input line 483.
+
+
+Overfull \hbox (7.02359pt too wide) in paragraph at lines 483--484
+\OT1/cmr/m/n/10 con-fig-u-ra-tions. Each con-fig-u-ra-tion was tested for 2.5mi
+n-utes to al-low flows and pres-sures to sta-bi-lize. Fig-ure 
+ []
+
+
+Overfull \hbox (16.66243pt too wide) in paragraph at lines 483--484
+[][] \OT1/cmr/m/n/10 shows the 11 con-fig-u-ra-tions graph-i-cally which are al
+so de-scribed in Ta-ble 7.2[] with in-let/exhaust di-men-sions 
+ []
+
+
+<0_Images/ColdFlow/Configurations/One_Story/Experiment_1.jpg, id=266, 912.40875
+pt x 722.7pt>
+File: 0_Images/ColdFlow/Configurations/One_Story/Experiment_1.jpg Graphic file 
+(type jpg)
+
+<use 0_Images/ColdFlow/Configurations/One_Story/Experiment_1.jpg>
+Package pdftex.def Info: 0_Images/ColdFlow/Configurations/One_Story/Experiment_
+1.jpg used on input line 488.
+(pdftex.def)             Requested size: 108.405pt x 85.8601pt.
+
+<0_Images/ColdFlow/Configurations/One_Story/Experiment_2.jpg, id=267, 912.40875
+pt x 722.7pt>
+File: 0_Images/ColdFlow/Configurations/One_Story/Experiment_2.jpg Graphic file 
+(type jpg)
+
+<use 0_Images/ColdFlow/Configurations/One_Story/Experiment_2.jpg>
+Package pdftex.def Info: 0_Images/ColdFlow/Configurations/One_Story/Experiment_
+2.jpg used on input line 489.
+(pdftex.def)             Requested size: 108.405pt x 85.8601pt.
+
+<0_Images/ColdFlow/Configurations/One_Story/Experiment_3.jpg, id=268, 912.40875
+pt x 722.7pt>
+File: 0_Images/ColdFlow/Configurations/One_Story/Experiment_3.jpg Graphic file 
+(type jpg)
+
+<use 0_Images/ColdFlow/Configurations/One_Story/Experiment_3.jpg>
+Package pdftex.def Info: 0_Images/ColdFlow/Configurations/One_Story/Experiment_
+3.jpg used on input line 490.
+(pdftex.def)             Requested size: 108.405pt x 85.8601pt.
+
+<0_Images/ColdFlow/Configurations/One_Story/Experiment_4.jpg, id=269, 912.40875
+pt x 722.7pt>
+File: 0_Images/ColdFlow/Configurations/One_Story/Experiment_4.jpg Graphic file 
+(type jpg)
+
+<use 0_Images/ColdFlow/Configurations/One_Story/Experiment_4.jpg>
+Package pdftex.def Info: 0_Images/ColdFlow/Configurations/One_Story/Experiment_
+4.jpg used on input line 491.
+(pdftex.def)             Requested size: 108.405pt x 85.8601pt.
+
+<0_Images/ColdFlow/Configurations/One_Story/Experiment_5.jpg, id=270, 912.40875
+pt x 722.7pt>
+File: 0_Images/ColdFlow/Configurations/One_Story/Experiment_5.jpg Graphic file 
+(type jpg)
+
+<use 0_Images/ColdFlow/Configurations/One_Story/Experiment_5.jpg>
+Package pdftex.def Info: 0_Images/ColdFlow/Configurations/One_Story/Experiment_
+5.jpg used on input line 492.
+(pdftex.def)             Requested size: 108.405pt x 85.8601pt.
+
+<0_Images/ColdFlow/Configurations/One_Story/Experiment_6.jpg, id=271, 912.40875
+pt x 722.7pt>
+File: 0_Images/ColdFlow/Configurations/One_Story/Experiment_6.jpg Graphic file 
+(type jpg)
+
+<use 0_Images/ColdFlow/Configurations/One_Story/Experiment_6.jpg>
+Package pdftex.def Info: 0_Images/ColdFlow/Configurations/One_Story/Experiment_
+6.jpg used on input line 493.
+(pdftex.def)             Requested size: 108.405pt x 85.8601pt.
+
+<0_Images/ColdFlow/Configurations/One_Story/Experiment_7.jpg, id=272, 912.40875
+pt x 722.7pt>
+File: 0_Images/ColdFlow/Configurations/One_Story/Experiment_7.jpg Graphic file 
+(type jpg)
+
+<use 0_Images/ColdFlow/Configurations/One_Story/Experiment_7.jpg>
+Package pdftex.def Info: 0_Images/ColdFlow/Configurations/One_Story/Experiment_
+7.jpg used on input line 494.
+(pdftex.def)             Requested size: 108.405pt x 85.8601pt.
+
+<0_Images/ColdFlow/Configurations/One_Story/Experiment_8.jpg, id=273, 859.21pt 
+x 660.4675pt>
+File: 0_Images/ColdFlow/Configurations/One_Story/Experiment_8.jpg Graphic file 
+(type jpg)
+
+<use 0_Images/ColdFlow/Configurations/One_Story/Experiment_8.jpg>
+Package pdftex.def Info: 0_Images/ColdFlow/Configurations/One_Story/Experiment_
+8.jpg used on input line 495.
+(pdftex.def)             Requested size: 108.405pt x 83.32414pt.
+
+<0_Images/ColdFlow/Configurations/One_Story/Experiment_9.jpg, id=274, 859.21pt 
+x 660.4675pt>
+File: 0_Images/ColdFlow/Configurations/One_Story/Experiment_9.jpg Graphic file 
+(type jpg)
+
+<use 0_Images/ColdFlow/Configurations/One_Story/Experiment_9.jpg>
+Package pdftex.def Info: 0_Images/ColdFlow/Configurations/One_Story/Experiment_
+9.jpg used on input line 496.
+(pdftex.def)             Requested size: 108.405pt x 83.32414pt.
+
+<0_Images/ColdFlow/Configurations/One_Story/Experiment_10.jpg, id=275, 859.21pt
+ x 660.4675pt>
+File: 0_Images/ColdFlow/Configurations/One_Story/Experiment_10.jpg Graphic file
+ (type jpg)
+
+<use 0_Images/ColdFlow/Configurations/One_Story/Experiment_10.jpg>
+Package pdftex.def Info: 0_Images/ColdFlow/Configurations/One_Story/Experiment_
+10.jpg used on input line 499.
+(pdftex.def)             Requested size: 108.405pt x 83.32414pt.
+
+<0_Images/ColdFlow/Configurations/One_Story/Experiment_11.jpg, id=276, 859.21pt
+ x 660.4675pt>
+File: 0_Images/ColdFlow/Configurations/One_Story/Experiment_11.jpg Graphic file
+ (type jpg)
+
+<use 0_Images/ColdFlow/Configurations/One_Story/Experiment_11.jpg>
+Package pdftex.def Info: 0_Images/ColdFlow/Configurations/One_Story/Experiment_
+11.jpg used on input line 500.
+(pdftex.def)             Requested size: 108.405pt x 83.32414pt.
+ [22 <./0_Images/ColdFlow/SingleStory_Sensors.png>]
+Overfull \hbox (21.56253pt too wide) in paragraph at lines 508--524
+[][] 
+ []
+
+[23 <./0_Images/ColdFlow/Configurations/One_Story/Experiment_1.jpg> <./0_Images
+/ColdFlow/Configurations/One_Story/Experiment_2.jpg> <./0_Images/ColdFlow/Confi
+gurations/One_Story/Experiment_3.jpg> <./0_Images/ColdFlow/Configurations/One_S
+tory/Experiment_4.jpg> <./0_Images/ColdFlow/Configurations/One_Story/Experiment
+_5.jpg> <./0_Images/ColdFlow/Configurations/One_Story/Experiment_6.jpg> <./0_Im
+ages/ColdFlow/Configurations/One_Story/Experiment_7.jpg> <./0_Images/ColdFlow/C
+onfigurations/One_Story/Experiment_8.jpg> <./0_Images/ColdFlow/Configurations/O
+ne_Story/Experiment_9.jpg> <./0_Images/ColdFlow/Configurations/One_Story/Experi
+ment_10.jpg> <./0_Images/ColdFlow/Configurations/One_Story/Experiment_11.jpg>]
+<0_Images/ColdFlow/TwoStory_Sensors_1st.png, id=283, 2138.99126pt x 1511.6475pt
+>
+File: 0_Images/ColdFlow/TwoStory_Sensors_1st.png Graphic file (type png)
+ <use 0_Images/ColdFlow/TwoStory_Sensors_1st.png>
+Package pdftex.def Info: 0_Images/ColdFlow/TwoStory_Sensors_1st.png used on inp
+ut line 538.
+(pdftex.def)             Requested size: 180.67499pt x 127.6695pt.
+
+<0_Images/ColdFlow/TwoStory_Sensors_2nd.png, id=284, 2367.84625pt x 1706.375pt>
+File: 0_Images/ColdFlow/TwoStory_Sensors_2nd.png Graphic file (type png)
+<use 0_Images/ColdFlow/TwoStory_Sensors_2nd.png>
+Package pdftex.def Info: 0_Images/ColdFlow/TwoStory_Sensors_2nd.png used on inp
+ut line 539.
+(pdftex.def)             Requested size: 180.67499pt x 130.18576pt.
+
+<0_Images/ColdFlow/Configurations/Two_Story/Experiment_1.png, id=285, 748.7975p
+t x 1094.0875pt>
+File: 0_Images/ColdFlow/Configurations/Two_Story/Experiment_1.png Graphic file 
+(type png)
+
+<use 0_Images/ColdFlow/Configurations/Two_Story/Experiment_1.png>
+Package pdftex.def Info: 0_Images/ColdFlow/Configurations/Two_Story/Experiment_
+1.png used on input line 548.
+(pdftex.def)             Requested size: 108.405pt x 158.37985pt.
+
+<0_Images/ColdFlow/Configurations/Two_Story/Experiment_2.png, id=286, 748.7975p
+t x 1094.0875pt>
+File: 0_Images/ColdFlow/Configurations/Two_Story/Experiment_2.png Graphic file 
+(type png)
+
+<use 0_Images/ColdFlow/Configurations/Two_Story/Experiment_2.png>
+Package pdftex.def Info: 0_Images/ColdFlow/Configurations/Two_Story/Experiment_
+2.png used on input line 549.
+(pdftex.def)             Requested size: 108.405pt x 158.37985pt.
+
+<0_Images/ColdFlow/Configurations/Two_Story/Experiment_3.png, id=287, 748.7975p
+t x 1094.0875pt>
+File: 0_Images/ColdFlow/Configurations/Two_Story/Experiment_3.png Graphic file 
+(type png)
+
+<use 0_Images/ColdFlow/Configurations/Two_Story/Experiment_3.png>
+Package pdftex.def Info: 0_Images/ColdFlow/Configurations/Two_Story/Experiment_
+3.png used on input line 550.
+(pdftex.def)             Requested size: 108.405pt x 158.37985pt.
+
+<0_Images/ColdFlow/Configurations/Two_Story/Experiment_4.png, id=288, 748.7975p
+t x 1094.0875pt>
+File: 0_Images/ColdFlow/Configurations/Two_Story/Experiment_4.png Graphic file 
+(type png)
+
+<use 0_Images/ColdFlow/Configurations/Two_Story/Experiment_4.png>
+Package pdftex.def Info: 0_Images/ColdFlow/Configurations/Two_Story/Experiment_
+4.png used on input line 551.
+(pdftex.def)             Requested size: 108.405pt x 158.37985pt.
+
+<0_Images/ColdFlow/Configurations/Two_Story/Experiment_5.png, id=289, 748.7975p
+t x 1094.0875pt>
+File: 0_Images/ColdFlow/Configurations/Two_Story/Experiment_5.png Graphic file 
+(type png)
+
+<use 0_Images/ColdFlow/Configurations/Two_Story/Experiment_5.png>
+Package pdftex.def Info: 0_Images/ColdFlow/Configurations/Two_Story/Experiment_
+5.png used on input line 552.
+(pdftex.def)             Requested size: 108.405pt x 158.37985pt.
+
+<0_Images/ColdFlow/Configurations/Two_Story/Experiment_6.png, id=290, 748.7975p
+t x 1094.0875pt>
+File: 0_Images/ColdFlow/Configurations/Two_Story/Experiment_6.png Graphic file 
+(type png)
+
+<use 0_Images/ColdFlow/Configurations/Two_Story/Experiment_6.png>
+Package pdftex.def Info: 0_Images/ColdFlow/Configurations/Two_Story/Experiment_
+6.png used on input line 553.
+(pdftex.def)             Requested size: 108.405pt x 158.37985pt.
+
+<0_Images/ColdFlow/Configurations/Two_Story/Experiment_7.png, id=291, 748.7975p
+t x 1094.0875pt>
+File: 0_Images/ColdFlow/Configurations/Two_Story/Experiment_7.png Graphic file 
+(type png)
+
+<use 0_Images/ColdFlow/Configurations/Two_Story/Experiment_7.png>
+Package pdftex.def Info: 0_Images/ColdFlow/Configurations/Two_Story/Experiment_
+7.png used on input line 554.
+(pdftex.def)             Requested size: 108.405pt x 158.37985pt.
+
+<0_Images/ColdFlow/Configurations/Two_Story/Experiment_8.png, id=292, 748.7975p
+t x 1094.0875pt>
+File: 0_Images/ColdFlow/Configurations/Two_Story/Experiment_8.png Graphic file 
+(type png)
+
+<use 0_Images/ColdFlow/Configurations/Two_Story/Experiment_8.png>
+Package pdftex.def Info: 0_Images/ColdFlow/Configurations/Two_Story/Experiment_
+8.png used on input line 555.
+(pdftex.def)             Requested size: 108.405pt x 158.37985pt.
+
+<0_Images/ColdFlow/Configurations/Two_Story/Experiment_9.png, id=293, 748.7975p
+t x 1094.0875pt>
+File: 0_Images/ColdFlow/Configurations/Two_Story/Experiment_9.png Graphic file 
+(type png)
+
+<use 0_Images/ColdFlow/Configurations/Two_Story/Experiment_9.png>
+Package pdftex.def Info: 0_Images/ColdFlow/Configurations/Two_Story/Experiment_
+9.png used on input line 558.
+(pdftex.def)             Requested size: 108.405pt x 158.37985pt.
+
+<0_Images/ColdFlow/Configurations/Two_Story/Experiment_10.png, id=294, 748.7975
+pt x 1094.0875pt>
+File: 0_Images/ColdFlow/Configurations/Two_Story/Experiment_10.png Graphic file
+ (type png)
+
+<use 0_Images/ColdFlow/Configurations/Two_Story/Experiment_10.png>
+Package pdftex.def Info: 0_Images/ColdFlow/Configurations/Two_Story/Experiment_
+10.png used on input line 559.
+(pdftex.def)             Requested size: 108.405pt x 158.37985pt.
+
+<0_Images/ColdFlow/Configurations/Two_Story/Experiment_11.png, id=295, 748.7975
+pt x 1094.0875pt>
+File: 0_Images/ColdFlow/Configurations/Two_Story/Experiment_11.png Graphic file
+ (type png)
+
+<use 0_Images/ColdFlow/Configurations/Two_Story/Experiment_11.png>
+Package pdftex.def Info: 0_Images/ColdFlow/Configurations/Two_Story/Experiment_
+11.png used on input line 560.
+(pdftex.def)             Requested size: 108.405pt x 158.37985pt.
+
+Overfull \hbox (11.86497pt too wide) in paragraph at lines 547--563
+ [][] 
+ []
+
+[24 <./0_Images/ColdFlow/TwoStory_Sensors_1st.png> <./0_Images/ColdFlow/TwoStor
+y_Sensors_2nd.png>]
+
+Package caption Warning: \label without proper \caption on input line 562.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:ColdFlowConfig_TwoStory' on page 25 undefined on 
+input line 567.
+
+
+Overfull \hbox (7.02359pt too wide) in paragraph at lines 567--568
+\OT1/cmr/m/n/10 con-fig-u-ra-tions. Each con-fig-u-ra-tion was tested for 2.5mi
+n-utes to al-low flows and pres-sures to sta-bi-lize. Fig-ure 
+ []
+
+
+Overfull \hbox (16.66243pt too wide) in paragraph at lines 567--568
+[][] \OT1/cmr/m/n/10 shows the 11 con-fig-u-ra-tions graph-i-cally which are al
+so de-scribed in Ta-ble 7.3[] with in-let/exhaust di-men-sions 
+ []
+
+
+Overfull \hbox (19.34027pt too wide) in paragraph at lines 571--587
+[][] 
+ []
+
+[25 <./0_Images/ColdFlow/Configurations/Two_Story/Experiment_1.png> <./0_Images
+/ColdFlow/Configurations/Two_Story/Experiment_2.png> <./0_Images/ColdFlow/Confi
+gurations/Two_Story/Experiment_3.png> <./0_Images/ColdFlow/Configurations/Two_S
+tory/Experiment_4.png> <./0_Images/ColdFlow/Configurations/Two_Story/Experiment
+_5.png> <./0_Images/ColdFlow/Configurations/Two_Story/Experiment_6.png> <./0_Im
+ages/ColdFlow/Configurations/Two_Story/Experiment_7.png> <./0_Images/ColdFlow/C
+onfigurations/Two_Story/Experiment_8.png> <./0_Images/ColdFlow/Configurations/T
+wo_Story/Experiment_9.png> <./0_Images/ColdFlow/Configurations/Two_Story/Experi
+ment_10.png> <./0_Images/ColdFlow/Configurations/Two_Story/Experiment_11.png>]
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/ColdFlow/Single_Story/1_1
+_Ratio.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> 
+allowed
+
+<0_Images/ColdFlow/Single_Story/1_1_Ratio.pdf, id=303, 672.0929pt x 497.3482pt>
+File: 0_Images/ColdFlow/Single_Story/1_1_Ratio.pdf Graphic file (type pdf)
+<use 0_Images/ColdFlow/Single_Story/1_1_Ratio.pdf>
+Package pdftex.def Info: 0_Images/ColdFlow/Single_Story/1_1_Ratio.pdf used on i
+nput line 604.
+(pdftex.def)             Requested size: 289.07999pt x 213.92386pt.
+ [26]
+Overfull \hbox (2.07906pt too wide) in paragraph at lines 611--612
+[]\OT1/cmr/m/n/10 The ex-haust flow rate of the struc-ture was de-pen-dent on t
+he ex-haust open-ing size. The num-ber of win-dows 
+ []
+
+
+Overfull \hbox (24.80151pt too wide) in paragraph at lines 611--612
+\OT1/cmr/m/n/10 the liv-ing room. To achieve ad-di-tional ra-tios mul-ti-ple ro
+oms needed to be pro-vided with ex-haust si-mul-ta-ne-ously. 
+ []
+
+
+Overfull \hbox (2.89287pt too wide) in paragraph at lines 618--618
+ \OT1/cmr/m/n/10 Rounded 
+ []
+
+
+Overfull \hbox (39.72986pt too wide) in paragraph at lines 616--625
+ [][] 
+ []
+
+
+Overfull \hbox (2.07913pt too wide) in paragraph at lines 627--628
+[]\OT1/cmr/m/n/10 As seen in Fig-ure 7.6[] and Fig-ure 7.7[] the more open-ings
+ pro-vided the more the to-tal ex-haust flow in-creased. 
+ []
+
+
+Overfull \hbox (38.80154pt too wide) in paragraph at lines 627--628
+\OT1/cmr/m/n/10 ad-di-tional open-ings were made, in-di-cat-ing they were not y
+et at their max-i-mum flow for the con-fig-u-ra-tion/geometry.  
+ []
+
+[27 <./0_Images/ColdFlow/Single_Story/1_1_Ratio.pdf>]
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/ColdFlow/Single_Story/Rat
+io_Comparison_Gas.pdf): PDF inclusion: found PDF version <1.6>, but at most ver
+sion <1.5> allowed
+
+<0_Images/ColdFlow/Single_Story/Ratio_Comparison_Gas.pdf, id=318, 680.15807pt x
+ 489.95569pt>
+File: 0_Images/ColdFlow/Single_Story/Ratio_Comparison_Gas.pdf Graphic file (typ
+e pdf)
+ <use 0_Images/ColdFlow/Single_Story/Ratio_Comparison_Gas.pdf>
+Package pdftex.def Info: 0_Images/ColdFlow/Single_Story/Ratio_Comparison_Gas.pd
+f used on input line 634.
+(pdftex.def)             Requested size: 216.81pt x 156.17598pt.
+
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/ColdFlow/Single_Story/Rat
+io_Comparison_Electric.pdf): PDF inclusion: found PDF version <1.6>, but at mos
+t version <1.5> allowed
+
+<0_Images/ColdFlow/Single_Story/Ratio_Comparison_Electric.pdf, id=319, 680.1580
+7pt x 489.95569pt>
+File: 0_Images/ColdFlow/Single_Story/Ratio_Comparison_Electric.pdf Graphic file
+ (type pdf)
+
+<use 0_Images/ColdFlow/Single_Story/Ratio_Comparison_Electric.pdf>
+Package pdftex.def Info: 0_Images/ColdFlow/Single_Story/Ratio_Comparison_Electr
+ic.pdf used on input line 641.
+(pdftex.def)             Requested size: 216.81pt x 156.17598pt.
+
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/ColdFlow/Single_Story/Rat
+io_Pressure_Dining.pdf): PDF inclusion: found PDF version <1.6>, but at most ve
+rsion <1.5> allowed
+
+<0_Images/ColdFlow/Single_Story/Ratio_Pressure_Dining.pdf, id=320, 680.15807pt 
+x 489.95569pt>
+File: 0_Images/ColdFlow/Single_Story/Ratio_Pressure_Dining.pdf Graphic file (ty
+pe pdf)
+ <use 0_Images/ColdFlow/Single_Story/Ratio_Pressure_Dining.pdf>
+Package pdftex.def Info: 0_Images/ColdFlow/Single_Story/Ratio_Pressure_Dining.p
+df used on input line 648.
+(pdftex.def)             Requested size: 216.81pt x 156.17598pt.
+
+[28 <./0_Images/ColdFlow/Single_Story/Ratio_Comparison_Gas.pdf> <./0_Images/Col
+dFlow/Single_Story/Ratio_Comparison_Electric.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/ColdFlow/Single_Story/Rat
+io_Comparison_Electric.pdf): PDF inclusion: multiple pdfs with page group inclu
+ded in a single page
+>]
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/ColdFlow/Single_Story/Rat
+io_Pressure_Dining_Ele.pdf): PDF inclusion: found PDF version <1.6>, but at mos
+t version <1.5> allowed
+
+<0_Images/ColdFlow/Single_Story/Ratio_Pressure_Dining_Ele.pdf, id=339, 680.1580
+7pt x 489.95569pt>
+File: 0_Images/ColdFlow/Single_Story/Ratio_Pressure_Dining_Ele.pdf Graphic file
+ (type pdf)
+
+<use 0_Images/ColdFlow/Single_Story/Ratio_Pressure_Dining_Ele.pdf>
+Package pdftex.def Info: 0_Images/ColdFlow/Single_Story/Ratio_Pressure_Dining_E
+le.pdf used on input line 655.
+(pdftex.def)             Requested size: 216.81pt x 156.17598pt.
+ [29 <./0_Images/ColdFlow/Single_Story/Ratio_Pressure_Dining.pdf> <./0_Images/C
+oldFlow/Single_Story/Ratio_Pressure_Dining_Ele.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/ColdFlow/Single_Story/Rat
+io_Pressure_Dining_Ele.pdf): PDF inclusion: multiple pdfs with page group inclu
+ded in a single page
+>]
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/ColdFlow/Two_Story/1_1Rat
+io.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allo
+wed
+<0_Images/ColdFlow/Two_Story/1_1Ratio.pdf, id=356, 672.76534pt x 487.93964pt>
+File: 0_Images/ColdFlow/Two_Story/1_1Ratio.pdf Graphic file (type pdf)
+
+<use 0_Images/ColdFlow/Two_Story/1_1Ratio.pdf>
+Package pdftex.def Info: 0_Images/ColdFlow/Two_Story/1_1Ratio.pdf used on input
+ line 674.
+(pdftex.def)             Requested size: 289.07999pt x 209.66104pt.
+
+Overfull \hbox (2.07906pt too wide) in paragraph at lines 682--683
+[]\OT1/cmr/m/n/10 The ex-haust flow rate of the struc-ture was de-pen-dent on t
+he ex-haust open-ing size. The num-ber of win-dows 
+ []
+
+
+Overfull \hbox (8.60701pt too wide) in paragraph at lines 682--683
+\OT1/cmr/m/n/10 be iden-ti-fi-able vi-su-ally on the fire ground. To achieve ad
+-di-tional ra-tios mul-ti-ple rooms needed to be pro-vided 
+ []
+
+
+Overfull \hbox (2.89287pt too wide) in paragraph at lines 689--689
+ \OT1/cmr/m/n/10 Rounded 
+ []
+
+
+Overfull \hbox (32.50241pt too wide) in paragraph at lines 687--696
+ [][] 
+ []
+
+
+Overfull \hbox (1.88467pt too wide) in paragraph at lines 698--699
+\OT1/cmr/m/n/10 bed-room 3 win-dow. If ex-haust flow was com-pared as done in t
+he sin-gle story ex-per-i-ments above the largest 
+ []
+
+[30 <./0_Images/ColdFlow/Two_Story/1_1Ratio.pdf>]
+Overfull \hbox (11.21793pt too wide) in paragraph at lines 700--701
+\OT1/cmr/m/n/10 flow. Thus, if the in-tent is to pro-vide the most air changes,
+ in most cases this was ac-com-plished by in-creas-ing 
+ []
+
+
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/ColdFlow/Two_Story/RatioF
+lowDoorGas.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1
+.5> allowed
+
+<0_Images/ColdFlow/Two_Story/RatioFlowDoorGas.pdf, id=369, 676.12549pt x 489.95
+596pt>
+File: 0_Images/ColdFlow/Two_Story/RatioFlowDoorGas.pdf Graphic file (type pdf)
+ <use 0_Images/ColdFlow/Two_Story/RatioFlowDoorGas.pdf>
+Package pdftex.def Info: 0_Images/ColdFlow/Two_Story/RatioFlowDoorGas.pdf used 
+on input line 706.
+(pdftex.def)             Requested size: 216.81pt x 157.11058pt.
+
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/ColdFlow/Two_Story/RatioF
+lowDoorEle.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1
+.5> allowed
+
+<0_Images/ColdFlow/Two_Story/RatioFlowDoorEle.pdf, id=370, 669.40451pt x 488.61
+156pt>
+File: 0_Images/ColdFlow/Two_Story/RatioFlowDoorEle.pdf Graphic file (type pdf)
+ <use 0_Images/ColdFlow/Two_Story/RatioFlowDoorEle.pdf>
+Package pdftex.def Info: 0_Images/ColdFlow/Two_Story/RatioFlowDoorEle.pdf used 
+on input line 713.
+(pdftex.def)             Requested size: 216.81pt x 158.25261pt.
+ [31 <./0_Images/ColdFlow/Two_Story/RatioFlowDoorGas.pdf>]
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/ColdFlow/Two_Story/RatioP
+ressureGas.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1
+.5> allowed
+
+<0_Images/ColdFlow/Two_Story/RatioPressureGas.pdf, id=383, 676.12567pt x 479.20
+201pt>
+File: 0_Images/ColdFlow/Two_Story/RatioPressureGas.pdf Graphic file (type pdf)
+ <use 0_Images/ColdFlow/Two_Story/RatioPressureGas.pdf>
+Package pdftex.def Info: 0_Images/ColdFlow/Two_Story/RatioPressureGas.pdf used 
+on input line 720.
+(pdftex.def)             Requested size: 216.81pt x 153.66219pt.
+
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/ColdFlow/Two_Story/RatioP
+ressureEle.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1
+.5> allowed
+
+<0_Images/ColdFlow/Two_Story/RatioPressureEle.pdf, id=384, 666.04437pt x 486.59
+502pt>
+File: 0_Images/ColdFlow/Two_Story/RatioPressureEle.pdf Graphic file (type pdf)
+ <use 0_Images/ColdFlow/Two_Story/RatioPressureEle.pdf>
+Package pdftex.def Info: 0_Images/ColdFlow/Two_Story/RatioPressureEle.pdf used 
+on input line 727.
+(pdftex.def)             Requested size: 216.81pt x 158.39395pt.
+
+Overfull \hbox (1.32904pt too wide) in paragraph at lines 738--739
+\OT1/cmr/m/n/10 ex-haust through the front door re-duced the net in-flow in the
+ sin-gle story how-ever due to the lower pres-sure 
+ []
+
+[32 <./0_Images/ColdFlow/Two_Story/RatioFlowDoorEle.pdf> <./0_Images/ColdFlow/T
+wo_Story/RatioPressureGas.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/ColdFlow/Two_Story/RatioP
+ressureGas.pdf): PDF inclusion: multiple pdfs with page group included in a sin
+gle page
+> <./0_Images/ColdFlow/Two_Story/RatioPressureEle.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/ColdFlow/Two_Story/RatioP
+ressureEle.pdf): PDF inclusion: multiple pdfs with page group included in a sin
+gle page
+>]
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/ColdFlow/Gas_Flow.pdf): P
+DF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<0_Images/ColdFlow/Gas_Flow.pdf, id=410, 687.3691pt x 497.90598pt>
+File: 0_Images/ColdFlow/Gas_Flow.pdf Graphic file (type pdf)
+
+<use 0_Images/ColdFlow/Gas_Flow.pdf>
+Package pdftex.def Info: 0_Images/ColdFlow/Gas_Flow.pdf used on input line 744.
+
+(pdftex.def)             Requested size: 216.81pt x 157.04634pt.
+
+<0_Images/ColdFlow/Ele_Flow.pdf, id=411, 680.8302pt x 491.30031pt>
+File: 0_Images/ColdFlow/Ele_Flow.pdf Graphic file (type pdf)
+
+<use 0_Images/ColdFlow/Ele_Flow.pdf>
+Package pdftex.def Info: 0_Images/ColdFlow/Ele_Flow.pdf used on input line 751.
+
+(pdftex.def)             Requested size: 216.81pt x 156.44714pt.
+
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/ColdFlow/Gas_Press.pdf): 
+PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<0_Images/ColdFlow/Gas_Press.pdf, id=412, 687.3691pt x 497.90598pt>
+File: 0_Images/ColdFlow/Gas_Press.pdf Graphic file (type pdf)
+
+<use 0_Images/ColdFlow/Gas_Press.pdf>
+Package pdftex.def Info: 0_Images/ColdFlow/Gas_Press.pdf used on input line 758
+.
+(pdftex.def)             Requested size: 216.81pt x 157.04634pt.
+ [33 <./0_Images/ColdFlow/Gas_Flow.pdf> <./0_Images/ColdFlow/Ele_Flow.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/ColdFlow/Ele_Flow.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+>]
+File: 0_Images/ColdFlow/Gas_Press.pdf Graphic file (type pdf)
+ <use 0_Images/ColdFlow/Gas_Press.pdf>
+Package pdftex.def Info: 0_Images/ColdFlow/Gas_Press.pdf used on input line 765
+.
+(pdftex.def)             Requested size: 216.81pt x 157.04634pt.
+ [34 <./0_Images/ColdFlow/Gas_Press.pdf>]
+Overfull \hbox (9.31519pt too wide) in paragraph at lines 782--783
+[]\OT1/cmr/m/n/10 Table 7.6[] shows the air changes per hour for the Gas Fan 'F
+' in both the sin-gle story and two story struc-ture 
+ []
+
+
+Overfull \hbox (21.8708pt too wide) in paragraph at lines 803--804
+\OT1/cmr/m/n/10 Fifteen full scale fire ex-per-i-ments were con-ducted in the s
+in-gle story 1200$\OML/cmm/m/it/10 ft[]$ \OT1/cmr/m/n/10 ranch style struc-ture
+. Ex-per-i-ments 
+ []
+
+
+Overfull \hbox (18.27356pt too wide) in paragraph at lines 803--804
+\OT1/cmr/m/n/10 were in-tended to test the im-pact of PPA on fire dy-nam-ics in
+ a com-part-mented sin-gle story struc-ture. Vari-ables 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 810--830
+[][]
+ []
+
+[35]
+
+LaTeX Warning: Reference `fig:Exp1Images' on page 36 undefined on input line 83
+6.
+
+
+Overfull \hbox (11.55136pt too wide) in paragraph at lines 836--837
+\OT1/cmr/m/n/10 pro-vided. Af-ter steady state is achieved, the liv-ing room wi
+n-dow was vented and a fog stream was in-tro-duced 
+ []
+
+
+<0_Images/FireExperiments/Single_Story/Experiment_1.jpg, id=446, 912.40875pt x 
+722.7pt>
+File: 0_Images/FireExperiments/Single_Story/Experiment_1.jpg Graphic file (type
+ jpg)
+ <use 0_Images/FireExperiments/Single_Story/Experiment_1.jpg>
+Package pdftex.def Info: 0_Images/FireExperiments/Single_Story/Experiment_1.jpg
+ used on input line 840.
+(pdftex.def)             Requested size: 361.34999pt x 286.20772pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[36]
+<0_Images/Experiment_Screenshots/Experiment_1/01_Ignition_LR.jpg, id=451, 531.4
+254pt x 232.2276pt>
+File: 0_Images/Experiment_Screenshots/Experiment_1/01_Ignition_LR.jpg Graphic f
+ile (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_1/01_Ignition_LR.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_1/01_Igniti
+on_LR.jpg used on input line 862.
+(pdftex.def)             Requested size: 413.46408pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_1/02_Front_Door_Open.jpg, id=452, 5
+48.7702pt x 238.0092pt>
+File: 0_Images/Experiment_Screenshots/Experiment_1/02_Front_Door_Open.jpg Graph
+ic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_1/02_Front_Door_Open.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_1/02_Front_
+Door_Open.jpg used on input line 863.
+(pdftex.def)             Requested size: 416.58401pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_1/03_Fan_On.jpg, id=453, 589.47183p
+t x 259.27794pt>
+File: 0_Images/Experiment_Screenshots/Experiment_1/03_Fan_On.jpg Graphic file (
+type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_1/03_Fan_On.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_1/03_Fan_On
+.jpg used on input line 864.
+(pdftex.def)             Requested size: 410.78358pt x 180.67499pt.
+ [37 <./0_Images/FireExperiments/Single_Story/Experiment_1.jpg>]
+<0_Images/Experiment_Screenshots/Experiment_1/04_Vent_Living_Room_Window.jpg, i
+d=457, 600.8046pt x 259.6902pt>
+File: 0_Images/Experiment_Screenshots/Experiment_1/04_Vent_Living_Room_Window.j
+pg Graphic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_1/04_Vent_Living_Room_Window.jp
+g>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_1/04_Vent_L
+iving_Room_Window.jpg used on input line 873.
+(pdftex.def)             Requested size: 418.0026pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_1/05_Fog_Stream_Living_Room_Window.
+jpg, id=458, 489.027pt x 217.2918pt>
+File: 0_Images/Experiment_Screenshots/Experiment_1/05_Fog_Stream_Living_Room_Wi
+ndow.jpg Graphic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_1/05_Fog_Stream_Living_Room_Win
+dow.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_1/05_Fog_St
+ream_Living_Room_Window.jpg used on input line 874.
+(pdftex.def)             Requested size: 406.63103pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_1/06_End_Experiment.jpg, id=459, 55
+8.4062pt x 250.536pt>
+File: 0_Images/Experiment_Screenshots/Experiment_1/06_End_Experiment.jpg Graphi
+c file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_1/06_End_Experiment.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_1/06_End_Ex
+periment.jpg used on input line 875.
+(pdftex.def)             Requested size: 402.69972pt x 180.67499pt.
+
+[38 <./0_Images/Experiment_Screenshots/Experiment_1/01_Ignition_LR.jpg> <./0_Im
+ages/Experiment_Screenshots/Experiment_1/02_Front_Door_Open.jpg> <./0_Images/Ex
+periment_Screenshots/Experiment_1/03_Fan_On.jpg>]
+
+LaTeX Warning: Reference `fig:Exp2Images' on page 39 undefined on input line 88
+1.
+
+
+Overfull \hbox (23.32901pt too wide) in paragraph at lines 881--882
+\OT1/cmr/m/n/10 ta-ble 8.3[] show at what times in-ter-ven-tions were pre-forme
+d and the fig-ures in [] shows im-ages of the ex-per-i-ment 
+ []
+
+[39 <./0_Images/Experiment_Screenshots/Experiment_1/04_Vent_Living_Room_Window.
+jpg> <./0_Images/Experiment_Screenshots/Experiment_1/05_Fog_Stream_Living_Room_
+Window.jpg> <./0_Images/Experiment_Screenshots/Experiment_1/06_End_Experiment.j
+pg>]
+<0_Images/FireExperiments/Single_Story/Experiment_2.jpg, id=466, 912.40875pt x 
+722.7pt>
+File: 0_Images/FireExperiments/Single_Story/Experiment_2.jpg Graphic file (type
+ jpg)
+ <use 0_Images/FireExperiments/Single_Story/Experiment_2.jpg>
+Package pdftex.def Info: 0_Images/FireExperiments/Single_Story/Experiment_2.jpg
+ used on input line 885.
+(pdftex.def)             Requested size: 361.34999pt x 286.20772pt.
+
+<0_Images/Experiment_Screenshots/Experiment_2/01_Ignition_LR.jpg, id=467, 544.4
+34pt x 234.1548pt>
+File: 0_Images/Experiment_Screenshots/Experiment_2/01_Ignition_LR.jpg Graphic f
+ile (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_2/01_Ignition_LR.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_2/01_Igniti
+on_LR.jpg used on input line 909.
+(pdftex.def)             Requested size: 420.10435pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_2/02_Vent_Living_Room_Window.jpg, i
+d=468, 635.976pt x 277.035pt>
+File: 0_Images/Experiment_Screenshots/Experiment_2/02_Vent_Living_Room_Window.j
+pg Graphic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_2/02_Vent_Living_Room_Window.jp
+g>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_2/02_Vent_L
+iving_Room_Window.jpg used on input line 910.
+(pdftex.def)             Requested size: 414.7672pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_2/03_Front_Door_Open.jpg, id=469, 5
+66.5968pt x 247.6452pt>
+File: 0_Images/Experiment_Screenshots/Experiment_2/03_Front_Door_Open.jpg Graph
+ic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_2/03_Front_Door_Open.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_2/03_Front_
+Door_Open.jpg used on input line 911.
+(pdftex.def)             Requested size: 413.3788pt x 180.67499pt.
+
+[40 <./0_Images/FireExperiments/Single_Story/Experiment_2.jpg>]
+<0_Images/Experiment_Screenshots/Experiment_2/04_Fan_On.jpg, id=473, 691.383pt 
+x 297.67154pt>
+File: 0_Images/Experiment_Screenshots/Experiment_2/04_Fan_On.jpg Graphic file (
+type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_2/04_Fan_On.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_2/04_Fan_On
+.jpg used on input line 920.
+(pdftex.def)             Requested size: 419.65419pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_2/05_Straight_Stream_Front_Door.jpg
+, id=474, 735.7086pt x 310.55153pt>
+File: 0_Images/Experiment_Screenshots/Experiment_2/05_Straight_Stream_Front_Doo
+r.jpg Graphic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_2/05_Straight_Stream_Front_Door
+.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_2/05_Straig
+ht_Stream_Front_Door.jpg used on input line 921.
+(pdftex.def)             Requested size: 428.02472pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_2/06_End_Experiment.jpg, id=475, 64
+8.021pt x 274.1442pt>
+File: 0_Images/Experiment_Screenshots/Experiment_2/06_End_Experiment.jpg Graphi
+c file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_2/06_End_Experiment.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_2/06_End_Ex
+periment.jpg used on input line 922.
+(pdftex.def)             Requested size: 427.08212pt x 180.67499pt.
+
+[41 <./0_Images/Experiment_Screenshots/Experiment_2/01_Ignition_LR.jpg> <./0_Im
+ages/Experiment_Screenshots/Experiment_2/02_Vent_Living_Room_Window.jpg> <./0_I
+mages/Experiment_Screenshots/Experiment_2/03_Front_Door_Open.jpg>]
+
+LaTeX Warning: Reference `fig:Exp3Images' on page 42 undefined on input line 92
+8.
+
+
+Overfull \hbox (18.5236pt too wide) in paragraph at lines 928--929
+\OT1/cmr/m/n/10 straight stream. Fig-ure 8.5[] shows the con-fig-u-ra-tion fo t
+he struc-ture, ta-ble 8.4[] show at what times in-ter-ven-tions 
+ []
+
+[42 <./0_Images/Experiment_Screenshots/Experiment_2/04_Fan_On.jpg> <./0_Images/
+Experiment_Screenshots/Experiment_2/05_Straight_Stream_Front_Door.jpg> <./0_Ima
+ges/Experiment_Screenshots/Experiment_2/06_End_Experiment.jpg>]
+<0_Images/FireExperiments/Single_Story/Experiment_3.jpg, id=483, 912.40875pt x 
+722.7pt>
+File: 0_Images/FireExperiments/Single_Story/Experiment_3.jpg Graphic file (type
+ jpg)
+ <use 0_Images/FireExperiments/Single_Story/Experiment_3.jpg>
+Package pdftex.def Info: 0_Images/FireExperiments/Single_Story/Experiment_3.jpg
+ used on input line 932.
+(pdftex.def)             Requested size: 361.34999pt x 286.20772pt.
+
+<0_Images/Experiment_Screenshots/Experiment_3/01_Ignition_BR2.jpg, id=484, 770.
+06615pt x 275.83969pt>
+File: 0_Images/Experiment_Screenshots/Experiment_3/01_Ignition_BR2.jpg Graphic 
+file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_3/01_Ignition_BR2.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_3/01_Igniti
+on_BR2.jpg used on input line 957.
+(pdftex.def)             Requested size: 504.4029pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_3/02_Vent_Bedroom_2_Window_1.jpg, i
+d=485, 771.8436pt x 273.81169pt>
+File: 0_Images/Experiment_Screenshots/Experiment_3/02_Vent_Bedroom_2_Window_1.j
+pg Graphic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_3/02_Vent_Bedroom_2_Window_1.jp
+g>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_3/02_Vent_B
+edroom_2_Window_1.jpg used on input line 958.
+(pdftex.def)             Requested size: 509.32414pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_3/03_Front_Door_Open.jpg, id=486, 1
+024.57782pt x 369.63094pt>
+File: 0_Images/Experiment_Screenshots/Experiment_3/03_Front_Door_Open.jpg Graph
+ic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_3/03_Front_Door_Open.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_3/03_Front_
+Door_Open.jpg used on input line 959.
+(pdftex.def)             Requested size: 500.81245pt x 180.67499pt.
+
+Overfull \hbox (34.64787pt too wide) in paragraph at lines 957--960
+ [][] 
+ []
+
+
+Overfull \hbox (39.56912pt too wide) in paragraph at lines 957--960
+ [] 
+ []
+
+
+Overfull \hbox (31.05743pt too wide) in paragraph at lines 957--960
+ [] 
+ []
+
+[43 <./0_Images/FireExperiments/Single_Story/Experiment_3.jpg>]
+<0_Images/Experiment_Screenshots/Experiment_3/04_Fan_On.jpg, id=490, 1022.31938
+pt x 366.61969pt>
+File: 0_Images/Experiment_Screenshots/Experiment_3/04_Fan_On.jpg Graphic file (
+type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_3/04_Fan_On.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_3/04_Fan_On
+.jpg used on input line 968.
+(pdftex.def)             Requested size: 503.81116pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_3/05_Vent_Bedroom_2_Window_2.jpg, i
+d=491, 1028.34187pt x 364.36125pt>
+File: 0_Images/Experiment_Screenshots/Experiment_3/05_Vent_Bedroom_2_Window_2.j
+pg Graphic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_3/05_Vent_Bedroom_2_Window_2.jp
+g>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_3/05_Vent_B
+edroom_2_Window_2.jpg used on input line 969.
+(pdftex.def)             Requested size: 509.91736pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_3/06_Interior_Attack_Straight_Strea
+m.jpg, id=492, 1027.58907pt x 367.3725pt>
+File: 0_Images/Experiment_Screenshots/Experiment_3/06_Interior_Attack_Straight_
+Stream.jpg Graphic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_3/06_Interior_Attack_Straight_S
+tream.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_3/06_Interi
+or_Attack_Straight_Stream.jpg used on input line 970.
+(pdftex.def)             Requested size: 505.37326pt x 180.67499pt.
+
+Overfull \hbox (34.05614pt too wide) in paragraph at lines 968--971
+ [][] 
+ []
+
+
+Overfull \hbox (40.16234pt too wide) in paragraph at lines 968--971
+ [] 
+ []
+
+
+Overfull \hbox (35.61824pt too wide) in paragraph at lines 968--971
+ [] 
+ []
+
+[44 <./0_Images/Experiment_Screenshots/Experiment_3/01_Ignition_BR2.jpg> <./0_I
+mages/Experiment_Screenshots/Experiment_3/02_Vent_Bedroom_2_Window_1.jpg> <./0_
+Images/Experiment_Screenshots/Experiment_3/03_Front_Door_Open.jpg>]
+<0_Images/Experiment_Screenshots/Experiment_3/07_End_Experiment.jpg, id=496, 10
+23.07219pt x 368.1253pt>
+File: 0_Images/Experiment_Screenshots/Experiment_3/07_End_Experiment.jpg Graphi
+c file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_3/07_End_Experiment.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_3/07_End_Ex
+periment.jpg used on input line 979.
+(pdftex.def)             Requested size: 502.13715pt x 180.67499pt.
+
+Overfull \hbox (32.38213pt too wide) in paragraph at lines 979--980
+ [][] 
+ []
+
+[45 <./0_Images/Experiment_Screenshots/Experiment_3/04_Fan_On.jpg> <./0_Images/
+Experiment_Screenshots/Experiment_3/05_Vent_Bedroom_2_Window_2.jpg> <./0_Images
+/Experiment_Screenshots/Experiment_3/06_Interior_Attack_Straight_Stream.jpg>]
+
+LaTeX Warning: Reference `fig:Exp4Images' on page 46 undefined on input line 98
+5.
+
+
+<0_Images/FireExperiments/Single_Story/Experiment_4.jpg, id=500, 912.40875pt x 
+722.7pt>
+File: 0_Images/FireExperiments/Single_Story/Experiment_4.jpg Graphic file (type
+ jpg)
+ <use 0_Images/FireExperiments/Single_Story/Experiment_4.jpg>
+Package pdftex.def Info: 0_Images/FireExperiments/Single_Story/Experiment_4.jpg
+ used on input line 989.
+(pdftex.def)             Requested size: 361.34999pt x 286.20772pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:Exp5Images' on page 46 undefined on input line 10
+11.
+
+
+<0_Images/FireExperiments/Single_Story/Experiment_5.jpg, id=501, 912.40875pt x 
+722.7pt>
+File: 0_Images/FireExperiments/Single_Story/Experiment_5.jpg Graphic file (type
+ jpg)
+ <use 0_Images/FireExperiments/Single_Story/Experiment_5.jpg>
+Package pdftex.def Info: 0_Images/FireExperiments/Single_Story/Experiment_5.jpg
+ used on input line 1015.
+(pdftex.def)             Requested size: 361.34999pt x 286.20772pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[46 <./0_Images/Experiment_Screenshots/Experiment_3/07_End_Experiment.jpg>]
+
+LaTeX Warning: Text page 47 contains only floats.
+
+
+Overfull \vbox (1.98543pt too high) has occurred while \output is active []
+
+
+[47 <./0_Images/FireExperiments/Single_Story/Experiment_4.jpg> <./0_Images/Fire
+Experiments/Single_Story/Experiment_5.jpg>]
+
+LaTeX Warning: Reference `fig:Exp6Images' on page 48 undefined on input line 10
+39.
+
+
+Overfull \hbox (9.38477pt too wide) in paragraph at lines 1039--1040
+\OT1/cmr/m/n/10 door, the ex-haust vents are the bed-room 2 win-dows. Sup-pres-
+sion was ini-ti-ated via an in-te-rior at-tack through 
+ []
+
+
+Overfull \hbox (13.4125pt too wide) in paragraph at lines 1039--1040
+\OT1/cmr/m/n/10 the front door. Fig-ure 8.9[] shows the con-fig-u-ra-tion fo th
+e struc-ture, ta-ble 8.7[] show at what times in-ter-ven-tions 
+ []
+
+
+<0_Images/FireExperiments/Single_Story/Experiment_6.jpg, id=508, 912.40875pt x 
+722.7pt>
+File: 0_Images/FireExperiments/Single_Story/Experiment_6.jpg Graphic file (type
+ jpg)
+ <use 0_Images/FireExperiments/Single_Story/Experiment_6.jpg>
+Package pdftex.def Info: 0_Images/FireExperiments/Single_Story/Experiment_6.jpg
+ used on input line 1043.
+(pdftex.def)             Requested size: 361.34999pt x 286.20772pt.
+ [48 <./0_Images/FireExperiments/Single_Story/Experiment_6.jpg>] [49]
+<0_Images/Experiment_Screenshots/Experiment_10/01_Ignition_BR2.jpg, id=516, 100
+5.00468pt x 424.58624pt>
+File: 0_Images/Experiment_Screenshots/Experiment_10/01_Ignition_BR2.jpg Graphic
+ file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_10/01_Ignition_BR2.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_10/01_Ignit
+ion_BR2.jpg used on input line 1140.
+(pdftex.def)             Requested size: 427.66574pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_10/02_Front_Door_Open.jpg, id=517, 
+1003.49907pt x 423.08063pt>
+File: 0_Images/Experiment_Screenshots/Experiment_10/02_Front_Door_Open.jpg Grap
+hic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_10/02_Front_Door_Open.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_10/02_Front
+_Door_Open.jpg used on input line 1141.
+(pdftex.def)             Requested size: 428.54094pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_10/03_Front_Door_Closed.jpg, id=518
+, 1005.00468pt x 420.82219pt>
+File: 0_Images/Experiment_Screenshots/Experiment_10/03_Front_Door_Closed.jpg Gr
+aphic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_10/03_Front_Door_Closed.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_10/03_Front
+_Door_Closed.jpg used on input line 1142.
+(pdftex.def)             Requested size: 431.48418pt x 180.67499pt.
+
+[50]
+<0_Images/Experiment_Screenshots/Experiment_10/04_Vent_BR2_Window.jpg, id=522, 
+1005.7575pt x 422.32782pt>
+File: 0_Images/Experiment_Screenshots/Experiment_10/04_Vent_BR2_Window.jpg Grap
+hic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_10/04_Vent_BR2_Window.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_10/04_Vent_
+BR2_Window.jpg used on input line 1151.
+(pdftex.def)             Requested size: 430.27274pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_10/05_Front_Door_Open.jpg, id=523, 
+1006.51031pt x 420.82219pt>
+File: 0_Images/Experiment_Screenshots/Experiment_10/05_Front_Door_Open.jpg Grap
+hic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_10/05_Front_Door_Open.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_10/05_Front
+_Door_Open.jpg used on input line 1152.
+(pdftex.def)             Requested size: 432.1306pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_10/06_Fan_On.jpg, id=524, 1006.5103
+1pt x 421.575pt>
+File: 0_Images/Experiment_Screenshots/Experiment_10/06_Fan_On.jpg Graphic file 
+(type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_10/06_Fan_On.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_10/06_Fan_O
+n.jpg used on input line 1153.
+(pdftex.def)             Requested size: 431.3627pt x 180.67499pt.
+ [51 <./0_Images/Experiment_Screenshots/Experiment_10/01_Ignition_BR2.jpg> <./0
+_Images/Experiment_Screenshots/Experiment_10/02_Front_Door_Open.jpg> <./0_Image
+s/Experiment_Screenshots/Experiment_10/03_Front_Door_Closed.jpg>] [52 <./0_Imag
+es/Experiment_Screenshots/Experiment_10/04_Vent_BR2_Window.jpg> <./0_Images/Exp
+eriment_Screenshots/Experiment_10/05_Front_Door_Open.jpg> <./0_Images/Experimen
+t_Screenshots/Experiment_10/06_Fan_On.jpg>]
+<0_Images/Experiment_Screenshots/Experiment_11/01_Ignition_BR2.jpg, id=531, 100
+8.01593pt x 424.58624pt>
+File: 0_Images/Experiment_Screenshots/Experiment_11/01_Ignition_BR2.jpg Graphic
+ file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_11/01_Ignition_BR2.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_11/01_Ignit
+ion_BR2.jpg used on input line 1178.
+(pdftex.def)             Requested size: 428.94713pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_11/02_Vent_Master_Bedroom_Window.jp
+g, id=532, 1005.00468pt x 429.85594pt>
+File: 0_Images/Experiment_Screenshots/Experiment_11/02_Vent_Master_Bedroom_Wind
+ow.jpg Graphic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_11/02_Vent_Master_Bedroom_Windo
+w.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_11/02_Vent_
+Master_Bedroom_Window.jpg used on input line 1179.
+(pdftex.def)             Requested size: 422.42113pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_11/03_Vent_BR2_Window.jpg, id=533, 
+1002.74625pt x 431.36156pt>
+File: 0_Images/Experiment_Screenshots/Experiment_11/03_Vent_BR2_Window.jpg Grap
+hic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_11/03_Vent_BR2_Window.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_11/03_Vent_
+BR2_Window.jpg used on input line 1180.
+(pdftex.def)             Requested size: 419.9877pt x 180.67499pt.
+
+[53]
+<0_Images/Experiment_Screenshots/Experiment_11/04_Vent_BR3_Window.jpg, id=537, 
+1008.76875pt x 432.11438pt>
+File: 0_Images/Experiment_Screenshots/Experiment_11/04_Vent_BR3_Window.jpg Grap
+hic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_11/04_Vent_BR3_Window.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_11/04_Vent_
+BR3_Window.jpg used on input line 1189.
+(pdftex.def)             Requested size: 421.78671pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_11/05_Front_Door_Open.jpg, id=538, 
+1008.01593pt x 431.36156pt>
+File: 0_Images/Experiment_Screenshots/Experiment_11/05_Front_Door_Open.jpg Grap
+hic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_11/05_Front_Door_Open.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_11/05_Front
+_Door_Open.jpg used on input line 1190.
+(pdftex.def)             Requested size: 422.19484pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_11/06_Fan_On.jpg, id=539, 1007.2631
+2pt x 429.10312pt>
+File: 0_Images/Experiment_Screenshots/Experiment_11/06_Fan_On.jpg Graphic file 
+(type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_11/06_Fan_On.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_11/06_Fan_O
+n.jpg used on input line 1191.
+(pdftex.def)             Requested size: 424.10812pt x 180.67499pt.
+ [54 <./0_Images/Experiment_Screenshots/Experiment_11/01_Ignition_BR2.jpg> <./0
+_Images/Experiment_Screenshots/Experiment_11/02_Vent_Master_Bedroom_Window.jpg>
+ <./0_Images/Experiment_Screenshots/Experiment_11/03_Vent_BR2_Window.jpg>]
+<0_Images/Experiment_Screenshots/Experiment_11/07_Interior_Suppression.jpg, id=
+544, 1005.7575pt x 429.85594pt>
+File: 0_Images/Experiment_Screenshots/Experiment_11/07_Interior_Suppression.jpg
+ Graphic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_11/07_Interior_Suppression.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_11/07_Inter
+ior_Suppression.jpg used on input line 1200.
+(pdftex.def)             Requested size: 422.73755pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_11/08_End_Experiment.jpg, id=545, 1
+006.51031pt x 429.85594pt>
+File: 0_Images/Experiment_Screenshots/Experiment_11/08_End_Experiment.jpg Graph
+ic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_11/08_End_Experiment.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_11/08_End_E
+xperiment.jpg used on input line 1201.
+(pdftex.def)             Requested size: 423.05397pt x 180.67499pt.
+
+[55 <./0_Images/Experiment_Screenshots/Experiment_11/04_Vent_BR3_Window.jpg> <.
+/0_Images/Experiment_Screenshots/Experiment_11/05_Front_Door_Open.jpg> <./0_Ima
+ges/Experiment_Screenshots/Experiment_11/06_Fan_On.jpg>]
+<0_Images/Experiment_Screenshots/Experiment_12/01_Ignition_BR3.jpg, id=549, 101
+1.02719pt x 433.62pt>
+File: 0_Images/Experiment_Screenshots/Experiment_12/01_Ignition_BR3.jpg Graphic
+ file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_12/01_Ignition_BR3.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_12/01_Ignit
+ion_BR3.jpg used on input line 1227.
+(pdftex.def)             Requested size: 421.26544pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_12/02_Vent_BR2_Window.jpg, id=550, 
+1006.51031pt x 429.85594pt>
+File: 0_Images/Experiment_Screenshots/Experiment_12/02_Vent_BR2_Window.jpg Grap
+hic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_12/02_Vent_BR2_Window.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_12/02_Vent_
+BR2_Window.jpg used on input line 1228.
+(pdftex.def)             Requested size: 423.05397pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_12/03_Front_Door_Open.jpg, id=551, 
+1011.78pt x 435.12563pt>
+File: 0_Images/Experiment_Screenshots/Experiment_12/03_Front_Door_Open.jpg Grap
+hic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_12/03_Front_Door_Open.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_12/03_Front
+_Door_Open.jpg used on input line 1229.
+(pdftex.def)             Requested size: 420.12788pt x 180.67499pt.
+
+[56 <./0_Images/Experiment_Screenshots/Experiment_11/07_Interior_Suppression.jp
+g> <./0_Images/Experiment_Screenshots/Experiment_11/08_End_Experiment.jpg>]
+<0_Images/Experiment_Screenshots/Experiment_12/04_Fan_On.jpg, id=555, 1007.2631
+2pt x 429.10312pt>
+File: 0_Images/Experiment_Screenshots/Experiment_12/04_Fan_On.jpg Graphic file 
+(type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_12/04_Fan_On.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_12/04_Fan_O
+n.jpg used on input line 1238.
+(pdftex.def)             Requested size: 424.10812pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_12/05_Interior_Attack_-_Fog_Stream.
+jpg, id=556, 1011.02719pt x 432.86719pt>
+File: 0_Images/Experiment_Screenshots/Experiment_12/05_Interior_Attack_-_Fog_St
+ream.jpg Graphic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_12/05_Interior_Attack_-_Fog_Str
+eam.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_12/05_Inter
+ior_Attack_-_Fog_Stream.jpg used on input line 1239.
+(pdftex.def)             Requested size: 421.99051pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_12/06_End_Experiment.jpg, id=557, 1
+008.76875pt x 430.60875pt>
+File: 0_Images/Experiment_Screenshots/Experiment_12/06_End_Experiment.jpg Graph
+ic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_12/06_End_Experiment.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_12/06_End_E
+xperiment.jpg used on input line 1240.
+(pdftex.def)             Requested size: 423.26439pt x 180.67499pt.
+
+[57 <./0_Images/Experiment_Screenshots/Experiment_12/01_Ignition_BR3.jpg> <./0_
+Images/Experiment_Screenshots/Experiment_12/02_Vent_BR2_Window.jpg> <./0_Images
+/Experiment_Screenshots/Experiment_12/03_Front_Door_Open.jpg>] [58 <./0_Images/
+Experiment_Screenshots/Experiment_12/04_Fan_On.jpg> <./0_Images/Experiment_Scre
+enshots/Experiment_12/05_Interior_Attack_-_Fog_Stream.jpg> <./0_Images/Experime
+nt_Screenshots/Experiment_12/06_End_Experiment.jpg>]
+<0_Images/Experiment_Screenshots/Experiment_13/01_Ignition_BR3.jpg, id=564, 100
+5.00468pt x 432.11438pt>
+File: 0_Images/Experiment_Screenshots/Experiment_13/01_Ignition_BR3.jpg Graphic
+ file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_13/01_Ignition_BR3.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_13/01_Ignit
+ion_BR3.jpg used on input line 1266.
+(pdftex.def)             Requested size: 420.21288pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_13/02_Vent_BR3_Window.jpg, id=565, 
+1007.26312pt x 429.85594pt>
+File: 0_Images/Experiment_Screenshots/Experiment_13/02_Vent_BR3_Window.jpg Grap
+hic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_13/02_Vent_BR3_Window.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_13/02_Vent_
+BR3_Window.jpg used on input line 1267.
+(pdftex.def)             Requested size: 423.37039pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_13/03_Front_Door_Open.jpg, id=566, 
+1006.51031pt x 431.36156pt>
+File: 0_Images/Experiment_Screenshots/Experiment_13/03_Front_Door_Open.jpg Grap
+hic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_13/03_Front_Door_Open.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_13/03_Front
+_Door_Open.jpg used on input line 1268.
+(pdftex.def)             Requested size: 421.56424pt x 180.67499pt.
+
+[59]
+<0_Images/Experiment_Screenshots/Experiment_13/04_Fan_On.jpg, id=570, 1007.2631
+2pt x 430.60875pt>
+File: 0_Images/Experiment_Screenshots/Experiment_13/04_Fan_On.jpg Graphic file 
+(type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_13/04_Fan_On.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_13/04_Fan_O
+n.jpg used on input line 1277.
+(pdftex.def)             Requested size: 422.63264pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_13/05_Interior_Attack_Fog_Stream.jp
+g, id=571, 1005.7575pt x 434.37282pt>
+File: 0_Images/Experiment_Screenshots/Experiment_13/05_Interior_Attack_Fog_Stre
+am.jpg Graphic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_13/05_Interior_Attack_Fog_Strea
+m.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_13/05_Inter
+ior_Attack_Fog_Stream.jpg used on input line 1278.
+(pdftex.def)             Requested size: 418.34842pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_13/06_End_Experiment.jpg, id=572, 1
+008.76875pt x 434.37282pt>
+File: 0_Images/Experiment_Screenshots/Experiment_13/06_End_Experiment.jpg Graph
+ic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_13/06_End_Experiment.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_13/06_End_E
+xperiment.jpg used on input line 1279.
+(pdftex.def)             Requested size: 419.60097pt x 180.67499pt.
+
+[60 <./0_Images/Experiment_Screenshots/Experiment_13/01_Ignition_BR3.jpg> <./0_
+Images/Experiment_Screenshots/Experiment_13/02_Vent_BR3_Window.jpg> <./0_Images
+/Experiment_Screenshots/Experiment_13/03_Front_Door_Open.jpg>] [61 <./0_Images/
+Experiment_Screenshots/Experiment_13/04_Fan_On.jpg> <./0_Images/Experiment_Scre
+enshots/Experiment_13/05_Interior_Attack_Fog_Stream.jpg> <./0_Images/Experiment
+_Screenshots/Experiment_13/06_End_Experiment.jpg>]
+<0_Images/Experiment_Screenshots/Experiment_14/01_Ignition_Kitchen.jpg, id=580,
+ 1010.27437pt x 432.86719pt>
+File: 0_Images/Experiment_Screenshots/Experiment_14/01_Ignition_Kitchen.jpg Gra
+phic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_14/01_Ignition_Kitchen.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_14/01_Ignit
+ion_Kitchen.jpg used on input line 1304.
+(pdftex.def)             Requested size: 421.67628pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_14/02_Vent_BR2_Window.jpg, id=581, 
+1006.51031pt x 432.86719pt>
+File: 0_Images/Experiment_Screenshots/Experiment_14/02_Vent_BR2_Window.jpg Grap
+hic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_14/02_Vent_BR2_Window.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_14/02_Vent_
+BR2_Window.jpg used on input line 1305.
+(pdftex.def)             Requested size: 420.10521pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_14/03_Front_Door_Open.jpg, id=582, 
+1008.01593pt x 432.11438pt>
+File: 0_Images/Experiment_Screenshots/Experiment_14/03_Front_Door_Open.jpg Grap
+hic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_14/03_Front_Door_Open.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_14/03_Front
+_Door_Open.jpg used on input line 1306.
+(pdftex.def)             Requested size: 421.47194pt x 180.67499pt.
+
+[62]
+<0_Images/Experiment_Screenshots/Experiment_14/04_Fan_On.jpg, id=586, 1009.5215
+6pt x 432.11438pt>
+File: 0_Images/Experiment_Screenshots/Experiment_14/04_Fan_On.jpg Graphic file 
+(type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_14/04_Fan_On.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_14/04_Fan_O
+n.jpg used on input line 1315.
+(pdftex.def)             Requested size: 422.10147pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_14/05_fan_tilt_4_set_back_9_ft.jpg,
+ id=587, 1008.76875pt x 432.11438pt>
+File: 0_Images/Experiment_Screenshots/Experiment_14/05_fan_tilt_4_set_back_9_ft
+.jpg Graphic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_14/05_fan_tilt_4_set_back_9_ft.
+jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_14/05_fan_t
+ilt_4_set_back_9_ft.jpg used on input line 1316.
+(pdftex.def)             Requested size: 421.78671pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_14/06_interior_attack_straight_stre
+am.jpg, id=588, 1005.7575pt x 429.85594pt>
+File: 0_Images/Experiment_Screenshots/Experiment_14/06_interior_attack_straight
+_stream.jpg Graphic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_14/06_interior_attack_straight_
+stream.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_14/06_inter
+ior_attack_straight_stream.jpg used on input line 1317.
+(pdftex.def)             Requested size: 422.73755pt x 180.67499pt.
+ [63 <./0_Images/Experiment_Screenshots/Experiment_14/01_Ignition_Kitchen.jpg> 
+<./0_Images/Experiment_Screenshots/Experiment_14/02_Vent_BR2_Window.jpg> <./0_I
+mages/Experiment_Screenshots/Experiment_14/03_Front_Door_Open.jpg>]
+<0_Images/Experiment_Screenshots/Experiment_14/07_End_Experiment.jpg, id=592, 1
+007.26312pt x 436.63126pt>
+File: 0_Images/Experiment_Screenshots/Experiment_14/07_End_Experiment.jpg Graph
+ic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_14/07_End_Experiment.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_14/07_End_E
+xperiment.jpg used on input line 1326.
+(pdftex.def)             Requested size: 416.7922pt x 180.67499pt.
+
+[64 <./0_Images/Experiment_Screenshots/Experiment_14/04_Fan_On.jpg> <./0_Images
+/Experiment_Screenshots/Experiment_14/05_fan_tilt_4_set_back_9_ft.jpg> <./0_Ima
+ges/Experiment_Screenshots/Experiment_14/06_interior_attack_straight_stream.jpg
+>]
+<0_Images/Experiment_Screenshots/Experiment_15/01_Ignition_MBR,_BR2,_BR3.jpg, i
+d=596, 1010.27437pt x 434.37282pt>
+File: 0_Images/Experiment_Screenshots/Experiment_15/01_Ignition_MBR,_BR2,_BR3.j
+pg Graphic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_15/01_Ignition_MBR,_BR2,_BR3.jp
+g>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_15/01_Ignit
+ion_MBR,_BR2,_BR3.jpg used on input line 1351.
+(pdftex.def)             Requested size: 420.22722pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_15/02_MBR,_MR2,_BR3_Windows_Open.jp
+g, id=597, 1006.51031pt x 432.86719pt>
+File: 0_Images/Experiment_Screenshots/Experiment_15/02_MBR,_MR2,_BR3_Windows_Op
+en.jpg Graphic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_15/02_MBR,_MR2,_BR3_Windows_Ope
+n.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_15/02_MBR,_
+MR2,_BR3_Windows_Open.jpg used on input line 1352.
+(pdftex.def)             Requested size: 420.10521pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_15/03_Front_Door_Open.jpg, id=598, 
+1010.27437pt x 437.38406pt>
+File: 0_Images/Experiment_Screenshots/Experiment_15/03_Front_Door_Open.jpg Grap
+hic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_15/03_Front_Door_Open.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_15/03_Front
+_Door_Open.jpg used on input line 1353.
+(pdftex.def)             Requested size: 417.3291pt x 180.67499pt.
+
+[65 <./0_Images/Experiment_Screenshots/Experiment_14/07_End_Experiment.jpg>]
+<0_Images/Experiment_Screenshots/Experiment_15/04_Fan_On.jpg, id=602, 1008.7687
+5pt x 433.62pt>
+File: 0_Images/Experiment_Screenshots/Experiment_15/04_Fan_On.jpg Graphic file 
+(type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_15/04_Fan_On.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_15/04_Fan_O
+n.jpg used on input line 1362.
+(pdftex.def)             Requested size: 420.32442pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_15/05_Straight_Stream_Front_Door.jp
+g, id=603, 1011.02719pt x 435.12563pt>
+File: 0_Images/Experiment_Screenshots/Experiment_15/05_Straight_Stream_Front_Do
+or.jpg Graphic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_15/05_Straight_Stream_Front_Doo
+r.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_15/05_Strai
+ght_Stream_Front_Door.jpg used on input line 1363.
+(pdftex.def)             Requested size: 419.8153pt x 180.67499pt.
+
+<0_Images/Experiment_Screenshots/Experiment_15/06_Extinguishment.jpg, id=604, 1
+007.26312pt x 432.11438pt>
+File: 0_Images/Experiment_Screenshots/Experiment_15/06_Extinguishment.jpg Graph
+ic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_15/06_Extinguishment.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_15/06_Extin
+guishment.jpg used on input line 1364.
+(pdftex.def)             Requested size: 421.15717pt x 180.67499pt.
+
+[66 <./0_Images/Experiment_Screenshots/Experiment_15/01_Ignition_MBR,_BR2,_BR3.
+jpg> <./0_Images/Experiment_Screenshots/Experiment_15/02_MBR,_MR2,_BR3_Windows_
+Open.jpg> <./0_Images/Experiment_Screenshots/Experiment_15/03_Front_Door_Open.j
+pg>]
+<0_Images/Experiment_Screenshots/Experiment_15/07_End_Experiment.jpg, id=609, 1
+012.5328pt x 434.37282pt>
+File: 0_Images/Experiment_Screenshots/Experiment_15/07_End_Experiment.jpg Graph
+ic file (type jpg)
+
+<use 0_Images/Experiment_Screenshots/Experiment_15/07_End_Experiment.jpg>
+Package pdftex.def Info: 0_Images/Experiment_Screenshots/Experiment_15/07_End_E
+xperiment.jpg used on input line 1373.
+(pdftex.def)             Requested size: 421.16663pt x 180.67499pt.
+
+[67 <./0_Images/Experiment_Screenshots/Experiment_15/04_Fan_On.jpg> <./0_Images
+/Experiment_Screenshots/Experiment_15/05_Straight_Stream_Front_Door.jpg> <./0_I
+mages/Experiment_Screenshots/Experiment_15/06_Extinguishment.jpg>]
+Overfull \hbox (6.8089pt too wide) in paragraph at lines 1405--1405
+[]\OT1/cmr/bx/n/12 The ap-pli-ca-tion of wa-ter, as quickly as pos-si-ble, whet
+her from the in-te-rior 
+ []
+
+
+Overfull \hbox (21.07283pt too wide) in paragraph at lines 1405--1405
+\OT1/cmr/bx/n/12 or ex-te-rior prior to ini-ti-at-ing PPA will in-crease the li
+ke-li-hood of a suc-cess-ful 
+ []
+
+
+Overfull \hbox (1.63474pt too wide) in paragraph at lines 1406--1407
+\OT1/cmr/m/n/10 Fire-fight-ers need to un-der-stand the im-por-tance of rapid w
+a-ter ap-pli-ca-tion as an in-ci-dent pri-or-ity and wa-ter 
+ []
+
+[68 <./0_Images/Experiment_Screenshots/Experiment_15/07_End_Experiment.jpg>]
+Overfull \hbox (43.49585pt too wide) in paragraph at lines 1409--1410
+\OT1/cmr/m/n/10 amount of am-bi-ent air. The chal-lenge for the fire serve is t
+he en-vi-ron-ment within the struc-ture is not ho-mo-ge-neously 
+ []
+
+
+Overfull \hbox (14.99588pt too wide) in paragraph at lines 1411--1412
+[]\OT1/cmr/m/n/10 Over time PPV fans have evolved to flow a larger vol-ume of a
+ir uti-liz-ing more pow-er-ful en-gines and im-prov-ing 
+ []
+
+
+Overfull \hbox (2.2735pt too wide) in paragraph at lines 1411--1412
+\OT1/cmr/m/n/10 should be started lower rather than higher and in-creased un-ti
+l de-sired per-for-mance is ob-served. Once wa-ter 
+ []
+
+
+Package caption Warning: \label without proper \caption on input line 1422.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:ExhaustLocationComp' on page 69 undefined on inpu
+t line 1414.
+
+
+Overfull \hbox (26.52365pt too wide) in paragraph at lines 1414--1415
+\OT1/cmr/m/n/10 PPA ef-fec-tive-ness is de-pen-dent di-rectly on the abil-ity o
+f the fire com-part-ment to ex-haust prod-ucts of com-bus-tion 
+ []
+
+
+Overfull \hbox (1.35696pt too wide) in paragraph at lines 1414--1415
+\OT1/cmr/m/n/10 to the ex-te-rior. Ex-haust open-ings not pro-vided in the fire
+ room will cre-ate un-in-tended flow paths, re-sult-ing 
+ []
+
+
+<0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/VentComparisonTemp
+s.pdf, id=616, 675.80673pt x 492.97955pt>
+File: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/VentCompariso
+nTemps.pdf Graphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/VentComparison
+Temps.pdf>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Pro
+vided/VentComparisonTemps.pdf used on input line 1419.
+(pdftex.def)             Requested size: 271.0125pt x 197.69983pt.
+
+<0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/ExhaustLocationLay
+outFire.pdf, id=617, 552.45998pt x 844.15375pt>
+File: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/ExhaustLocati
+onLayoutFire.pdf Graphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/ExhaustLocatio
+nLayoutFire.pdf>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Pro
+vided/ExhaustLocationLayoutFire.pdf used on input line 1420.
+(pdftex.def)             Requested size: 126.47249pt x 193.24962pt.
+ [69]
+
+Package caption Warning: \label without proper \caption on input line 1434.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:OneVSTwoWindowsColdFlow' on page 70 undefined on 
+input line 1426.
+
+
+<0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Bedroom2SingleVDou
+bleWindow.pdf, id=621, 661.1147pt x 489.71458pt>
+File: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Bedroom2Singl
+eVDoubleWindow.pdf Graphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Bedroom2Single
+VDoubleWindow.pdf>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Pro
+vided/Bedroom2SingleVDoubleWindow.pdf used on input line 1431.
+(pdftex.def)             Requested size: 252.94499pt x 187.36378pt.
+
+<0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/DoubleWindowBed2.p
+df, id=622, 728.54906pt x 1049.81001pt>
+File: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/DoubleWindowB
+ed2.pdf Graphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/DoubleWindowBe
+d2.pdf>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Pro
+vided/DoubleWindowBed2.pdf used on input line 1432.
+(pdftex.def)             Requested size: 126.47249pt x 182.22975pt.
+
+Overfull \hbox (13.74586pt too wide) in paragraph at lines 1438--1439
+[]\OT1/cmr/m/n/10 This also ap-plies un-der fire con-di-tions. If too much air 
+is added with the fan for the ex-haust to ac-com-mo-date, 
+ []
+
+
+Overfull \hbox (10.19025pt too wide) in paragraph at lines 1438--1439
+\OT1/cmr/m/n/10 fire com-part-ment by 1) cre-ate more ex-haust open-ings in the
+ fire com-part-ment or 2) ap-ply wa-ter and pres-sure 
+ []
+
+[70 <./0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/VentComparis
+onTemps.pdf> <./0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Exh
+austLocationLayoutFire.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/Tactical_Considerations/A
+n_Outlet_Must_be_Provided/ExhaustLocationLayoutFire.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+> <./0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Bedroom2Single
+VDoubleWindow.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/Tactical_Considerations/A
+n_Outlet_Must_be_Provided/Bedroom2SingleVDoubleWindow.pdf): PDF inclusion: mult
+iple pdfs with page group included in a single page
+> <./0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/DoubleWindowBe
+d2.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/Tactical_Considerations/A
+n_Outlet_Must_be_Provided/DoubleWindowBed2.pdf): PDF inclusion: multiple pdfs w
+ith page group included in a single page
+>]
+Overfull \hbox (1.27354pt too wide) in paragraph at lines 1440--1441
+[]\OT1/cmr/m/n/10 In these ex-per-i-ments a 2:1 ex-haust to in-let ra-tio was m
+uch more ef-fec-tive than a 1:1 or less ra-tio. Al-though 
+ []
+
+
+Overfull \hbox (6.10681pt too wide) in paragraph at lines 1440--1441
+\OT1/cmr/m/n/10 tem-per-a-tures. Fig-ure 10.3[]b il-lus-trates the grow-ing pre
+s-sure as the fire grows be-tween when the fan is turned 
+ []
+
+
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/Tactical_Considerations/A
+n_Outlet_Must_be_Provided/FlowOneVTwoVents.pdf): PDF inclusion: found PDF versi
+on <1.6>, but at most version <1.5> allowed
+
+<0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/FlowOneVTwoVents.p
+df, id=668, 675.4533pt x 490.62778pt>
+File: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/FlowOneVTwoVe
+nts.pdf Graphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/FlowOneVTwoVen
+ts.pdf>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Pro
+vided/FlowOneVTwoVents.pdf used on input line 1445.
+(pdftex.def)             Requested size: 216.81pt x 157.48322pt.
+
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/Tactical_Considerations/A
+n_Outlet_Must_be_Provided/PressOneVTwoVents.pdf): PDF inclusion: found PDF vers
+ion <1.6>, but at most version <1.5> allowed
+
+<0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/PressOneVTwoVents.
+pdf, id=669, 655.96288pt x 480.54633pt>
+File: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/PressOneVTwoV
+ents.pdf Graphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/PressOneVTwoVe
+nts.pdf>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Pro
+vided/PressOneVTwoVents.pdf used on input line 1446.
+(pdftex.def)             Requested size: 216.81pt x 158.83008pt.
+
+<0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Exp3VentConfigurat
+ions.pdf, id=670, 1119.3958pt x 436.62622pt>
+File: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Exp3VentConfi
+gurations.pdf Graphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Exp3VentConfig
+urations.pdf>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Pro
+vided/Exp3VentConfigurations.pdf used on input line 1448.
+(pdftex.def)             Requested size: 180.67499pt x 70.4679pt.
+
+Overfull \hbox (40.7978pt too wide) in paragraph at lines 1455--1455
+[]\OT1/cmr/bx/n/12 An on-go-ing as-sess-ment of in-let and ex-haust flow is im-
+per-a-tive to un-der-stand-ing 
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+[71 <./0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/FlowOneVTwoV
+ents.pdf> <./0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/PressO
+neVTwoVents.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/Tactical_Considerations/A
+n_Outlet_Must_be_Provided/PressOneVTwoVents.pdf): PDF inclusion: multiple pdfs 
+with page group included in a single page
+> <./0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Exp3VentConfig
+urations.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/Tactical_Considerations/A
+n_Outlet_Must_be_Provided/Exp3VentConfigurations.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+>]
+<0_Images/Tactical_Considerations/Ongoing_Assessment/FanandDoorFlow.pdf, id=708
+, 740.4428pt x 340.98442pt>
+File: 0_Images/Tactical_Considerations/Ongoing_Assessment/FanandDoorFlow.pdf Gr
+aphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/Ongoing_Assessment/FanandDoorFlow.pdf>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Fa
+nandDoorFlow.pdf used on input line 1461.
+(pdftex.def)             Requested size: 433.62pt x 199.68579pt.
+
+Overfull \hbox (5.16245pt too wide) in paragraph at lines 1466--1467
+[]\OT1/cmr/m/n/10 With the pres-sure be-ing greater in the struc-ture than out-
+side, the non-uniform pres-sure from the fan re-sults 
+ []
+
+
+Overfull \hbox (8.24579pt too wide) in paragraph at lines 1466--1467
+\OT1/cmr/m/n/10 in back flow from the top of the door-way. Fig-ure 10.5[] il-lu
+s-trates the flow once steady state had been reached 
+ []
+
+
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/Tactical_Considerations/O
+ngoing_Assessment/SingleStoryFrontDoorVelocities.pdf): PDF inclusion: found PDF
+ version <1.6>, but at most version <1.5> allowed
+
+<0_Images/Tactical_Considerations/Ongoing_Assessment/SingleStoryFrontDoorVeloci
+ties.pdf, id=709, 448.28578pt x 496.67686pt>
+File: 0_Images/Tactical_Considerations/Ongoing_Assessment/SingleStoryFrontDoorV
+elocities.pdf Graphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/Ongoing_Assessment/SingleStoryFrontDoorVe
+locities.pdf>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Si
+ngleStoryFrontDoorVelocities.pdf used on input line 1471.
+(pdftex.def)             Requested size: 216.81pt x 240.21349pt.
+
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/Tactical_Considerations/O
+ngoing_Assessment/TwoStoryFrontDoorVelocities.pdf): PDF inclusion: found PDF ve
+rsion <1.6>, but at most version <1.5> allowed
+
+<0_Images/Tactical_Considerations/Ongoing_Assessment/TwoStoryFrontDoorVelocitie
+s.pdf, id=710, 442.90971pt x 488.61156pt>
+File: 0_Images/Tactical_Considerations/Ongoing_Assessment/TwoStoryFrontDoorVelo
+cities.pdf Graphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/Ongoing_Assessment/TwoStoryFrontDoorVeloc
+ities.pdf>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Tw
+oStoryFrontDoorVelocities.pdf used on input line 1472.
+(pdftex.def)             Requested size: 216.81pt x 239.17572pt.
+ [72 <./0_Images/Tactical_Considerations/Ongoing_Assessment/FanandDoorFlow.pdf>
+]
+Overfull \hbox (1.829pt too wide) in paragraph at lines 1478--1479
+\OT1/cmr/m/n/10 the room where the in-let is cre-ated. If the ex-haust is ef-fe
+c-tive over time this smoke will de-crease in vol-ume. 
+ []
+
+
+Overfull \hbox (3.16249pt too wide) in paragraph at lines 1478--1479
+\OT1/cmr/m/n/10 ex-haust or too much fan. Use the neu-tral plane at the at-tack
+ en-trance and the ex-haust to iden-tify progress. 
+ []
+
+
+Overfull \hbox (0.44037pt too wide) in paragraph at lines 1478--1479
+\OT1/cmr/m/n/10 Al-though ex-haust flow may ap-pear ad-e-quate the neu-tral pla
+ne in the front door will pro-vide one in-di-ca-tion 
+ []
+
+
+Overfull \hbox (2.27354pt too wide) in paragraph at lines 1478--1479
+\OT1/cmr/m/n/10 the ef-fec-tive-ness of PPA as a tac-tic. A de-scend-ing neu-tr
+al plane at the front door in-di-cates the flow mov-ing 
+ []
+
+
+<0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/Open.png, id=764
+, 1303.87125pt x 737.75626pt>
+File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/Open.png Gr
+aphic file (type png)
+
+<use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/Open.png>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
+adInlet/Open.png used on input line 1483.
+(pdftex.def)             Requested size: 108.405pt x 61.32944pt.
+
+<0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/FanOn.png, id=76
+5, 1306.8825pt x 728.7225pt>
+File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/FanOn.png G
+raphic file (type png)
+
+<use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/FanOn.png>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
+adInlet/FanOn.png used on input line 1484.
+(pdftex.def)             Requested size: 108.405pt x 60.44502pt.
+
+<0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/30Sec.png, id=76
+6, 1300.86pt x 731.73375pt>
+File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/30Sec.png G
+raphic file (type png)
+
+<use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/30Sec.png>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
+adInlet/30Sec.png used on input line 1485.
+(pdftex.def)             Requested size: 108.405pt x 60.97394pt.
+
+<0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/60Sec.png, id=76
+7, 1303.87125pt x 725.71124pt>
+File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/60Sec.png G
+raphic file (type png)
+
+<use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/60Sec.png>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
+adInlet/60Sec.png used on input line 1486.
+(pdftex.def)             Requested size: 108.405pt x 60.32814pt.
+
+<0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/90Sec.png, id=76
+8, 1300.86pt x 728.7225pt>
+File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/90Sec.png G
+raphic file (type png)
+
+<use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/90Sec.png>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
+adInlet/90Sec.png used on input line 1487.
+(pdftex.def)             Requested size: 108.405pt x 60.723pt.
+
+<0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/120Sec.png, id=7
+69, 1306.8825pt x 728.7225pt>
+File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/120Sec.png 
+Graphic file (type png)
+
+<use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/120Sec.png>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
+adInlet/120Sec.png used on input line 1488.
+(pdftex.def)             Requested size: 108.405pt x 60.44502pt.
+
+<0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/150Sec.png, id=7
+70, 1300.86pt x 731.73375pt>
+File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/150Sec.png 
+Graphic file (type png)
+
+<use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/150Sec.png>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
+adInlet/150Sec.png used on input line 1489.
+(pdftex.def)             Requested size: 108.405pt x 60.97394pt.
+
+<0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/180Sec.png, id=7
+71, 1306.8825pt x 725.71124pt>
+File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/180Sec.png 
+Graphic file (type png)
+
+<use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/180Sec.png>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
+adInlet/180Sec.png used on input line 1490.
+(pdftex.def)             Requested size: 108.405pt x 60.19525pt.
+
+<0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/210Sec.png, id=7
+72, 1303.87125pt x 740.7675pt>
+File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/210Sec.png 
+Graphic file (type png)
+
+<use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/210Sec.png>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
+adInlet/210Sec.png used on input line 1491.
+(pdftex.def)             Requested size: 108.405pt x 61.57976pt.
+
+[73 <./0_Images/Tactical_Considerations/Ongoing_Assessment/SingleStoryFrontDoor
+Velocities.pdf> <./0_Images/Tactical_Considerations/Ongoing_Assessment/TwoStory
+FrontDoorVelocities.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./0_Images/Tactical_Considerations/O
+ngoing_Assessment/TwoStoryFrontDoorVelocities.pdf): PDF inclusion: multiple pdf
+s with page group included in a single page
+>]
+Overfull \hbox (10.80145pt too wide) in paragraph at lines 1497--1498
+[]\OT1/cmr/m/n/10 Impact of PPA will be no-tice-able within sec-onds at the ex-
+haust lo-ca-tion(s), if no im-pact is no-ticed ad-di-tional 
+ []
+
+
+<0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/NoFanSmoke.png
+, id=793, 619.31375pt x 620.3175pt>
+File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/NoFanSmok
+e.png Graphic file (type png)
+
+<use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/NoFanSmoke
+.png>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
+adExhaust/NoFanSmoke.png used on input line 1502.
+(pdftex.def)             Requested size: 180.67499pt x 180.9665pt.
+
+<0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/FanSmoke.png, 
+id=794, 619.31375pt x 617.30624pt>
+File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/FanSmoke.
+png Graphic file (type png)
+
+<use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/FanSmoke.p
+ng>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
+adExhaust/FanSmoke.png used on input line 1503.
+(pdftex.def)             Requested size: 180.67499pt x 180.08803pt.
+
+<0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/NoFanFire.png,
+ id=795, 614.295pt x 614.295pt>
+File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/NoFanFire
+.png Graphic file (type png)
+
+<use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/NoFanFire.
+png>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
+adExhaust/NoFanFire.png used on input line 1504.
+(pdftex.def)             Requested size: 180.67499pt x 180.67178pt.
+
+<0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/FanFire.png, i
+d=796, 613.29124pt x 614.295pt>
+File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/FanFire.p
+ng Graphic file (type png)
+
+<use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/FanFire.pn
+g>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
+adExhaust/FanFire.png used on input line 1505.
+(pdftex.def)             Requested size: 180.67499pt x 180.97174pt.
+ [74 <./0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/Open.png>
+ <./0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/FanOn.png> <.
+/0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/30Sec.png> <./0_
+Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/60Sec.png> <./0_Ima
+ges/Tactical_Considerations/Ongoing_Assessment/ReadInlet/90Sec.png> <./0_Images
+/Tactical_Considerations/Ongoing_Assessment/ReadInlet/120Sec.png> <./0_Images/T
+actical_Considerations/Ongoing_Assessment/ReadInlet/150Sec.png> <./0_Images/Tac
+tical_Considerations/Ongoing_Assessment/ReadInlet/180Sec.png> <./0_Images/Tacti
+cal_Considerations/Ongoing_Assessment/ReadInlet/210Sec.png>]
+Overfull \hbox (16.82925pt too wide) in paragraph at lines 1511--1512
+[]\OT1/cmr/m/n/10 In ad-di-tion to mon-i-tor-ing ex-te-rior con-di-tions, in-te
+-rior crews must be mon-i-tor-ing in-te-rior con-di-tions. In-ef-fec-tive 
+ []
+
+
+Overfull \hbox (5.35693pt too wide) in paragraph at lines 1511--1512
+\OT1/cmr/m/n/10 PPA has the po-ten-tial to cause con-di-tions to de-te-ri-o-rat
+e faster than would be noted in hor-i-zon-tal or ver-ti-cal 
+ []
+
+
+Overfull \hbox (12.57901pt too wide) in paragraph at lines 1511--1512
+\OT1/cmr/m/n/10 over time. If this is not the case the struc-ture should be eva
+c-u-ated un-til the el-e-ments re-quired for a suc-cess-ful 
+ []
+
+
+Overfull \hbox (14.99588pt too wide) in paragraph at lines 1515--1516
+\OT1/cmr/m/n/10 Over time PPV fans have evolved to flow a larger vol-ume of air
+ uti-liz-ing more pow-er-ful en-gines and im-prov-ing 
+ []
+
+
+Overfull \hbox (3.6068pt too wide) in paragraph at lines 1517--1519
+[]\OT1/cmr/m/n/10 A fire in post flashover state, vent-ing to the ex-te-rior wa
+s seen to pro-duce be-tween 9Pa and 11Pa of pres-sure 
+ []
+
+[75 <./0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/NoFanSmo
+ke.png> <./0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/FanS
+moke.png> <./0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/No
+FanFire.png> <./0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust
+/FanFire.png>]
+
+LaTeX Warning: Reference `fig:RanchStructureOPenings' on page 76 undefined on i
+nput line 1539.
+
+
+Overfull \hbox (1.81538pt too wide) in paragraph at lines 1539--1541
+[]\OT1/cmr/m/n/10 The bed-room door open-ing of 16.7$\OML/cmm/m/it/10 ft[]$ \OT
+1/cmr/m/n/10 pro-vided a bot-tle neck for the flow, mak-ing the pres-sure in th
+e liv-ing 
+ []
+
+
+Overfull \hbox (9.19035pt too wide) in paragraph at lines 1539--1541
+\OT1/cmr/m/n/10 be-cause the win-dow open-ing was smaller than the bed-room doo
+r the amount of flow ex-haust-ing the bed-room 
+ []
+
+
+Overfull \hbox (2.74579pt too wide) in paragraph at lines 1539--1541
+\OT1/cmr/m/n/10 cre-ated a pres-sure of ap-prox-i-mately 7Pa in the bed-room. O
+nce the sec-ond win-dow was opened, the ex-haust 
+ []
+
+
+<0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Opening_Sizes.pdf, id=8
+03, 528.9371pt x 414.68123pt>
+File: 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Opening_Sizes.pdf 
+Graphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Opening_Sizes.pdf>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant
+/Opening_Sizes.pdf used on input line 1544.
+(pdftex.def)             Requested size: 361.34999pt x 283.30829pt.
+
+
+LaTeX Warning: Reference `fig:RanchStructureOpenings' on page 76 undefined on i
+nput line 1546.
+
+
+<0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Vent_Point_Ignition.png
+, id=804, 1533.73pt x 819.06pt>
+File: 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Vent_Point_Ignitio
+n.png Graphic file (type png)
+
+<use 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Vent_Point_Ignition
+.png>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant
+/Vent_Point_Ignition.png used on input line 1553.
+(pdftex.def)             Requested size: 361.34999pt x 192.96654pt.
+File: 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Vent_Point_Ignitio
+n.png Graphic file (type png)
+
+<use 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Vent_Point_Ignition
+.png>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant
+/Vent_Point_Ignition.png used on input line 1560.
+(pdftex.def)             Requested size: 361.34999pt x 192.96654pt.
+ [76] [77 <./0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Opening_Siz
+es.pdf> <./0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Vent_Point_Ig
+nition.png>]
+Overfull \hbox (1.41231pt too wide) in paragraph at lines 1569--1570
+[]\OT1/cmr/m/n/10 Even when the re-quired pres-sure dif-fer-ence is achieved be
+-tween the fire room and ad-ja-cent spaces, back-flow 
+ []
+
+Missing character: There is no ‚ in font cmbx12!
+Missing character: There is no Ä in font cmbx12!
+Missing character: There is no ú in font cmbx12!
+Missing character: There is no ‚ in font cmbx12!
+Missing character: There is no Ä in font cmbx12!
+Missing character: There is no ù in font cmbx12!
+
+Overfull \hbox (6.76859pt too wide) in paragraph at lines 1571--1571
+[]\OT1/cmr/bx/n/12 The set-back of the fan or de-vel-op-ment of a cone of air i
+s not as im-por-tant 
+ []
+
+
+Overfull \hbox (2.21802pt too wide) in paragraph at lines 1575--1576
+\OT1/cmr/m/n/10 Compartmentation of the fire is es-sen-tial for suc-cess. With 
+high ceil-ings and with-out a door-way to sep-a-rate 
+ []
+
+
+Overfull \hbox (10.46791pt too wide) in paragraph at lines 1575--1576
+\OT1/cmr/m/n/10 vol-ume. Air added by the fan in-creases the fire size in open 
+con-cept which causes an in-crease in tem-per-a-ture, 
+ []
+
+[78]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 1593--1594
+\OT1/cmr/m/n/10 into the at-tic, bal-loon frame con-structed stud bay open into
+ the at-tic, HVAC duct that burns away open-ing 
+ []
+
+
+Overfull \hbox (5.57922pt too wide) in paragraph at lines 1593--1594
+\OT1/cmr/m/n/10 (sim-u-lat-ing bal-loon frame con-struc-tion) fire spread into 
+the void space with and with-out PPV. PPV al-lowed 
+ []
+
+
+Overfull \hbox (16.19022pt too wide) in paragraph at lines 1593--1594
+\OT1/cmr/m/n/10 for it to oc-cur faster. In struc-tures with open-ings into the
+ at-tic space via vents and re-turn air vents (es-pe-cially 
+ []
+
+
+Overfull \hbox (2.82915pt too wide) in paragraph at lines 1593--1594
+\OT1/cmr/m/n/10 with flex duct-ing), it should be as-sumed that there will be e
+x-ten-sion into at-tic space (es-pe-cially with PPA). 
+ []
+
+[79]
+Overfull \hbox (40.07419pt too wide) in paragraph at lines 1595--1595
+\OT1/cmr/bx/n/12 struc-ture dur-ing PPV (Post Knock-down) the more ef-fec-tive 
+it is at ven-ti-lat-ing 
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Overfull \hbox (3.60695pt too wide) in paragraph at lines 1596--1597
+\OT1/cmr/m/n/10 the in-let size to most ef-fi-ciently re-move prod-ucts of com-
+bus-tion. With to-days fans flow rates, sys-tem-at-i-cally 
+ []
+
+
+Overfull \hbox (0.74583pt too wide) in paragraph at lines 1603--1604
+\OT1/cmr/m/n/10 No one tac-tic will work in ev-ery sce-nario. With proper train
+-ing and ed-u-ca-tion they can all be im-ple-mented 
+ []
+
+
+Overfull \hbox (44.44035pt too wide) in paragraph at lines 1603--1604
+\OT1/cmr/m/n/10 in co-or-di-na-tion with each of these ven-ti-la-tion tac-tics 
+for suc-cess-ful out-comes. For ex-am-ple, if in a com-part-men-tal-ized 
+ []
+
+
+Overfull \hbox (14.69028pt too wide) in paragraph at lines 1603--1604
+\OT1/cmr/m/n/10 struc-ture, PPA will tran-si-tion a ven-ti-la-tion lim-ited com
+-part-ment fire to flashover faster, how-ever tem-per-a-tures 
+ []
+
+[80] (./Positive_Pressure_Ventilation_Report_122615.bbl) [81]
+(./Positive_Pressure_Ventilation_Report_122615.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 14303 strings out of 493089
+ 328571 string characters out of 6134842
+ 395624 words of memory out of 5000000
+ 17474 multiletter control sequences out of 15000+600000
+ 8392 words of font info for 31 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 44i,16n,47p,10433b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on Positive_Pressure_Ventilation_Report_122615.pdf (82 pages, 13
+6696066 bytes).
+PDF statistics:
+ 869 PDF objects out of 1000 (max. 8388607)
+ 447 compressed objects within 5 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1041 words of extra memory for PDF output out of 10000 (max. 10000000)
+
