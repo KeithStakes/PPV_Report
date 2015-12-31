@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.12.18)  29 DEC 2015 17:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.12.18)  30 DEC 2015 15:55
 entering extended mode
 **./Positive_Pressure_Ventilation_Report.tex
 (Positive_Pressure_Ventilation_Report.tex
@@ -4965,10 +4965,116 @@ Overfull \hbox (16.46814pt too wide) in paragraph at lines 2068--2069
 t-ment will cre-ate a flow path, ren-der-ing the ex-hausted 
  []
 
+
+<0_Images/Tactical_Considerations/Reach_of_Stream/ExteriorApplication.png, id=1
+350, 797.98125pt x 1014.79124pt>
+File: 0_Images/Tactical_Considerations/Reach_of_Stream/ExteriorApplication.png 
+Graphic file (type png)
+
+<use 0_Images/Tactical_Considerations/Reach_of_Stream/ExteriorApplication.png>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Reach_of_Stream/Exter
+iorApplication.png used on input line 2079.
+(pdftex.def)             Requested size: 170.47894pt x 216.81pt.
+
+<0_Images/Tactical_Considerations/Reach_of_Stream/InteriorApplication.png, id=1
+351, 1284.8pt x 963.6pt>
+File: 0_Images/Tactical_Considerations/Reach_of_Stream/InteriorApplication.png 
+Graphic file (type png)
+
+<use 0_Images/Tactical_Considerations/Reach_of_Stream/InteriorApplication.png>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Reach_of_Stream/Inter
+iorApplication.png used on input line 2080.
+(pdftex.def)             Requested size: 289.06752pt x 216.81pt.
+
+Overfull \hbox (13.79144pt too wide) in paragraph at lines 2078--2082
+ [][] 
+ []
+
 [110 <./0_Images/Tactical_Considerations/Locate_Fire/NotFireRoom/PriorToOpen.pn
 g> <./0_Images/Tactical_Considerations/Locate_Fire/NotFireRoom/5Sec.png> <./0_I
 mages/Tactical_Considerations/Locate_Fire/NotFireRoom/10Sec.png> <./0_Images/Ta
 ctical_Considerations/Locate_Fire/NotFireRoom/20Sec.png>]
+<0_Images/Tactical_Considerations/Reach_of_Stream/Bed2Door_ExteriorAttack.pdf, 
+id=1355, 670.29082pt x 482.88896pt>
+File: 0_Images/Tactical_Considerations/Reach_of_Stream/Bed2Door_ExteriorAttack.
+pdf Graphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/Reach_of_Stream/Bed2Door_ExteriorAttack.p
+df>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Reach_of_Stream/Bed2D
+oor_ExteriorAttack.pdf used on input line 2089.
+(pdftex.def)             Requested size: 234.87749pt x 169.20525pt.
+
+<0_Images/Tactical_Considerations/Reach_of_Stream/ExteriorVentConfig.png, id=13
+56, 210.0648pt x 145.9854pt>
+File: 0_Images/Tactical_Considerations/Reach_of_Stream/ExteriorVentConfig.png G
+raphic file (type png)
+
+<use 0_Images/Tactical_Considerations/Reach_of_Stream/ExteriorVentConfig.png>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Reach_of_Stream/Exter
+iorVentConfig.png used on input line 2090.
+(pdftex.def)             Requested size: 234.87749pt x 163.22853pt.
+
+Overfull \hbox (23.99995pt too wide) in paragraph at lines 2088--2092
+ [][] 
+ []
+
+
+Overfull \hbox (5.80128pt too wide) in paragraph at lines 2094--2095
+[]\OT1/cmr/m/n/10 The ap-pli-ca-tion of wa-ter from the ex-te-rior prior to en-
+ter-ing the struc-ture was shown to re-duce tem-per-a-tures 
+ []
+
+
+Overfull \hbox (6.8292pt too wide) in paragraph at lines 2094--2095
+\OT1/cmr/m/n/10 mak-ing the fan more ef-fec-tive at low-er-ing tem-per-a-tures,
+ in-creas-ing vis-i-bil-ity and re-duc-ing gas con-cen-tra-tions 
+ []
+
+
+<0_Images/Tactical_Considerations/Reach_of_Stream/TwoStoryBed4AttackTemps.pdf, 
+id=1357, 666.40215pt x 466.55925pt>
+File: 0_Images/Tactical_Considerations/Reach_of_Stream/TwoStoryBed4AttackTemps.
+pdf Graphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/Reach_of_Stream/TwoStoryBed4AttackTemps.p
+df>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Reach_of_Stream/TwoSt
+oryBed4AttackTemps.pdf used on input line 2099.
+(pdftex.def)             Requested size: 144.54pt x 101.19104pt.
+
+<0_Images/Tactical_Considerations/Reach_of_Stream/TwoStoryBed4AttackHallGas.pdf
+, id=1358, 670.45734pt x 450.3517pt>
+File: 0_Images/Tactical_Considerations/Reach_of_Stream/TwoStoryBed4AttackHallGa
+s.pdf Graphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/Reach_of_Stream/TwoStoryBed4AttackHallGas
+.pdf>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Reach_of_Stream/TwoSt
+oryBed4AttackHallGas.pdf used on input line 2100.
+(pdftex.def)             Requested size: 144.54pt x 97.08485pt.
+
+<0_Images/Tactical_Considerations/Reach_of_Stream/TwoStoryBed4Attack5Ft.pdf, id
+=1359, 674.95595pt x 451.78476pt>
+File: 0_Images/Tactical_Considerations/Reach_of_Stream/TwoStoryBed4Attack5Ft.pd
+f Graphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/Reach_of_Stream/TwoStoryBed4Attack5Ft.pdf
+>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Reach_of_Stream/TwoSt
+oryBed4Attack5Ft.pdf used on input line 2101.
+(pdftex.def)             Requested size: 144.54pt x 96.74577pt.
+
+Overfull \hbox (3.35704pt too wide) in paragraph at lines 2105--2106
+\OT1/cmr/m/n/10 from the 1st floor. Ad-di-tion-ally, fire-fight-ers should ap-p
+re-ci-ate the fact that they are a po-ten-tial im-ped-i-ment 
+ []
+
+[111 <./0_Images/Tactical_Considerations/Reach_of_Stream/ExteriorApplication.pn
+g> <./0_Images/Tactical_Considerations/Reach_of_Stream/InteriorApplication.png>
+ <./0_Images/Tactical_Considerations/Reach_of_Stream/Bed2Door_ExteriorAttack.pd
+f, page is rotated 90 degrees> <./0_Images/Tactical_Considerations/Reach_of_Str
+eam/ExteriorVentConfig.png>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no œ in font cmr10!
@@ -4979,31 +5085,31 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-Overfull \hbox (3.27364pt too wide) in paragraph at lines 2083--2084
+Overfull \hbox (3.27364pt too wide) in paragraph at lines 2114--2115
 \OT1/cmr/m/n/10 into the at-tic, bal-loon frame con-structed stud bay open into
  the at-tic, HVAC duct that burns away open-ing 
  []
 
 
-Overfull \hbox (5.57922pt too wide) in paragraph at lines 2083--2084
+Overfull \hbox (5.57922pt too wide) in paragraph at lines 2114--2115
 \OT1/cmr/m/n/10 (sim-u-lat-ing bal-loon frame con-struc-tion) fire spread into 
 the void space with and with-out PPV. PPV al-lowed 
  []
 
 
-Overfull \hbox (16.19022pt too wide) in paragraph at lines 2083--2084
+Overfull \hbox (16.19022pt too wide) in paragraph at lines 2114--2115
 \OT1/cmr/m/n/10 for it to oc-cur faster. In struc-tures with open-ings into the
  at-tic space via vents and re-turn air vents (es-pe-cially 
  []
 
 
-Overfull \hbox (2.82915pt too wide) in paragraph at lines 2083--2084
+Overfull \hbox (2.82915pt too wide) in paragraph at lines 2114--2115
 \OT1/cmr/m/n/10 with flex duct-ing), it should be as-sumed that there will be e
 x-ten-sion into at-tic space (es-pe-cially with PPA). 
  []
 
 
-Overfull \hbox (40.07419pt too wide) in paragraph at lines 2085--2085
+Overfull \hbox (40.07419pt too wide) in paragraph at lines 2116--2116
 \OT1/cmr/bx/n/12 struc-ture dur-ing PPV (Post Knock-down) the more ef-fec-tive 
 it is at ven-ti-lat-ing 
  []
@@ -5012,40 +5118,44 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-Overfull \hbox (3.60695pt too wide) in paragraph at lines 2086--2087
+Overfull \hbox (3.60695pt too wide) in paragraph at lines 2117--2118
 \OT1/cmr/m/n/10 the in-let size to most ef-fi-ciently re-move prod-ucts of com-
 bus-tion. With to-days fans flow rates, sys-tem-at-i-cally 
  []
 
-[111]
-Overfull \hbox (0.74583pt too wide) in paragraph at lines 2093--2094
+[112 <./0_Images/Tactical_Considerations/Reach_of_Stream/TwoStoryBed4AttackTemp
+s.pdf, page is rotated 90 degrees> <./0_Images/Tactical_Considerations/Reach_of
+_Stream/TwoStoryBed4AttackHallGas.pdf, page is rotated 90 degrees> <./0_Images/
+Tactical_Considerations/Reach_of_Stream/TwoStoryBed4Attack5Ft.pdf, page is rota
+ted 90 degrees>]
+Overfull \hbox (0.74583pt too wide) in paragraph at lines 2124--2125
 \OT1/cmr/m/n/10 No one tac-tic will work in ev-ery sce-nario. With proper train
 -ing and ed-u-ca-tion they can all be im-ple-mented 
  []
 
 
-Overfull \hbox (44.44035pt too wide) in paragraph at lines 2093--2094
+Overfull \hbox (44.44035pt too wide) in paragraph at lines 2124--2125
 \OT1/cmr/m/n/10 in co-or-di-na-tion with each of these ven-ti-la-tion tac-tics 
 for suc-cess-ful out-comes. For ex-am-ple, if in a com-part-men-tal-ized 
  []
 
 
-Overfull \hbox (14.69028pt too wide) in paragraph at lines 2093--2094
+Overfull \hbox (14.69028pt too wide) in paragraph at lines 2124--2125
 \OT1/cmr/m/n/10 struc-ture, PPA will tran-si-tion a ven-ti-la-tion lim-ited com
 -part-ment fire to flashover faster, how-ever tem-per-a-tures 
  []
 
-[112] (Positive_Pressure_Ventilation_Report.bbl) [113]
+[113] (Positive_Pressure_Ventilation_Report.bbl) [114]
 (Positive_Pressure_Ventilation_Report.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 15431 strings out of 493634
- 367040 string characters out of 3135238
- 399271 words of memory out of 3000000
- 18452 multiletter control sequences out of 15000+200000
+ 15468 strings out of 493634
+ 369504 string characters out of 3135238
+ 399453 words of memory out of 3000000
+ 18481 multiletter control sequences out of 15000+200000
  11198 words of font info for 41 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  44i,16n,47p,10412b,535s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -5062,10 +5172,10 @@ amsfonts/cm/cmr7.pfb><C:/Users/39605/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmr8.pfb><C:/Users/39605/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/39605/AppData/Local/Progra
 ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Positive_Pressure_Ventilation_Report.pdf (114 pages, 15658197
-4 bytes).
+Output written on Positive_Pressure_Ventilation_Report.pdf (115 pages, 15998569
+3 bytes).
 PDF statistics:
- 1402 PDF objects out of 1440 (max. 8388607)
+ 1503 PDF objects out of 1728 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1516 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1551 words of extra memory for PDF output out of 10000 (max. 10000000)
 
