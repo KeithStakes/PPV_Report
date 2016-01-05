@@ -1,5 +1,11 @@
 \begin{thebibliography}{1}
 
+\bibitem{TempestWebsite}
+How does ppv work.
+
+\bibitem{SuperVacManual}
+{\em Smoke Ventilation Training Manual}.
+
 \bibitem{NFFF}
 National Fallen~Firefighter Foundation.
 \newblock Report of the 2nd national fire service research agenda symposium.
@@ -13,5 +19,9 @@ Stephen Kerber.
 Stephen Kerber.
 \newblock Study of the effectiveness of fire service vertical ventilation and
   suppression tactics in single family homes.
+
+\bibitem{PPA_Garcia}
+Ray~Schelble Kriss~Garcia, ReinHard~Kauffmann.
+\newblock {\em Positive Pressure Attack for Ventilation \& Firefighting}.
 
 \end{thebibliography}
