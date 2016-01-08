@@ -1,25 +1,84 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Positive_Pressure_Ventilation_Report.aux
 The style file: plain.bst
 Database file #1: PPVReport.bib
-Warning--entry type for "NFFF" isn't style-file defined
---line 1 of file PPVReport.bib
-Warning--entry type for "DHS2008" isn't style-file defined
---line 9 of file PPVReport.bib
-Warning--entry type for "DHS2010" isn't style-file defined
---line 17 of file PPVReport.bib
-Warning--entry type for "TempestWebsite" isn't style-file defined
---line 34 of file PPVReport.bib
-Unbalanced braces---line 40 of file PPVReport.bib
- : 
- : }
-(Error may have been on previous line)
+I was expecting a `,' or a `}'---line 6 of file PPVReport.bib
+ :  date = "
+ :          September 2012,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 45 of file PPVReport.bib
+Warning--entry type for "NFPAFFInjuries" isn't style-file defined
+--line 9 of file PPVReport.bib
+I was expecting a `,' or a `}'---line 14 of file PPVReport.bib
+ :  date = "
+ :          October 2010",
+I'm skipping whatever remains of this entry
+Warning--entry type for "NFPALast30" isn't style-file defined
+--line 17 of file PPVReport.bib
+I was expecting a `,' or a `}'---line 22 of file PPVReport.bib
+ :  date = "
+ :          June 2007",
+I'm skipping whatever remains of this entry
+""" immediately follows a field part---line 47 of file PPVReport.bib
+ :  url=http://www.fireengineering.com/articles/2011/06/ul-vent-study.html
+ :                                                                        ",
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 53 of file PPVReport.bib
+ :  title = "
+ :           Analysis of One and Two Family Home Fire Dynamics and the Impact of Firefighter Horizontal Ventilation",
+I'm skipping whatever remains of this entry
+Warning--entry type for "NFFF" isn't style-file defined
+--line 68 of file PPVReport.bib
+Warning--entry type for "DHS2008" isn't style-file defined
+--line 76 of file PPVReport.bib
+Warning--entry type for "DHS2010" isn't style-file defined
+--line 84 of file PPVReport.bib
+Warning--entry type for "TempestWebsite" isn't style-file defined
+--line 101 of file PPVReport.bib
+""" immediately follows a field name---line 106 of file PPVReport.bib
+ :  OPTurldat
+ :           ",
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 115 of file PPVReport.bib
  :  date = November 
  :                  2011,
 I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 122 of file PPVReport.bib
+ : @report{NIOSH 
+ :               F2000-44,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 130 of file PPVReport.bib
+ : @report{NIOSH 
+ :               98F-32,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 138 of file PPVReport.bib
+ : @report{TexasFM 
+ :                 FY07-02,
+I'm skipping whatever remains of this entry
+Warning--entry type for "ContraCostaFalaityInvestigation" isn't style-file defined
+--line 146 of file PPVReport.bib
+You're missing a field part---line 148 of file PPVReport.bib
+ :  title = 
+ :          “Investigation Report: Michele Drive Line of Duty Deaths”,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 154 of file PPVReport.bib
+ : @report{NIOSH 
+ :               F2004-02,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 162 of file PPVReport.bib
+ : @report{NIOSH 
+ :               F2002-12,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "NFPA"
+Warning--I didn't find a database entry for "NIOSHF2000-44"
+Warning--I didn't find a database entry for "NIOSH98F-32"
+Warning--I didn't find a database entry for "TexasFMFY07-02"
+Warning--I didn't find a database entry for "NIOSHF2004-02"
+Warning--I didn't find a database entry for "NIOSHF2002-12"
+Warning--to sort, need author or key in HowToKeepFirefighterSafer_Goldfeder
+Warning--to sort, need author or key in SurbarbanFirefighting_Knapp
 Warning--to sort, need author or key in TempestWebsite
 Warning--to sort, need author, organization, or key in SuperVacManual
+Warning--empty journal in ChangingResdFires_Kerber
+Warning--empty year in ChangingResdFires_Kerber
 Warning--empty publisher in PPA_Garcia
 Warning--empty year in PPA_Garcia
-(There were 2 error messages)
+(There were 13 error messages)
