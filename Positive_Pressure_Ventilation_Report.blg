@@ -1,84 +1,15 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: Positive_Pressure_Ventilation_Report.aux
-The style file: plain.bst
-Database file #1: PPVReport.bib
-I was expecting a `,' or a `}'---line 6 of file PPVReport.bib
- :  date = "
- :          September 2012,
-I'm skipping whatever remains of this entry
-Warning--entry type for "NFPAFFInjuries" isn't style-file defined
---line 9 of file PPVReport.bib
-I was expecting a `,' or a `}'---line 14 of file PPVReport.bib
- :  date = "
- :          October 2010",
-I'm skipping whatever remains of this entry
-Warning--entry type for "NFPALast30" isn't style-file defined
---line 17 of file PPVReport.bib
-I was expecting a `,' or a `}'---line 22 of file PPVReport.bib
- :  date = "
- :          June 2007",
-I'm skipping whatever remains of this entry
-""" immediately follows a field part---line 47 of file PPVReport.bib
- :  url=http://www.fireengineering.com/articles/2011/06/ul-vent-study.html
- :                                                                        ",
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 53 of file PPVReport.bib
- :  title = "
- :           Analysis of One and Two Family Home Fire Dynamics and the Impact of Firefighter Horizontal Ventilation",
-I'm skipping whatever remains of this entry
-Warning--entry type for "NFFF" isn't style-file defined
---line 68 of file PPVReport.bib
-Warning--entry type for "DHS2008" isn't style-file defined
---line 76 of file PPVReport.bib
-Warning--entry type for "DHS2010" isn't style-file defined
---line 84 of file PPVReport.bib
-Warning--entry type for "TempestWebsite" isn't style-file defined
---line 101 of file PPVReport.bib
-""" immediately follows a field name---line 106 of file PPVReport.bib
- :  OPTurldat
- :           ",
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 115 of file PPVReport.bib
- :  date = November 
- :                  2011,
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 122 of file PPVReport.bib
- : @report{NIOSH 
- :               F2000-44,
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 130 of file PPVReport.bib
- : @report{NIOSH 
- :               98F-32,
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 138 of file PPVReport.bib
- : @report{TexasFM 
- :                 FY07-02,
-I'm skipping whatever remains of this entry
-Warning--entry type for "ContraCostaFalaityInvestigation" isn't style-file defined
---line 146 of file PPVReport.bib
-You're missing a field part---line 148 of file PPVReport.bib
- :  title = 
- :          “Investigation Report: Michele Drive Line of Duty Deaths”,
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 154 of file PPVReport.bib
- : @report{NIOSH 
- :               F2004-02,
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 162 of file PPVReport.bib
- : @report{NIOSH 
- :               F2002-12,
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "NFPA"
-Warning--I didn't find a database entry for "NIOSHF2000-44"
-Warning--I didn't find a database entry for "NIOSH98F-32"
-Warning--I didn't find a database entry for "TexasFMFY07-02"
-Warning--I didn't find a database entry for "NIOSHF2004-02"
-Warning--I didn't find a database entry for "NIOSHF2002-12"
-Warning--to sort, need author or key in HowToKeepFirefighterSafer_Goldfeder
-Warning--to sort, need author or key in SurbarbanFirefighting_Knapp
-Warning--to sort, need author or key in TempestWebsite
-Warning--to sort, need author, organization, or key in SuperVacManual
-Warning--empty journal in ChangingResdFires_Kerber
-Warning--empty year in ChangingResdFires_Kerber
-Warning--empty publisher in PPA_Garcia
-Warning--empty year in PPA_Garcia
-(There were 13 error messages)
+[1] Config.pm:327> INFO - This is Biber 2.2
+[1] Config.pm:330> INFO - Logfile is 'Positive_Pressure_Ventilation_Report.blg'
+[57] biber-MSWIN:283> INFO - === 
+[57] Biber.pm:334> INFO - Reading 'Positive_Pressure_Ventilation_Report.bcf'
+[191] Utils.pm:147> WARN - Warning: Found biblatex control file version 2.9, expected version 2.8
+[192] Biber.pm:677> INFO - Found 34 citekeys in bib section 0
+[220] Biber.pm:3054> INFO - Processing section 0
+[248] Biber.pm:3193> INFO - Looking for bibtex format file 'PPVReport.bib' for section 0
+[258] bibtex.pm:1072> INFO - Decoding LaTeX character macros into UTF-8
+[266] bibtex.pm:935> INFO - Found BibTeX data source 'PPVReport.bib'
+[267] Utils.pm:147> WARN - Entry HowToKeepFirefighterSafer_Goldfeder does not parse correctly
+[270] Utils.pm:147> WARN - Entry LougheedPPVHighRise does not parse correctly
+[307] Utils.pm:163> ERROR - BibTeX subsystem: C:\Users\39605\AppData\Local\Temp\9JJd9AaY4e\PPVReport.bib_2668.utf8, line 33, syntax error: found "title", expected end of entry ("}" or ")") (skipping to next "@")
+[308] Biber.pm:107> INFO - WARNINGS: 3
+[308] Biber.pm:111> INFO - ERRORS: 1

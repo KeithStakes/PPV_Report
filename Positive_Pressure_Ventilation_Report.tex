@@ -17,6 +17,10 @@
 \usepackage{color,soul}
 \usepackage{placeins}
 \usepackage{siunitx}
+
+\usepackage[backend=biber]{biblatex}
+
+
 \usepackage[flushleft]{threeparttable}
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 
@@ -27,6 +31,8 @@
 \counterwithin{figure}{section}
 
 \setlength{\parskip}{1em}
+
+\addbibresource{PPVReport.bib}
 
 \begin{document}
 	\begin{titlepage}
@@ -75,11 +81,12 @@ This fire research project will develop experimental data from full-scale house 
 NFPA estimates that from 2002-2011, U.S. fire departments responded to an average of 398,000 residential fires annually. \cite{NFFF} These fires caused an estimated annual average of 2,820 civilian deaths and 13,780 civilian injuries. More than 70\% of the reported home fires and 84\% of the fatal home fire injuries occurred in one- or two- family dwellings, with the remainder in apartments or similar properties. For the 2006-2009 period, there were an estimated annual average 35,743 firefighter fire ground injuries in the U.S. The rate of traumatic firefighter deaths occurring outside structures or from cardiac arrest has declined, while at the same time, firefighter deaths occurring inside structures has continued to climb over the past 30 years.4 Ventilation is believed to be a significant contributing factor to this continued climb in firefighter injuries and deaths.  Developing the proper knowledge about the use of PPV would enable more departments to implement its use with the confidence of knowing when to apply it to increase the safety of their members, whether in place of or supplementing current ventilation tactics.
 
 \section{Background}
-NFPA estimates \cite{NFPA} that from 2002-2011, U.S. fire departments responded to an average of 398,000 residential fires annually. These fires caused an estimated annual average of 2,820 civilian deaths and 13,780 civilian injuries. More than 70\% of the reported home fires and 84\% of the fatal home fire injuries occurred in one- or two- family dwellings, with the remainder in apartments or similar properties. For the 2006-2009 period, there were an estimated annual average 35,743 firefighter fire ground injuries in the U.S. \cite{NFPAFFInjuries} The rate of traumatic firefighter deaths occurring outside structures or from cardiac arrest has declined, while at the same time, firefighter deaths occurring inside structures has continued to climb over the past 30 years. \cite{NFPALast30} Ventilation is believed to be a significant contributing factor to this continued climb in firefighter injuries and deaths. Developing the proper knowledge about the use of PPV would enable more departments to implement its use with the confidence of knowing when to apply it to increase the safety of their members, whether in place of or supplementing current ventilation tactics.
+NFPA estimates \cite{NFPAFireLoss} that from 2002-2011, U.S. fire departments responded to an average of 398,000 residential fires annually. These fires caused an estimated annual average of 2,820 civilian deaths and 13,780 civilian injuries. More than 70\% of the reported home fires and 84\% of the fatal home fire injuries occurred in one- or two- family dwellings, with the remainder in apartments or similar properties. For the 2006-2009 period, there were an estimated annual average 35,743 firefighter fire ground injuries in the U.S. \cite{NFPAFFInjuries} The rate of traumatic firefighter deaths occurring outside structures or from cardiac arrest has declined, while at the same time, firefighter deaths occurring inside structures has continued to climb over the past 30 years. \cite{NFPALast30} Ventilation is believed to be a significant contributing factor to this continued climb in firefighter injuries and deaths. Developing the proper knowledge about the use of PPV would enable more departments to implement its use with the confidence of knowing when to apply it to increase the safety of their members, whether in place of or supplementing current ventilation tactics.
 
 Over the last 5 years of fire service research, it has become clear that the fire service needs more information and knowledge about fire dynamics and how the changing fire environment impacts their tactics and safety. Studying the modern fire environment has shown that fires grow faster today than ever before, they become ventilation limited (or run out of air) and the control of that air during fire attack is critical to a safely mitigated fire incident \cite{ChangingResdFires_Kerber}. Two previous UL studies have examined horizontal ventilation6 and vertical ventilation7 which are the two most common types of ventilation used by the fire service on a daily basis. The results of these studies have been disseminated to the fire service with positive feedback \cite{HowToKeepFirefighterSafer_Goldfeder}, \cite{SurbarbanFirefighting_Knapp} regarding the integration of tactical considerations into their standard operating procedures. The fire service anticipates increased safety due to the knowledge obtained from UL’s research as they better understand the necessary coordination of ventilation and suppression. Following each presentation on the horizontal and vertical ventilation results, firefighters have also consistently sought similar data and knowledge for the use of positive pressure ventilation (PPV). 
 
 PPV is a technique used by the fire service to remove smoke, heat and other combustion products from a structure. This technique uses a fan or multiple fans to create a higher pressure inside the home in order to speed up the flow to the lower pressure outside of the house (Figure \ref{fig:PPV_Diagram}). This allows the fire service to perform tasks within the structure in a more tenable atmosphere. Since introduced in the 1980’s, PPV has become an important tool in the fire service. Many departments have adopted this technique after water has been applied to the fire to assist in the overhaul phase of the fire. Several other departments have incorporated it as part of their initial fire attack. When used during fire attack, a PPV fan or blower is placed at the entry point of the attack crew and air is forced through the home and out through an exhaust point ahead of the crew. Under ideal conditions, visibility is increased as smoke and heat are forced ahead of the attack crew and away from occupants inside. This makes the fire attack, search, and other fire ground operations easier and safer to complete.
+
 
 \begin{figure}[H]
 	\centering
@@ -88,11 +95,124 @@ PPV is a technique used by the fire service to remove smoke, heat and other comb
 	\label{fig:PPV_Diagram}
 \end{figure}
  
- Since its introduction in the 1980’s, PPV has become an important tool in the fire service, yet its use is polarizing. Some departments have developed confidence in using PPV, citing its positive impact on firefighter safety. A majority of departments refuse to use PPV because of the uncertainty created by the unanswered questions above or a negative experience with the technology. Constrained by current economic conditions, many departments have limited staffing or have had their staffing reduced and are experimenting with ways to utilize technologies such as positive pressure ventilation fans during fire attack. However, risks exists when it use is not accompanied by appropriate scientific investigations or post-release surveillance of the impact on firefighter and occupant safety. There have been incidents where PPV has been incorporated into firefighting tactics without developing a scientific basis of their use. The lack of knowledge has led to improper usage, misapplication, and numerous injuries and line of duty deaths \cite{NIOSHF2000-44} \cite{NIOSH98F-32},\cite{TexasFMFY07-02} \cite{ContraCostaFalaityInvestigation} \cite{NIOSHF2004-02} \cite{NIOSHF2002-12}. These referenced reports detail the circumstances under which firefighters lost their lives and in each of these cases a PPV fan was in operation. In most of the incidents, it is not clear what role the PPV may have played due to the complexity of the incident and many simultaneous actions. 
+Since its introduction in the 1980’s, PPV has become an important tool in the fire service, yet its use is polarizing. Some departments have developed confidence in using PPV, citing its positive impact on firefighter safety. A majority of departments refuse to use PPV because of the uncertainty created by the unanswered questions above or a negative experience with the technology. Constrained by current economic conditions, many departments have limited staffing or have had their staffing reduced and are experimenting with ways to utilize technologies such as positive pressure ventilation fans during fire attack. However, risks exists when it use is not accompanied by appropriate scientific investigations or post-release surveillance of the impact on firefighter and occupant safety. There have been incidents where PPV has been incorporated into firefighting tactics without developing a scientific basis of their use. The lack of knowledge has led to improper usage, misapplication, and numerous injuries and line of duty deaths \cite{NIOSHF2000-44} \cite{NIOSH98F-32} \cite{TexasFMFY07-02} \cite{ContraCostaFalaityInvestigation} \cite{NIOSHF2004-02} \cite{NIOSHF2002-12}. These referenced reports detail the circumstances under which firefighters lost their lives and in each of these cases a PPV fan was in operation. In most of the incidents, it is not clear what role the PPV may have played due to the complexity of the incident and many simultaneous actions. 
  
- Some fire departments have utilized PPV fans after water was applied to the fire but prior to fire control. In these situations, it was observed that fire will intensify while a fan is being used as is expected with additional oxygen made available by the fan. Fire service training on the proper use of fans and their impact on fire dynamics has been difficult. Fire service training buildings are not able to safely replicate the ventilation limited fire conditions needed to understand the impact of PPV. That limitation is combined with the safety requirement to use wood based fuels in training which does not replicate the spee d or magnitude in which a fire grows, spreads, and reacts to the oxygen added by the PPV fan. This same requirement is placed on acquired structure burn training as well. So even if realistic home geometries become available, the fire service is not able to use realistic fuels such as sofas, per NFPA 1403 (the Standard on Live Fire Training Evolutions). There has also been an incident (see Figure 2) where firefighter instructor and trainee have been injured from improper use of PPV techniques16. This underlines the need for developing scientific data that can be used both on the fire scene as well as during firefighter training.
+Some fire departments have utilized PPV fans after water was applied to the fire but prior to fire control. In these situations, it was observed that fire will intensify while a fan is being used as is expected with additional oxygen made available by the fan. Fire service training on the proper use of fans and their impact on fire dynamics has been difficult. Fire service training buildings are not able to safely replicate the ventilation limited fire conditions needed to understand the impact of PPV. That limitation is combined with the safety requirement to use wood based fuels in training which does not replicate the speed or magnitude in which a fire grows, spreads, and reacts to the oxygen added by the PPV fan. This same requirement is placed on acquired structure burn training as well. So even if realistic home geometries become available, the fire service is not able to use realistic fuels such as sofas, per NFPA 1403 (the Standard on Live Fire Training Evolutions). There has also been an incident (see Figure \ref{fig:PPVTrainingInj}) where firefighter instructor and trainee have been injured from improper use of PPV techniques \cite{LasVegasNews_ChiefsRole}. This underlines the need for developing scientific data that can be used both on the fire scene as well as during firefighter training.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 5in]{0_Images/Background/PPVTrainingInjury.pdf}
+	\caption{Moments after lead instructor and student jump out of window to escape further injury during PPV training exercise}
+	\label{fig:PPVTrainingInj}
+\end{figure}
+
+The use of PPV must be coordinated with fire attack and timed with other ventilation procedures. Traditionally this is done by an interior crew with the fan flow at their back. However, reduced staffing at fire departments have led to firefighters attacking the fire by applying water from outside the structure. A concern with this practice is that applying water externally will “push fire” into the house and subsequently decrease the tenability of occupants inside the structure. Further, since PPV provides additional oxygen to the fire and can increase the rate of heat released. This can easily exacerbate firefighting operations if the ensuing fire dynamics are not fully understood. Thus, use of PPV needs to be optimized in the overall context of firefighter tactics such as horizontal and vertical ventilation, deployment of firefighter teams, and timing of the use of PPV.
+
+Key factors that need to be addressed to implement PPV safely and most effectively include
+the following:
+
+\begin{itemize}
+	\item Impact of home structure on PPV effectiveness.
+	\begin{itemize}
+		\item Home Size
+		\item Floor Plan
+		\item Void Spacees (e.g attic)
+		\item Fuel load
+	\end{itemize}
+	\item Impact of PPV tactic on fire dynamics.
+	\begin{itemize}
+		\item Potential of increased hazards associated with forcing fire gases into the eave or attic space.
+		\item Potential of blowing fresh air pushing fire through a house or spreading fire from a non-vented room to a vented room.
+		\item Potential of blowing fresh air pushing fire through a house or spreading fire from a non-vented room to a vented room.
+		\item Impact to occupants (and fire teams) that are in or out of the flow path and may be downstream of the fan.
+		\item Conditions created when the flow path to the exhaust is blocked inside the structure.
+		\item Transition from a content to a structure fire by forcing hot gases into void spaces.
+	\end{itemize}
+	\item Integration of PPV with other ventilation techniques
+	\begin{itemize}
+		\item Comparison to natural horizontal ventilation tactics and development of optimized firefighting ventilation tactics.
+		\item Potential hazards associated with commencing PPV while fire attack crews are inside the structure.
+	\end{itemize}
+	\item Impact of PPV technology and parameters on effectiveness.
+	\begin{itemize}
+		\item Fan flow rate
+		\item Size of exhaust opening and the ideal inlet/exhaust ratio.
+		\item Influence the location of exhaust or openings
+	\end{itemize}
+\end{itemize}
+
+Research organizations and the fire service have made significant contributions to understanding the scope and limitations of the use of the PPV in fire scenarios over the past two decades. However, there are several gaps that limit its use by the fire service. These may be categorized as follows: (i) type of structures used in the research; (ii) fuel loads; (iii) fire ventilation conditions; and (iv) PPV parameters considered. There are further discussed herein.
+
+\textbf{Fire Test Structures:} In many studies, fire department training buildings have been used in the experiments. These buildings are typically constructed with metal or concrete walls that absorb energy differently from representative single-family homes \cite{HughesPPVTesting} \cite{KerberPPVinTraining} \cite{SvennsonFireVentilationDuringOperatoins}. 
+
+\textbf{Fuel loads and Fire Ventilation Conditions:} Some of the studies were limited to wood based fuels (e.g., wood pallets, straw). These fuel sources have different burning characteristics than fuel sources (e.g., upholstered furniture, mattress, carpets, stored items, etc.) in representative single family homes in the USA. Thus, findings from these studies \cite{HughesPPVTesting} \cite{KerberPPVinTraining} \cite{SvennsonFireVentilationDuringOperatoins} have limited practical applications for firefighting tactics.
+
+In some studies, fuel packages were utilized which do not allow for the realistic ventilation limited fire conditions necessary to make conclusions that are expected in actual incidents \cite{ExekoyePPVHouseFires} \cite{SvenssonFireVentinLargeFireHall} \cite{BowserTacticalVent} \cite{EzekoyePPVStrucuresReport}. These referenced studies utilized stacks of wooden pallets, foam racks with limited amounts of foam, gas burners, or small pans of flammable liquids. These fuel loads are easily repeatable and cost effective, but again limit the practical application of the results. In the absence of ventilation limited conditions, the impact of added oxygen can only improve conditions, which may be misleading to the effects encountered at actual incidents. Some studies have used computational and scale fire modeling due to the high cost of fire testing but have not been validated, and therefore not incorporated into operating procedures \cite{Didona1993modeling} \cite{KerberPPVCFD} \cite{KerberPPVFDS} \cite{TuomisaariVentilationInFirefighting}.
+
+\textbf{PPV Parameters:} Additional studies examined the use of PPV fans in large structures and high-rise buildings \cite{SymposiumHighRisePPV} \cite{KerberMadrzyPPVInLargeStructures} \cite{KerberMadrzyPPVInHighRise}. The results of these studies have added to the understanding of the scope and limitations of PPV. However, in most cases, these studies examined the fan’s ability to pressurize areas of a building to limit fire and smoke spread, which is very different than blowing air through the fire compartment in a one and two family home. 
+
+Since the initial introduction of fans into the fire service, newer fan technologies have been developed (including conventional, turbo and Pow’Air). These technologies have not yet been investigated in realistic fire scenarios. Also, fan manufacturers have increased flow rates over time. When first introduced, most fans were rated at less than 10,000 cubic feet per minute (CFM); now similar sized fans are rated in excess of 30,000 CFM. The impact of forcing more air into a house fire is not well understood. PPV fans can be found on apparatus around the world and are available in many shapes and sizes. There are portable fans as small as 16 in. and truck mounted fans as large as 60 in. They are powered with gasoline, electric, hydraulic, battery and propane motors. Gasoline powered are the most common, but are accompanied by additional concerns about carbon monoxide (CO) production. Some research has been done on this topic, but CO measurements will be made during these experiments to add to the body of knowledge 39,40. 
+
+This study plan to fill the research gaps by using representative modern and traditional home geometries, realistic fuel loads representative of furnishings found in today’s homes, fan technologies, sizes and ratings available to the fire service today and simulated response and operational times that adequately address the questions and concerns the firefighter community has expressed and provide a baseline for choosing the most appropriate type or types of ventilation on the fire ground. The results and conclusions of this study will be used to improve firefighting tactics, fireground safety and fire dynamics knowledge \cite{KerberMadrzyPPVInHighRise} \cite{LougheedPPVHighRise}.
 
 \section{Objectives and Technical Plan}
+
+\subsection {Objectives}
+
+The purpose of this study was to increase firefighter safety by providing the fire service with credible scientific information, developed from full-scale fire testing in representative modern single family homes, on the usage of positive pressure ventilation fans during fire attack.
+
+\begin{itemize}
+	\item Improve firefighter safety by increasing knowledge of fire behavior.
+	\item Develop knowledge of positive pressure ventilation tactics.
+	\item Identify and disseminate standard best practices for the use of positive pressure ventilation during fire attack based on science.
+	\item Provide the knowledge to better understand the fire dynamics and building response factors may mitigate fireground injuries and fatalities through the use of positive pressure ventilation fans during fire incidents.
+	\item Generate understanding of modern construction practices such as open floor plans and great rooms on positive pressure ventilation tactics.
+	\item Bring the ‘Science to the Streets’ by transferring science based tactical considerations founded on experimental results that can be incorporated into firefighting standard operating guidelines.
+\end{itemize}
+
+All five of the Technology \& Fire Service Science issues facing the fire service determined during the 2nd National Fire Service Research Symposium \cite{NFFF} are incorporated into this study.
+
+\subsection{Technical Plan}
+
+This study consisted of the following tasks:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 6in]{0_Images/Objectives_and_Technical_Plan/DHS2012_TechnicalPlan_FlowChart.jpg}
+	\caption{Project Technical Plan Flow Chart}
+	\label{fig:TechPlanChart}
+\end{figure}
+
+\begin{itemize}
+	\item \textbf{Task 1 – Formation of a Project Advisory Panel} \\ 
+	Task 1 broughttogether an advisory panel of technical experts in the fire service; fire service research field and PPV fan manufacturers. The panel included fire department representatives from departments that use positive pressure ventilation during fire attack and from departments that stopped using it or wish to use it. 
+	\item \textbf{Task 2 – Incident Review} \\
+	Task 2 involved conducting an extensive search to find as many incidents as possible where PPV was used successfully or unsuccessfully during fire attack. This was completed by conducting interviews with departments that are known to have standard operating procedures for the use of PPV, or previously used PPV during fire attack but stopped for various reasons from the technical panle in developed in task 1. Common trends, successes and failures, and concerns will be documented were shared with the technical panel for the development of the experimental series. 
+	\item \textbf{Task 3 – Test supplies, Instrumentation and Contractor Acquisition} \\
+	In Task 3 UL acquired research supplies and instrumentation to complete the project. Instrumentation included thermocouples to measure thermal conditions that potential victims or firefighters could be exposed to, differential pressure sensors and bidirectional probes to measure pressure and gas velocity throughout the test
+	fixtures, bullet cameras to capture interior views of the test fixtures to provide visual evidence of conditions. Other test equipment such as data loggers, gas analyzers,
+	thermal imaging cameras and video cameras were acquired from previous studies and were utilized during this study. A contractor was also selected to construct
+	the test house structures using construction practices representative of what is found in most neighborhoods across the country.
+	\item \textbf{Task 4 – Test Fixture Design} \\
+	Task 4 was the design of the test fixtures to be used in the experiments. The main test fixtures were a two single family residential homes (1-1200ft$^2$ single story ranch house and 1-3200 ft$^2$ two-story colonial house ) were constructed in UL’s Large Fire Facility. These were the same designs built for the two previous ventilation research grants and therefore allowed continuity of previous results to expand our knowledge.
+	\item \textbf{Task 5 – Design of Experiments} \\
+	Task 5 was the design of the experiments. In this task UL’s project engineers worked work closely with the technical panel to ensure fire service concerns were addressed and
+	that the results were of great benefit to the end users. All experimental variables, equipment, personnel, infrastructure and other resources were evaluated to determine the best set of experiments to get the most for the investment and provide the largest return to the fire community. Variables included fan size, placement, technology, ventilation parameters, timing of tactics, ignition location, and fuel loading
+	\item \textbf{Task 6 - Conduct Experiments} \\
+	\begin{itemize}
+		\item \textbf{Task 6A: Heat Release Rate Fuel Load Characterization} \\
+		Methodology: Conduct heat release rate (HRR) experiments under the 10MW calorimeter in UL’s Large Fire Facility. This allowed the team to characterize modern furnishings and to understand the heat release of today’s fire environment. This also quantified the fuel load used for the remainder of the experiments which were designed to have a similar HRR curve and total heat released as the two previous ventilation studies.
+		
+		Measurements: Heat release rate measured via oxygen consumption calorimetry, temperature utilizing thermocouples placed in an array within the room, video and thermal imaging cameras will be used to document the fire spread.
+		
+		\item \textbf{Task 6B: Air Flow and Pressure Experiments} \\
+		Methodology: Conduct air flow and pressure experiments in the test fixtures prior to the introduction of any fire. Variables that were characterized during this series of experiments were fan technology (shrouded, jet, turbo), fan placement (setback from the doorway and angle), impact of inlet and outlet sizes and ratios, and impact of volume between the houses. These tests will provide the baseline of flows created with the fan alone and will be compared to the same data taken during the fire experiments in the following tasks.
+		
+		Measurements: During each of these experiments, velocities were measured with bidirectional probes attached to differential pressure gauges and thermocouples and pressures were measured with differential pressure gauges.
+		
+		\item \textbf{Task 6C: Full-Scale PPV House Fire Experiments} \\
+	\end{itemize}
+\end{itemize}
 
 \section{Project Technical Panel}
 
@@ -1903,14 +2023,14 @@ Immediately after the tactic is initiated the flow out the top of the door will 
 	\centering
 	\begin{tabular}{c c c}
 		\subfloat[Door Open]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/Open.png}} &
-		\subfloat[Door Open]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/FanOn.png}} &
-		\subfloat[Door Open]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/30Sec.png}} \\
-		\subfloat[Door Open]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/60Sec.png}} &
-		\subfloat[Door Open]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/90Sec.png}} &
-		\subfloat[Door Open]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/120Sec.png}} \\
-		\subfloat[Door Open]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/150Sec.png}} &
-		\subfloat[Door Open]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/180Sec.png}} &
-		\subfloat[Door Open]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/210Sec.png}} \\
+		\subfloat[Fan On]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/FanOn.png}} &
+		\subfloat[30 Seconds]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/30Sec.png}} \\
+		\subfloat[60 Seconds]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/60Sec.png}} &
+		\subfloat[90 Seconds]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/90Sec.png}} &
+		\subfloat[120 Seconds]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/120Sec.png}} \\
+		\subfloat[150 Seconds]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/150Sec.png}} &
+		\subfloat[180 Seconds]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/180Sec.png}} &
+		\subfloat[210 Seconds]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/210Sec.png}} \\
 	\end{tabular}
 	\caption{Reading the Inlet}
 	\label{fig:ReadingInlet}
@@ -2203,6 +2323,7 @@ While the fan provides additional visibility after fire control by exhausting pr
 
 \newpage
 
-\bibliographystyle{plain} \bibliography{PPVReport}
+\printbibliography
+
 \end{document}
 
