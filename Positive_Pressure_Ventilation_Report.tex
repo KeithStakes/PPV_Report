@@ -17,7 +17,7 @@
 \usepackage{color,soul}
 \usepackage{placeins}
 \usepackage{siunitx}
-
+\usepackage{microtype}
 \usepackage[backend=biber]{biblatex}
 
 
@@ -33,6 +33,7 @@
 \setlength{\parskip}{1em}
 
 \addbibresource{PPVReport.bib}
+\pdfoptionpdfminorversion=6
 
 \begin{document}
 	\begin{titlepage}
@@ -47,11 +48,11 @@
 		\huge
 		\begin{adjustwidth}{-0.5in}{-0in}
 		\color{white}
-		\textbf{Study of the Effectiveness of Fire Service Positive Pressure Ventilation During Fire Attack in Single Family Homes Incorporating Modern Construction Practices\\}
+		\textbf{Study of the Effectiveness of Fire Service Positive Pressure Ventilation During Fire Attack in Single Family Homes Incorporating Modern \\ Construction Practices\\}
 		\end{adjustwidth}
 		\begin{adjustwidth}{-0.5in}{}
 		\color{white}
-		\vspace{.5in}
+		\vspace{.3in}
 		\large
 		Stephen Kerber\\
 		Director \\
@@ -61,6 +62,7 @@
 		Research Engineer \\
 		UL Firefighter Safety Research Institue \\ 
 		\vspace*{\baselineskip}
+		\vspace{.2in}
 		\begin{figure}[h]
 			\hspace*{-0.5in}\includegraphics[width=0.75in]{0_Images/Section_1/ULLogoWhite.pdf}
 		\end{figure}
@@ -68,6 +70,7 @@
 	\end{titlepage}
 
 \renewcommand{\abstractname}{Executive Summary}
+\setlength{\emergencystretch}{5pt}
 
 \begin{abstract}
 There is a continued tragic loss of firefighter and civilian lives, as shown by fire statistics. One significant contributing factor is the lack of understanding of fire behavior in residential structures resulting from the use of ventilation as a firefighter practice on the fire ground. The changing dynamics of residential fires as a result of the changes in home construction materials, contents, size and geometry over the past 30 years compounds our lack of understanding of the effects of ventilation on fire behavior.  Positive Pressure Ventilation (PPV) fans were introduced as a technology to increase firefighter safety by controlling the ventilation.  However, adequate scientific data is not available for PPV to be used without increasing the risk to firefighters.
@@ -144,16 +147,16 @@ the following:
 Research organizations and the fire service have made significant contributions to understanding the scope and limitations of the use of the PPV in fire scenarios over the past two decades. However, there are several gaps that limit its use by the fire service. These may be categorized as follows: (i) type of structures used in the research; (ii) fuel loads; (iii) fire ventilation conditions; and (iv) PPV parameters considered. There are further discussed herein.
 
 \textbf{Fire Test Structures:} In many studies, fire department training buildings have been used in the experiments. These buildings are typically constructed with metal or concrete walls that absorb energy differently from representative single-family homes \cite{HughesPPVTesting} \cite{KerberPPVinTraining} \cite{SvennsonFireVentilationDuringOperatoins}. 
-
+\\
 \textbf{Fuel loads and Fire Ventilation Conditions:} Some of the studies were limited to wood based fuels (e.g., wood pallets, straw). These fuel sources have different burning characteristics than fuel sources (e.g., upholstered furniture, mattress, carpets, stored items, etc.) in representative single family homes in the USA. Thus, findings from these studies \cite{HughesPPVTesting} \cite{KerberPPVinTraining} \cite{SvennsonFireVentilationDuringOperatoins} have limited practical applications for firefighting tactics.
-
+\\
 In some studies, fuel packages were utilized which do not allow for the realistic ventilation limited fire conditions necessary to make conclusions that are expected in actual incidents \cite{ExekoyePPVHouseFires} \cite{SvenssonFireVentinLargeFireHall} \cite{BowserTacticalVent} \cite{EzekoyePPVStrucuresReport}. These referenced studies utilized stacks of wooden pallets, foam racks with limited amounts of foam, gas burners, or small pans of flammable liquids. These fuel loads are easily repeatable and cost effective, but again limit the practical application of the results. In the absence of ventilation limited conditions, the impact of added oxygen can only improve conditions, which may be misleading to the effects encountered at actual incidents. Some studies have used computational and scale fire modeling due to the high cost of fire testing but have not been validated, and therefore not incorporated into operating procedures \cite{Didona1993modeling} \cite{KerberPPVCFD} \cite{KerberPPVFDS} \cite{TuomisaariVentilationInFirefighting}.
-
+\\
 \textbf{PPV Parameters:} Additional studies examined the use of PPV fans in large structures and high-rise buildings \cite{SymposiumHighRisePPV} \cite{KerberMadrzyPPVInLargeStructures} \cite{KerberMadrzyPPVInHighRise}. The results of these studies have added to the understanding of the scope and limitations of PPV. However, in most cases, these studies examined the fan’s ability to pressurize areas of a building to limit fire and smoke spread, which is very different than blowing air through the fire compartment in a one and two family home. 
-
+\\
 Since the initial introduction of fans into the fire service, newer fan technologies have been developed (including conventional, turbo and Pow’Air). These technologies have not yet been investigated in realistic fire scenarios. Also, fan manufacturers have increased flow rates over time. When first introduced, most fans were rated at less than 10,000 cubic feet per minute (CFM); now similar sized fans are rated in excess of 30,000 CFM. The impact of forcing more air into a house fire is not well understood. PPV fans can be found on apparatus around the world and are available in many shapes and sizes. There are portable fans as small as 16 in. and truck mounted fans as large as 60 in. They are powered with gasoline, electric, hydraulic, battery and propane motors. Gasoline powered are the most common, but are accompanied by additional concerns about carbon monoxide (CO) production. Some research has been done on this topic, but CO measurements will be made during these experiments to add to the body of knowledge 39,40. 
 
-This study plan to fill the research gaps by using representative modern and traditional home geometries, realistic fuel loads representative of furnishings found in today’s homes, fan technologies, sizes and ratings available to the fire service today and simulated response and operational times that adequately address the questions and concerns the firefighter community has expressed and provide a baseline for choosing the most appropriate type or types of ventilation on the fire ground. The results and conclusions of this study will be used to improve firefighting tactics, fireground safety and fire dynamics knowledge \cite{KerberMadrzyPPVInHighRise} \cite{LougheedPPVHighRise}.
+This study plan to fill the research gaps by using representative modern and traditional home geometries, realistic fuel loads representative of furnishings found in today’s homes, fan technologies, sizes and ratings available to the fire service today and simulated response and operational times that adequately address the questions and concerns the firefighter community has expressed and provide a baseline for choosing the most appropriate type or types of ventilation on the fire ground. The results and conclusions of this study will be used to improve firefighting tactics, fire ground safety and fire dynamics knowledge \cite{KerberMadrzyPPVInHighRise} \cite{LougheedPPVHighRise}.
 
 \section{Objectives and Technical Plan}
 
@@ -185,33 +188,49 @@ This study consisted of the following tasks:
 
 \begin{itemize}
 	\item \textbf{Task 1 – Formation of a Project Advisory Panel} \\ 
-	Task 1 broughttogether an advisory panel of technical experts in the fire service; fire service research field and PPV fan manufacturers. The panel included fire department representatives from departments that use positive pressure ventilation during fire attack and from departments that stopped using it or wish to use it. 
+	Task 1 brought together an advisory panel of technical experts in the fire service; fire service research field and PPV fan manufacturers. The panel included fire department representatives from departments that use positive pressure ventilation during fire attack and from departments that stopped using it or wish to use it. 
+	
 	\item \textbf{Task 2 – Incident Review} \\
 	Task 2 involved conducting an extensive search to find as many incidents as possible where PPV was used successfully or unsuccessfully during fire attack. This was completed by conducting interviews with departments that are known to have standard operating procedures for the use of PPV, or previously used PPV during fire attack but stopped for various reasons from the technical panle in developed in task 1. Common trends, successes and failures, and concerns will be documented were shared with the technical panel for the development of the experimental series. 
+	
 	\item \textbf{Task 3 – Test supplies, Instrumentation and Contractor Acquisition} \\
-	In Task 3 UL acquired research supplies and instrumentation to complete the project. Instrumentation included thermocouples to measure thermal conditions that potential victims or firefighters could be exposed to, differential pressure sensors and bidirectional probes to measure pressure and gas velocity throughout the test
-	fixtures, bullet cameras to capture interior views of the test fixtures to provide visual evidence of conditions. Other test equipment such as data loggers, gas analyzers,
-	thermal imaging cameras and video cameras were acquired from previous studies and were utilized during this study. A contractor was also selected to construct
-	the test house structures using construction practices representative of what is found in most neighborhoods across the country.
+	In Task 3 UL acquired research supplies and instrumentation to complete the project. Instrumentation included thermocouples to measure thermal conditions that potential victims or firefighters could be exposed to, differential pressure sensors and bidirectional probes to measure pressure and gas velocity throughout the test fixtures, bullet cameras to capture interior views of the test fixtures to provide visual evidence of conditions. Other test equipment such as data loggers, gas analyzers, thermal imaging cameras and video cameras were acquired from previous studies and were utilized during this study. A contractor was also selected to construct the test house structures using construction practices representative of what is found in most neighborhoods across the country.
+	
 	\item \textbf{Task 4 – Test Fixture Design} \\
 	Task 4 was the design of the test fixtures to be used in the experiments. The main test fixtures were a two single family residential homes (1-1200ft$^2$ single story ranch house and 1-3200 ft$^2$ two-story colonial house ) were constructed in UL’s Large Fire Facility. These were the same designs built for the two previous ventilation research grants and therefore allowed continuity of previous results to expand our knowledge.
+	
 	\item \textbf{Task 5 – Design of Experiments} \\
-	Task 5 was the design of the experiments. In this task UL’s project engineers worked work closely with the technical panel to ensure fire service concerns were addressed and
-	that the results were of great benefit to the end users. All experimental variables, equipment, personnel, infrastructure and other resources were evaluated to determine the best set of experiments to get the most for the investment and provide the largest return to the fire community. Variables included fan size, placement, technology, ventilation parameters, timing of tactics, ignition location, and fuel loading
+	Task 5 was the design of the experiments. In this task UL’s project engineers worked work closely with the technical panel to ensure fire service concerns were addressed and that the results were of great benefit to the end users. All experimental variables, equipment, personnel, infrastructure and other resources were evaluated to determine the best set of experiments to get the most for the investment and provide the largest return to the fire community. Variables included fan size, placement, technology, ventilation parameters, timing of tactics, ignition location, and fuel loading
+	
 	\item \textbf{Task 6 - Conduct Experiments} \\
 	\begin{itemize}
 		\item \textbf{Task 6A: Heat Release Rate Fuel Load Characterization} \\
 		Methodology: Conduct heat release rate (HRR) experiments under the 10MW calorimeter in UL’s Large Fire Facility. This allowed the team to characterize modern furnishings and to understand the heat release of today’s fire environment. This also quantified the fuel load used for the remainder of the experiments which were designed to have a similar HRR curve and total heat released as the two previous ventilation studies.
-		
+		\\
 		Measurements: Heat release rate measured via oxygen consumption calorimetry, temperature utilizing thermocouples placed in an array within the room, video and thermal imaging cameras will be used to document the fire spread.
 		
 		\item \textbf{Task 6B: Air Flow and Pressure Experiments} \\
 		Methodology: Conduct air flow and pressure experiments in the test fixtures prior to the introduction of any fire. Variables that were characterized during this series of experiments were fan technology (shrouded, jet, turbo), fan placement (setback from the doorway and angle), impact of inlet and outlet sizes and ratios, and impact of volume between the houses. These tests will provide the baseline of flows created with the fan alone and will be compared to the same data taken during the fire experiments in the following tasks.
-		
+		\\
 		Measurements: During each of these experiments, velocities were measured with bidirectional probes attached to differential pressure gauges and thermocouples and pressures were measured with differential pressure gauges.
 		
 		\item \textbf{Task 6C: Full-Scale PPV House Fire Experiments} \\
+		Methodology: Conduct a series of 25 full-scale house fire experiments examining fire service PPV tactics. Two full scale test house structures were constructed in UL’s large fire facility; the structures used the same floor plan design as used in previous research on fire service horizontal ventilation tactics (EMW-2008-FP-01774)\cite{DHS2008} and vertical ventilation tactics (EMW-2010-FP-00661)\cite{DHS2010}. These experiments provided the scientific basis necessary to fill the knowledge gap that exists regarding the proper usage and limitations of this tool and tactic. Sections \ref{SingleStoryExp} and \ref{TwoStoryExp} detail the 25 experiments conducted.
+		\\
+		Measurements: Both houses were instrumented to measure temperature in every room, gas concentrations, pressure, gas velocity, thermal imaging and digital video. These measurements allowed for quantification of fire behavior, the impact of the positive pressure ventilation tactic and tenability for firefighters and occupants.
 	\end{itemize}
+	\item \textbf{Task 7 – Data Compilation and Analysis} \\
+	Task 7 was the compilation and analysis that was conducted by UL engineers to make the data usable by the fire community. The data was organized in graphs that will be reviewed by the technical panel in preparation for the final report and the online training program. In addition, tactical considerations were developed in conjunction with the fire service advisory panel. Each of these considerations are supported by data and video evidence and incorporated in the technical report and outreach program.
+	
+	\item \textbf{Task 8 – Design and Develop Outreach Program} \\
+	In task 8, UL engineers worked with instructional designers to produce an interactive training program for the fire community. The final program is shared via UL FSRI's website free of charge.  The course contains data, pictures, video and professional narration and allowing firefighters of all levels to navigate through the course at their own speed. This program highlights linkages to tactical considerations learned from the previous two studies on horizontal and vertical ventilation.
+	
+	\item \textbf{Task 9 – Develop Final Project Report} \\
+	Task 9 was development of this final report that details all of the experiments and results. This report which has been provided to DHS and made publicly available via UL FSRI' website will serve as a reference for future research. The tactical considerations developed with the support of the technical advisory panel make up the majority of this report.
+	
+	\item \textbf{Task 10 – Disseminate Project Results}
+	Task 10 involved the dissemination of the research results. Results are continiously shared by presenting in venues such as the National Fire Protection Association Annual Conference, Fire Department Instructors Conference, International Association of Fire Chiefs Fire Rescue International, and the International Association of Fire Fighters Annual Conference. These venues provide a large number of attendees from the fire service and research communities and are a formal means to disseminate the results of the study. Additional dissemination is provided via publication in fire service trade magazines and peer reviewed journals. As with previous outreach results, videos and presentation content will be made available at request to be used for local dissemination and for train the trainer programs. 
+
 \end{itemize}
 
 \section{Project Technical Panel}
@@ -683,8 +702,8 @@ Each of the six electric and six gas fans were tested in the single story struct
 		\subfloat[Congfiguration 10]{\includegraphics[width = 1.5in]{0_Images/ColdFlow/Configurations/One_Story/Experiment_10.jpg}} & 
 		\subfloat[Congfiguration 11]{\includegraphics[width = 1.5in]{0_Images/ColdFlow/Configurations/One_Story/Experiment_11.jpg}} \\
 	\end{tabular}
-	\label{fig:ColdFlowConfig_SingleStory}
 	\caption{Cold Flow Ventilation Configurations - Single Story}
+	\label{fig:ColdFlowConfig_SingleStory}
 \end{figure}
 
 \begin{table} [H]
@@ -743,8 +762,8 @@ The two story structure was instrumented with air flow and pressure sensors to e
 		\subfloat[Congfiguration 10]{\includegraphics[width = 1.5in]{0_Images/ColdFlow/Configurations/Two_Story/Experiment_10.png}} & 
 		\subfloat[Congfiguration 11]{\includegraphics[width = 1.5in]{0_Images/ColdFlow/Configurations/Two_Story/Experiment_11.png}} \\
 	\end{tabular}
-	\label{fig:ColdFlowConfig_TwoStory}
 	\caption{Cold Flow Ventilation Configurations - Two Story}
+	\label{fig:ColdFlowConfig_TwoStory}
 \end{figure}
 
 
@@ -1042,7 +1061,7 @@ Increasing the tilt position from 3 to 4 in the two story resulted in more press
 
 The fan setback and tilt position have an moderate effect on flow and pressure in the structure during cold flow. Optimizing the setback and tilt can increase both the pressure created in adjacent compartments and the flow through exhaust openings. 
 
-\section{Single Story Experiments}
+\section{Single Story Experiments} \label{SingleStoryExp}
 
 Fifteen full scale fire experiments were conducted in the single story 1200$ft^2$ ranch style structure. Experiments were intended to test the impact of PPA on fire dynamics in a compartmented single story structure. Variables within the experiments were the ignition location, fan positioning and exhaust size and location. F
 
@@ -1882,7 +1901,7 @@ Experiment 15 was intended to represent a fire involving multiple rooms in an ov
 	\label{fig:Experiment15ImagesCont3} 
 \end{figure}
 
-\section{Two Story Experiments} 
+\section{Two Story Experiments} \label{TwoStoryExp}
 
 \begin{center}
 	\begin{tabular}[c]{|c|C{5cm}|c|C{5cm}|}
