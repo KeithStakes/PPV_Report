@@ -19,6 +19,7 @@
 \usepackage{siunitx}
 \usepackage{microtype}
 \usepackage[backend=biber]{biblatex}
+\usepackage[hidelinks]{hyperref}
 
 
 \usepackage[flushleft]{threeparttable}
@@ -144,16 +145,16 @@ the following:
 	\end{itemize}
 \end{itemize}
 
-Research organizations and the fire service have made significant contributions to understanding the scope and limitations of the use of the PPV in fire scenarios over the past two decades. However, there are several gaps that limit its use by the fire service. These may be categorized as follows: (i) type of structures used in the research; (ii) fuel loads; (iii) fire ventilation conditions; and (iv) PPV parameters considered. There are further discussed herein.
+Research organizations and the fire service have made significant contributions to understanding the scope and limitations of the use of the PPV in fire scenarios over the past two decades. However, there are several gaps that limit its use by the fire service. These may be categorized as follows: (i) type of structures used in the research; (ii) fuel loads; (iii) fire ventilation conditions; and (iv) PPV parameters considered. There are further discussed herein. \par
 
 \textbf{Fire Test Structures:} In many studies, fire department training buildings have been used in the experiments. These buildings are typically constructed with metal or concrete walls that absorb energy differently from representative single-family homes \cite{HughesPPVTesting} \cite{KerberPPVinTraining} \cite{SvennsonFireVentilationDuringOperatoins}. 
-\\
-\textbf{Fuel loads and Fire Ventilation Conditions:} Some of the studies were limited to wood based fuels (e.g., wood pallets, straw). These fuel sources have different burning characteristics than fuel sources (e.g., upholstered furniture, mattress, carpets, stored items, etc.) in representative single family homes in the USA. Thus, findings from these studies \cite{HughesPPVTesting} \cite{KerberPPVinTraining} \cite{SvennsonFireVentilationDuringOperatoins} have limited practical applications for firefighting tactics.
-\\
-In some studies, fuel packages were utilized which do not allow for the realistic ventilation limited fire conditions necessary to make conclusions that are expected in actual incidents \cite{ExekoyePPVHouseFires} \cite{SvenssonFireVentinLargeFireHall} \cite{BowserTacticalVent} \cite{EzekoyePPVStrucuresReport}. These referenced studies utilized stacks of wooden pallets, foam racks with limited amounts of foam, gas burners, or small pans of flammable liquids. These fuel loads are easily repeatable and cost effective, but again limit the practical application of the results. In the absence of ventilation limited conditions, the impact of added oxygen can only improve conditions, which may be misleading to the effects encountered at actual incidents. Some studies have used computational and scale fire modeling due to the high cost of fire testing but have not been validated, and therefore not incorporated into operating procedures \cite{Didona1993modeling} \cite{KerberPPVCFD} \cite{KerberPPVFDS} \cite{TuomisaariVentilationInFirefighting}.
-\\
-\textbf{PPV Parameters:} Additional studies examined the use of PPV fans in large structures and high-rise buildings \cite{SymposiumHighRisePPV} \cite{KerberMadrzyPPVInLargeStructures} \cite{KerberMadrzyPPVInHighRise}. The results of these studies have added to the understanding of the scope and limitations of PPV. However, in most cases, these studies examined the fan’s ability to pressurize areas of a building to limit fire and smoke spread, which is very different than blowing air through the fire compartment in a one and two family home. 
-\\
+
+\textbf{Fuel loads and Fire Ventilation Conditions:} Some of the studies were limited to wood based fuels (e.g., wood pallets, straw). These fuel sources have different burning characteristics than fuel sources (e.g., upholstered furniture, mattress, carpets, stored items, etc.) in representative single family homes in the USA. Thus, findings from these studies \cite{HughesPPVTesting} \cite{KerberPPVinTraining} \cite{SvennsonFireVentilationDuringOperatoins} have limited practical applications for firefighting tactics. \par
+
+In some studies, fuel packages were utilized which do not allow for the realistic ventilation limited fire conditions necessary to make conclusions that are expected in actual incidents \cite{ExekoyePPVHouseFires} \cite{SvenssonFireVentinLargeFireHall} \cite{BowserTacticalVent} \cite{EzekoyePPVStrucuresReport}. These referenced studies utilized stacks of wooden pallets, foam racks with limited amounts of foam, gas burners, or small pans of flammable liquids. These fuel loads are easily repeatable and cost effective, but again limit the practical application of the results. In the absence of ventilation limited conditions, the impact of added oxygen can only improve conditions, which may be misleading to the effects encountered at actual incidents. Some studies have used computational and scale fire modeling due to the high cost of fire testing but have not been validated, and therefore not incorporated into operating procedures \cite{Didona1993modeling} \cite{KerberPPVCFD} \cite{KerberPPVFDS} \cite{TuomisaariVentilationInFirefighting}. \par
+
+\textbf{PPV Parameters:} \mbox{}Additional studies examined the use of PPV fans in large structures and high-rise buildings \cite{SymposiumHighRisePPV} \cite{KerberMadrzyPPVInLargeStructures} \cite{KerberMadrzyPPVInHighRise}. The results of these studies have added to the understanding of the scope and limitations of PPV. However, in most cases, these studies examined the fan’s ability to pressurize areas of a building to limit fire and smoke spread, which is very different than blowing air through the fire compartment in a one and two family home. 
+
 Since the initial introduction of fans into the fire service, newer fan technologies have been developed (including conventional, turbo and Pow’Air). These technologies have not yet been investigated in realistic fire scenarios. Also, fan manufacturers have increased flow rates over time. When first introduced, most fans were rated at less than 10,000 cubic feet per minute (CFM); now similar sized fans are rated in excess of 30,000 CFM. The impact of forcing more air into a house fire is not well understood. PPV fans can be found on apparatus around the world and are available in many shapes and sizes. There are portable fans as small as 16 in. and truck mounted fans as large as 60 in. They are powered with gasoline, electric, hydraulic, battery and propane motors. Gasoline powered are the most common, but are accompanied by additional concerns about carbon monoxide (CO) production. Some research has been done on this topic, but CO measurements will be made during these experiments to add to the body of knowledge 39,40. 
 
 This study plan to fill the research gaps by using representative modern and traditional home geometries, realistic fuel loads representative of furnishings found in today’s homes, fan technologies, sizes and ratings available to the fire service today and simulated response and operational times that adequately address the questions and concerns the firefighter community has expressed and provide a baseline for choosing the most appropriate type or types of ventilation on the fire ground. The results and conclusions of this study will be used to improve firefighting tactics, fire ground safety and fire dynamics knowledge \cite{KerberMadrzyPPVInHighRise} \cite{LougheedPPVHighRise}.
@@ -293,6 +294,9 @@ The individuals below provided direction for the project, assisting in planing t
 
 \section{Test Set Up}
 \subsection{Structures}
+
+
+
 \subsection{Furnishings}
 
 Furniture was acquired for the experiments such that each room of furniture was the same from experiment to experiment. Descriptions, dimensions and weights for all of the furniture used are in Table \ref{FurnitureTable}. Images of each piece of furniture can be seen in Figure \ref{fig:FurnitureImages}.
@@ -352,7 +356,6 @@ Furniture was acquired for the experiments such that each room of furniture was 
 	\caption{Furniture Images}
 	\label{fig:FurnitureImages}
 \end{figure}
-
 
 The living room in the one-story house, as well as the family room and the living room in the two-story house, was furnished similarly with two sofas, armoire, television, television stand, ottoman, end table, coffee table, chair, two pictures, lamp with shade and two curtains .  The floor was covered with polyurethane foam padding and polyester carpet. Figure \ref{fig:Living_Family} shows both the single story living room and two story family room furniture setup.  
 
@@ -1060,9 +1063,11 @@ Increasing the tilt position from 3 to 4 in the two story resulted in more press
 
 The fan setback and tilt position have an moderate effect on flow and pressure in the structure during cold flow. Optimizing the setback and tilt can increase both the pressure created in adjacent compartments and the flow through exhaust openings. 
 
-\section{Single Story Experiments} \label{SingleStoryExp}
+\section{Full Scale Fire Experiments}
 
-Fifteen full scale fire experiments were conducted in the single story 1200$ft^2$ ranch style structure. Experiments were intended to test the impact of PPA on fire dynamics in a compartmented single story structure. Variables within the experiments were the ignition location, fan positioning and exhaust size and location. F
+\subsection{Single Story Experiments} \label{SingleStoryExp}
+
+Fifteen full scale fire experiments were conducted in the single story 1200$ft^2$ ranch style structure. Experiments were intended to test the impact of PPA on fire dynamics in a compartmented single story structure. Variables within the experiments were the ignition location, fan positioning and exhaust size and location. 
 
 \mbox{}
 
@@ -1094,8 +1099,9 @@ Fifteen full scale fire experiments were conducted in the single story 1200$ft^2
 	\label{table:SingleStoryExperiments}
 \end{table}
 
-\subsection{Experiment 1}
-Experiment 1 was a room and contents fire in the living room of the single story structure testing the impact of PPA with no exhaust openings. The inlet for the fan was the front door with no outlet initially provided. After steady state is achieved, the living room window was vented and a fog stream was introduced through the living room window. Figure \ref{fig:Exp1VentConfig} shows the configuration fo the structure, table \ref{Table:Exp1Interventions} show at what times interventions were preformed and figures \ref{fig:Exp1Images} shows images of the experiment at each of the intervention times.
+\paragraph{Experiment 1} \mbox{}
+
+Experiment 1 was a room and contents fire in the living room of the single story structure testing the impact of PPA with no exhaust openings. The inlet for the fan was the front door with no outlet initially provided. After steady state is achieved, the living room window was vented and a fog stream was introduced through the living room window. Figure \ref{fig:Exp1VentConfig} shows the configuration fo the structure, table \ref{Table:Exp1Interventions} show at what times interventions were preformed and figures \ref{fig:Experiment1Images} shows images of the experiment at each of the intervention times.
 
  \begin{figure}[h!]
  	\centering
@@ -1140,7 +1146,8 @@ Experiment 1 was a room and contents fire in the living room of the single story
 	\label{fig:Experiment1ImagesCont} 
 \end{figure}
 
-\subsection{Experiment 2}
+\paragraph{Experiment 2}\mbox{}
+
 Experiment 2 was a room and contents fire in the living room of the single story structure testing positive pressure attack. The inlet is the front door and the exhaust point is the living room window Water is applied with a straight stream through the front door. Figure \ref{fig:Exp2VentConfig} shows the configuration fo the structure, table \ref{Table:Exp2Interventions} show at what times interventions were preformed and the figures in \ref{fig:Exp2ImagesCont1} shows images of the experiment at each of the intervention times.
 
  \begin{figure}[h!]
@@ -1187,7 +1194,8 @@ Experiment 2 was a room and contents fire in the living room of the single story
 	\label{fig:Experiment2ImagesCont3} 
 \end{figure}
 
-\subsection{Experiment 3}
+\paragraph{Experiment 3}\mbox{}
+
 Experiment 3 was a room and contents fire in the bedroom of the single story structure testing positive pressure attack and the effect of additional ventilation openings in the fire room. The inlet is the front door and the exhaust points are the bedroom 2 windows Water is applied via an interior attack using a straight stream. Figure \ref{fig:Exp3VentConfig} shows the configuration fo the structure, table \ref{Table:Exp3Interventions} show at what times interventions were preformed and the figures in \ref{fig:Exp3ImagesCont1} shows images of the experiment at each of the intervention times.
 
  \begin{figure}[h!]
@@ -1244,7 +1252,8 @@ Experiment 3 was a room and contents fire in the bedroom of the single story str
 	\label{fig:Experiment3ImagesCont3} 
 \end{figure}
 
-\subsection{Experiment 4}
+\paragraph{Experiment 4}\mbox{}
+
 Experiment 4 was a room and contents fire in the living room of the single story structure intended to demonstrate the hazards of positive pressure attack with remote ventilation location. The fire is located in the living room, the front door is the air inlet and the rear window of bedroom 2 is the exhaust point. Suppression is initiated with a straight stream through the front door. Figure \ref{fig:Exp4VentConfig} shows the configuration fo the structure, table \ref{Table:Exp4Interventions} show at what times interventions were preformed and the figures in \ref{fig:Exp4ImagesCont1} shows images of the experiment at each of the intervention times.
 
 \begin{figure}[H]
@@ -1291,7 +1300,8 @@ Experiment 4 was a room and contents fire in the living room of the single story
 	\label{fig:Experiment4ImagesCont3} 
 \end{figure}
 
-\subsection{Experiment 5}
+\paragraph{Experiment 5}\mbox{}
+
 Experiment 5 was a room and contents fire in the living room of the single story structure intended to identify the impact of additional ventilation remote from the fire on the effectiveness of positive pressure attack. The front door is the inlet air, the front living room window and rear window of bedroom 2 are the exhaust points. Suppression occurs via a straight stream introduced through the front door. Figure \ref{fig:Exp5VentConfig} shows the configuration fo the structure, table \ref{Table:Exp5Interventions} show at what times interventions were preformed and the figures in \ref{fig:Exp5ImagesCont1} shows images of the experiment at each of the intervention times.
 
 \begin{figure}[h!]
@@ -1349,7 +1359,8 @@ Experiment 5 was a room and contents fire in the living room of the single story
 	\label{fig:Experiment5ImagesCont3} 
 \end{figure}
 
-\subsection{Experiment 6}
+\paragraph{Experiment 6}\mbox{}
+
 Experiment 6 was a room and contents fire in the living room of the single story structure intended to test fan position and ventilation area on the effectiveness of positive pressure attack. The inlet is the front door, the exhaust vents are the bedroom 2 windows. Suppression was initiated via an interior attack through the front door. Figure \ref{fig:Exp6VentConfig} shows the configuration fo the structure, table \ref{Table:Exp6Interventions} show at what times interventions were preformed and the figures in \ref{fig:Exp6ImagesCont1} shows images of the experiment at each of the intervention times.
 
 \begin{figure}[h!]
@@ -1421,7 +1432,8 @@ Experiment 6 was a room and contents fire in the living room of the single story
 	\label{fig:Experiment6ImagesCont4} 
 \end{figure}
 
-\subsection{Experiment 7}
+\paragraph{Experiment 7}\mbox{}
+
 Experiment 7 was a room and contents fire in the bedroom of the single story structure intended to demonstrate the effect of fan flow on fire behavior and survivability. Fan flow is regulated by using fan set back to achieve reduce flow through the exhaust window. The fire is located in bedroom 3, the front door is the air inlet and the bedroom 3 window is the exhaust point. Suppression is initiated through the front door via a straight stream. Figure \ref{fig:Exp7VentConfig} shows the configuration fo the structure, table \ref{Table:Exp7Interventions} show at what times interventions were preformed and the figures in \ref{fig:Exp7ImagesCont1} shows images of the experiment at each of the intervention times.
 
 \begin{figure}[h!]
@@ -1469,7 +1481,8 @@ Experiment 7 was a room and contents fire in the bedroom of the single story str
 	\label{fig:Experiment7ImagesCont3} 
 \end{figure}
 
-\subsection{Experiment 8}
+\paragraph{Experiment 8}\mbox{}
+
 Experiment 8 was a room and contents fire in the bedroom of the single story structure intended to show proper use of PPA and identify the impact of an obstructed or repositioned ppv fan during attack. The fire is located in the bedroom 2, the front door is the air inlet and the rear window of bedroom 2 is the exhaust point. Suppression is introduced via a straight stream through the bedroom 2 window off the ceiling. Figure \ref{fig:Exp8VentConfig} shows the configuration fo the structure, table \ref{Table:Exp8Interventions} show at what times interventions were preformed and the figures in \ref{fig:Exp8ImagesCont1} shows images of the experiment at each of the intervention times.
 
 \begin{figure}[h!]
@@ -1526,7 +1539,8 @@ Experiment 8 was a room and contents fire in the bedroom of the single story str
 	\label{fig:Experiment8ImagesCont3} 
 \end{figure}
 
-\subsection{Experiment 9}
+\paragraph{Experiment 9}\mbox{}
+
 Experiment 9 was a room and contents fire in the bedroom of the single story structure intended to identify the impact of an open front door on the effectiveness of positive pressure attack. The fire is located in the bedroom 2, the front door is the inlet air, open upon ignition and the rear window of bedroom 2 is the exhaust point. Suppression occurs with a straight stream introduced in the bedroom 2 window off the ceiling. Figure \ref{fig:Exp9VentConfig} shows the configuration fo the structure, table \ref{Table:Exp9Interventions} show at what times interventions were preformed and the figures in \ref{fig:Exp9ImagesCont1} shows images of the experiment at each of the intervention times.
 
 \begin{figure}[h!]
@@ -1573,7 +1587,8 @@ Experiment 9 was a room and contents fire in the bedroom of the single story str
 	\label{fig:Experiment9ImagesCont3} 
 \end{figure}
 
-\subsection{Experiment 10}
+\paragraph{Experiment 10}\mbox{}
+
 Experiment 10 was a room and contents fire in the bedroom of the single story structure intended to identify the impact of door control by the fire department upon arrival on the effectiveness of positive pressure attack. The fire is located in the bedroom 2, the front door is the inlet air, open upon ignition, closed by arriving fire personal and the rear window of bedroom 2 is the exhaust point. Suppression is performed via a narrow fog stream introduced through the bedroom 2 window. Figure \ref{fig:Exp10VentConfig} shows the configuration fo the structure, table \ref{Table:Exp10Interventions} show at what times interventions were preformed and the figures in \ref{fig:Exp10ImagesCont1} shows images of the experiment at each of the intervention times.
 
 \begin{figure}[h!]
@@ -1631,7 +1646,8 @@ Experiment 10 was a room and contents fire in the bedroom of the single story st
 	\label{fig:Experiment10ImagesCont3} 
 \end{figure}
 
-\subsection{Experiment 11}
+\paragraph{Experiment 11}\mbox{}
+
 Experiment 11 was a room and contents fire in bedroom 2 of the single story structure intended to evaluate the effect of a large number of exhaust points on the effectiveness of positive pressure attack. The front door is the inlet air, the windows of bedroom 2, bedroom 3 and the master bedroom are the exhaust points. The bedroom 2, bedroom 3 and master bedroom windows are ventilated by fire department personal. Suppression occurs via an interior attack using a straight stream. Figure \ref{fig:Exp11VentConfig} shows the configuration fo the structure, table \ref{Table:Exp11Interventions} show at what times interventions were preformed and the figures in \ref{fig:Exp11ImagesCont1} shows images of the experiment at each of the intervention times.
 
 \begin{figure}[h!]
@@ -1691,7 +1707,8 @@ Experiment 11 was a room and contents fire in bedroom 2 of the single story stru
 	\label{fig:Experiment11ImagesCont3} 
 \end{figure}
 
-\subsection{Experiment 12}
+\paragraph{Experiment 12}\mbox{}
+
 Eperiment 12 was a room and contents fire in bedroom 3 of the single story structure intended to identify the potential venture effect as the flow path is directed down the hallway past the fire room and out the bedroom 2 window. The front door is the inlet air, the rear window of bedroom 2 is the exhaust point. Suppression will be conducted via a narrow fog from the interior living room into bedroom 3. Figure \ref{fig:Exp12VentConfig} shows the configuration fo the structure, table \ref{Table:Exp12Interventions} show at what times interventions were preformed and the figures in \ref{fig:Exp12ImagesCont1} shows images of the experiment at each of the intervention times.
 
 \begin{figure}[h!]
@@ -1739,7 +1756,8 @@ Eperiment 12 was a room and contents fire in bedroom 3 of the single story struc
 	\label{fig:Experiment12ImagesCont3} 
 \end{figure}
 
-\subsection{Experiment 13}
+\paragraph{Experiment 13}\mbox{}
+
 Experiment 13 was a room and contents fire in bedroom 3 of the single story structure intended to test the effectiveness of positive pressure attack. The front door is the inlet air, the rear window of bedroom 3 is the exhaust point. Suppression will be conducted via a narrow fog from the interior living room into bedroom 3. Figure \ref{fig:Exp13VentConfig} shows the configuration fo the structure, table \ref{Table:Exp13Interventions} show at what times interventions were preformed and the figures in \ref{fig:Exp13ImagesCont1} show images of the experiment at each of the intervention times.
 
 \begin{figure}[h!]
@@ -1786,7 +1804,8 @@ Experiment 13 was a room and contents fire in bedroom 3 of the single story stru
 	\label{fig:Experiment13ImagesCont3} 
 \end{figure}
 
-\subsection{Experiment 14}
+\paragraph{Experiment 14}\mbox{}
+
 Experiment 14 was a room and contents fire in the kitchen of the single story structure intended to identify the potential effect as the flow path is remote from the fire directed down the hallway and out the bedroom window. The front door is the inlet air, the rear window of bedroom 2 is the exhaust point. Suppression is introduced from the living room into the kitchen via a straight stream. Figure \ref{fig:Exp14VentConfig} shows the configuration fo the structure, table \ref{Table:Exp14Interventions} show at what times interventions were preformed and the figures in \ref{fig:Exp14ImagesCont1} shows images of the experiment at each of the intervention times.
 
 \begin{figure}[h!]
@@ -1843,7 +1862,8 @@ Experiment 14 was a room and contents fire in the kitchen of the single story st
 	\label{fig:Experiment14ImagesCont3} 
 \end{figure}
 
-\subsection{Experiment 15}
+\paragraph{Experiment 15}\mbox{}
+
 Experiment 15 was intended to represent a fire involving multiple rooms in an over furnished home. Additional fuel was provided in each bedroom making it difficult to maneuver through the rooms. The fire was ignited pusillanimously in the master bedroom, bedroom 2 and bedroom 3. The front door is the inlet air, the master bedroom window, rear window of bedroom 2 and bedroom 3 window were all exhaust points. Suppression was accomplished with two attack crews, one from the rear and one from the front. Figure \ref{fig:Exp15VentConfig} shows the configuration fo the structure, table \ref{Table:Exp15Interventions} show at what times interventions were preformed and the figures in \ref{fig:Exp15ImagesCont1} shows images of the experiment at each of the intervention times.
 
 \begin{figure}[h!]
@@ -1900,30 +1920,578 @@ Experiment 15 was intended to represent a fire involving multiple rooms in an ov
 	\label{fig:Experiment15ImagesCont3} 
 \end{figure}
 
-\section{Two Story Experiments} \label{TwoStoryExp}
+\subsection{Two Story Experiments} \label{TwoStoryExp}
 
 \begin{center}
 	\begin{tabular}[c]{|c|C{5cm}|c|C{5cm}|}
 		\hline
 		\textbf{Experiment} & \textbf{Ignition Location} & \textbf{Fan Position} & \textbf{Exhaust} \\ \hline \hline
-		1 & Living Room & Front Door & Living Room Window \\ \hline
-		2 & Living Room & Front Door & Living Room Window \\ \hline
-		3 & Bedroom 2 & Front Door & Bedroom 2 Windows \\ \hline
-		4 & Living Room & Front Door  & Bedroom 2 Rear Window \\ \hline
-		5 & Living Room & Front Door & Bedroom 2 Rear Window \\ \hline
-		6 & Living Room & Front Door & Bedroom 2 Windows \\ \hline
-		7 & Bedroom 3 & Front Door & Bedroom 3 Window \\ \hline
-		8 & Bedroom 2 & Front Door & Bedroom 2 Rear Window \\ \hline
-		9 & Bedroom 2 & Front Door & Bedroom 2 Rear Window \\ \hline
-		10 & Bedroom 2 & Front Door & Bedroom 2 Rear Window \\ \hline
-		11 & Bedroom 2 & Front Door & Master Bedroom, Bedroom 2, Bedroom 3 Windows \\ \hline
-		12 & Bedroom 3 & Front Door & Bedroom 2 Rear Window \\ \hline
-		13 & Bedroom 3 & Front Door & Bedroom 3 Window \\ \hline
-		14 & Kitchen & Front Door & Bedroom 2 Rear Window \\ \hline
-		15 & Master Bedroom, Bedroom 2, Bedroom 3 & Front Door & Master Bedroom, Bedroom 2, Bedroom 3 Windows \\ \hline
+		16 & Family Room & Front Door & Family Room Window \\ \hline
+		17 & Family Room & Front Door & Family Room Window \\ \hline
+		18 & Family Room & Front Door & Family Room Window \\ \hline
+		19 & Family Room & Front Door & Bedroom 3 Window \\ \hline
+		20 & Family Room & Front Door & Family Room 1, Family Room 2 Windows \\ \hline
+		21 & Family Room & Front Door & Family Room Window \\ \hline
+		22 & Family Room & Front Door & Bedroom 2 Rear Window \\ \hline
+		23 & Bedroom 3 & Front Door & Bedroom 3 Window \\ \hline
+		24 & Bedroom 3 & Front Door & Bedroom 3 Window, 1/2 Rear Door \\ \hline
+		25 & Bedroom 4 & Front Door & Bedroom 4 Window \\ \hline
 	\end{tabular}
 \end{center}
 
+\paragraph{Experiment 16}\mbox{}
+
+Experiment 16 was intended to represent a fire in the family room of an open concept floor plan, two story structure testing the impact of a positive pressure fan with no outlet. The inlet for the fan is the front door, no outlet will be provided. After steady state is achieved family room window is opened as exhaust and a narrow fog is introduced through the family room window for suppression. Figure \ref{fig:Exp16VentConfig} shows the configuration fo the structure, table \ref{Table:Exp16Interventions} show at what times interventions were preformed and the figures in \ref{fig:Experiment16ImagesCont1} shows images of the experiment at each of the intervention times.
+
+\begin{figure}[h!]
+	\centering
+	\begin{tabular}{c c}
+		\subfloat[First Floor]{\includegraphics[width=3.25in]{0_Images/FireExperiments/Two_Story/Experiment_16_-_1st_floor.jpg}} &
+		\subfloat[Second Floor]{\includegraphics[width=3.25in]{0_Images/FireExperiments/Two_Story/Experiment_16_-_2nd_floor.jpg}} \\		
+	\end{tabular}
+	\caption{Experiment 16 Ventilation Configuration}
+	\label{fig:Exp16VentConfig}
+\end{figure}
+
+\begin{table}[H]
+	\centering
+	\caption{Experiment 16 Interventions}
+	\begin{tabular}{|c|c|} 
+		\hline
+		Time & Intervention \\ \hline \hline
+		00:00 & Ignition - Family Room \\ \hline
+		10:00 & Front Door Open \\ \hline
+		10:20 & Fan On \\ \hline
+		15:15 & Vent Family Room Window \\ \hline
+		16:20 & Fog Stream Family Room Window \\ \hline
+		19:00 & End Experiment \\ \hline
+	\end{tabular}
+	\label{Table:Exp16Interventions}
+\end{table}
+
+\begin{figure}[H]
+	\setcounter{subfigure}{0} 
+	\centering 
+	\subfloat[Ignition - Family Room]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_16/01_Ignition_Family_Room.jpg}} \ 
+	\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_16/02_Front_Door_Open.jpg}} \ 
+	\subfloat[Fan On]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_16/03_Fan_On.jpg}} \ 
+	\caption{Experiment 16 Images}
+	\label{fig:Experiment16ImagesCont1} 
+\end{figure}
+
+\begin{figure}[H]
+	\ContinuedFloat 
+	\centering 
+	\subfloat[Vent Family Room Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_16/04_Vent_Family_Room_Window.jpg}} \ 
+	\subfloat[Fog Stream Family Room Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_16/05_Fog_Stream_Family_Room_Window.jpg}} \ 
+	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_16/06_End_Experiment.jpg}} \ 
+	\caption{Experiment 16 Images}
+	\label{fig:Experiment16ImagesCont3} 
+\end{figure}
+
+\paragraph{Experiment 17}\mbox{}
+
+Experiment 17 was intended to represent a fire in the family room of an open concept floor plan, two story structure testing the impact of positive pressure attack. The inlet for the fan is the front door with the rear family room window being the exhaust. Water is applied via a straight stream through the front door. Figure \ref{fig:Exp17VentConfig} shows the configuration fo the structure, table \ref{Table:Exp17Interventions} show at what times interventions were preformed and the figures in \ref{fig:Experiment17ImagesCont1} shows images of the experiment at each of the intervention times.
+
+\begin{figure}[h!]
+	\centering
+	\begin{tabular}{c c}
+		\subfloat[First Floor]{\includegraphics[width=3.25in]{0_Images/FireExperiments/Two_Story/Experiment_17_-_1st_floor.jpg}} &
+		\subfloat[Second Floor]{\includegraphics[width=3.25in]{0_Images/FireExperiments/Two_Story/Experiment_17_-_2nd_floor.jpg}} \\		
+	\end{tabular}
+	\caption{Experiment 17 Ventilation Configuration}
+	\label{fig:Exp17VentConfig}
+\end{figure}
+
+\begin{table}[H]
+	\centering
+	\caption{Experiment 17 Interventions}
+	\begin{tabular}{|c|c|} 
+		\hline
+		Time & Intervention \\ \hline \hline
+		00:00 & Ignition - Family Room \\ \hline
+		08:03 & Vent Family Room Window\\ \hline
+		08:34 & Front Door Open \\ \hline
+		08:55 & Fan On \\ \hline
+		10:51 & Straight Stream Front Door \\ \hline
+		13:00 & End Experiment \\ \hline
+	\end{tabular}
+	\label{Table:Exp17Interventions}
+\end{table}
+
+\begin{figure}[H]
+\setcounter{subfigure}{0} 
+\centering 
+\subfloat[Ignition - Family Room]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_17/01_Ignition_Family_Room.jpg}} \ 
+\subfloat[Vent Family Room Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_17/02_Vent_Family_Room_Window.jpg}} \ 
+\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_17/03_Front_Door_Open.jpg}} \ 
+\caption{Experiment 17 Images}
+\label{fig:Experiment17ImagesCont1} 
+\end{figure}
+
+\begin{figure}[H]
+	\ContinuedFloat 
+	\centering 
+	\subfloat[Fan On]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_17/04_Fan_On.jpg}} \ 
+	\subfloat[Straight Stream Front Door]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_17/05_Straight_Stream_Front_Door.jpg}} \ 
+	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_17/06_End_Experiment.jpg}} \ 
+	\caption{Experiment 17 Images}
+	\label{fig:Experiment17ImagesCont3} 
+\end{figure}
+
+\paragraph{Experiment 18}\mbox{}
+
+Experiment 18 was intended to represent a fire in the family room of the open concept, two story structure testing impact of opposing the positive pressure exhaust with a hose stream. Positive pressure attack is initiated with the inlet being the front door and the exhaust point being the family room window which vented before fire department arrival. Water is applied with a straight stream through the family room window. Figure \ref{fig:Exp18VentConfig} shows the configuration fo the structure, table \ref{Table:Exp18Interventions} show at what times interventions were preformed and the figures in \ref{fig:Experiment18ImagesCont1} shows images of the experiment at each of the intervention times.
+
+\begin{figure}[h!]
+	\centering
+	\begin{tabular}{c c}
+		\subfloat[First Floor]{\includegraphics[width=3.25in]{0_Images/FireExperiments/Two_Story/Experiment_18_-_1st_floor.jpg}} &
+		\subfloat[Second Floor]{\includegraphics[width=3.25in]{0_Images/FireExperiments/Two_Story/Experiment_18_-_2nd_floor.jpg}} \\		
+	\end{tabular}
+	\caption{Experiment 18 Ventilation Configuration}
+	\label{fig:Exp18VentConfig}
+\end{figure}
+
+\begin{table}[H]
+	\centering
+	\caption{Experiment 18 Interventions}
+	\begin{tabular}{|c|c|} 
+		\hline
+		Time & Intervention \\ \hline \hline
+		00:00 & Ignition - Family Room \\ \hline
+		06:00 & Vent Family Room Window \\ \hline
+		08:02 & Front Door Open \\ \hline
+		08:22 & Fan On \\ \hline
+		10:32 & Straight Stream Family Room Window \\ \hline
+		15:00 & End Experiment \\ \hline
+	\end{tabular}
+	\label{Table:Exp18Interventions}
+\end{table}
+
+\begin{figure}[H]
+	\setcounter{subfigure}{0} 
+	\centering 
+	\subfloat[Ignition - Family Room]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_18/01_Ignition_Family_Room.jpg}} \ 
+	\subfloat[Vent Family Room Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_18/02_Vent_Family_Room_Window.jpg}} \ 
+	\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_18/03_Front_Door_Open.jpg}} \ 
+	\caption{Experiment 18 Images}
+	\label{fig:Experiment18ImagesCont1} 
+\end{figure}
+
+\begin{figure}[H]
+	\ContinuedFloat 
+	\centering 
+	\subfloat[Fan On]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_18/04_Fan_On.jpg}} \ 
+	\subfloat[Straight Stream Family Room Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_18/05_Straight_Stream_Family_Room_Window.jpg}} \ 
+	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_18/06_End_Experiment.jpg}} \ 
+	\caption{Experiment 18 Images}
+	\label{fig:Experiment18ImagesCont3} 
+\end{figure}
+
+\paragraph{Experiment 19}\mbox{}
+
+Experiment 19 was intended to represent a fire in the open floor plan of the two story structure intended to demonstrate the hazards of positive pressure attack with remote ventilation location. The fire is located in the family room, the front door is the air inlet and the 2nd floor bedroom 3 window is the exhaust point. Suppression is initiated through the front door via a straight stream. PPV is evaluated using systematic ventilation practices after suppression. Figure \ref{fig:Exp19VentConfig} shows the configuration fo the structure, table \ref{Table:Exp19Interventions} show at what times interventions were preformed and the figures in \ref{fig:Experiment19ImagesCont1} shows images of the experiment at each of the intervention times.
+
+\begin{figure}[h!]
+	\centering
+	\begin{tabular}{c c}
+		\subfloat[First Floor]{\includegraphics[width=3.25in]{0_Images/FireExperiments/Two_Story/Experiment_19_-_1st_floor.jpg}} &
+		\subfloat[Second Floor]{\includegraphics[width=3.25in]{0_Images/FireExperiments/Two_Story/Experiment_19_-_2nd_floor.jpg}} \\		
+	\end{tabular}
+	\caption{Experiment 19 Ventilation Configuration}
+	\label{fig:Exp19VentConfig}
+\end{figure}
+
+\begin{table}[H]
+	\centering
+	\caption{Experiment 19 Interventions}
+	\begin{tabular}{|c|c|} 
+		\hline
+		Time & Intervention \\ \hline \hline
+		00:00 & Ignition - Family Room \\ \hline
+		07:30 & Vent Bedroom 3 Window \\ \hline
+		08:03 & Front Door Open \\ \hline
+		08:18 & Fan On \\ \hline
+		11:14 & Straight Stream Front Door \\ \hline
+		16:09 & Straight Stream Bedroom 3 Window \\ \hline
+		18:00 & End Experiment \\ \hline
+	\end{tabular}
+	\label{Table:Exp19Interventions}
+\end{table}
+
+\begin{figure}[H]
+	\setcounter{subfigure}{0} 
+	\centering 
+	\subfloat[Ignition - Family Room]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_19/01_Ignition_Family_Room.jpg}} \ 
+	\subfloat[Vent Bedroom 3 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_19/02_Vent_Bedroom_3_Window.jpg}} \ 
+	\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_19/03_Front_Door_Open.jpg}} \ 
+	\caption{Experiment 19 Images}
+	\label{fig:Experiment19ImagesCont1} 
+\end{figure}
+
+\begin{figure}[H]
+	\ContinuedFloat 
+	\centering 
+	\subfloat[Fan On]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_19/04_Fan_On.jpg}} \ 
+	\subfloat[Straight Stream Front Door]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_19/05_Straight_Stream_Front_Door.jpg}} \ 
+	\subfloat[Straight Stream Bedroom 3 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_19/06_Straight_Stream_Bedroom_3_Window.jpg}} \ 
+	\caption{Experiment 19 Images}
+	\label{fig:Experiment19ImagesCont2} 
+\end{figure}
+
+\begin{figure}[H]
+	\ContinuedFloat 
+	\centering 
+	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_19/07_End_Experiment.jpg}} \ 
+	\caption{Experiment 19 Images}
+	\label{fig:Experiment19ImagesCont3} 
+\end{figure}
+
+\paragraph{Experiment 20}\mbox{}
+
+Experiment 20 was intended to represent a fire in open floor plan family room of a two story structure intended to demonstrate effect additional ventilation openings remote from the fire. The front door is the air inlet and the family room window and 2nd floor bedroom 3 window are the exhaust points. The bedroom 3 window will be opened after the fan is started at the front door. Suppression is via a straight stream through the front door. Figure \ref{fig:Exp20VentConfig} shows the configuration fo the structure, table \ref{Table:Exp20Interventions} show at what times interventions were preformed and the figures in \ref{fig:Experiment20ImagesCont1} shows images of the experiment at each of the intervention times.
+
+\begin{figure}[h!]
+	\centering
+	\begin{tabular}{c c}
+		\subfloat[First Floor]{\includegraphics[width=3.25in]{0_Images/FireExperiments/Two_Story/Experiment_20_-_1st_floor.jpg}} &
+		\subfloat[Second Floor]{\includegraphics[width=3.25in]{0_Images/FireExperiments/Two_Story/Experiment_20_-_2nd_floor.jpg}} \\		
+	\end{tabular}
+	\caption{Experiment 20 Ventilation Configuration}
+	\label{fig:Exp20VentConfig}
+\end{figure}
+
+\begin{table}[H]
+	\centering
+	\caption{Experiment 20 Interventions}
+	\begin{tabular}{|c|c|} 
+		\hline
+		Time & Intervention \\ \hline \hline
+		00:00 & Ignition - Family Room \\ \hline
+		07:00 & Vent Family Room Window \\ \hline
+		07:30 & Front Door Open \\ \hline
+		07:52 & Fan On \\ \hline
+		08:50 & Vent Bedroom 3 Window \\ \hline
+		12:15 & Straight Stream Front Door \\ \hline
+		14:30 & End Experiment \\ \hline
+	\end{tabular}
+	\label{Table:Exp20Interventions}
+\end{table}
+
+\begin{figure}[H]
+	\setcounter{subfigure}{0} 
+	\centering 
+	\subfloat[Ignition - Family Room]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_20/01_Ignition_Family_Room.jpg}} \ 
+	\subfloat[Vent Family Room Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_20/02_Vent_Family_Room_Window.jpg}} \ 
+	\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_20/03_Front_Door_Open.jpg}} \ 
+	\caption{Experiment 20 Images}
+	\label{fig:Experiment20ImagesCont1} 
+\end{figure}
+
+\begin{figure}[H]
+	\ContinuedFloat 
+	\centering 
+	\subfloat[Fan On]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_20/04_Fan_On.jpg}} \ 
+	\subfloat[Vent Bedroom 3 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_20/05_Vent_Bedroom_3_Window.jpg}} \ 
+	\subfloat[Straight Stream Front Door]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_20/06_Straight_Stream_Front_Door.jpg}} \ 
+	\caption{Experiment 20 Images}
+	\label{fig:Experiment20ImagesCont2} 
+\end{figure}
+
+\begin{figure}[H]
+	\ContinuedFloat 
+	\centering 
+	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_20/07_End_Experiment.jpg}} \ 
+	\caption{Experiment 20 Images}
+	\label{fig:Experiment20ImagesCont3} 
+\end{figure}
+
+\paragraph{Experiment 21}\mbox{}
+
+Experiment 21 was intended to represent a fire in open floor plan family room of a two story structure intended to demonstrate effect additional ventilation openings in the fire compartment. The front door is the air inlet and the two family room windows are the exhaust points. Suppression is via a straight stream through the front door. Figure \ref{fig:Exp21VentConfig} shows the configuration fo the structure, table \ref{Table:Exp21Interventions} show at what times interventions were preformed and the figures in \ref{fig:Experiment21ImagesCont1} shows images of the experiment at each of the intervention times.
+
+\begin{figure}[h!]
+	\centering
+	\begin{tabular}{c c}
+		\subfloat[First Floor]{\includegraphics[width=3.25in]{0_Images/FireExperiments/Two_Story/Experiment_21_-_1st_floor.jpg}} &
+		\subfloat[Second Floor]{\includegraphics[width=3.25in]{0_Images/FireExperiments/Two_Story/Experiment_21_-_2nd_floor.jpg}} \\		
+	\end{tabular}
+	\caption{Experiment 21 Ventilation Configuration}
+	\label{fig:Exp21VentConfig}
+\end{figure}
+
+\begin{table}[H]
+	\centering
+	\caption{Experiment 21 Interventions}
+	\begin{tabular}{|c|c|} 
+		\hline
+		Time & Intervention \\ \hline \hline
+		00:00 & Ignition - Family Room \\ \hline
+		08:00 & Vent Family Room Window 1 \\ \hline
+		08:10 & Vent Family Room Window 2 \\ \hline
+		08:30 & Front Door Open \\ \hline
+		08:50 & Fan On \\ \hline
+		11:18 & Straight Stream Front Door \\ \hline
+		14:00 & End Experiment \\ \hline
+	\end{tabular}
+	\label{Table:Exp21Interventions}
+\end{table}
+
+\begin{figure}[H]
+	\setcounter{subfigure}{0} 
+	\centering 
+	\subfloat[Ignition - Family Room]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_21/01_Ignition_Family_Room.jpg}} \ 
+	\subfloat[Vent Family Room Window 1]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_21/02_Vent_Family_Room_Window_1.jpg}} \ 
+	\subfloat[Vent Family Room Window 2]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_21/03_Vent_Family_Room_Window_2.jpg}} \ 
+	\caption{Experiment 21 Images}
+	\label{fig:Experiment21ImagesCont1} 
+\end{figure}
+
+\begin{figure}[H]
+	\ContinuedFloat 
+	\centering 
+	\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_21/04_Front_Door_Open.jpg}} \ 
+	\subfloat[Fan On]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_21/05_Fan_On.jpg}} \ 
+	\subfloat[Straight Stream Front Door]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_21/06_Straight_Stream_Front_Door.jpg}} \ 
+	\caption{Experiment 21 Images}
+	\label{fig:Experiment21ImagesCont2} 
+\end{figure}
+
+\begin{figure}[H]
+	\ContinuedFloat 
+	\centering 
+	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_21/07_End_Experiment.jpg}} \ 
+	\caption{Experiment 21 Images}
+	\label{fig:Experiment21ImagesCont3} 
+\end{figure}
+
+\paragraph{Experiment 22}\mbox{}
+
+Experiment 22 was intended to represent a fire in open floor plan family room of a two story structure intended to demonstrate effect of positive pressure fan flow rate on the effectiveness of positive pressure attack. The front door is the air inlet and the family room window is the exhaust point. Suppression is via a narrow fog through the family room window. Figure \ref{fig:Exp22VentConfig} shows the configuration fo the structure, table \ref{Table:Exp22Interventions} show at what times interventions were preformed and the figures in \ref{fig:Experiment22ImagesCont1} shows images of the experiment at each of the intervention times.
+
+\begin{figure}[h!]
+	\centering
+	\begin{tabular}{c c}
+		\subfloat[First Floor]{\includegraphics[width=3.25in]{0_Images/FireExperiments/Two_Story/Experiment_22_-_1st_floor.jpg}} &
+		\subfloat[Second Floor]{\includegraphics[width=3.25in]{0_Images/FireExperiments/Two_Story/Experiment_22_-_2nd_floor.jpg}} \\		
+	\end{tabular}
+	\caption{Experiment 22 Ventilation Configuration}
+	\label{fig:Exp22VentConfig}
+\end{figure}
+
+\begin{table}[H]
+	\centering
+	\caption{Experiment 22 Interventions}
+	\begin{tabular}{|c|c|} 
+		\hline
+		Time & Intervention \\ \hline \hline
+		00:00 & Ignition - Family Room \\ \hline
+		08:00 & Vent Family Room Window \\ \hline
+		08:33 & Front Door Open \\ \hline
+		08:50 & Fan On - 15ft Setback \\ \hline
+		11:21 & Fog Stream Family Room Window \\ \hline
+		14:00 & End Experiment \\ \hline
+	\end{tabular}
+	\label{Table:Exp22Interventions}
+\end{table}
+
+\begin{figure}[H]
+	\setcounter{subfigure}{0} 
+	\centering 
+	\subfloat[Ignition - Family Room]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_22/01_Ignition_Family_Room.jpg}} \ 
+	\subfloat[Vent Family Room Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_22/02_Vent_Family_Room_Window.jpg}} \ 
+	\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_22/03_Front_Door_Open.jpg}} \ 
+	\caption{Experiment 22 Images}
+	\label{fig:Experiment22ImagesCont1} 
+\end{figure}
+
+\begin{figure}[H]
+	\ContinuedFloat 
+	\centering 
+	\subfloat[Fan On - 15ft Setback]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_22/04_Fan_On_15ft_Setback.jpg}} \ 
+	\subfloat[Fog Stream Family Room Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_22/05_Fog_Stream_Family_Room_Window.jpg}} \ 
+	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_22/06_End_Experiment.jpg}} \ 
+	\caption{Experiment 22 Images}
+	\label{fig:Experiment22ImagesCont3} 
+\end{figure}
+
+\paragraph{Experiment 23}\mbox{}
+
+Experiment 23 was intended to represent a fire in second floor bedroom of the two story structure intended to demonstrate effect of a proper use of PPA and identify the impact of a obstructed or repositioned positive pressure fan during. The fire is located in the bedroom 3, the front door is the air inlet and the 2nd floor bedroom 3 window is the exhaust point. Suppression is via a transitional attack into the second floor bedroom window off the ceiling. Figure \ref{fig:Exp23VentConfig} shows the configuration fo the structure, table \ref{Table:Exp23Interventions} show at what times interventions were preformed and the figures in \ref{fig:Experiment23ImagesCont1} shows images of the experiment at each of the intervention times.
+
+\begin{figure}[h!]
+	\centering
+	\begin{tabular}{c c}
+		\subfloat[First Floor]{\includegraphics[width=3.25in]{0_Images/FireExperiments/Two_Story/Experiment_23_-_1st_floor.jpg}} &
+		\subfloat[Second Floor]{\includegraphics[width=3.25in]{0_Images/FireExperiments/Two_Story/Experiment_23_-_2nd_floor.jpg}} \\		
+	\end{tabular}
+	\caption{Experiment 23 Ventilation Configuration}
+	\label{fig:Exp23VentConfig}
+\end{figure}
+
+\begin{table}[H]
+	\centering
+	\caption{Experiment 23 Interventions}
+	\begin{tabular}{|c|c|} 
+		\hline
+		Time & Intervention \\ \hline \hline
+		00:00 & Ignition - Bedroom 3 \\ \hline
+		12:00 & Vent Bedroom 3 Window \\ \hline
+		12:30 & Front Door Open \\ \hline
+		12:50 & Fan On \\ \hline
+		13:59 & Fan Moved/Obstructed \\ \hline
+		14:55 & Straight Stream Bedroom 3 Window \\ \hline
+		17:00 & End Experiment \\ \hline
+	\end{tabular}
+	\label{Table:Exp23Interventions}
+\end{table}
+
+\begin{figure}[H]
+	\setcounter{subfigure}{0} 
+	\centering 
+	\subfloat[Ignition - Bedroom 3]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_23/01_Ignition_BR3.jpg}} \ 
+	\subfloat[Vent Bedroom 3 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_23/02_Vent_Bedroom_3_Window.jpg}} \ 
+	\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_23/03_Front_Door_Open.jpg}} \ 
+	\caption{Experiment 23 Images}
+	\label{fig:Experiment23ImagesCont1} 
+\end{figure}
+
+\begin{figure}[H]
+	\ContinuedFloat 
+	\centering 
+	\subfloat[Fan On]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_23/04_Fan_On.jpg}} \ 
+	\subfloat[Fan Moved/Obstructed]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_23/05_Fan_Moved_-_Obstructed.jpg}} \ 
+	\subfloat[Straight Stream Bedroom 3 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_23/06_Straight_Stream_BR3_Window.jpg}} \ 
+	\caption{Experiment 23 Images}
+	\label{fig:Experiment23ImagesCont2} 
+\end{figure}
+
+\begin{figure}[H]
+	\ContinuedFloat 
+	\centering 
+	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_23/07_End_Experiment.jpg}} \ 
+	\caption{Experiment 23 Images}
+	\label{fig:Experiment23ImagesCont3} 
+\end{figure}
+
+\paragraph{Experiment 24}\mbox{}
+
+Experiment 24 was intended to represent a fire in second floor bedroom of the two story structure intended to demonstrate the effect of additional ventilation openings remote from the fire. The fire is located in the bedroom 3, the front door is the air inlet and the 2nd floor bedroom 3 window is the exhaust point. The rear door is opened 1/2 way after the fan is started at the front door. Suppression is via a transitional attack through the bedroom 3 window off the ceiling with a straight stream. Figure \ref{fig:Exp24VentConfig} shows the configuration fo the structure, table \ref{Table:Exp24Interventions} show at what times interventions were preformed and the figures in \ref{fig:Experiment24ImagesCont1} shows images of the experiment at each of the intervention times.
+
+\begin{figure}[h!]
+	\centering
+	\begin{tabular}{c c}
+		\subfloat[First Floor]{\includegraphics[width=3.25in]{0_Images/FireExperiments/Two_Story/Experiment_24_-_1st_floor.jpg}} &
+		\subfloat[Second Floor]{\includegraphics[width=3.25in]{0_Images/FireExperiments/Two_Story/Experiment_24_-_2nd_floor.jpg}} \\		
+	\end{tabular}
+	\caption{Experiment 24 Ventilation Configuration}
+	\label{fig:Exp24VentConfig}
+\end{figure}
+
+\begin{table}[H]
+	\centering
+	\caption{Experiment 24 Interventions}
+	\begin{tabular}{|c|c|} 
+		\hline
+		Time & Intervention \\ \hline \hline
+		00:00 & Ignition - Bedroom 3 \\ \hline
+		10:20 & Vent Bedroom 3 Window \\ \hline
+		10:47 & Front Door Open \\ \hline
+		11:05 & Fan On \\ \hline
+		19:38 & Rear Door 1/2 Open  \\ \hline
+		21:39 & Straight Stream Bedroom 3 Window \\ \hline
+		24:00 & End Experiment \\ \hline
+	\end{tabular}
+	\label{Table:Exp24Interventions}
+\end{table}
+
+\begin{figure}[H]
+	\setcounter{subfigure}{0} 
+	\centering 
+	\subfloat[Ignition - Bedroom 3]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_24/01_Ignition_Bedroom_3.jpg}} \ 
+	\subfloat[Vent Bedroom 3 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_24/02_Vent_Bedroom_3_Window.jpg}} \ 
+	\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_24/03_Front_Door_Open.jpg}} \ 
+	\caption{Experiment 24 Images}
+	\label{fig:Experiment24ImagesCont1} 
+\end{figure}
+
+\begin{figure}[H]
+	\ContinuedFloat 
+	\centering 
+	\subfloat[Fan On]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_24/04_Fan_On.jpg}} \ 
+	\subfloat[Rear Door 1/2 Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_24/05_Rear_Door_Half_Opened.jpg}} \ 
+	\subfloat[Straight Stream Bedroom 3 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_24/06_Straight_Stream_BR3_Window.jpg}} \ 
+	\caption{Experiment 24 Images}
+	\label{fig:Experiment24ImagesCont2} 
+\end{figure}
+
+\begin{figure}[H]
+	\ContinuedFloat 
+	\centering 
+	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_24/07_End_Experiment.jpg}} \ 
+	\caption{Experiment 24 Images}
+	\label{fig:Experiment24ImagesCont3} 
+\end{figure}
+
+\paragraph{Experiment 25}\mbox{}
+
+Experiment 25 was intended to represent a fire in second floor bedroom of the two story structure intended to demonstrate the effect of transitional attack combined with positive pressure attack. The fire is located in bedroom 4 and self vents bedroom 4 window. Straight Stream Attack off the bedroom 4 ceiling through the window occurs followed by positive pressure attack. The front door is the air inlet and the 2nd floor bedroom 4 window is the exhaust point. Final suppression is via interior attack with a straight stream. Figure \ref{fig:Exp25VentConfig} shows the configuration fo the structure, table \ref{Table:Exp25nterventions} show at what times interventions were preformed and the figures in \ref{fig:Experiment25ImagesCont1} shows images of the experiment at each of the intervention times.
+
+\begin{figure}[h!]
+	\centering
+	\begin{tabular}{c c}
+		\subfloat[First Floor]{\includegraphics[width=3.25in]{0_Images/FireExperiments/Two_Story/Experiment_25_-_1st_floor.jpg}} &
+		\subfloat[Second Floor]{\includegraphics[width=3.25in]{0_Images/FireExperiments/Two_Story/Experiment_25_-_2nd_floor.jpg}} \\		
+	\end{tabular}
+	\caption{Experiment 25 Ventilation Configuration}
+	\label{fig:Exp25VentConfig}
+\end{figure}
+
+\begin{table}[H]
+	\centering
+	\caption{Experiment 25 Interventions}
+	\begin{tabular}{|c|c|} 
+		\hline
+		Time & Intervention \\ \hline \hline
+		00:00 & Ignition - Bedroom 4 \\ \hline
+		03:52 & Vent Bedroom 4 Window \\ \hline
+		05:40 & Straight Stream Bedroom 4 Window \\ \hline
+		05:47 & Front Door Open \\ \hline
+		05:54 & Fan On  \\ \hline
+		06:29 & Interior Attack Straight Stream \\ \hline
+		09:00 & End Experiment \\ \hline
+	\end{tabular}
+	\label{Table:Exp25Interventions}
+\end{table}
+
+\begin{figure}[H]
+	\setcounter{subfigure}{0} 
+	\centering 
+	\subfloat[Ignition - Bedroom 4]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_25/01_Ignition_BR4.jpg}} \ 
+	\subfloat[Vent Bedroom 4 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_25/02_Vent_Bedroom_4_Window.jpg}} \ 
+	\subfloat[Straight Stream Bedroom 4 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_25/03_Straight_Stream_BR4_Window.jpg}} \ 
+	\caption{Experiment 25 Images}
+	\label{fig:Experiment25ImagesCont1} 
+\end{figure}
+
+\begin{figure}[H]
+	\ContinuedFloat 
+	\centering 
+	\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_25/04_Front_Door_Open.jpg}} \ 
+	\subfloat[Fan On]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_25/05_Fan_On.jpg}} \ 
+	\subfloat[Interior Attack Straight Stream]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_25/06_Interior_Attack_Straight_Stream.jpg}} \ 
+	\caption{Experiment 25 Images}
+	\label{fig:Experiment25ImagesCont2} 
+\end{figure}
+
+\begin{figure}[H]
+	\ContinuedFloat 
+	\centering 
+	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_25/07_End_Experiment.jpg}} \ 
+	\caption{Experiment 25 Images}
+	\label{fig:Experiment25ImagesCont3} 
+\end{figure}
 
 \section{Tactical Considerations}
 
@@ -2398,21 +2966,232 @@ Although this analysis only looked at tenability and not lethality, survivabilit
 \subsection{Identify the flow path (esp. with a TIC) once interior to help locate the fire and speed the advance.}
 Thermal Imaging is becoming increasingly popular in the fire service as the technology becomes more cost effective. The thermal imaging camera (TIC) can be utilized to identify the flow path within a structure. The camera, capable of identifying radiant thermal energy. Firefighters have an understanding of radiant energy from modes of heat transfer, conduction, convention and radiation \cite{Essentials6}. Radiation being the transfer of energy through electromagnetic waves. The TIC is capable of detecting that emitted energy. All object emit energy, those emiting more energy are typically colored white in a TIC screen where objects emitting less energy or no energy are colored black. Newer TIC technology has added other colors to provide further resolution to the levels of radiated energy seen by the cameras sensor. This can be yellow, red or a combination scale of colors depending on the manufacturer. 
 
+\hl{Needs work. Sent to Nick Ledin who suggested for some input}
 
+\subsection{Extension into void spaces when using PPA is directly related to the exhaust capabilities of the void space.} \label{TC:Extension_Into_Voids}
+In order for fire extension into the void space there must be an entrance (penetration) for the fire and exit(exhaust) for the products of combustion. An entrance only allows the products of combustion to accumulate and limits oxygen, preventing ignition of objects in that space and thus fire spread. Previous work on fire extension through gypsum walls identified locations such as outlets, switches, lights, and hvac vents as providing break in the fire barrier\cite{DHS2011}.  These breaks in the gypsum typically lead to stud or joist bays. 
 
-\subsection{Extension into void spaces when using PPA is directly related to the exhaust capabilities of the void space.}
-If a void space has an exhaust (opening to another location with a lower pressure, i.e. pipe chase vented into the attic, balloon frame constructed stud bay open into the attic, HVAC duct that burns away opening it into a vented space) then fire can spread through it to the lower pressure location.  Electrical outlet and switch boxes into stud bays were examined.  Stud bays with minor penetrations like pipe chases did not result in burning up the stud bay and through the penetration.  With the top plate of the wall opened (simulating balloon frame construction) fire spread into the void space with and without PPV.  PPV allowed for it to occur faster.  In structures with openings into the attic space via vents and return air vents (especially with flex ducting), it should be assumed that there will be extension into attic space (especially with PPA).  Attic spaces should always be checked with a charged hose line.  Click here to access UL FSRI’s Attic and Exterior Fire Spread online training program for more information.
+\begin{figure} [H]
+	\centering
+	\begin{tabular}{c c}
+		\subfloat[Single Outlet and Switch Rear]{\includegraphics[height = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Switch.jpg}} &
+		\subfloat[Double Outlet and Switch Front]{\includegraphics[height = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/Double_Outlet_Switch.jpg}} \\
+	\end{tabular}
+	\caption{Void Space Wall Penetrations}
+	\label{fig:VoidSpaceSingleDouble}
+\end{figure}
+
+To transfer heat enough heat into the void space to extend fire, there must be an exhaust provided. Take for an example an outlet and light switch in a stud bay in platform construction. The stud cavity can either be enclosed on all side or have penetrations for lighting, plumbing or HVAC. In the the stud bay that is enclosed, no exhaust was provided. In the case of a bay with plumbing, lighting or HVAC penetrations, limited exhaust is provided as the majority of the hole created to run the utility contains the utility itself. 
+
+These two configurations were tested with single outlet and light switches. With the room adjacent the void space at flash-over, with PPA being conducted the room temperature peaked at 1700F. The void space reached just over 500F regardless if it was enclosed or contained small penetrations. The enclosed cavity grew slightly slower but both peaked at the same point and remained relatively steady during the positive pressure attack. 
+
+\begin{figure} [H]
+	\centering
+	\begin{tabular}{c c}
+		\subfloat[Stud Bay Temperatures]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/Platform_PipeVsNoPipe.pdf}} &
+		\subfloat[Outlet and Switch Locations]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/Outlet_SwitchLocation.png}} \\
+	\end{tabular}
+	\subfloat[Top Plate Coniguration]{\includegraphics[width = 5in]{0_Images/Tactical_Considerations/Void_Space_Extension/SingleGangTopPlate.jpg}}
+	\caption{Void Space Wall Penetrations}
+	\label{fig:VoidSpaceSingleGraphs}
+\end{figure}
+
+Although the penetration existed in the gypsum, no exhaust prevented extension. The plastic melted away allowing smoke damage and discoloration of materials however no charing of the wood occurred. 
+
+\begin{figure} [H]
+	\centering
+	\begin{tabular}{c c}
+		\subfloat[Single Switch \& Outlet Front]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/Single_Post_Fire_Front.jpg}} &
+		\subfloat[Single Switch \& Outlet Rear Overall]{\includegraphics[height = 2.5in]{0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Post_Rear_Overall.jpg}} \\
+		\subfloat[Single Switch \& Outlet Rear Bottom]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Post_Rear_Bottom.jpg}} &
+		\subfloat[Single Switch \& Outlet Rear Middle]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Post_Rear_Middle.jpg}} \\
+	\end{tabular}
+	\subfloat[Single Switch \& Outlet Rear Top]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Post_Rear_Top.jpg}} 
+	\caption{Post Fire Wall Images Single Box}
+	\label{fig:VoidSpaceSingleAfterPhotos}
+\end{figure}
+
+During the fire, light gray smoke was noted in exiting the holes in the top plate with the pipe penetrations. This would have caused non-thermal damage to any void connected, but would not have led to extension.
+
+\begin{figure} [H]
+	\centering
+	\begin{tabular}{c c}
+		\subfloat[Stud Bay Exhaust No-Fan]{\includegraphics[height = 3in ]{0_Images/Tactical_Considerations/Void_Space_Extension/Single_No_Fan_Exhaust.png}} &
+		\subfloat[Stud Bay Exhaust With Fan]{\includegraphics[width = 4in ]{0_Images/Tactical_Considerations/Void_Space_Extension/Single_Fan_Exhaust.png}}	\\
+	\end{tabular}
+	\caption{Stud Bay Exhaust - Single Outlet and Switch - Pipe Penetrations}
+\end{figure}
+
+Increasing the size of the gypsum penetration has little effect on the potential for extension if the exhaust remains the same. For instance a double outlet and switch with no opening above will not result in burning in the study cavity. Temperatures were 200F higher than in the single outlet and switch however even with flashover in the bedroom, post fire inspection of the stud cavity only indicated smoke damage. 
+
+\begin{figure} [H]
+	\centering
+	\begin{tabular}{c c}
+		\subfloat[Single Switch \& Outlet Post Fire Rear]{\includegraphics[height = 2.5in]{0_Images/Tactical_Considerations/Void_Space_Extension/SingleGangPost.jpg}} &
+		\subfloat[Double Switch \& Outlet Post Fire Rear]{\includegraphics[height = 2.5in]{0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPost.jpg}} \\
+	\end{tabular}
+	\subfloat[Single Vs. Double Outle/Switch Comparison (Platform Construction)]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/SingleVsDouble.pdf}}
+\end{figure}
+
+If the exhaust size in increased for instance with balloon construction, then combustion can occur in the stud space. There was charing of studs and flames were observed from the exhaust point even before PPA was applied. Temperatures in the stud cavity with balloon frame construction began approaching temperatures in the adjacent compartment. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 4in]{0_Images/Tactical_Considerations/Void_Space_Extension/FireBeforeFan.png}
+	\caption{Fire From Simulated Balloon Fram Stud Cavity Prior to PPA}
+	\label{fig:FireBeforeFan}
+\end{figure}
+
+\begin{figure} [H]
+	\centering
+	\begin{tabular}{c c}
+		\subfloat[Balloon Fram Construction]{\includegraphics[height = 1.5in]{0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangTopPlate.jpg}} &
+		\subfloat[Stud Bay Temperatures]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/BalloonVsPlatform.pdf}} \\
+		\subfloat[Stud Bay Exhaust No-Fan]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/Balloon_Exhaust_No_Fan.png}} &
+		\subfloat[Stud Bay Exhaust With Fan]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/Balloon_Exhaust_With_Fan.png}} \\
+	\end{tabular}
+	\caption{Balloon Frame Construction Vs Platform}
+	\label{fig:VoidSpaceBalloonVsPlatform}
+\end{figure}
+
+\begin{figure} [H]
+	\centering
+	\begin{tabular}{c c}
+		\subfloat[Double Switch \& Outlet Rear Overall]{\includegraphics[height = 2.5in]{0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostOverall.jpg}} &
+		\subfloat[Double Switch \& Outlet Rear Bottom]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostBottom.jpg}} \\
+		\subfloat[Double Switch \& Outlet Rear Middle]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostMiddle.jpg}} &
+		\subfloat[Double Switch \& Outlet Rear Top]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostTop.jpg}} \\
+	\end{tabular}
+	\caption{Double Box Post Fire Wall Images}
+	\label{fig:VoidSpaceDoubleAfterPhotos}
+\end{figure}
+
+With the top plate of the wall opened simulating balloon frame construction, fire spread into the void space with and without PPA. PPA allowed for it to occur faster.  In structures with openings into the attic space via vents and return air vents (especially with flex ducting), it should be assumed that there will be extension into attic space (especially with PPA).  Attic spaces should always be checked with a charged hose line. \href{http://www.firecompanies.com/modernfirebehavior/AtticFiresOnlineCourse/story.html}{Click here to access UL FSRI’s Attic and Exterior Fire Spread online training program for more information.}
 
 \subsection{In single story residential structures, the more openings made in the structure during PPV (Post Knockdown) the more effective it is at ventilating the structure.}
-The 18 in. gas fan used was capable of moving so much air it could exhaust through more than 5 times the inlet size to most efficiently remove products of combustion. With today’s fans flow rates, systematically exhausting smoke one room at a time is not as effective as exhausting several rooms at once.   When trying to ventilate one room at a time smoke will be entrained from connected spaces leading to very inefficient smoke removal.  
+The 18 in. gas fan used was capable of moving so much air it could exhaust through more than 5 times the inlet size to most efficiently remove products of combustion. As the number of exhaust points increased the exhaust flow continued to increase. 
 
-\subsection{When PPV is used, starting or turning in the fan immediately after fire control will provide the most benefit.}  Once water is on the fire and the attack crew has the upper hand, fans will assist with increasing visibility and reducing temperatures to ambient to allow for other fireground operations like search, rescue and overhaul to happen faster and more efficiently.  Attention needs to be paid to fire extension and should be evaluated as soon as possible.  Knowing where to check for extension such as ductwork penetrations, outlets, switches and HVAC return plenums will speed up the overhaul process and limit the chance of a fire in the structure getting ahead of interior crews.  The use of the fan must be coordinated with interior crews and incident command to ensure fire control has been achieved.  
+Ventilation by definition is the \textit{"planned, systematic and coordinated removal of heated air, smoke, gases or other airborne contaminants from a structure, replacing them with cooler and/or fresher air"} \cite{Essentials6}. Thus ventilation is changing out the air in the structure. If we can change the air out faster, conditions will improve faster. In the single story structure, positive pressure ventilation was most effective when multiple openings were provided, (up to 5 times the size of the inlet). 
 
-\subsection{Post fire control it is important to assess for extension.}
-While the fan provides additional visibility after fire control by exhausting products of combustion out of the structure faster, it also has the potential to hide extension in void spaces. The increased visibility should be used to evaluate for extension faster.  The fan can extend fire into void spaces and hide the signs of extension.  Consider shutting down the fan or closing a door to block fan flow periodically to assess the smoke conditions during overhaul.  Knowing where to check for extension such as ductwork penetrations, outlets, switches and HVAC return plenums will speed up the overhaul process and limit the chance of a fire in the structure getting ahead of interior crews.  
+\begin{table}[H]
+	\centering
+	\caption{Single Story Selected Fan Air Changes}
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		Ratio & Flow (CFM) & Air Changes Per Hour & Time for Single Air Change (mm:ss) \\ \hline \hline
+		5:1 & 22187.5 & 154.2 & 00:23 \\ \hline
+		3:1 & 18579.8 & 129.1 & 00:28 \\ \hline
+		2:1 & 15979.7 & 111.0 & 00:32 \\ \hline
+		1:1 & 8999.4 & 62.5 & 00:58 \\ \hline
+	\end{tabular}
+	\label{tab:SingleStoryAirChanges}
+\end{table}
 
-\subsection{Horizontal, Vertical and Positive Pressure Attack are different tactics.} No one tactic will work in every scenario.  With proper training and education they can all be implemented successfully to improve life safety, property conservation and incident stabilization.  Water must be applied in coordination with each of these ventilation tactics for successful outcomes.   For example, if in a compartmentalized structure, PPA will transition a ventilation limited compartment fire to flashover faster, however temperatures will be lower in adjacent spaces and return to ambient in those spaces faster with water application.
+With today’s fans flow rates, systematically exhausting smoke one room at a time is not as effective as exhausting several rooms at once.  When trying to ventilate one room at a time smoke will be entrained from connected spaces leading to very inefficient smoke removal.  All connected spaces will be ventilated at the same time with smoke being forced out only the single opening.
 
+\begin{figure} [H]
+	\centering
+	\includegraphics[width = 5in]{0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/EntrainedAir.pdf}
+	\caption{Air Entrainment From Connected Spaces}
+\end{figure}
+
+The temperature is gradually reduced throughout the structure during systematic ventilation but it is not until the room itself is ventilated that the temperatures return back to ambient. The elevated temperature is an indication that some of the products of combustion remain. The structures visibility improves gradually throughout but not until the room is ventilated does visibility completely clear. 
+
+\begin{figure} [H]
+	\centering
+	\begin{tabular}{c c c}
+		\subfloat[Systematic Bedroom 1]{\includegraphics[width = 2in]{0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic_Bed1.pdf}} &
+		\subfloat[Systematic Bedroom 2]{\includegraphics[width = 2in]{0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic_Bed2.pdf}} &
+		\subfloat[Systematic Bedroom 3]{\includegraphics[width = 2in]{0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic_Bed3.pdf}} \\
+	\end{tabular}
+	\caption{Systematic Ventilation Sequence}
+\end{figure}
+
+\begin{figure} [H]
+	\centering
+	\subfloat[Systematic Ventilation 7Ft Temperatures]{\includegraphics[width = 5in]{0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic.pdf}} \\
+	\begin{tabular}{c c}
+		\subfloat[Start PPV (00:00)]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic/BeginVent.png}} & 
+		\subfloat[Bedroom 2 Window Open (03:41)]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic/Bed2Open.png}} \\
+		\subfloat[Bedroom 3 Window Open (04:49)]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic/Bed3Open.png}} & 
+		\subfloat[Ventilation Complete (06:06)]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic/Complete.png}} \\
+	\end{tabular}
+	\caption{Systematic Ventilation}
+\end{figure}
+
+Providing additional exhaust during positive pressure ventilation increases the flow though the structure changing the atmosphere faster. Temperatures return to ambient in all exhausted rooms, with temperatures slowly decreasing in connected spaces as air in entrained. Once the connected space is provided with exhaust temperatures drop. 
+
+\begin{figure} [H]
+	\centering
+	\includegraphics[width = 3 in]{0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Non_Systematic.pdf}
+	\caption{Non-Systematic Ventilation}
+\end{figure}
+
+\begin{figure} [H]
+	\centering
+	\subfloat[Systematic Ventilation 7Ft Temperatures]{\includegraphics[width = 5in]{0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Non_Systematic.pdf}} \\
+	\begin{tabular}{c c}
+		\subfloat[Start PPV (00:00)]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Non-Systematic/StartVent.png}} & 
+		\subfloat[Ventilation Complete (03:41)]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Non-Systematic/CompleteVent.png}} \\
+	\end{tabular}
+	\caption{Systematic Ventilation}
+\end{figure}
+
+Post knock down, the more openings made the more flow the fan can provide and the faster the air is exchanged. More air changes adds to the effectiveness of positive pressure ventilation, as long as the fan is capable of providing the additional flow. Based on cold flow results all of the the fans tested provided this increased flow in the single story structure up to a 5:1 ratio. In the two story structure on average a 4:1 ratio provided the greatest flow.
+
+\subsection{Post fire control it is important to assess for extension.} \label{Assess_For_Extension}
+While the fan provides additional visibility after fire control by exhausting products of combustion out of the structure faster, it also has the potential to hide extension in void spaces. The increased air flow has the potential to accelerate smoldering fires in voids resulting in extension that may have self extinguished in the absence of additional oxygen. 
+
+Interior crews should use the increased visibility provided with positive pressure ventilation to evaluate for extension faster. Knowing where to check for extension such as ductwork penetrations, outlets, switches and HVAC return plenums will speed up the overhaul process and limit the chance of a fire in the structure getting ahead of interior crews. Priority should be given to void spaces connected to the fire compartment with an exhaust as described in tactical consideration \cite{TC:Extension_Into_Voids} above. Directing attention to these spaces immediately following knockdown will limit the possibility of extension.  
+
+In addition to checking void spaces immediately post knockdown, incident commanders should consider shutting down the fan or closing a door to block fan flow periodically to assess the smoke conditions during overhaul. The fan alters the flows within the structure hiding the possibility of a growing fire. Smoke from a void space that would build up on the interior is exhausted to the exterior. Shutting the fan down or closing the door temporarily will allow interior crews to evaluate if smoke conditions on the interior are changing. 
+
+\subsection{When PPV is used, starting or turning in the fan immediately after fire control will provide the most benefit.}  Once water is on the fire and the attack crew has the upper hand, fans will assist with increasing visibility and reducing temperatures to ambient to allow for other fireground operations like search, rescue and overhaul to happen faster and more efficiently.  
+
+Both horizontal and vertical ventilation take advantage of the buoyancy of fire gases. The boyancy drives the flow out the vent to the exterior which causes a low pressure inside the structure, drawing in cooler ambient air. If the attack crew has applied water to the fire, bringing it from ventilation limited to fuel limited, the ventilation is effective in as the additional oxygen created is not causing the fire to grow. \cite{DHS2008}, \cite{DHS2010}. Adding a fan to the boyant flow will increase the ventilations effectiveness. 
+
+A fan, capable of providing enough CFM for the given exhaust size (up to 5:1 in our single story ranch) used in conjunction with horizontal ventilation will take the bi-directional window vent and make it uni-directional increasing the flow.
+
+\begin{figure}
+	\centering
+	\begin{tabular}{c c }
+		\subfloat[Flow with Horizontal Ventilation]{\includegraphics[width = 3in ]{0_Images/Tactical_Considerations/Fan_Earlier/Horizontal_Flows_Arrows.png}} &
+		\subfloat[Flow with Positive Pressure Ventilation]{\includegraphics[width = 3in ]{0_Images/Tactical_Considerations/Fan_Earlier/PPV_Flows_Arrows.png}} \\
+	\end{tabular}
+	\caption{Comparing Horizontal and Positive Pressure Flows}
+\end{figure}
+
+As with horizontal ventilation, vertical ventilation would be more effective with the addition of pressure from a fan. The additional pressure would accelerate the rate at which gases are exhausted through a vertical vent, increasing the number of air changes occurring in the structure.
+
+When the fan is applied sooner, more attention needs to be paid to fire extension as discussed in tactical consideration \cite{Assess_For_Extension}. Knowing where to check for extension such as ductwork penetrations, outlets, switches and HVAC return plenums will speed up the overhaul process and limit the chance of a fire in the structure getting ahead of interior crews.  The use of the fan must be coordinated with interior crews and incident command to ensure fire control has been achieved.  
+
+\subsection{Horizontal, Vertical and Positive Pressure Attack are different tactics.} 
+No one tactic will work in every scenario. Understanding the modern fire environment with emphasis on ventilation limited fire dynamics and how fire department operations impact those will ensure the tactic chosen is most effective.
+
+Positive Pressure Attack as tactical ventilation has the goal of controlling the flows within the structure to aid the attack crew as they approach a fire with increased visibility and reduced temperatures. When the tactic is employed correctly, using the fan to direct the heat created by the fire out an exhaust opening rather than allowing it to flow back into the structure is very effective at controlling the temperature. 
+
+\begin{figure}
+	\centering
+	\begin{tabular}{c c}
+		\subfloat[Hallway Temperature]{\includegraphics[width = 3in ]{0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/HallTemps.pdf}} &
+		\subfloat[Bedroom 2 Doorway Temperature]{\includegraphics[width = 3in ]{0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/BedDoorFlow.pdf}} \\
+	\end{tabular}
+\end{figure}
+
+It is not as effective at increasing visibility because the interior environment is often already charged with smoke, which although diluted by the fan with clean cool air, does not reduce the optical density enough to increase visibility. Given enough time, the fan is capable of exhausting the built up smoke from the structure out the exhaust, however in the research conducted this occurred on the order of 3-5 minutes, time which is not available to wait prior to applying water to the fire. 
+
+Positive pressure Attack uses an increase in pressure to alter the flows within the structure where as vertical and horizontal rely on negative pressure. When an opening is made the hot fire gases are at a higher pressure and less dense thus exit the opening to the exterior as a buoyantly driven flow. This creates a negative pressure inside the structure drawing in the ambient air lower. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width = 5in ]{0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/Vertical_Flows.pdf}
+	\caption{Vertical Ventilation Flows}
+	\label{fig:VerticalVentFLows}
+\end{figure} 
+
+In a scenario with a bedroom fire isolated from the remainder of the structure with a single doorway and a large window, positive pressure attack may be the most effective means of controlling the flows within the structure. If the bedroom does not have a large window, utilizing horizontal or vertical ventilation with door control may be the more effective option. 
+
+With proper training and education they can all be implemented successfully to improve life safety, property conservation and incident stabilization.  Water must be applied in coordination with each of these ventilation tactics for successful outcomes.   For example, if in a compartmentalized structure, PPA will transition a ventilation limited compartment fire to flashover faster, however temperatures will be lower in adjacent spaces and return to ambient in those spaces faster with water application.
 
 \newpage
 

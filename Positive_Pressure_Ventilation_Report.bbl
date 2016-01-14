@@ -581,8 +581,9 @@
       \field{labelnamesource}{editor}
       \field{labeltitlesource}{title}
       \field{edition}{6}
+      \field{month}{01}
       \field{title}{Essential of Firefighting and Fire Department Operations}
-      \warn{\item Datamodel: Entry 'Essentials6' (PPVReport.bib): Invalid format '2013-1' of date field 'date' - ignoring}
+      \field{year}{2013}
     \endentry
     \entry{SurbarbanFirefighting_Knapp}{misc}{}
       \field{sortinit}{S}
