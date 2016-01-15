@@ -20,6 +20,10 @@
 \usepackage{microtype}
 \usepackage[backend=biber]{biblatex}
 \usepackage[hidelinks]{hyperref}
+\usepackage[toc,page]{appendix}
+\usepackage[toc]{glossaries}
+\usepackage[subfigure]{tocloft}
+\cftsetindents{subsection}{.25in}{.4in}
 
 
 \usepackage[flushleft]{threeparttable}
@@ -36,6 +40,10 @@
 \addbibresource{PPVReport.bib}
 \pdfoptionpdfminorversion=6
 
+\loadglsentries{glossary.tex}
+
+\makeglossaries
+	
 \begin{document}
 	\begin{titlepage}
 		
@@ -49,7 +57,7 @@
 		\huge
 		\begin{adjustwidth}{-0.5in}{-0in}
 		\color{white}
-		\textbf{Study of the Effectiveness of Fire Service Positive Pressure Ventilation During Fire Attack in Single Family Homes Incorporating Modern \\ Construction Practices\\}
+		\textbf{Study of the Effectiveness of Fire Service \\ Positive Pressure Ventilation During Fire Attack \\ in Single Family Homes Incorporating Modern \\ Construction Practices\\}
 		\end{adjustwidth}
 		\begin{adjustwidth}{-0.5in}{}
 		\color{white}
@@ -78,6 +86,10 @@ There is a continued tragic loss of firefighter and civilian lives, as shown by 
 
 This fire research project will develop experimental data from full-scale house fire experiments to examine positive pressure ventilation used during fire attack, suppression techniques and the resulting fire behavior. The experimental results will be used to develop tactical considerations outlining firefighting ventilation and suppression practices that will reduce firefighter death and injury.  This fire research project will draw from and enhance previous DHS AFG sponsored research (EMW-2008-FP-01774) which studied the impact of horizontal ventilation through doors and windows and (EMW-2010-FP-00661) which studied the impact of vertical ventilation through the roof. This project will address the concerns the firefighter community has expressed and provide a baseline for choosing the most appropriate type or types of ventilation on the fire ground.  Upon completion, the fire service will have scientific based comparisons between the three types of ventilation used on the fireground everyday across the country.  A comprehensive fire service outreach program will make sure that this science meets the street.
 \end{abstract}
+
+\newpage
+
+\tableofcontents
 
 \newpage
 
@@ -1282,9 +1294,9 @@ Experiment 4 was a room and contents fire in the living room of the single story
 \begin{figure}[H]
 	\setcounter{subfigure}{0} 
 	\centering 
-	\subfloat[Ignition - Living Room]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_4/01_Ignition_LR.jpg}} \ 
-	\subfloat[Vent Bedroom 2 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_4/02_Vent_BR2_Window.jpg}} \ 
-	\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_4/03_Front_Door_Open.jpg}} \ 
+	\subfloat[Ignition - Living Room]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_4/01_Ignition_LR.jpg}} \ 
+	\subfloat[Vent Bedroom 2 Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_4/02_Vent_BR2_Window.jpg}} \ 
+	\subfloat[Front Door Open]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_4/03_Front_Door_Open.jpg}} \ 
 	\caption{Experiment 4 Images}
 	\label{fig:Experiment4ImagesCont1} 
 \end{figure}
@@ -1293,9 +1305,9 @@ Experiment 4 was a room and contents fire in the living room of the single story
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[Fan On]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_4/04_Fan_On.jpg}} \ 
-	\subfloat[Straight Stream Front Door]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_4/05_Straight_Stream_Front_Door.jpg}} \ 
-	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_4/06_End_Experiment.jpg}} \ 
+	\subfloat[Fan On]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_4/04_Fan_On.jpg}} \ 
+	\subfloat[Straight Stream Front Door]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_4/05_Straight_Stream_Front_Door.jpg}} \ 
+	\subfloat[End Experiment]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_4/06_End_Experiment.jpg}} \ 
 	\caption{Experiment 4 Images}
 	\label{fig:Experiment4ImagesCont3} 
 \end{figure}
@@ -1332,9 +1344,9 @@ Experiment 5 was a room and contents fire in the living room of the single story
 \begin{figure}[H]
 	\setcounter{subfigure}{0} 
 	\centering 
-	\subfloat[Ignition - Living Room]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_5/01_Ignition_LR.jpg}} \ 
-	\subfloat[Vent Living Room Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_5/02_Vent_Living_Room_Window.jpg}} \ 
-	\subfloat[Front Door Open ]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_5/03_Front_Door_Open.jpg}} \ 
+	\subfloat[Ignition - Living Room]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_5/01_Ignition_LR.jpg}} \ 
+	\subfloat[Vent Living Room Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_5/02_Vent_Living_Room_Window.jpg}} \ 
+	\subfloat[Front Door Open ]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_5/03_Front_Door_Open.jpg}} \ 
 	\caption{Experiment 5 Images}
 	\label{fig:Experiment5ImagesCont1} 
 \end{figure}
@@ -1343,9 +1355,9 @@ Experiment 5 was a room and contents fire in the living room of the single story
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[Fan On]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_5/04_Fan_On.jpg}} \ 
-	\subfloat[Vent Bedroom 2 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_5/05_Vent_Bedroom_2.jpg}} \ 
-	\subfloat[Straight Stream Front Door]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_5/06_Straight_Stream_Front_Door.jpg}} \ 
+	\subfloat[Fan On]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_5/04_Fan_On.jpg}} \ 
+	\subfloat[Vent Bedroom 2 Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_5/05_Vent_Bedroom_2.jpg}} \ 
+	\subfloat[Straight Stream Front Door]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_5/06_Straight_Stream_Front_Door.jpg}} \ 
 	\caption{Experiment 5 Images}
 	\label{fig:Experiment5ImagesCont2} 
 \end{figure}
@@ -1354,7 +1366,7 @@ Experiment 5 was a room and contents fire in the living room of the single story
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_5/07_End_Experiment.jpg}} \ 
+	\subfloat[End Experiment]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_5/07_End_Experiment.jpg}} \ 
 	\caption{Experiment 5 Images}
 	\label{fig:Experiment5ImagesCont3} 
 \end{figure}
@@ -1394,9 +1406,9 @@ Experiment 6 was a room and contents fire in the living room of the single story
 \begin{figure}[H]
 	\setcounter{subfigure}{0} 
 	\centering 
-	\subfloat[Ignition - Bedroom 2]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_6/01_Ignition_BR2.jpg}} \ 
-	\subfloat[Vent Bedroom 2 Window 1]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_6/02_Vent_Bedroom_2_Window_1.jpg}} \ 
-	\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_6/03_Front_Door_Open.jpg}} \ 
+	\subfloat[Ignition - Bedroom 2]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_6/01_Ignition_BR2.jpg}} \ 
+	\subfloat[Vent Bedroom 2 Window 1]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_6/02_Vent_Bedroom_2_Window_1.jpg}} \ 
+	\subfloat[Front Door Open]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_6/03_Front_Door_Open.jpg}} \ 
 	\caption{Experiment 6 Images}
 	\label{fig:Experiment6ImagesCont1} 
 \end{figure}
@@ -1405,9 +1417,9 @@ Experiment 6 was a room and contents fire in the living room of the single story
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[Fan On]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_6/04_Fan_On.jpg}} \ 
-	\subfloat[Adjust Tilt Position 4]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_6/05_Adjust_Tilt_Postion_4.jpg}} \ 
-	\subfloat[Adjust Set Back 8']{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_6/06_Adjust_Set_Back_8.jpg}} \ 
+	\subfloat[Fan On]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_6/04_Fan_On.jpg}} \ 
+	\subfloat[Adjust Tilt Position 4]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_6/05_Adjust_Tilt_Postion_4.jpg}} \ 
+	\subfloat[Adjust Set Back 8']{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_6/06_Adjust_Set_Back_8.jpg}} \ 
 	\caption{Experiment 6 Images}
 	\label{fig:Experiment6ImagesCont2} 
 \end{figure}
@@ -1416,9 +1428,9 @@ Experiment 6 was a room and contents fire in the living room of the single story
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[Adjust Set Back 9']{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_6/07_Adjust_Set_Back_9.jpg}} \ 
-	\subfloat[Vent Bedroom 2 Window 2]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_6/08_Vent_Bedroom_2_Window_2.jpg}} \ 
-	\subfloat[Interior Suppression]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_6/09_Interior_Suppression.jpg}} \ 
+	\subfloat[Adjust Set Back 9']{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_6/07_Adjust_Set_Back_9.jpg}} \ 
+	\subfloat[Vent Bedroom 2 Window 2]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_6/08_Vent_Bedroom_2_Window_2.jpg}} \ 
+	\subfloat[Interior Suppression]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_6/09_Interior_Suppression.jpg}} \ 
 	\caption{Experiment 6 Images}
 	\label{fig:Experiment6ImagesCont3} 
 \end{figure}
@@ -1427,7 +1439,7 @@ Experiment 6 was a room and contents fire in the living room of the single story
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_6/10_End_Experiment.jpg}} \ 
+	\subfloat[End Experiment]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_6/10_End_Experiment.jpg}} \ 
 	\caption{Experiment 6 Images}
 	\label{fig:Experiment6ImagesCont4} 
 \end{figure}
@@ -1463,9 +1475,9 @@ Experiment 7 was a room and contents fire in the bedroom of the single story str
 \begin{figure}[H]
 	\setcounter{subfigure}{0} 
 	\centering 
-	\subfloat[Ignition - Bedroom 3]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_7/01_Ignition_BR3.jpg}} \ 
-	\subfloat[Vent Bedroom 3 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_7/02_Vent_BR3_Window.jpg}} \ 
-	\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_7/03_Front_Door_Open.jpg}} \ 
+	\subfloat[Ignition - Bedroom 3]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_7/01_Ignition_BR3.jpg}} \ 
+	\subfloat[Vent Bedroom 3 Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_7/02_Vent_BR3_Window.jpg}} \ 
+	\subfloat[Front Door Open]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_7/03_Front_Door_Open.jpg}} \ 
 	\caption{Experiment 7 Images}
 	\label{fig:Experiment7ImagesCont1} 
 \end{figure}
@@ -1474,9 +1486,9 @@ Experiment 7 was a room and contents fire in the bedroom of the single story str
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[Fan On - 15' Setback]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_7/04_Fan_On_Set_Back_15.jpg}} \ 
-	\subfloat[Interior Suppression - Straight Stream]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_7/05_Interior_Suppression_Straight_Stream.jpg}} \ 
-	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_7/06_End_Experiment.jpg}} \ 
+	\subfloat[Fan On - 15' Setback]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_7/04_Fan_On_Set_Back_15.jpg}} \ 
+	\subfloat[Interior Suppression - Straight Stream]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_7/05_Interior_Suppression_Straight_Stream.jpg}} \ 
+	\subfloat[End Experiment]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_7/06_End_Experiment.jpg}} \ 
 	\caption{Experiment 7 Images}
 	\label{fig:Experiment7ImagesCont3} 
 \end{figure}
@@ -1512,9 +1524,9 @@ Experiment 8 was a room and contents fire in the bedroom of the single story str
 \begin{figure}[H]
 	\setcounter{subfigure}{0} 
 	\centering 
-	\subfloat[Ignition - Bedroom 2]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_8/01_Ignition_BR2.jpg}} \ 
-	\subfloat[Vent Bedroom 2 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_8/02_Vent_BR2_Window.jpg}} \ 
-	\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_8/03_Front_Door_Open.jpg}} \ 
+	\subfloat[Ignition - Bedroom 2]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_8/01_Ignition_BR2.jpg}} \ 
+	\subfloat[Vent Bedroom 2 Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_8/02_Vent_BR2_Window.jpg}} \ 
+	\subfloat[Front Door Open]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_8/03_Front_Door_Open.jpg}} \ 
 	\caption{Experiment 8 Images}
 	\label{fig:Experiment8ImagesCont1} 
 \end{figure}
@@ -1523,9 +1535,9 @@ Experiment 8 was a room and contents fire in the bedroom of the single story str
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[Fan On]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_8/04_Fan_On.jpg}} \ 
-	\subfloat[Fan Moved/Obstructed]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_8/05_fan_moved_-_obstructed.jpg}} \ 
-	\subfloat[Suppression - Straight Stream Bedroom 2 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_8/06_Straight_Stream_Bedroom_2_Window.jpg}} \ 
+	\subfloat[Fan On]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_8/04_Fan_On.jpg}} \ 
+	\subfloat[Fan Moved/Obstructed]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_8/05_fan_moved_-_obstructed.jpg}} \ 
+	\subfloat[Suppression - Straight Stream Bedroom 2 Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_8/06_Straight_Stream_Bedroom_2_Window.jpg}} \ 
 	\caption{Experiment 8 Images}
 	\label{fig:Experiment8ImagesCont2} 
 \end{figure}
@@ -1534,7 +1546,7 @@ Experiment 8 was a room and contents fire in the bedroom of the single story str
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_8/07_End_Experiment.jpg}} \ 
+	\subfloat[End Experiment]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_8/07_End_Experiment.jpg}} \ 
 	\caption{Experiment 8 Images}
 	\label{fig:Experiment8ImagesCont3} 
 \end{figure}
@@ -1569,9 +1581,9 @@ Experiment 9 was a room and contents fire in the bedroom of the single story str
 \begin{figure}[H]
 	\setcounter{subfigure}{0} 
 	\centering 
-	\subfloat[Ignition - Bedroom 2]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_9/01_Ignition_BR2.jpg}} \ 
-	\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_9/02_Front_Door_Open.jpg}} \ 
-	\subfloat[Bedroom 2 Window Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_9/03_Bedroom_2_Window_Open.jpg}} \ 
+	\subfloat[Ignition - Bedroom 2]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_9/01_Ignition_BR2.jpg}} \ 
+	\subfloat[Front Door Open]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_9/02_Front_Door_Open.jpg}} \ 
+	\subfloat[Bedroom 2 Window Open]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_9/03_Bedroom_2_Window_Open.jpg}} \ 
 	\caption{Experiment 9 Images}
 	\label{fig:Experiment9ImagesCont1} 
 \end{figure}
@@ -1580,9 +1592,9 @@ Experiment 9 was a room and contents fire in the bedroom of the single story str
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[Fan On]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_9/04_Fan_On.jpg}} \ 
-	\subfloat[Suppression - Straight Stream Bedroom 2 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_9/05_Straight_Stream_BR2_Window.jpg}} \ 
-	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_9/06_End_Experiment.jpg}} \ 
+	\subfloat[Fan On]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_9/04_Fan_On.jpg}} \ 
+	\subfloat[Suppression - Straight Stream Bedroom 2 Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_9/05_Straight_Stream_BR2_Window.jpg}} \ 
+	\subfloat[End Experiment]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_9/06_End_Experiment.jpg}} \ 
 	\caption{Experiment 9 Images}
 	\label{fig:Experiment9ImagesCont3} 
 \end{figure}
@@ -1640,8 +1652,8 @@ Experiment 10 was a room and contents fire in the bedroom of the single story st
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[Suppression - Fog Stream Bedroom 2 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_10/07_Fog_Stream_Bedroom_2_Window.jpg}} \ 
-	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_10/08_End_Experiment.jpg}} \ 
+	\subfloat[Suppression - Fog Stream Bedroom 2 Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_10/07_Fog_Stream_Bedroom_2_Window.jpg}} \ 
+	\subfloat[End Experiment]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_10/08_End_Experiment.jpg}} \ 
 	\caption{Experiment 10 Images}
 	\label{fig:Experiment10ImagesCont3} 
 \end{figure}
@@ -1864,7 +1876,7 @@ Experiment 14 was a room and contents fire in the kitchen of the single story st
 
 \paragraph{Experiment 15}\mbox{}
 
-Experiment 15 was intended to represent a fire involving multiple rooms in an over furnished home. Additional fuel was provided in each bedroom making it difficult to maneuver through the rooms. The fire was ignited pusillanimously in the master bedroom, bedroom 2 and bedroom 3. The front door is the inlet air, the master bedroom window, rear window of bedroom 2 and bedroom 3 window were all exhaust points. Suppression was accomplished with two attack crews, one from the rear and one from the front. Figure \ref{fig:Exp15VentConfig} shows the configuration fo the structure, table \ref{Table:Exp15Interventions} show at what times interventions were preformed and the figures in \ref{fig:Exp15ImagesCont1} shows images of the experiment at each of the intervention times.
+Experiment 15 was intended to represent a fire involving multiple rooms in an over furnished home. Additional fuel was provided in each bedroom making it difficult to maneuver through the rooms. The fire was ignited pusillanimously in the master bedroom, bedroom 2 and bedroom 3. The front door is the inlet air, the master bedroom window, rear window of bedroom 2 and bedroom 3 window were all exhaust points. Suppression was accomplished with two attack crews, one from the rear and one from the front. Figure \ref{fig:Exp15VentConfig} shows the configuration fo the structure, table \ref{Table:Exp15Interventions} show at what times interventions were preformed and the figures in \ref{fig:Experiment15ImagesCont1} shows images of the experiment at each of the intervention times.
 
 \begin{figure}[h!]
 	\centering
@@ -1972,9 +1984,9 @@ Experiment 16 was intended to represent a fire in the family room of an open con
 \begin{figure}[H]
 	\setcounter{subfigure}{0} 
 	\centering 
-	\subfloat[Ignition - Family Room]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_16/01_Ignition_Family_Room.jpg}} \ 
-	\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_16/02_Front_Door_Open.jpg}} \ 
-	\subfloat[Fan On]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_16/03_Fan_On.jpg}} \ 
+	\subfloat[Ignition - Family Room]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_16/01_Ignition_Family_Room.jpg}} \ 
+	\subfloat[Front Door Open]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_16/02_Front_Door_Open.jpg}} \ 
+	\subfloat[Fan On]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_16/03_Fan_On.jpg}} \ 
 	\caption{Experiment 16 Images}
 	\label{fig:Experiment16ImagesCont1} 
 \end{figure}
@@ -1982,9 +1994,9 @@ Experiment 16 was intended to represent a fire in the family room of an open con
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[Vent Family Room Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_16/04_Vent_Family_Room_Window.jpg}} \ 
-	\subfloat[Fog Stream Family Room Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_16/05_Fog_Stream_Family_Room_Window.jpg}} \ 
-	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_16/06_End_Experiment.jpg}} \ 
+	\subfloat[Vent Family Room Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_16/04_Vent_Family_Room_Window.jpg}} \ 
+	\subfloat[Fog Stream Family Room Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_16/05_Fog_Stream_Family_Room_Window.jpg}} \ 
+	\subfloat[End Experiment]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_16/06_End_Experiment.jpg}} \ 
 	\caption{Experiment 16 Images}
 	\label{fig:Experiment16ImagesCont3} 
 \end{figure}
@@ -2022,9 +2034,9 @@ Experiment 17 was intended to represent a fire in the family room of an open con
 \begin{figure}[H]
 \setcounter{subfigure}{0} 
 \centering 
-\subfloat[Ignition - Family Room]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_17/01_Ignition_Family_Room.jpg}} \ 
-\subfloat[Vent Family Room Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_17/02_Vent_Family_Room_Window.jpg}} \ 
-\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_17/03_Front_Door_Open.jpg}} \ 
+\subfloat[Ignition - Family Room]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_17/01_Ignition_Family_Room.jpg}} \ 
+\subfloat[Vent Family Room Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_17/02_Vent_Family_Room_Window.jpg}} \ 
+\subfloat[Front Door Open]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_17/03_Front_Door_Open.jpg}} \ 
 \caption{Experiment 17 Images}
 \label{fig:Experiment17ImagesCont1} 
 \end{figure}
@@ -2032,9 +2044,9 @@ Experiment 17 was intended to represent a fire in the family room of an open con
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[Fan On]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_17/04_Fan_On.jpg}} \ 
-	\subfloat[Straight Stream Front Door]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_17/05_Straight_Stream_Front_Door.jpg}} \ 
-	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_17/06_End_Experiment.jpg}} \ 
+	\subfloat[Fan On]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_17/04_Fan_On.jpg}} \ 
+	\subfloat[Straight Stream Front Door]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_17/05_Straight_Stream_Front_Door.jpg}} \ 
+	\subfloat[End Experiment]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_17/06_End_Experiment.jpg}} \ 
 	\caption{Experiment 17 Images}
 	\label{fig:Experiment17ImagesCont3} 
 \end{figure}
@@ -2072,9 +2084,9 @@ Experiment 18 was intended to represent a fire in the family room of the open co
 \begin{figure}[H]
 	\setcounter{subfigure}{0} 
 	\centering 
-	\subfloat[Ignition - Family Room]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_18/01_Ignition_Family_Room.jpg}} \ 
-	\subfloat[Vent Family Room Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_18/02_Vent_Family_Room_Window.jpg}} \ 
-	\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_18/03_Front_Door_Open.jpg}} \ 
+	\subfloat[Ignition - Family Room]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_18/01_Ignition_Family_Room.jpg}} \ 
+	\subfloat[Vent Family Room Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_18/02_Vent_Family_Room_Window.jpg}} \ 
+	\subfloat[Front Door Open]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_18/03_Front_Door_Open.jpg}} \ 
 	\caption{Experiment 18 Images}
 	\label{fig:Experiment18ImagesCont1} 
 \end{figure}
@@ -2082,9 +2094,9 @@ Experiment 18 was intended to represent a fire in the family room of the open co
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[Fan On]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_18/04_Fan_On.jpg}} \ 
-	\subfloat[Straight Stream Family Room Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_18/05_Straight_Stream_Family_Room_Window.jpg}} \ 
-	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_18/06_End_Experiment.jpg}} \ 
+	\subfloat[Fan On]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_18/04_Fan_On.jpg}} \ 
+	\subfloat[Straight Stream Family Room Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_18/05_Straight_Stream_Family_Room_Window.jpg}} \ 
+	\subfloat[End Experiment]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_18/06_End_Experiment.jpg}} \ 
 	\caption{Experiment 18 Images}
 	\label{fig:Experiment18ImagesCont3} 
 \end{figure}
@@ -2123,9 +2135,9 @@ Experiment 19 was intended to represent a fire in the open floor plan of the two
 \begin{figure}[H]
 	\setcounter{subfigure}{0} 
 	\centering 
-	\subfloat[Ignition - Family Room]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_19/01_Ignition_Family_Room.jpg}} \ 
-	\subfloat[Vent Bedroom 3 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_19/02_Vent_Bedroom_3_Window.jpg}} \ 
-	\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_19/03_Front_Door_Open.jpg}} \ 
+	\subfloat[Ignition - Family Room]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_19/01_Ignition_Family_Room.jpg}} \ 
+	\subfloat[Vent Bedroom 3 Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_19/02_Vent_Bedroom_3_Window.jpg}} \ 
+	\subfloat[Front Door Open]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_19/03_Front_Door_Open.jpg}} \ 
 	\caption{Experiment 19 Images}
 	\label{fig:Experiment19ImagesCont1} 
 \end{figure}
@@ -2133,9 +2145,9 @@ Experiment 19 was intended to represent a fire in the open floor plan of the two
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[Fan On]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_19/04_Fan_On.jpg}} \ 
-	\subfloat[Straight Stream Front Door]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_19/05_Straight_Stream_Front_Door.jpg}} \ 
-	\subfloat[Straight Stream Bedroom 3 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_19/06_Straight_Stream_Bedroom_3_Window.jpg}} \ 
+	\subfloat[Fan On]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_19/04_Fan_On.jpg}} \ 
+	\subfloat[Straight Stream Front Door]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_19/05_Straight_Stream_Front_Door.jpg}} \ 
+	\subfloat[Straight Stream Bedroom 3 Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_19/06_Straight_Stream_Bedroom_3_Window.jpg}} \ 
 	\caption{Experiment 19 Images}
 	\label{fig:Experiment19ImagesCont2} 
 \end{figure}
@@ -2143,7 +2155,7 @@ Experiment 19 was intended to represent a fire in the open floor plan of the two
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_19/07_End_Experiment.jpg}} \ 
+	\subfloat[End Experiment]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_19/07_End_Experiment.jpg}} \ 
 	\caption{Experiment 19 Images}
 	\label{fig:Experiment19ImagesCont3} 
 \end{figure}
@@ -2182,9 +2194,9 @@ Experiment 20 was intended to represent a fire in open floor plan family room of
 \begin{figure}[H]
 	\setcounter{subfigure}{0} 
 	\centering 
-	\subfloat[Ignition - Family Room]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_20/01_Ignition_Family_Room.jpg}} \ 
-	\subfloat[Vent Family Room Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_20/02_Vent_Family_Room_Window.jpg}} \ 
-	\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_20/03_Front_Door_Open.jpg}} \ 
+	\subfloat[Ignition - Family Room]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_20/01_Ignition_Family_Room.jpg}} \ 
+	\subfloat[Vent Family Room Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_20/02_Vent_Family_Room_Window.jpg}} \ 
+	\subfloat[Front Door Open]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_20/03_Front_Door_Open.jpg}} \ 
 	\caption{Experiment 20 Images}
 	\label{fig:Experiment20ImagesCont1} 
 \end{figure}
@@ -2192,9 +2204,9 @@ Experiment 20 was intended to represent a fire in open floor plan family room of
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[Fan On]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_20/04_Fan_On.jpg}} \ 
-	\subfloat[Vent Bedroom 3 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_20/05_Vent_Bedroom_3_Window.jpg}} \ 
-	\subfloat[Straight Stream Front Door]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_20/06_Straight_Stream_Front_Door.jpg}} \ 
+	\subfloat[Fan On]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_20/04_Fan_On.jpg}} \ 
+	\subfloat[Vent Bedroom 3 Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_20/05_Vent_Bedroom_3_Window.jpg}} \ 
+	\subfloat[Straight Stream Front Door]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_20/06_Straight_Stream_Front_Door.jpg}} \ 
 	\caption{Experiment 20 Images}
 	\label{fig:Experiment20ImagesCont2} 
 \end{figure}
@@ -2202,7 +2214,7 @@ Experiment 20 was intended to represent a fire in open floor plan family room of
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_20/07_End_Experiment.jpg}} \ 
+	\subfloat[End Experiment]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_20/07_End_Experiment.jpg}} \ 
 	\caption{Experiment 20 Images}
 	\label{fig:Experiment20ImagesCont3} 
 \end{figure}
@@ -2241,9 +2253,9 @@ Experiment 21 was intended to represent a fire in open floor plan family room of
 \begin{figure}[H]
 	\setcounter{subfigure}{0} 
 	\centering 
-	\subfloat[Ignition - Family Room]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_21/01_Ignition_Family_Room.jpg}} \ 
-	\subfloat[Vent Family Room Window 1]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_21/02_Vent_Family_Room_Window_1.jpg}} \ 
-	\subfloat[Vent Family Room Window 2]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_21/03_Vent_Family_Room_Window_2.jpg}} \ 
+	\subfloat[Ignition - Family Room]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_21/01_Ignition_Family_Room.jpg}} \ 
+	\subfloat[Vent Family Room Window 1]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_21/02_Vent_Family_Room_Window_1.jpg}} \ 
+	\subfloat[Vent Family Room Window 2]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_21/03_Vent_Family_Room_Window_2.jpg}} \ 
 	\caption{Experiment 21 Images}
 	\label{fig:Experiment21ImagesCont1} 
 \end{figure}
@@ -2251,9 +2263,9 @@ Experiment 21 was intended to represent a fire in open floor plan family room of
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_21/04_Front_Door_Open.jpg}} \ 
-	\subfloat[Fan On]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_21/05_Fan_On.jpg}} \ 
-	\subfloat[Straight Stream Front Door]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_21/06_Straight_Stream_Front_Door.jpg}} \ 
+	\subfloat[Front Door Open]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_21/04_Front_Door_Open.jpg}} \ 
+	\subfloat[Fan On]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_21/05_Fan_On.jpg}} \ 
+	\subfloat[Straight Stream Front Door]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_21/06_Straight_Stream_Front_Door.jpg}} \ 
 	\caption{Experiment 21 Images}
 	\label{fig:Experiment21ImagesCont2} 
 \end{figure}
@@ -2261,7 +2273,7 @@ Experiment 21 was intended to represent a fire in open floor plan family room of
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_21/07_End_Experiment.jpg}} \ 
+	\subfloat[End Experiment]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_21/07_End_Experiment.jpg}} \ 
 	\caption{Experiment 21 Images}
 	\label{fig:Experiment21ImagesCont3} 
 \end{figure}
@@ -2299,9 +2311,9 @@ Experiment 22 was intended to represent a fire in open floor plan family room of
 \begin{figure}[H]
 	\setcounter{subfigure}{0} 
 	\centering 
-	\subfloat[Ignition - Family Room]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_22/01_Ignition_Family_Room.jpg}} \ 
-	\subfloat[Vent Family Room Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_22/02_Vent_Family_Room_Window.jpg}} \ 
-	\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_22/03_Front_Door_Open.jpg}} \ 
+	\subfloat[Ignition - Family Room]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_22/01_Ignition_Family_Room.jpg}} \ 
+	\subfloat[Vent Family Room Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_22/02_Vent_Family_Room_Window.jpg}} \ 
+	\subfloat[Front Door Open]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_22/03_Front_Door_Open.jpg}} \ 
 	\caption{Experiment 22 Images}
 	\label{fig:Experiment22ImagesCont1} 
 \end{figure}
@@ -2309,9 +2321,9 @@ Experiment 22 was intended to represent a fire in open floor plan family room of
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[Fan On - 15ft Setback]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_22/04_Fan_On_15ft_Setback.jpg}} \ 
-	\subfloat[Fog Stream Family Room Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_22/05_Fog_Stream_Family_Room_Window.jpg}} \ 
-	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_22/06_End_Experiment.jpg}} \ 
+	\subfloat[Fan On - 15ft Setback]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_22/04_Fan_On_15ft_Setback.jpg}} \ 
+	\subfloat[Fog Stream Family Room Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_22/05_Fog_Stream_Family_Room_Window.jpg}} \ 
+	\subfloat[End Experiment]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_22/06_End_Experiment.jpg}} \ 
 	\caption{Experiment 22 Images}
 	\label{fig:Experiment22ImagesCont3} 
 \end{figure}
@@ -2350,9 +2362,9 @@ Experiment 23 was intended to represent a fire in second floor bedroom of the tw
 \begin{figure}[H]
 	\setcounter{subfigure}{0} 
 	\centering 
-	\subfloat[Ignition - Bedroom 3]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_23/01_Ignition_BR3.jpg}} \ 
-	\subfloat[Vent Bedroom 3 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_23/02_Vent_Bedroom_3_Window.jpg}} \ 
-	\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_23/03_Front_Door_Open.jpg}} \ 
+	\subfloat[Ignition - Bedroom 3]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_23/01_Ignition_BR3.jpg}} \ 
+	\subfloat[Vent Bedroom 3 Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_23/02_Vent_Bedroom_3_Window.jpg}} \ 
+	\subfloat[Front Door Open]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_23/03_Front_Door_Open.jpg}} \ 
 	\caption{Experiment 23 Images}
 	\label{fig:Experiment23ImagesCont1} 
 \end{figure}
@@ -2360,9 +2372,9 @@ Experiment 23 was intended to represent a fire in second floor bedroom of the tw
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[Fan On]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_23/04_Fan_On.jpg}} \ 
-	\subfloat[Fan Moved/Obstructed]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_23/05_Fan_Moved_-_Obstructed.jpg}} \ 
-	\subfloat[Straight Stream Bedroom 3 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_23/06_Straight_Stream_BR3_Window.jpg}} \ 
+	\subfloat[Fan On]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_23/04_Fan_On.jpg}} \ 
+	\subfloat[Fan Moved/Obstructed]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_23/05_Fan_Moved_-_Obstructed.jpg}} \ 
+	\subfloat[Straight Stream Bedroom 3 Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_23/06_Straight_Stream_BR3_Window.jpg}} \ 
 	\caption{Experiment 23 Images}
 	\label{fig:Experiment23ImagesCont2} 
 \end{figure}
@@ -2370,7 +2382,7 @@ Experiment 23 was intended to represent a fire in second floor bedroom of the tw
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_23/07_End_Experiment.jpg}} \ 
+	\subfloat[End Experiment]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_23/07_End_Experiment.jpg}} \ 
 	\caption{Experiment 23 Images}
 	\label{fig:Experiment23ImagesCont3} 
 \end{figure}
@@ -2409,9 +2421,9 @@ Experiment 24 was intended to represent a fire in second floor bedroom of the tw
 \begin{figure}[H]
 	\setcounter{subfigure}{0} 
 	\centering 
-	\subfloat[Ignition - Bedroom 3]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_24/01_Ignition_Bedroom_3.jpg}} \ 
-	\subfloat[Vent Bedroom 3 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_24/02_Vent_Bedroom_3_Window.jpg}} \ 
-	\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_24/03_Front_Door_Open.jpg}} \ 
+	\subfloat[Ignition - Bedroom 3]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_24/01_Ignition_Bedroom_3.jpg}} \ 
+	\subfloat[Vent Bedroom 3 Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_24/02_Vent_Bedroom_3_Window.jpg}} \ 
+	\subfloat[Front Door Open]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_24/03_Front_Door_Open.jpg}} \ 
 	\caption{Experiment 24 Images}
 	\label{fig:Experiment24ImagesCont1} 
 \end{figure}
@@ -2419,9 +2431,9 @@ Experiment 24 was intended to represent a fire in second floor bedroom of the tw
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[Fan On]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_24/04_Fan_On.jpg}} \ 
-	\subfloat[Rear Door 1/2 Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_24/05_Rear_Door_Half_Opened.jpg}} \ 
-	\subfloat[Straight Stream Bedroom 3 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_24/06_Straight_Stream_BR3_Window.jpg}} \ 
+	\subfloat[Fan On]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_24/04_Fan_On.jpg}} \ 
+	\subfloat[Rear Door 1/2 Open]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_24/05_Rear_Door_Half_Opened.jpg}} \ 
+	\subfloat[Straight Stream Bedroom 3 Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_24/06_Straight_Stream_BR3_Window.jpg}} \ 
 	\caption{Experiment 24 Images}
 	\label{fig:Experiment24ImagesCont2} 
 \end{figure}
@@ -2429,7 +2441,7 @@ Experiment 24 was intended to represent a fire in second floor bedroom of the tw
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_24/07_End_Experiment.jpg}} \ 
+	\subfloat[End Experiment]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_24/07_End_Experiment.jpg}} \ 
 	\caption{Experiment 24 Images}
 	\label{fig:Experiment24ImagesCont3} 
 \end{figure}
@@ -2468,9 +2480,9 @@ Experiment 25 was intended to represent a fire in second floor bedroom of the tw
 \begin{figure}[H]
 	\setcounter{subfigure}{0} 
 	\centering 
-	\subfloat[Ignition - Bedroom 4]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_25/01_Ignition_BR4.jpg}} \ 
-	\subfloat[Vent Bedroom 4 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_25/02_Vent_Bedroom_4_Window.jpg}} \ 
-	\subfloat[Straight Stream Bedroom 4 Window]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_25/03_Straight_Stream_BR4_Window.jpg}} \ 
+	\subfloat[Ignition - Bedroom 4]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_25/01_Ignition_BR4.jpg}} \ 
+	\subfloat[Vent Bedroom 4 Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_25/02_Vent_Bedroom_4_Window.jpg}} \ 
+	\subfloat[Straight Stream Bedroom 4 Window]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_25/03_Straight_Stream_BR4_Window.jpg}} \ 
 	\caption{Experiment 25 Images}
 	\label{fig:Experiment25ImagesCont1} 
 \end{figure}
@@ -2478,9 +2490,9 @@ Experiment 25 was intended to represent a fire in second floor bedroom of the tw
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[Front Door Open]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_25/04_Front_Door_Open.jpg}} \ 
-	\subfloat[Fan On]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_25/05_Fan_On.jpg}} \ 
-	\subfloat[Interior Attack Straight Stream]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_25/06_Interior_Attack_Straight_Stream.jpg}} \ 
+	\subfloat[Front Door Open]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_25/04_Front_Door_Open.jpg}} \ 
+	\subfloat[Fan On]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_25/05_Fan_On.jpg}} \ 
+	\subfloat[Interior Attack Straight Stream]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_25/06_Interior_Attack_Straight_Stream.jpg}} \ 
 	\caption{Experiment 25 Images}
 	\label{fig:Experiment25ImagesCont2} 
 \end{figure}
@@ -2488,24 +2500,30 @@ Experiment 25 was intended to represent a fire in second floor bedroom of the tw
 \begin{figure}[H]
 	\ContinuedFloat 
 	\centering 
-	\subfloat[End Experiment]{\includegraphics[height=2in]{0_Images/Experiment_Screenshots/Experiment_25/07_End_Experiment.jpg}} \ 
+	\subfloat[End Experiment]{\includegraphics[height=2.5in]{0_Images/Experiment_Screenshots/Experiment_25/07_End_Experiment.jpg}} \ 
 	\caption{Experiment 25 Images}
 	\label{fig:Experiment25ImagesCont3} 
 \end{figure}
 
+\subsection{Smoke Removal Experiments}
+
+\paragraph{Systematic Smoke Removal} \mbox{}
+
+\paragraph{Non-Systematic Smoke Removal} \mbox{}
+
 \section{Tactical Considerations}
 
-\subsection{The application of water, as quickly as possible, whether from the interior or exterior prior to initiating PPA will increase the likelihood of a successful outcome} \label{sec:EarlyApplication}
-Fires are growing faster today as demonstrated in previous research and experienced on the fireground.  Firefighters need to understand the importance of rapid water application as an incident priority and water should not be delayed to setup PPA.  Training should focus on minimizing the time lapse between the start of the fan and application of water to the fire.  When PPA is implemented an attack line should be advanced with the fan flow, taking advantage of the fans ability to influence the flow path.
+\subsection{The application of water, as quickly as possible, whether from the interior or exterior prior to initiating PPA will increase the likelihood of a successful outcome.} \label{sec:EarlyApplication}
+Fire dynamics research continues to highlight how fires today grow and spread at alarming rates \cite{DHS2008} \cite{DHS2010} \cite{DHS2011}. The application of water to on a developing fire at modern fire flow rates been shown to slow the growth rate of the fire, increasing firefighter and occupant safety while decreasing property loss. This makes rapid hose line deployment a top priority for first arriving crews. Although positive pressure attack can improve the efficiency of a hose stretch, is not a substitute for the application of water on the seat of the fire.  Water should never be delayed to setup positive pressure attack (PPA).  
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width = 4in ]{0_Images/Tactical_Considerations/Application_of_Water/TransitionalvsDelayed.pdf}
 	\caption{Hallway Temperatures - Transitional vs Delayed Attack}
-	\ref{fig:TransitionalvsDelayed}
+	\label{fig:TransitionalvsDelayed}
 \end{figure}
 
-The sooner water is applied to hot gases and into the fire compartment the sooner it can lower the HRR and pressure created by the fire making the fan more effective.  Transitioning the fire from vent limited to fuel limited, weather from the interior or exterior by applying water was seen to reverse any flow from the fire compartment into the structure, exhausting completely the fire compartment.
+For departments that choose to utilize PPA as their primary fire attack method, training should focus on minimizing the time lapse between the start of the fan and application of water to the fire. If an interior attack is chosen, interior hose advancement should take advantage of the fans ability to reduce temperatures by influencing the flow path by following the intended fan flow towards the seat of the fire. 
 
 \begin{figure} [H]
 	\centering
@@ -2517,7 +2535,7 @@ The sooner water is applied to hot gases and into the fire compartment the soone
 	\label{fig:ReachOfStreamApplication}
 \end{figure} 
 
-This is often the case in open concept floor plans where a hose line has the capability to apply water to most of the 1st floor from the entrance and most of the 2nd floor bedrooms from the 1st floor.  This early application of water increases the effectiveness of PPA. \ref{sec:EarlyApplication}
+The effectiveness of PPA, was seen to increase dramatically after water was applied to the fire. Cooling the upper gas layer reduced the overall heat release rate of the fire, thus reducing the pressure created by the fire. Once water application transitioned the fire from vent limited to fuel limited, the fan was capable of preventing any flow from the fire compartment into the structure, redirecting the smoke, heat and toxic gases out the exhaust. 
 
 \begin{figure} [H]
 	\centering
@@ -2527,31 +2545,33 @@ This is often the case in open concept floor plans where a hose line has the cap
 	\end{tabular}
 \end{figure}
 
-The application of water from the exterior prior to entering the structure was shown to reduce temperatures making the fan more effective at lowering temperatures and reducing gas concentrations in adjacent while an interior attack could be preformed. The short duration between the exterior attack and the interior suppression did not permit much visibility improvement as the structure was still charged with smoke. The 5-10 second application of water applied off the ceiling at a steep angle, reduced the heat release rate of the fire making PPA more effective at exhausting the already created products of combustion. Had the application from the exterior not been followed by a rapid stretch to the interior the bedroom fire would have regrown. 
+A 5-10 second application of water off the ceiling at a steep angle into the fire compartment from the exterior, reduced the heat release rate of the fire making PPA more effective at exhausting the already created products of combustion. The increased effectiveness of the fan lends to cooler temperatures for the attack crew stretching to the seat of the fire. The short duration between the exterior attack and the interior suppression did not permit much visibility improvement as the structure was still charged with smoke. Had the application from the exterior not been followed by a rapid stretch to the interior the bedroom fire would have regrown. 
 
 \begin{figure} [H]
 	\centering
 	\begin{tabular}{*3c}
+		\setcounter{subfigure}{0} 
 		\subfloat[Bedroom Temperatures]{\includegraphics[width = 2 in ]{0_Images/Tactical_Considerations/Application_of_Water/TwoStoryBed4AttackTemps.pdf}} &
 		\subfloat[Hallway Gas Concentrations]{\includegraphics[width = 2 in ]{0_Images/Tactical_Considerations/Application_of_Water/TwoStoryBed4AttackHallGas.pdf}} &
-		\subfloat[Bedroom Temperatures]{\includegraphics[width = 2 in ]{0_Images/Tactical_Considerations/Application_of_Water/TwoStoryBed4Attack5Ft.pdf}} \\
+		\subfloat[5 Ft Temeperatures]{\includegraphics[width = 2 in ]{0_Images/Tactical_Considerations/Application_of_Water/TwoStoryBed4Attack5Ft.pdf}} \\
 	\end{tabular}
 \end{figure}
 
 \subsection{An outlet of sufficient size, must be provided, in the fire room to allow for effective PPA.} \label{sec:OutletInFireRoom}
-PPA effectiveness is dependent directly on the ability of the fire compartment to exhaust products of combustion to the exterior. Exhaust openings not provided in the fire room will create unintended flow paths, resulting in the spread of smoke and potentially fire into the room the exhaust is made. For example as shown in figure 9.1b when the vent is opened in the fire room, most of the heat and smoke will be vented out the bedroom resulting in temperatures remaining low in the adjacent rooms. When the exhaust is provided in an adjacent room it results in temperature increase in adjacent spaces as seen in figure \ref{fig:ExhaustLocationComp}.
+PPA effectiveness is directly dependent on the ability of the fan to exhaust products of combustion to the exterior. Any exhaust opening created in conjunction with PPA should be located in the fire compartment. Exhaust openings not provided in the fire compartment will create unintended flow paths, resulting in the spread of smoke and potentially fire into the room the exhaust is made. For example as shown in figure 9.1b when a vent is opened in the fire room, most of the heat and smoke will be vented out the window resulting in temperatures remaining low in the adjacent rooms. When the exhaust is provided in an adjacent room it results in temperature increase in adjacent spaces as seen in figure \ref{fig:ExhaustLocationComp}.
 
 \begin{figure}[H]
 	\centering
 	\begin{tabular}{c c}
+		\setcounter{subfigure}{0} 
 		\subfloat[5ft Temperature Bedroom \& Hallway Comparison]{\includegraphics[width = 3.75in]{0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/VentComparisonTemps.pdf}} & 
 		\subfloat[Ventilation Configuration]{\includegraphics[width = 1.75in]{0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/ExhaustLocationLayoutFire.pdf}} \\
 	\end{tabular}
-	\label{fig:ExhaustLocationComp}
 	\caption{Exhaust Location Comparison}
+	\label{fig:ExhaustLocationComp}
 \end{figure}
 
-Not only is the location of the exhaust important but also the area or size of the opening. In order to create the intended flow the pressure in the fire room must be lower than the pressure in adjacent spaces. As seen in figure \ref{fig:OneVSTwoWindowsColdFlow} done under cold flow conditions, when positive pressure attack is utilized the entire volume of the house is more or less at the same pressure with the exception of the room where the exhaust is provided. The lower pressure in this space creates a flow from the adjacent spaces into the exhausted compartment. When the single window was open providing an exhaust to inlet ratio of approximately 1:1, the pressure in the fire room (bedroom 2) was 1/2 the pressure of the living room. Once the second window as open, the door to the bedroom became the limiting factor for flow in, resulting in no pressure increase in the bedroom.
+Not only is the location of the exhaust important but also the area or size of the opening. In order to create the intended fan flow the pressure in the fire room must be lower than the pressure in adjacent spaces. As seen in figure \ref{fig:OneVSTwoWindowsColdFlow} done under cold flow conditions, when positive pressure attack is utilized the entire volume of the house is more or less at the same pressure with the exception of the room where the exhaust is provided. The lower pressure in this space creates a flow from the adjacent spaces into the exhausted compartment. When the single window was open providing an exhaust to inlet ratio of approximately 1:1, the pressure in the fire room (bedroom 2) was 1/2 the pressure of the living room. Once the second window as open, the door to the bedroom became the limiting factor for flow in, resulting in no pressure increase in the bedroom.
 
 \begin{figure}[H]
 	\centering
@@ -2559,13 +2579,13 @@ Not only is the location of the exhaust important but also the area or size of t
 		\subfloat[Pressures Within th Structure]{\includegraphics[width = 3.5in]{0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Bedroom2SingleVDoubleWindow.pdf}} & 
 			\subfloat[Ventilation Configuration]{\includegraphics[width = 1.75in]{0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/DoubleWindowBed2.pdf}} \\
 		\end{tabular}
-		\label{fig:OneVSTwoWindowsColdFlow}
 		\caption{Single Window vs. Double Window Could Flow Pressure}
+		\label{fig:OneVSTwoWindowsColdFlow}
 	\end{figure}
 
-This also applies under fire conditions. If too much air is added with the fan for the exhaust to accommodate, the fire will grow and flow will come back towards the fan. The solution is tom lower the pressure in the fire compartment by 1) create more exhaust openings in the fire compartment or 2) apply water and pressure created by the fire. 
+This also applies under fire conditions. If not enough exhaust is provided the pressure created by the fire will overwhelm the pressure created by the fire causing the the fire to grow back towards the fan. The solution is to lower the pressure in the fire compartment by 1) create more exhaust openings in the fire compartment or 2) apply water to reduce the pressure created by the fire. 
 
-In these experiments a 2:1 exhaust to inlet ratio was much more effective than a 1:1 or less ratio. Although under non-fire conditions the pressure in the bedroom is less with one window open then the remainder of the structure, when fire is introduced it creates additional pressure. As the heat release rate of the fire increases, the pressure in the fire room, created by the fire increases. At the point where the fire room pressure matches the remainder of the structure, combustion products will flow from the fire room into the structure again. This transfers energy from the fire room to the remainder of the structure increasing temperatures. Figure \ref{fig:SingleVsDoubleWindow}b illustrates the growing pressure as the fire grows between when the fan is turned on at 9 minutes and the flow exits the bedroom 2 doorway at 10:15. When the pressure in the fire room is equal to the adjacent spaces flow occurs out the top of the bedroom 2 door as seen in  figure \ref{fig:SingleVsDoubleWindow}. Creating the additional exhaust opening and reaching a 2:1 ratio of exhaust to inlet results in a decrease of pressure in the fire room and the products of combustion are all exhausted.
+Testing demonstrated a 2:1 exhaust to inlet ratio was much more effective than a 1:1 or less ratio. Although under non-fire conditions the pressure in the bedroom with one window open is less then the remainder of the structure, when fire is introduced it creates additional pressure. As the heat release rate of the fire increases, the pressure in the fire room increases. At the point where the fire room pressure matches the remainder of the structure, combustion products will flow from the fire room into the structure again. This increases temperatures and transfers smoke, and toxic gases from the fire compartment to the remainder of the structure. Figure \ref{fig:SingleVsDoubleWindow}b illustrates the increasing pressure as the fire grows. At 10:15, when the pressure in the fire room is equal to the adjacent spaces flow exits the top of the bedroom 2 door as seen in  figure \ref{fig:SingleVsDoubleWindow}. Creating the additional exhaust opening and reaching a 2:1 ratio of exhaust to inlet results in a decrease of pressure in the fire room and the products of combustion are all exhausted. Application of water would have had a similar effect. 
 
 \begin{figure}[H]
 	\centering
@@ -2578,11 +2598,72 @@ In these experiments a 2:1 exhaust to inlet ratio was much more effective than a
 	\label{fig:SingleVsDoubleWindow}
 \end{figure}
 
-Additional concerns identified in earlier research involve wind direction. Work done by NIST in 2008 on the use of positive pressure fans under wind driven fire conditions concluded the fans alone are not capable of overcoming the pressure created by the opposing wind condition. Thus an exhaust on the windward side of the structure will create a hazardous situation. If no other exhaust option is available firefighters should consider another tactic \cite{DHS2008}.
+Creating a 2:1 ratio can become a challenge. Many bedrooms have a single window, eliminating the option of a 2:1 ratio. In addition environmental factors may limit the use of a particular side of the structure as exhaust. Earlier research by NIST involved the impact of wind on positive pressure effectiveness. The work concluded positive pressure fans alone are not capable of overcoming the pressure created by the opposing wind condition. Thus an exhaust on the windward side of the structure will create a hazardous situation. If no other exhaust option is available firefighters should consider another tactic \cite{DHS2008}. If a minimum of a 1:1 ratio cannot be achieved, firefighters should consider another tactic. 
+
+\subsection{Positive Pressure Attack is Exhaust Dependant} \label{sec:ExhaustDepend}
+Over time PPV fans have evolved to flow a larger volume of air utilizing more powerful engines and improving fan components. Although fan size does play a role in the effectiveness of PPA, exhaust size plays a greater role. Providing enough exhaust to reduce the pressure in the fire room below what the fan is capable of producing in the remainder of the structure is essential for safe PPA operations.
+
+A fire in post flashover state, venting to the exterior was seen to produce between 9Pa and 11Pa of pressure in the upper layer 1ft from the ceiling. This means for the fan to prevent flow from the fire compartment to an adjacent compartment, the adjacent compartment needs to be at least 9Pa higher, preferably 11Pa higher. Any pressure differential less than that will cause some flow out of the fire compartment towards the fan. The intent of PPA is to direct the flow out the exhaust rather than into the structure. The greater the differential pressure between the fire room and adjacent spaces, the more back flow will be prevented. 
+
+\begin{table} [H]
+	\centering
+	\caption{Venting - Post Flashover Over Fire Room Pressure}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Experiment Number & Pressure (Pa) & Time Period (Min) \\ \hline \hline
+		6 & 11.10 & 7:40 - 8:00 \\ \hline
+		8 & 9.64 & 8:50 - 9:08 \\ \hline
+		9 & 10.56 & 8:00 - 8:40 \\ \hline
+		10 & 10.62 & 6:20 - 6:35 \\ \hline
+		11 & 10.71 & 7:55 - 8:10 \\ \hline
+		12 & 11.27 & 7:30 - 8:00 \\ \hline
+		Average & 10.65 & -  \\ \hline
+	\end{tabular}
+	\label{tab:FireRoomPressure}
+\end{table}
+
+The most effective way to create the pressure differential between the fire compartment and the adjacent compartments is through additional exhaust openings in the fire compartment. In the structures tested the bedrooms had windows with 15$ft^2$ of opening area per window with either one or two windows per bedroom. The interior doors had 16.7$ft^2$ of opening area and the entrance door had 20ft2 of opening area. The experiments found PPA most effective when the fire was in a compartment separated from the remainder of the structure (see tactical consideration \ref{OpenSpaces}). Figure 9.9 illustrates the opening sizes and intended fan flow for several of the experiments. It should be noted that in most structures the front door size is slightly larger than interior doors, however not vastly different sizes, thus the front door can be used as an approximation of the interior door size.
+
+The bedroom door opening of 16.7$ft^2$ provided a bottle neck for the flow, making the pressure in the living room and hallway higher than the pressure in the bedroom when the 15$ft^2$ window was open. However, because the window opening was smaller than the bedroom door the amount of flow exhausting the bedroom window was less than what was entering the bedroom door This resulted in a pressure increase in the room. This can be seen in cold flow in as shown in Figure \ref{fig:Bedroom2ColdFlow}. Before the second window was opened the fan created a pressure of approximately 7Pa in the bedroom. Once the second window was opened, the exhaust area went from 15$ft^2$, or less than the door opening, to 30$ft^2$ almost twice the size of the door opening. Creating the additional exhaust opening moved the constraining point for the flow from the single window, to the door of the bedroom. The pressure in the bedroom became equal to the pressure on the exterior.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 5in]{0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Opening_Sizes.pdf}
+	\caption{Opening Sizes - Single Story Ranch Structure}
+	\label{fig:RanchStructureOpenings}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 5in]{0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Bedroom2SingleVDoubleWindow.pdf}
+	\caption{Opening Sizes - Single Story Ranch Structure}
+	\label{fig:Bedroom2ColdFlow}
+\end{figure}
+
+With this principal in mind, any exhaust to inlet ratio greater than 1:1 will not result in a pressure rise in the fire compartment due to the fan, only what the fire is capable of producing. In the configuration shown, as long as the fan is capable of creating greater than 11Pa of pressure in adjacent spaces, all of the products of combustion being created in the bedroom will exhaust out the bedroom windows. This will limit the flow of heat and smoke from the fire compartment to the remainder of the structure. Heat and smoke flowing from the fire room towards the fan has the potential to cause vent point ignition at the fan inlet as seen in Figure \ref{fig:VentPointIgnitionLab} and \ref{fig:VentPointIgnitionField}. This is a very dangerous situation for fire fighters, as it indicates untenable conditions within the intended fan flow path, potentially cutting off the primary means of egress for the attack team.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 5in]{0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Vent_Point_Ignition.png}
+	\caption{Vent Point Ignition of Fan Inlet During Laboratory Experiments}
+	\label{fig:VentPointIgnitionLab}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 5in]{0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Vent_Point_Ignition_Field.png}
+	\caption{Vent Point Ignition of Fan Inlet From Incident Video}
+	\label{fig:VentPointIgnitionField}
+\end{figure}
+
+Providing additional exhaust in the fire room will not negatively effect positive pressure attack, it can only aid in ensuring the pressure created from the fire is not able to build and overcome the pressure created by the fan. With a single window often being less square footage than the size of the door to the room, it will be necessary to vent additional windows to achieve the greater than 1:1 ratio. 
+
+Many rooms only have one window or the sum of the area the windows in the room is less than the area of the door to the room. This does not mean the tactic of positive pressure attack will be ineffective, just that it will be less effective. An effort should be made to ensure the maximum exhaust ratio is achieved with all exhaust locations being in the fire room. If a ratio of less than 1/2:1 is the only option, a different tactic may be necessary. 
+
+Even when the required pressure difference is achieved between the fire room and adjacent spaces, backflow at the inlet where the fan is located will still occur. See tactical consideration \ref{sec:OngoingAssessment} for a discription of why backflow at the inlet is not an indicator of what flows are occurring within the structure and alone cannot identify the effectiveness of a positive pressure attack.
 
 \subsection{An ongoing assessment of inlet and exhaust flow is imperative to understanding whether or not a fan flow path has been established and if conditions are improving} \label{sec:OngoingAssessment}
-
-The fire attack entrance cannot tell you the conditions at the exhaust location(s). It is important to watch the changes at fire attack entrance and exhaust as opposed to just a snapshot. “You cant set it and forget it.” This ongoing assessment provides indications as to the effectiveness of the tactic. You cannot achieve a unidirectional flow at the front door. The opposing nature of the exhaust flow from the fire with the flow from the fan results in a non-uniform pressure in the “cone of air” on the inlet (Figure \ref{fig:FanAndDoorFlow}).
+The fire attack entrance cannot tell you the conditions at the exhaust location(s). It is important to watch for changes at fire attack entrance and exhaust as opposed to just a snapshot. “You cant set it and forget it.” This ongoing assessment provides indications as to the effectiveness of the tactic. You cannot achieve a unidirectional flow at the front door. The opposing nature of the exhaust flow from the fire with the flow from the fan results in a non-uniform pressure in the “cone of air” on the inlet (Figure \ref{fig:FanAndDoorFlow}).
 
 \begin{figure}
 	\centering
@@ -2591,7 +2672,7 @@ The fire attack entrance cannot tell you the conditions at the exhaust location(
 	\label{fig:FanAndDoorFlow}
 \end{figure}
 
-With the pressure being greater in the structure than outside, the non-uniform pressure from the fan results in back flow from the top of the doorway. Figure \ref{fig:DoorVelocity} illustrates the flow once steady state had been reached for each ventilation configuration tested in the single story and two story structures. The center line is zero flow, any values to the right of the center are outflow and to the left of the line are inflow. Regardless of the exhaust to inlet ratio tested back flow still occurred at the  inlet.
+With the pressure being greater in the structure than outside, the non-uniform pressure from the fan results in back flow from the top of the doorway. Figure \ref{fig:DoorVelocity} illustrates the flow once steady state had been reached for each ventilation configuration tested in the single story and two story structures. The center line is zero flow, any values to the right of the center are outflow and to the left of the line are inflow. Regardless of the exhaust size or location back flow still occurred at the inlet.
 
 \begin{figure}[H]
 	\centering
@@ -2603,7 +2684,7 @@ With the pressure being greater in the structure than outside, the non-uniform p
 	\label{fig:DoorVelocity}
 \end{figure}
 
-Immediately after the tactic is initiated the flow out the top of the door will be the stored up smoke from the room where the inlet is created. If the exhaust is effective over time this smoke will decrease in volume. Increased smoke volume or darkening color at the attack entrance may indicate that there is too little exhaust or too much fan. Use the neutral plane at the attack entrance and the exhaust to identify progress. Although exhaust flow may appear adequate the neutral plane in the front door will provide one indication the effectiveness of PPA as a tactic. A descending neutral plane at the front door indicates the flow moving towards the fan is increasing, potentially indicating the fire is burning out of the initial compartment.
+Immediately after the tactic is initiated the flow out the top of the door will be the stored up smoke from the room where the inlet is created. If the exhaust is effective, over time this smoke will decrease in volume. Increased smoke volume or darkening color at the attack entrance may indicate that there is too little exhaust. Use the neutral plane at the attack entrance and the exhaust to identify progress. Although exhaust flow may appear adequate the neutral plane in the front door will provide one indication the effectiveness of PPA as a tactic. A descending neutral plane at the front door indicates the flow moving towards the fan is increasing, potentially indicating the fire is burning out of the initial compartment.
 
 \begin{figure}[H]
 	\centering
@@ -2636,68 +2717,10 @@ Impact of PPA will be noticeable within seconds at the exhaust location(s), if n
 	\label{fig:ReadExhaust}
 \end{figure}
 
-In addition to monitoring exterior conditions, interior crews must be monitoring interior conditions. Ineffective PPA has the potential to cause conditions to deteriorate faster than would be noted in horizontal or vertical ventilation. Identifying and reacting to deteriorating conditions becomes even more essential during PPA. With the fan introduced interior crews should notice a decrease in temperature and increased visibility over time. If this is not the case the structure should be evacuated until the elements required for a successful PPA are re-evaluated.
-
-\subsection{Positive Pressure Attack is Exhaust Dependant} \label{sec:ExhaustDepend}
-
-Over time PPV fans have evolved to flow a larger volume of air utilizing more powerful engines and improving fan components. Although fan size does play a role in the effectiveness of PPA, tactic effectiveness is more dependent on exhaust. Providing enough exhaust to reduce the pressure in the fire room below what the fan is capable of producing in the remainder of the structure is essential for safe PPA operations.
-
-A fire in post flashover state, venting to the exterior was seen to produce between 9Pa and 11Pa of pressure in the upper layer 1ft from the ceiling. This means for the fan to prevent flow from the fire compartment to an adjacent compartment, the adjacent compartment needs to be at least 9Pa higher, preferably 11Pa higher. Any pressure differential less than that will cause some flow out of the fire compartment towards the fan. The greater the differential pressure between the fire room and adjacent spaces, the more back
-flow will be prevented.
-
-\begin{table} [H]
-	\centering
-	\caption{Venting - Post Flashover Over Fire Room Pressure}
-	\begin{tabular}{|c|c|c|}
-		\hline
-		Experiment Number & Pressure (Pa) & Time Period (Min) \\ \hline \hline
-		6 & 11.10 & 7:40 - 8:00 \\ \hline
-		8 & 9.64 & 8:50 - 9:08 \\ \hline
-		9 & 10.56 & 8:00 - 8:40 \\ \hline
-		10 & 10.62 & 6:20 - 6:35 \\ \hline
-		11 & 10.71 & 7:55 - 8:10 \\ \hline
-		12 & 11.27 & 7:30 - 8:00 \\ \hline
-		Average & 10.65 & -  \\ \hline
-	\end{tabular}
-	\label{tab:FireRoomPressure}
-\end{table}
-
-The most effective way to create the pressure differential between the fire compartment and the adjacent compartments is through additional exhaust openings in the fire compartment. In the structures tested the bedroom fires had windows with 15$ft^2$ of opening area per window with either one or two windows per bedroom. The interior doors had 16.7$ft^2$ of opening area and the entrance door had 20ft2 of opening area. The experiments found PPA most effective when the fire was in a compartment separated from the remainder of the structure. Figure 9.9 illustrates the opening sizes and intended fan flow for several of the bedroom experiments. It should be noted that in most structures the front door size is slightly larger than interior doors, however not vastly different sizes, thus the front door can be used as an approximation of the interior door size.
-
-The bedroom door opening of 16.7$ft^2$ provided a bottle neck for the flow, making the pressure in the living room and hallway higher than the pressure in the bedroom when the 15$ft^2$ window was open. However, because the window opening was smaller than the bedroom door the amount of flow exhausting the bedroom window was less than what was entering the bedroom door, resulting in a pressure increase in the room. This can be seen in cold flow in as shown in Figure \ref{fig:RanchStructureOPenings}. Before the second window was opened the fan created a pressure of approximately 7Pa in the bedroom. Once the second window was opened, the exhaust area went from 15$ft^2$, or less than the door opening, to 30$ft^2$ almost twice the size of the door opening. Creating the additional exhaust opening moved the constraining point for the flow from the single window,
-to the door of the bedroom.
-
-\begin{figure}
-	\centering
-	\includegraphics[width = 5in]{0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Opening_Sizes.pdf}
-	\caption{Opening Sizes - Single Story Ranch Structure}
-	\ref{fig:RanchStructureOpenings}
-\end{figure}
-
-With this principal in mind, any exhaust to inlet ratio greater than 1:1 will not result in a pressure rise in the fire compartment due to the fan, only what the fire is capable of producing. In the configuration shown, as long as the fan is capable of creating greater than 11Pa of pressure in adjacent spaces, all of the products of combustion being created in the bedroom will exhaust out the bedroom windows. This will limit the flow of heat and smoke from the fire compartment to the remainder of the structure. Heat and smoke flowing from the fire room towards the fan has the potential to cause vent point ignition at the fan inlet as seen in Figure XXX and XXX (Add vent point ignition image from field). This is a very dangerous situation for fire fighters, as it indicates untenable conditions within the intended fan flow path, potentially trapping firefighters.
-
-\begin{figure}
-	\centering
-	\includegraphics[width = 5in]{0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Vent_Point_Ignition.png}
-	\caption{Vent Point Ignition of Fan Inlet During Laboratory Experiments}
-	\label{fig:VentPointIgnitionLab}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[width = 5in]{0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Vent_Point_Ignition.png}
-	\caption{Vent Point Ignition of Fan Inlet From Incident Video}
-	\label{fig:VentPointIgnitionField}
-	\end{figure}
-
-Providing additional exhaust in the fire room will not negatively effect positive pressure attack, it can only aid in ensuring the pressure created from the fire is not able to build and overcome the pressure created by the fan. With a single window often being less square footage than the size of the door to the room, it will be necessary to vent additional windows to achieve the greater than 1:1 ratio. 
-
-Many rooms only have one window or the sum of the area the windows in the room is less than the area of the door to the room. This does not mean the tactic of positive pressure attack will be ineffective, just that it will be less effective. An effort should be made to ensure the maximum exhaust ratio is achieved with all exhaust locations being in the fire room. If a ratio of less than 1/2:1 is the only option, a different tactic may be necessary. 
-
-Even when the required pressure difference is achieved between the fire room and adjacent spaces, backflow at the inlet will still occur. As stated in \ref{sec:OngoingAssessment} backflow at the inlet is not an indicator of what flows are occurring within the structure and alone cannot identify the effectiveness of a positive pressure attack.
+In addition to monitoring exterior conditions, interior crews must be monitoring interior conditions. Ineffective PPA has the potential to cause conditions to deteriorate faster than would be noted in horizontal or vertical ventilation. Identifying and reacting to deteriorating conditions becomes even more essential during PPA. With the fan introduced, interior crews should notice a decrease in temperature and increased visibility over time. If this is not the case the structure should be evacuated until the elements required for a successful PPA are re-evaluated.
 
 \subsection{The setback of the fan or development of a “cone of air” is not as important as the exhaust size.}
-In the application of PPA a great deal of emphasis has been placed on the flow occurring at the front door. It was thought, if a "cone of air" was placed over the door the result would be inflow through the door, pressurizing the structure and forcing all flow out the exhaust openings. Manuals make reference to ensuring PPA effectiveness by evaluating for total inflow at the inlet (Figure \ref{fig:ConeImages}).
+In the application of PPA a great deal of emphasis has been placed on the flow occurring at the front door. It was thought, if a "cone of air" was placed over the door the result would be inflow through the door, pressurizing the structure and forcing all flow out the exhaust openings. Manuals make reference to ensuring PPA effectiveness by evaluating for total inflow at the inlet (Figure \ref{fig:ConeImages}) \cite{SuperVacManual} \cite{TempestWebsite}.
 
 \begin{figure}[H]
 	\centering
@@ -2716,10 +2739,10 @@ The effectiveness of PPA can be tied directly to the pressure created inside the
 
 The configuration was independent of structure size. Departments utilizing PPA should verify the most effective placement for their particular fan to produce the greatest pressure increase in adjacent compartments, which cannot be evaluated solely by developing a "cone of air". Much like understanding the pressure required to flow a desired volume of water, firefighters need to determine how much pressure can be provided by the fan they utilize and in what configurations. If the fan is not capable of providing the pressure required to overcome the pressure in the fire compartment the fan may not be effective for positive pressure attack. 
 
-In addition to creating as much pressure as possible in adjacent compartments, it is imperative the pressure created by the fan not provide additional pressure to the fire room. This is accomplished by providing greater than a 1:1 exhaust to inlet ratio, and understanding how the interior doorway acts a separation to help maintain the pressure in the adjacent spaces.  
+In addition to creating as much pressure as possible in adjacent compartments, it is imperative the pressure created by the fan not provide additional pressure to the fire room. This is accomplished by providing greater than a 1:1 exhaust to inlet ratio, and understanding how the interior doorway acts a separation to help maintain the pressure in the adjacent spaces. See tactical consideration \ref{sec:ExhaustDepend}  and \ref{OpenSpaces} for more information.
 
-\subsection{PPA will not be effective on a fire located in an open concept floor plan or any floor plan with high ceilings.}
-In order for positive pressure attack to be effective, the fan must be capable of increasing pressure in the adjacent compartments. This forces the products of combustion out of the structure rather than into other compartments. This pressure increase is only possible where the fire is located within a compartment. 
+\subsection{PPA will not be effective on a fire located in an open concept floor plan or any floor plan with high ceilings.} \label{OpenSpaces}
+In order for positive pressure attack to be effective, the fan must be capable of increasing pressure in the adjacent compartments. This forces the products of combustion out of the structure rather than into adjacent compartments. This pressure increase is only possible where the fire is located within a compartment. 
 
 \begin{figure}[H]
 	\centering
@@ -2894,7 +2917,7 @@ PPA can increase visibility and decrease temperatures allowing firefighters get 
 	\caption{Effect of Removing or Obstructing Fan}
 \end{figure}
 
-Using the reach of your stream as you approach the fire from a safe distance will reduce the energy released by the fire. Should the fan become obstructed or shut off while fire fighters are approaching the fire compartment, the upper layer cooling will decrease the thermal assault on the advancing attack line crew. This may be flowing while moving, it may also be the application of water in the direction of the fire to cool prior to advancing. 
+Using the reach of your stream as you approach the fire from a safe distance will reduce the energy released by the fire. Should the fan become obstructed or shut off while fire fighters are approaching the fire compartment, the upper layer cooling will decrease the thermal assault on the advancing attack line crew. This may be flowing while moving, it may also be the application of water in the direction of the fire to cool prior to advancing. Taking advantage of an open concept floor plans, an attack crew may be capability of applying water to most of the 1st floor from the entrance and most of the 2nd floor bedrooms from the 1st floor.  This early application of water, prior to advancing to the fire compartment, will increase the effectiveness of PPA as described in tactical consideration \ref{sec:EarlyApplication}.
 
 Additionally, firefighters should appreciate the fact that they are a potential impediment to the air flow they are using, especially as they approach the door to a fire room. The same is true for a crew advancing down a narrow hallway. Attack line crews should take advantage of the increased visibility and reduced temperature to make the advance as quickly as possible.
 
@@ -2963,11 +2986,6 @@ Oxygen Concentration remained high in the closed bedrooms for both the single st
 
 Although this analysis only looked at tenability and not lethality, survivability potential of occupants in a closed bedroom or in a compartment isolated from the fire compartment remains higher than those in compartments open to the fire area. The inclusion of positive pressure attack did not negatively impact this increased survivability. The isolation of the compartment prevented the establishment of a flowpath through that space. Regardless of if the tactic of positive pressure attack was used effectively or ineffectively the survivability of victims in an isolated compartment (closed bedroom) exceeded the survivability of any potential victims located in an attached compartment. 
 
-\subsection{Identify the flow path (esp. with a TIC) once interior to help locate the fire and speed the advance.}
-Thermal Imaging is becoming increasingly popular in the fire service as the technology becomes more cost effective. The thermal imaging camera (TIC) can be utilized to identify the flow path within a structure. The camera, capable of identifying radiant thermal energy. Firefighters have an understanding of radiant energy from modes of heat transfer, conduction, convention and radiation \cite{Essentials6}. Radiation being the transfer of energy through electromagnetic waves. The TIC is capable of detecting that emitted energy. All object emit energy, those emiting more energy are typically colored white in a TIC screen where objects emitting less energy or no energy are colored black. Newer TIC technology has added other colors to provide further resolution to the levels of radiated energy seen by the cameras sensor. This can be yellow, red or a combination scale of colors depending on the manufacturer. 
-
-\hl{Needs work. Sent to Nick Ledin who suggested for some input}
-
 \subsection{Extension into void spaces when using PPA is directly related to the exhaust capabilities of the void space.} \label{TC:Extension_Into_Voids}
 In order for fire extension into the void space there must be an entrance (penetration) for the fire and exit(exhaust) for the products of combustion. An entrance only allows the products of combustion to accumulate and limits oxygen, preventing ignition of objects in that space and thus fire spread. Previous work on fire extension through gypsum walls identified locations such as outlets, switches, lights, and hvac vents as providing break in the fire barrier\cite{DHS2011}.  These breaks in the gypsum typically lead to stud or joist bays. 
 
@@ -3001,7 +3019,7 @@ Although the penetration existed in the gypsum, no exhaust prevented extension. 
 \begin{figure} [H]
 	\centering
 	\begin{tabular}{c c}
-		\subfloat[Single Switch \& Outlet Front]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/Single_Post_Fire_Front.jpg}} &
+		\subfloat[Single Switch \& Outlet Front]{\includegraphics[height = 2.5in]{0_Images/Tactical_Considerations/Void_Space_Extension/Single_Post_Fire_Front.jpg}} &
 		\subfloat[Single Switch \& Outlet Rear Overall]{\includegraphics[height = 2.5in]{0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Post_Rear_Overall.jpg}} \\
 		\subfloat[Single Switch \& Outlet Rear Bottom]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Post_Rear_Bottom.jpg}} &
 		\subfloat[Single Switch \& Outlet Rear Middle]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Post_Rear_Middle.jpg}} \\
@@ -3016,8 +3034,8 @@ During the fire, light gray smoke was noted in exiting the holes in the top plat
 \begin{figure} [H]
 	\centering
 	\begin{tabular}{c c}
-		\subfloat[Stud Bay Exhaust No-Fan]{\includegraphics[height = 3in ]{0_Images/Tactical_Considerations/Void_Space_Extension/Single_No_Fan_Exhaust.png}} &
-		\subfloat[Stud Bay Exhaust With Fan]{\includegraphics[width = 4in ]{0_Images/Tactical_Considerations/Void_Space_Extension/Single_Fan_Exhaust.png}}	\\
+		\subfloat[Stud Bay Exhaust No-Fan]{\includegraphics[height = 2.75in ]{0_Images/Tactical_Considerations/Void_Space_Extension/Single_No_Fan_Exhaust.png}} &
+		\subfloat[Stud Bay Exhaust With Fan]{\includegraphics[height = 2.75in ]{0_Images/Tactical_Considerations/Void_Space_Extension/Single_Fan_Exhaust.png}}	\\
 	\end{tabular}
 	\caption{Stud Bay Exhaust - Single Outlet and Switch - Pipe Penetrations}
 \end{figure}
@@ -3045,7 +3063,7 @@ If the exhaust size in increased for instance with balloon construction, then co
 \begin{figure} [H]
 	\centering
 	\begin{tabular}{c c}
-		\subfloat[Balloon Fram Construction]{\includegraphics[height = 1.5in]{0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangTopPlate.jpg}} &
+		\subfloat[Balloon Fram Construction]{\includegraphics[height = 2.75in]{0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangTopPlate.jpg}} &
 		\subfloat[Stud Bay Temperatures]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/BalloonVsPlatform.pdf}} \\
 		\subfloat[Stud Bay Exhaust No-Fan]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/Balloon_Exhaust_No_Fan.png}} &
 		\subfloat[Stud Bay Exhaust With Fan]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/Balloon_Exhaust_With_Fan.png}} \\
@@ -3057,8 +3075,8 @@ If the exhaust size in increased for instance with balloon construction, then co
 \begin{figure} [H]
 	\centering
 	\begin{tabular}{c c}
-		\subfloat[Double Switch \& Outlet Rear Overall]{\includegraphics[height = 2.5in]{0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostOverall.jpg}} &
-		\subfloat[Double Switch \& Outlet Rear Bottom]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostBottom.jpg}} \\
+		\subfloat[Double Switch \& Outlet Rear Overall]{\includegraphics[height = 2.25in]{0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostOverall.jpg}} &
+		\subfloat[Double Switch \& Outlet Rear Bottom]{\includegraphics[height = 2.25in]{0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostBottom.jpg}} \\
 		\subfloat[Double Switch \& Outlet Rear Middle]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostMiddle.jpg}} &
 		\subfloat[Double Switch \& Outlet Rear Top]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostTop.jpg}} \\
 	\end{tabular}
@@ -3129,12 +3147,12 @@ Providing additional exhaust during positive pressure ventilation increases the 
 
 \begin{figure} [H]
 	\centering
-	\subfloat[Systematic Ventilation 7Ft Temperatures]{\includegraphics[width = 5in]{0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Non_Systematic.pdf}} \\
+	\subfloat[Systematic Ventilation 7Ft Temperatures]{\includegraphics[width = 5in]{0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Non-Systematic.pdf}} \\
 	\begin{tabular}{c c}
 		\subfloat[Start PPV (00:00)]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Non-Systematic/StartVent.png}} & 
 		\subfloat[Ventilation Complete (03:41)]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Non-Systematic/CompleteVent.png}} \\
 	\end{tabular}
-	\caption{Systematic Ventilation}
+	\caption{Non-Systematic Ventilation}
 \end{figure}
 
 Post knock down, the more openings made the more flow the fan can provide and the faster the air is exchanged. More air changes adds to the effectiveness of positive pressure ventilation, as long as the fan is capable of providing the additional flow. Based on cold flow results all of the the fans tested provided this increased flow in the single story structure up to a 5:1 ratio. In the two story structure on average a 4:1 ratio provided the greatest flow.
@@ -3142,7 +3160,7 @@ Post knock down, the more openings made the more flow the fan can provide and th
 \subsection{Post fire control it is important to assess for extension.} \label{Assess_For_Extension}
 While the fan provides additional visibility after fire control by exhausting products of combustion out of the structure faster, it also has the potential to hide extension in void spaces. The increased air flow has the potential to accelerate smoldering fires in voids resulting in extension that may have self extinguished in the absence of additional oxygen. 
 
-Interior crews should use the increased visibility provided with positive pressure ventilation to evaluate for extension faster. Knowing where to check for extension such as ductwork penetrations, outlets, switches and HVAC return plenums will speed up the overhaul process and limit the chance of a fire in the structure getting ahead of interior crews. Priority should be given to void spaces connected to the fire compartment with an exhaust as described in tactical consideration \cite{TC:Extension_Into_Voids} above. Directing attention to these spaces immediately following knockdown will limit the possibility of extension.  
+Interior crews should use the increased visibility provided with positive pressure ventilation to evaluate for extension faster. Knowing where to check for extension such as ductwork penetrations, outlets, switches and HVAC return plenums will speed up the overhaul process and limit the chance of a fire in the structure getting ahead of interior crews. Priority should be given to void spaces connected to the fire compartment with an exhaust as described in tactical consideration \ref{TC:Extension_Into_Voids} above. Directing attention to these spaces immediately following knockdown will limit the possibility of extension.  
 
 In addition to checking void spaces immediately post knockdown, incident commanders should consider shutting down the fan or closing a door to block fan flow periodically to assess the smoke conditions during overhaul. The fan alters the flows within the structure hiding the possibility of a growing fire. Smoke from a void space that would build up on the interior is exhausted to the exterior. Shutting the fan down or closing the door temporarily will allow interior crews to evaluate if smoke conditions on the interior are changing. 
 
@@ -3163,7 +3181,7 @@ A fan, capable of providing enough CFM for the given exhaust size (up to 5:1 in 
 
 As with horizontal ventilation, vertical ventilation would be more effective with the addition of pressure from a fan. The additional pressure would accelerate the rate at which gases are exhausted through a vertical vent, increasing the number of air changes occurring in the structure.
 
-When the fan is applied sooner, more attention needs to be paid to fire extension as discussed in tactical consideration \cite{Assess_For_Extension}. Knowing where to check for extension such as ductwork penetrations, outlets, switches and HVAC return plenums will speed up the overhaul process and limit the chance of a fire in the structure getting ahead of interior crews.  The use of the fan must be coordinated with interior crews and incident command to ensure fire control has been achieved.  
+When the fan is applied sooner, more attention needs to be paid to fire extension as discussed in tactical consideration \ref{Assess_For_Extension}. Knowing where to check for extension such as ductwork penetrations, outlets, switches and HVAC return plenums will speed up the overhaul process and limit the chance of a fire in the structure getting ahead of interior crews.  The use of the fan must be coordinated with interior crews and incident command to ensure fire control has been achieved.  
 
 \subsection{Horizontal, Vertical and Positive Pressure Attack are different tactics.} 
 No one tactic will work in every scenario. Understanding the modern fire environment with emphasis on ventilation limited fire dynamics and how fire department operations impact those will ensure the tactic chosen is most effective.
@@ -3195,7 +3213,18 @@ With proper training and education they can all be implemented successfully to i
 
 \newpage
 
+\glsaddall
+\printglossary[nonumberlist]
+
+\newpage
+
 \printbibliography
+
+
+
+\begin{appendices}
+	
+\end{appendices}
 
 \end{document}
 

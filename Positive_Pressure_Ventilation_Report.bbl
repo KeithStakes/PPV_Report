@@ -400,6 +400,26 @@
       \field{type}{Report}
       \field{year}{2013}
     \endentry
+    \entry{DHS2011}{report}{}
+      \name{author}{2}{}{%
+        {{hash=a1cb05e4fb1864f3a981578554debce1}{Kerber}{K\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=ac64a97f31820f2c3b97d465896d1ae7}{Zevotek}{Z\bibinitperiod}{Robin}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Underwriters Laboratories}%
+      }
+      \strng{namehash}{7a7eb6522b6bc8e879b88730d782cd7b}
+      \strng{fullhash}{7a7eb6522b6bc8e879b88730d782cd7b}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{month}{11}
+      \field{title}{Study of Residential Attic Fire Mitigation Tactics and Exterior Fire Spread Hazards on Firefighter Safety}
+      \field{type}{Report}
+      \field{year}{2014}
+    \endentry
     \entry{LougheedPPVHighRise}{report}{}
       \name{author}{3}{}{%
         {{hash=15496c53ae4a518d6f62c4ef5ffa614e}{Lougheed}{L\bibinitperiod}{G.D.}{G\bibinitperiod}{}{}{}{}}%

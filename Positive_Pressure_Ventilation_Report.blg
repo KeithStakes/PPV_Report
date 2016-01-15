@@ -1,17 +1,17 @@
-[1] Config.pm:327> INFO - This is Biber 2.2
+[0] Config.pm:327> INFO - This is Biber 2.2
 [1] Config.pm:330> INFO - Logfile is 'Positive_Pressure_Ventilation_Report.blg'
-[61] biber-MSWIN:283> INFO - === 
-[62] Biber.pm:334> INFO - Reading 'Positive_Pressure_Ventilation_Report.bcf'
-[226] Utils.pm:147> WARN - Warning: Found biblatex control file version 2.9, expected version 2.8
-[227] Biber.pm:677> INFO - Found 36 citekeys in bib section 0
-[262] Biber.pm:3054> INFO - Processing section 0
-[298] Biber.pm:3193> INFO - Looking for bibtex format file 'PPVReport.bib' for section 0
-[308] bibtex.pm:1072> INFO - Decoding LaTeX character macros into UTF-8
-[318] bibtex.pm:935> INFO - Found BibTeX data source 'PPVReport.bib'
-[1012] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1012] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1013] Biber.pm:2931> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'en-US'
-[1013] Biber.pm:2935> INFO - No sort tailoring available for locale 'en-US'
-[1172] bbl.pm:505> INFO - Writing 'Positive_Pressure_Ventilation_Report.bbl' with encoding 'ascii'
-[1181] bbl.pm:596> INFO - Output to Positive_Pressure_Ventilation_Report.bbl
-[1189] Biber.pm:107> INFO - WARNINGS: 1
+[76] biber-MSWIN:283> INFO - === 
+[77] Biber.pm:334> INFO - Reading 'Positive_Pressure_Ventilation_Report.bcf'
+[243] Utils.pm:147> WARN - Warning: Found biblatex control file version 2.9, expected version 2.8
+[244] Biber.pm:677> INFO - Found 37 citekeys in bib section 0
+[315] Biber.pm:3054> INFO - Processing section 0
+[377] Biber.pm:3193> INFO - Looking for bibtex format file 'PPVReport.bib' for section 0
+[386] bibtex.pm:1072> INFO - Decoding LaTeX character macros into UTF-8
+[393] bibtex.pm:935> INFO - Found BibTeX data source 'PPVReport.bib'
+[1141] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1141] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1141] Biber.pm:2931> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'en-US'
+[1141] Biber.pm:2935> INFO - No sort tailoring available for locale 'en-US'
+[1313] bbl.pm:505> INFO - Writing 'Positive_Pressure_Ventilation_Report.bbl' with encoding 'ascii'
+[1322] bbl.pm:596> INFO - Output to Positive_Pressure_Ventilation_Report.bbl
+[1326] Biber.pm:107> INFO - WARNINGS: 1
