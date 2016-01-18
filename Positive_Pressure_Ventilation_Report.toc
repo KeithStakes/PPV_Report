@@ -67,19 +67,19 @@
 \contentsline {paragraph}{Non-Systematic Smoke Removal}{136}{section*.213}
 \contentsline {section}{\numberline {10}Tactical Considerations}{136}{section.10}
 \contentsline {subsection}{\numberline {10.1}The application of water, as quickly as possible, whether from the interior or exterior prior to initiating PPA will increase the likelihood of a successful outcome.}{136}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}An outlet of sufficient size, must be provided, in the fire room to allow for effective PPA.}{138}{subsection.10.2}
-\contentsline {subsection}{\numberline {10.3}Positive Pressure Attack is Exhaust Dependant}{141}{subsection.10.3}
-\contentsline {subsection}{\numberline {10.4}An ongoing assessment of inlet and exhaust flow is imperative to understanding whether or not a fan flow path has been established and if conditions are improving}{144}{subsection.10.4}
-\contentsline {subsection}{\numberline {10.5}The setback of the fan or development of a “cone of air” is not as important as the exhaust size.}{147}{subsection.10.5}
-\contentsline {subsection}{\numberline {10.6}PPA will not be effective on a fire located in an open concept floor plan or any floor plan with high ceilings.}{149}{subsection.10.6}
-\contentsline {subsection}{\numberline {10.7}Creating additional openings not in the fire room will create additional flow paths making PPA ineffective with the potential to draw the fire into all flow paths}{151}{subsection.10.7}
-\contentsline {subsection}{\numberline {10.8}The safety of PPA is decreased when the location and extent of the fire is not known with a high degree of certainty.}{155}{subsection.10.8}
-\contentsline {subsection}{\numberline {10.9}PPA is not a replacement for using the reach of your hose stream.}{156}{subsection.10.9}
-\contentsline {subsection}{\numberline {10.10}PPA does not negatively affect the survivability of occupants behind a closed door.}{157}{subsection.10.10}
-\contentsline {subsection}{\numberline {10.11}Extension into void spaces when using PPA is directly related to the exhaust capabilities of the void space.}{160}{subsection.10.11}
-\contentsline {subsection}{\numberline {10.12}In single story residential structures, the more openings made in the structure during PPV (Post Knockdown) the more effective it is at ventilating the structure.}{167}{subsection.10.12}
-\contentsline {subsection}{\numberline {10.13}Post fire control it is important to assess for extension.}{172}{subsection.10.13}
-\contentsline {subsection}{\numberline {10.14}When PPV is used, starting or turning in the fan immediately after fire control will provide the most benefit.}{172}{subsection.10.14}
-\contentsline {subsection}{\numberline {10.15}Horizontal, Vertical and Positive Pressure Attack are different tactics.}{173}{subsection.10.15}
-\contentsline {section}{Glossary}{175}{section*.267}
-\contentsline {section}{Appendices}{177}{section*.270}
+\contentsline {subsection}{\numberline {10.2}Positive Pressure Attack is Exhaust Dependant}{139}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.3}An outlet of sufficient size, must be provided, in the fire room to allow for effective PPA.}{144}{subsection.10.3}
+\contentsline {subsection}{\numberline {10.4}Creating additional openings not in the fire room will create additional flow paths making PPA ineffective with the potential to draw the fire into all flow paths}{145}{subsection.10.4}
+\contentsline {subsection}{\numberline {10.5}An ongoing assessment of inlet and exhaust flow is imperative to understanding whether or not a fan flow path has been established and if conditions are improving}{148}{subsection.10.5}
+\contentsline {subsection}{\numberline {10.6}The setback of the fan or development of a “cone of air” is not as important as the exhaust size.}{151}{subsection.10.6}
+\contentsline {subsection}{\numberline {10.7}PPA will not be effective on a fire located in an open concept floor plan or any floor plan with high ceilings.}{154}{subsection.10.7}
+\contentsline {subsection}{\numberline {10.8}The safety of PPA is decreased when the location and extent of the fire is not known with a high degree of certainty.}{157}{subsection.10.8}
+\contentsline {subsection}{\numberline {10.9}PPA is not a replacement for using the reach of your hose stream.}{159}{subsection.10.9}
+\contentsline {subsection}{\numberline {10.10}PPA does not negatively affect the survivability of occupants behind a closed door.}{160}{subsection.10.10}
+\contentsline {subsection}{\numberline {10.11}Extension into void spaces when using PPA is directly related to the exhaust capabilities of the void space.}{163}{subsection.10.11}
+\contentsline {subsection}{\numberline {10.12}In single story residential structures, the more openings made in the structure during PPV (Post Knockdown) the more effective it is at ventilating the structure.}{170}{subsection.10.12}
+\contentsline {subsection}{\numberline {10.13}Post fire control it is important to assess for extension.}{175}{subsection.10.13}
+\contentsline {subsection}{\numberline {10.14}When PPV is used, starting or turning in the fan immediately after fire control will provide the most benefit.}{175}{subsection.10.14}
+\contentsline {subsection}{\numberline {10.15}Horizontal, Vertical and Positive Pressure Attack are different tactics.}{176}{subsection.10.15}
+\contentsline {section}{Glossary}{179}{section*.268}
+\contentsline {section}{Appendices}{181}{section*.271}

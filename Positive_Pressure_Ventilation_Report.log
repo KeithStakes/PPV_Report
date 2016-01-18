@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.12.18)  15 JAN 2016 17:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.12.18)  18 JAN 2016 13:05
 entering extended mode
 **./Positive_Pressure_Ventilation_Report.tex
 (Positive_Pressure_Ventilation_Report.tex
@@ -5529,6 +5529,12 @@ Package pdftex.def Info: 0_Images/Tactical_Considerations/Application_of_Water/
 TransitionalvsDelayed.pdf used on input line 2521.
 (pdftex.def)             Requested size: 289.07999pt x 207.19044pt.
  [136 <./0_Images/Experiment_Screenshots/Experiment_25/07_End_Experiment.jpg>]
+Overfull \hbox (0.1693pt too wide) in paragraph at lines 2526--2527
+[]\OT1/cmr/m/n/10 (+20) For departments that choose to utilize PPA as their pri
+mary fire attack method, training should focus on 
+ []
+
+
 <0_Images/Tactical_Considerations/Application_of_Water/ExteriorApplication.png,
  id=2095, 797.98125pt x 1014.79124pt>
 File: 0_Images/Tactical_Considerations/Application_of_Water/ExteriorApplication
@@ -5601,7 +5607,7 @@ emps.pdf Graphic file (type pdf)
 mps.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Application_of_Water/
 TwoStoryBed4AttackTemps.pdf used on input line 2554.
-(pdftex.def)             Requested size: 144.54pt x 101.19104pt.
+(pdftex.def)             Requested size: 216.81pt x 151.79369pt.
 
 <0_Images/Tactical_Considerations/Application_of_Water/TwoStoryBed4AttackHallGa
 s.pdf, id=2129, 670.45734pt x 450.3517pt>
@@ -5612,7 +5618,7 @@ allGas.pdf Graphic file (type pdf)
 llGas.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Application_of_Water/
 TwoStoryBed4AttackHallGas.pdf used on input line 2555.
-(pdftex.def)             Requested size: 144.54pt x 97.08485pt.
+(pdftex.def)             Requested size: 216.81pt x 145.62727pt.
 
 <0_Images/Tactical_Considerations/Application_of_Water/TwoStoryBed4Attack5Ft.pd
 f, id=2130, 674.95595pt x 451.78476pt>
@@ -5622,102 +5628,69 @@ Ft.pdf Graphic file (type pdf)
 <use 0_Images/Tactical_Considerations/Application_of_Water/TwoStoryBed4Attack5F
 t.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Application_of_Water/
-TwoStoryBed4Attack5Ft.pdf used on input line 2556.
-(pdftex.def)             Requested size: 144.54pt x 96.74577pt.
-
-Overfull \hbox (3.19829pt too wide) in paragraph at lines 2552--2558
- [][] 
- []
-
-
-<0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/VentComparisonTemp
-s.pdf, id=2132, 675.80673pt x 492.97955pt>
-File: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/VentCompariso
-nTemps.pdf Graphic file (type pdf)
-
-<use 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/VentComparison
-Temps.pdf>
-Package pdftex.def Info: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Pro
-vided/VentComparisonTemps.pdf used on input line 2567.
-(pdftex.def)             Requested size: 271.0125pt x 197.69983pt.
-
-<0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/ExhaustLocationLay
-outFire.pdf, id=2133, 552.45998pt x 844.15375pt>
-File: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/ExhaustLocati
-onLayoutFire.pdf Graphic file (type pdf)
-
-<use 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/ExhaustLocatio
-nLayoutFire.pdf>
-Package pdftex.def Info: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Pro
-vided/ExhaustLocationLayoutFire.pdf used on input line 2568.
-(pdftex.def)             Requested size: 126.47249pt x 193.24962pt.
- [138pdfTeX warning (ext4): destination with the same identifier (name{subfigur
-e.10.3.1}) has been already used, duplicate ignored
+TwoStoryBed4Attack5Ft.pdf used on input line 2557.
+(pdftex.def)             Requested size: 216.81pt x 145.11867pt.
+ [138 <./0_Images/Tactical_Considerations/Application_of_Water/Bed2Door_Exterio
+rAttack.pdf, page is rotated 90 degrees> <./0_Images/Tactical_Considerations/Ap
+plication_of_Water/ExteriorVentConfig.png>] [139pdfTeX warning (ext4): destinat
+ion with the same identifier (name{subfigure.10.3.1}) has been already used, du
+plicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2573 
+l.2589 
        pdfTeX warning (ext4): destination with the same identifier (name{subfig
 ure.10.3.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2573 
-        <./0_Images/Tactical_Considerations/Application_of_Water/Bed2Door_Exter
-iorAttack.pdf, page is rotated 90 degrees> <./0_Images/Tactical_Considerations/
-Application_of_Water/ExteriorVentConfig.png> <./0_Images/Tactical_Consideration
-s/Application_of_Water/TwoStoryBed4AttackTemps.pdf, page is rotated 90 degrees>
- <./0_Images/Tactical_Considerations/Application_of_Water/TwoStoryBed4AttackHal
-lGas.pdf, page is rotated 90 degrees> <./0_Images/Tactical_Considerations/Appli
-cation_of_Water/TwoStoryBed4Attack5Ft.pdf, page is rotated 90 degrees>]
-Overfull \hbox (0.12671pt too wide) in paragraph at lines 2574--2575
-\OT1/cmr/m/n/10 (+1) Once the second window as open, the door to the bedroom be
-came the limiting factor for flow in, resulting 
+l.2589 
+        <./0_Images/Tactical_Considerations/Application_of_Water/TwoStoryBed4At
+tackTemps.pdf, page is rotated 90 degrees> <./0_Images/Tactical_Considerations/
+Application_of_Water/TwoStoryBed4AttackHallGas.pdf, page is rotated 90 degrees>
+ <./0_Images/Tactical_Considerations/Application_of_Water/TwoStoryBed4Attack5Ft
+.pdf, page is rotated 90 degrees>]
+<0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Opening_Sizes.pdf, id=2
+237, 528.9371pt x 414.68123pt>
+File: 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Opening_Sizes.pdf 
+Graphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Opening_Sizes.pdf>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant
+/Opening_Sizes.pdf used on input line 2600.
+(pdftex.def)             Requested size: 289.07999pt x 226.64536pt.
+
+[140]
+Overfull \hbox (0.12743pt too wide) in paragraph at lines 2605--2606
+\OT1/cmr/m/n/10 (+9) shown, as long as the fan is capable of creating greater t
+han 11Pa of pressure in adjacent spaces, all of the 
  []
 
 
 <0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Bedroom2SingleVDou
-bleWindow.pdf, id=2235, 661.1147pt x 489.71458pt>
+bleWindow.pdf, id=2245, 661.1147pt x 489.71458pt>
 File: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Bedroom2Singl
 eVDoubleWindow.pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Bedroom2Single
 VDoubleWindow.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Pro
-vided/Bedroom2SingleVDoubleWindow.pdf used on input line 2579.
+vided/Bedroom2SingleVDoubleWindow.pdf used on input line 2610.
 (pdftex.def)             Requested size: 252.94499pt x 187.36378pt.
 
 <0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/DoubleWindowBed2.p
-df, id=2236, 728.54906pt x 1049.81001pt>
+df, id=2246, 728.54906pt x 1049.81001pt>
 File: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/DoubleWindowB
 ed2.pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/DoubleWindowBe
 d2.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Pro
-vided/DoubleWindowBed2.pdf used on input line 2580.
+vided/DoubleWindowBed2.pdf used on input line 2611.
 (pdftex.def)             Requested size: 126.47249pt x 182.22975pt.
- [139pdfTeX warning (ext4): destination with the same identifier (name{subfigur
-e.10.3.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.2587 
-       pdfTeX warning (ext4): destination with the same identifier (name{subfig
-ure.10.3.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.2587 
-        <./0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/VentComp
-arisonTemps.pdf> <./0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided
-/ExhaustLocationLayoutFire.pdf
-
-pdfTeX warning: pdflatex.exe (file ./0_Images/Tactical_Considerations/An_Outlet
-_Must_be_Provided/ExhaustLocationLayoutFire.pdf): PDF inclusion: multiple pdfs 
-with page group included in a single page
-> <./0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Bedroom2Single
-VDoubleWindow.pdf
+ [141 <./0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Opening_Sizes.p
+df> <./0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Bedroom2Sing
+leVDoubleWindow.pdf
 
 pdfTeX warning: pdflatex.exe (file ./0_Images/Tactical_Considerations/An_Outlet
 _Must_be_Provided/Bedroom2SingleVDoubleWindow.pdf): PDF inclusion: multiple pdf
@@ -5730,46 +5703,63 @@ _Must_be_Provided/DoubleWindowBed2.pdf): PDF inclusion: multiple pdfs with page
  group included in a single page
 >]
 <0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/FlowOneVTwoVents.p
-df, id=2287, 675.4533pt x 490.62778pt>
+df, id=2286, 675.4533pt x 490.62778pt>
 File: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/FlowOneVTwoVe
 nts.pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/FlowOneVTwoVen
 ts.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Pro
-vided/FlowOneVTwoVents.pdf used on input line 2593.
+vided/FlowOneVTwoVents.pdf used on input line 2626.
 (pdftex.def)             Requested size: 216.81pt x 157.48322pt.
 
 <0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/PressOneVTwoVents.
-pdf, id=2288, 655.96288pt x 480.54633pt>
+pdf, id=2287, 655.96288pt x 480.54633pt>
 File: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/PressOneVTwoV
 ents.pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/PressOneVTwoVe
 nts.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Pro
-vided/PressOneVTwoVents.pdf used on input line 2594.
+vided/PressOneVTwoVents.pdf used on input line 2627.
 (pdftex.def)             Requested size: 216.81pt x 158.83008pt.
 
 <0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Exp3VentConfigurat
-ions.pdf, id=2289, 1119.3958pt x 436.62622pt>
+ions.pdf, id=2288, 1119.3958pt x 436.62622pt>
 File: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Exp3VentConfi
 gurations.pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Exp3VentConfig
 urations.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Pro
-vided/Exp3VentConfigurations.pdf used on input line 2596.
+vided/Exp3VentConfigurations.pdf used on input line 2629.
 (pdftex.def)             Requested size: 180.67499pt x 70.4679pt.
 
-Overfull \hbox (0.15326pt too wide) in paragraph at lines 2601--2602
-[]\OT1/cmr/m/n/10 (+4) Creating a 2:1 ra-tio can be-come a chal-lenge. Many bed
--rooms have a sin-gle win-dow, elim-i-nat-ing the op-tion 
+Overfull \hbox (0.13472pt too wide) in paragraph at lines 2636--2637
+\OT1/cmr/m/n/10 (+20) the structure. Heat and smoke flowing from the fire room 
+towards the fan has the potential to cause vent 
  []
 
-[140 <./0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/FlowOneVTwo
-Vents.pdf> <./0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Press
-OneVTwoVents.pdf
+
+Overfull \hbox (0.13983pt too wide) in paragraph at lines 2636--2637
+\OT1/cmr/m/n/10 (+20) fighters, as it indicates untenable conditions within the
+ intended fan flow path, potentially cutting off the 
+ []
+
+
+<0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Vent_Point_Ignition.png
+, id=2292, 1533.73pt x 819.06pt>
+File: 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Vent_Point_Ignitio
+n.png Graphic file (type png)
+
+<use 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Vent_Point_Ignition
+.png>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant
+/Vent_Point_Ignition.png used on input line 2640.
+(pdftex.def)             Requested size: 361.34999pt x 192.96654pt.
+ [142 <./0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/FlowOneVTw
+oVents.pdf> <./0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Pres
+sOneVTwoVents.pdf
 
 pdfTeX warning: pdflatex.exe (file ./0_Images/Tactical_Considerations/An_Outlet
 _Must_be_Provided/PressOneVTwoVents.pdf): PDF inclusion: multiple pdfs with pag
@@ -5781,88 +5771,223 @@ pdfTeX warning: pdflatex.exe (file ./0_Images/Tactical_Considerations/An_Outlet
 _Must_be_Provided/Exp3VentConfigurations.pdf): PDF inclusion: multiple pdfs wit
 h page group included in a single page
 >]
-Overfull \hbox (0.12584pt too wide) in paragraph at lines 2606--2607
-\OT1/cmr/m/n/10 (+1) com-part-ment to-wards the fan. The in-tent of PPA is to d
-i-rect the flow out the ex-haust rather than into the 
- []
-
-
-Overfull \hbox (0.15202pt too wide) in paragraph at lines 2625--2626
-\OT1/cmr/m/n/10 (+12) intended fan flow for several of the experiments. It shou
-ld be noted that in most structures the front door 
- []
-
-
-<0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Opening_Sizes.pdf, id=2
-335, 528.9371pt x 414.68123pt>
-File: 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Opening_Sizes.pdf 
-Graphic file (type pdf)
-
-<use 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Opening_Sizes.pdf>
-Package pdftex.def Info: 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant
-/Opening_Sizes.pdf used on input line 2631.
-(pdftex.def)             Requested size: 361.34999pt x 283.30829pt.
-
-[141]
-File: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Bedroom2Singl
-eVDoubleWindow.pdf Graphic file (type pdf)
-
-<use 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Bedroom2Single
-VDoubleWindow.pdf>
-Package pdftex.def Info: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Pro
-vided/Bedroom2SingleVDoubleWindow.pdf used on input line 2638.
-(pdftex.def)             Requested size: 361.34999pt x 267.67001pt.
-
-Overfull \hbox (0.12743pt too wide) in paragraph at lines 2643--2644
-\OT1/cmr/m/n/10 (+9) shown, as long as the fan is capable of creating greater t
-han 11Pa of pressure in adjacent spaces, all of the 
- []
-
-
-Overfull \hbox (0.14322pt too wide) in paragraph at lines 2643--2644
-\OT1/cmr/m/n/10 (+3) untenable conditions within the intended fan flow path, po
-tentially cutting off the primary means of egress 
- []
-
-[142 <./0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Opening_Sizes.pd
-f>]
-<0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Vent_Point_Ignition.png
-, id=2360, 1533.73pt x 819.06pt>
-File: 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Vent_Point_Ignitio
-n.png Graphic file (type png)
-
-<use 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Vent_Point_Ignition
-.png>
-Package pdftex.def Info: 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant
-/Vent_Point_Ignition.png used on input line 2647.
-(pdftex.def)             Requested size: 361.34999pt x 192.96654pt.
-
 <0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Vent_Point_Ignition_Fie
-ld.png, id=2361, 353.32pt x 240.9pt>
+ld.png, id=2337, 353.32pt x 240.9pt>
 File: 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Vent_Point_Ignitio
 n_Field.png Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Vent_Point_Ignition
 _Field.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/PPA_Exhaust_Dependant
-/Vent_Point_Ignition_Field.png used on input line 2654.
+/Vent_Point_Ignition_Field.png used on input line 2647.
 (pdftex.def)             Requested size: 361.34999pt x 246.37639pt.
 
-Overfull \hbox (0.18967pt too wide) in paragraph at lines 2659--2660
+Overfull \hbox (0.18967pt too wide) in paragraph at lines 2652--2653
 \OT1/cmr/m/n/10 (+2) aid in ensuring the pressure created from the fire is not 
 able to build and overcome the pressure created by 
+ []
+
+
+Overfull \hbox (0.18193pt too wide) in paragraph at lines 2654--2655
+\OT1/cmr/m/n/10 (+9) achieved with all ex-haust lo-ca-tions be-ing in the fire 
+room. If a min-i-mum of a 1:1 ra-tio can-not be achieved, 
+ []
+
+
+Overfull \hbox (0.17969pt too wide) in paragraph at lines 2656--2657
+\OT1/cmr/m/n/10 (+12) back-flow at the in-let is not an in-di-ca-tor of what fl
+ows are oc-cur-ring within the struc-ture and alone can-not 
  []
 
 [143 <./0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Vent_Point_Ignit
 ion.png> <./0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Vent_Point_I
 gnition_Field.png>]
-Overfull \hbox (0.17969pt too wide) in paragraph at lines 2663--2664
-\OT1/cmr/m/n/10 (+12) back-flow at the in-let is not an in-di-ca-tor of what fl
-ows are oc-cur-ring within the struc-ture and alone can-not 
+<0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/VentComparisonTemp
+s.pdf, id=2345, 675.80673pt x 492.97955pt>
+File: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/VentCompariso
+nTemps.pdf Graphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/VentComparison
+Temps.pdf>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Pro
+vided/VentComparisonTemps.pdf used on input line 2665.
+(pdftex.def)             Requested size: 271.0125pt x 197.69983pt.
+
+<0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/ExhaustLocationLay
+outFire.pdf, id=2346, 552.45998pt x 844.15375pt>
+File: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/ExhaustLocati
+onLayoutFire.pdf Graphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/ExhaustLocatio
+nLayoutFire.pdf>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/An_Outlet_Must_be_Pro
+vided/ExhaustLocationLayoutFire.pdf used on input line 2666.
+(pdftex.def)             Requested size: 126.47249pt x 193.24962pt.
+ [144 <./0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/VentCompar
+isonTemps.pdf> <./0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/E
+xhaustLocationLayoutFire.pdf
+
+pdfTeX warning: pdflatex.exe (file ./0_Images/Tactical_Considerations/An_Outlet
+_Must_be_Provided/ExhaustLocationLayoutFire.pdf): PDF inclusion: multiple pdfs 
+with page group included in a single page
+>]
+<0_Images/Tactical_Considerations/Additional_Vent/SingleVent.png, id=2377, 210.
+0648pt x 145.9854pt>
+File: 0_Images/Tactical_Considerations/Additional_Vent/SingleVent.png Graphic f
+ile (type png)
+
+<use 0_Images/Tactical_Considerations/Additional_Vent/SingleVent.png>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Additional_Vent/Singl
+eVent.png used on input line 2680.
+(pdftex.def)             Requested size: 234.87749pt x 163.22853pt.
+
+<0_Images/Tactical_Considerations/Additional_Vent/Multiple_Vents.png, id=2378, 
+209.583pt x 153.2124pt>
+File: 0_Images/Tactical_Considerations/Additional_Vent/Multiple_Vents.png Graph
+ic file (type png)
+
+<use 0_Images/Tactical_Considerations/Additional_Vent/Multiple_Vents.png>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Additional_Vent/Multi
+ple_Vents.png used on input line 2681.
+(pdftex.def)             Requested size: 234.87749pt x 171.70657pt.
+
+Overfull \hbox (23.99995pt too wide) in paragraph at lines 2679--2683
+ [][] 
  []
 
 
-Overfull \hbox (40.7978pt too wide) in paragraph at lines 2665--2665
+<0_Images/Tactical_Considerations/Additional_Vent/PressureSingle_Multiple.pdf, 
+id=2379, 493.61073pt x 423.09468pt>
+File: 0_Images/Tactical_Considerations/Additional_Vent/PressureSingle_Multiple.
+pdf Graphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/Additional_Vent/PressureSingle_Multiple.p
+df>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Additional_Vent/Press
+ureSingle_Multiple.pdf used on input line 2689.
+(pdftex.def)             Requested size: 216.81pt x 185.83298pt.
+
+<0_Images/Tactical_Considerations/Additional_Vent/SingleStoryOneVentDoor.pdf, i
+d=2381, 673.96814pt x 442.75815pt>
+File: 0_Images/Tactical_Considerations/Additional_Vent/SingleStoryOneVentDoor.p
+df Graphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/Additional_Vent/SingleStoryOneVentDoor.pd
+f>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Additional_Vent/Singl
+eStoryOneVentDoor.pdf used on input line 2699.
+(pdftex.def)             Requested size: 234.87749pt x 154.29883pt.
+
+<0_Images/Tactical_Considerations/Additional_Vent/SingleStoryMultiVentDoor.pdf,
+ id=2382, 680.07095pt x 455.64038pt>
+File: 0_Images/Tactical_Considerations/Additional_Vent/SingleStoryMultiVentDoor
+.pdf Graphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/Additional_Vent/SingleStoryMultiVentDoor.
+pdf>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Additional_Vent/Singl
+eStoryMultiVentDoor.pdf used on input line 2700.
+(pdftex.def)             Requested size: 234.87749pt x 157.36296pt.
+
+Overfull \hbox (23.99995pt too wide) in paragraph at lines 2698--2702
+ [][] 
+ []
+
+[145 <./0_Images/Tactical_Considerations/Additional_Vent/SingleVent.png> <./0_I
+mages/Tactical_Considerations/Additional_Vent/Multiple_Vents.png> <./0_Images/T
+actical_Considerations/Additional_Vent/PressureSingle_Multiple.pdf, page is rot
+ated 90 degrees>]
+Overfull \hbox (0.18755pt too wide) in paragraph at lines 2706--2707
+\OT1/cmr/m/n/10 (+19) single vent case would have been exhausted out the ventil
+ation opening that in the multiple vent case are 
+ []
+
+
+Overfull \hbox (0.16801pt too wide) in paragraph at lines 2708--2709
+\OT1/cmr/m/n/10 (+12) flow out of the fire compartment results in heat transfer
+ to other rooms in the structure. As seen in figure 
+ []
+
+
+<0_Images/Tactical_Considerations/Additional_Vent/SingleStoryOneVent5Ft.pdf, id
+=2417, 669.22232pt x 479.37213pt>
+File: 0_Images/Tactical_Considerations/Additional_Vent/SingleStoryOneVent5Ft.pd
+f Graphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/Additional_Vent/SingleStoryOneVent5Ft.pdf
+>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Additional_Vent/Singl
+eStoryOneVent5Ft.pdf used on input line 2713.
+(pdftex.def)             Requested size: 234.87749pt x 168.24358pt.
+
+<0_Images/Tactical_Considerations/Additional_Vent/SingleStoryAdditionalVents5Ft
+.pdf, id=2418, 668.54425pt x 459.70908pt>
+File: 0_Images/Tactical_Considerations/Additional_Vent/SingleStoryAdditionalVen
+ts5Ft.pdf Graphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/Additional_Vent/SingleStoryAdditionalVent
+s5Ft.pdf>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Additional_Vent/Singl
+eStoryAdditionalVents5Ft.pdf used on input line 2714.
+(pdftex.def)             Requested size: 234.87749pt x 161.50383pt.
+
+Overfull \hbox (23.99995pt too wide) in paragraph at lines 2712--2716
+ [][] 
+ []
+
+
+<0_Images/Tactical_Considerations/Additional_Vent/TwoStoryKitchenVent.png, id=2
+419, 339.1872pt x 137.313pt>
+File: 0_Images/Tactical_Considerations/Additional_Vent/TwoStoryKitchenVent.png 
+Graphic file (type png)
+
+<use 0_Images/Tactical_Considerations/Additional_Vent/TwoStoryKitchenVent.png>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Additional_Vent/TwoSt
+oryKitchenVent.png used on input line 2724.
+(pdftex.def)             Requested size: 234.87749pt x 95.08759pt.
+
+[146 <./0_Images/Tactical_Considerations/Additional_Vent/SingleStoryOneVentDoor
+.pdf, page is rotated 90 degrees> <./0_Images/Tactical_Considerations/Additiona
+l_Vent/SingleStoryMultiVentDoor.pdf, page is rotated 90 degrees> <./0_Images/Ta
+ctical_Considerations/Additional_Vent/SingleStoryOneVent5Ft.pdf, page is rotate
+d 90 degrees> <./0_Images/Tactical_Considerations/Additional_Vent/SingleStoryAd
+ditionalVents5Ft.pdf, page is rotated 90 degrees>]
+<0_Images/Tactical_Considerations/Additional_Vent/RearDoorOpen.pdf, id=2518, 69
+5.66522pt x 470.5571pt>
+File: 0_Images/Tactical_Considerations/Additional_Vent/RearDoorOpen.pdf Graphic
+ file (type pdf)
+
+<use 0_Images/Tactical_Considerations/Additional_Vent/RearDoorOpen.pdf>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Additional_Vent/RearD
+oorOpen.pdf used on input line 2733.
+(pdftex.def)             Requested size: 234.87749pt x 158.87437pt.
+
+<0_Images/Tactical_Considerations/Additional_Vent/5SecBeforeDoorOpen.png, id=25
+19, 1284.8pt x 700.6175pt>
+File: 0_Images/Tactical_Considerations/Additional_Vent/5SecBeforeDoorOpen.png G
+raphic file (type png)
+
+<use 0_Images/Tactical_Considerations/Additional_Vent/5SecBeforeDoorOpen.png>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Additional_Vent/5SecB
+eforeDoorOpen.png used on input line 2735.
+(pdftex.def)             Requested size: 234.87749pt x 128.07277pt.
+
+<0_Images/Tactical_Considerations/Additional_Vent/5SecAfterDoorOpen.png, id=252
+0, 1284.8pt x 700.6175pt>
+File: 0_Images/Tactical_Considerations/Additional_Vent/5SecAfterDoorOpen.png Gr
+aphic file (type png)
+
+<use 0_Images/Tactical_Considerations/Additional_Vent/5SecAfterDoorOpen.png>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Additional_Vent/5SecA
+fterDoorOpen.png used on input line 2736.
+(pdftex.def)             Requested size: 234.87749pt x 128.07277pt.
+
+Overfull \hbox (23.99995pt too wide) in paragraph at lines 2733--2738
+ [] 
+ []
+
+
+Overfull \hbox (40.7978pt too wide) in paragraph at lines 2744--2744
 []\OT1/cmr/bx/n/12 An on-go-ing as-sess-ment of in-let and ex-haust flow is im-
 per-a-tive to un-der-stand-ing 
  []
@@ -5873,6 +5998,17 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
+
+Overfull \hbox (0.17244pt too wide) in paragraph at lines 2745--2746
+\OT1/cmr/m/n/10 (+4) The fire attack entrance cannot tell you the conditions at
+ the exhaust location(s). It is important to watch 
+ []
+
+[147 <./0_Images/Tactical_Considerations/Additional_Vent/TwoStoryKitchenVent.pn
+g> <./0_Images/Tactical_Considerations/Additional_Vent/RearDoorOpen.pdf, page i
+s rotated 90 degrees> <./0_Images/Tactical_Considerations/Additional_Vent/5SecB
+eforeDoorOpen.png (PNG copy)> <./0_Images/Tactical_Considerations/Additional_Ve
+nt/5SecAfterDoorOpen.png (PNG copy)>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
@@ -5880,148 +6016,130 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
 
-Overfull \hbox (0.17244pt too wide) in paragraph at lines 2666--2667
-\OT1/cmr/m/n/10 (+4) The fire attack entrance cannot tell you the conditions at
- the exhaust location(s). It is important to watch 
- []
-
-
-Overfull \hbox (0.2271pt too wide) in paragraph at lines 2666--2667
-\OT1/cmr/m/n/10 (+12) it. This ongoing assessment provides indications as to th
-e effectiveness of the tactic. You cannot achieve a 
- []
-
-
-<0_Images/Tactical_Considerations/Ongoing_Assessment/FanandDoorFlow.pdf, id=237
-0, 740.4428pt x 340.98442pt>
+<0_Images/Tactical_Considerations/Ongoing_Assessment/FanandDoorFlow.pdf, id=255
+4, 740.4428pt x 340.98442pt>
 File: 0_Images/Tactical_Considerations/Ongoing_Assessment/FanandDoorFlow.pdf Gr
 aphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Ongoing_Assessment/FanandDoorFlow.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Fa
-nandDoorFlow.pdf used on input line 2670.
+nandDoorFlow.pdf used on input line 2751.
 (pdftex.def)             Requested size: 433.62pt x 199.68579pt.
 
 <0_Images/Tactical_Considerations/Ongoing_Assessment/SingleStoryFrontDoorVeloci
-ties.pdf, id=2372, 448.28578pt x 496.67686pt>
+ties.pdf, id=2556, 448.28578pt x 496.67686pt>
 File: 0_Images/Tactical_Considerations/Ongoing_Assessment/SingleStoryFrontDoorV
 elocities.pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Ongoing_Assessment/SingleStoryFrontDoorVe
 locities.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Si
-ngleStoryFrontDoorVelocities.pdf used on input line 2680.
+ngleStoryFrontDoorVelocities.pdf used on input line 2761.
 (pdftex.def)             Requested size: 216.81pt x 240.21349pt.
 
 <0_Images/Tactical_Considerations/Ongoing_Assessment/TwoStoryFrontDoorVelocitie
-s.pdf, id=2373, 442.90971pt x 488.61156pt>
+s.pdf, id=2557, 442.90971pt x 488.61156pt>
 File: 0_Images/Tactical_Considerations/Ongoing_Assessment/TwoStoryFrontDoorVelo
 cities.pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Ongoing_Assessment/TwoStoryFrontDoorVeloc
 ities.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Tw
-oStoryFrontDoorVelocities.pdf used on input line 2681.
+oStoryFrontDoorVelocities.pdf used on input line 2762.
 (pdftex.def)             Requested size: 216.81pt x 239.17572pt.
- [144 <./0_Images/Tactical_Considerations/Ongoing_Assessment/FanandDoorFlow.pdf
+ [148 <./0_Images/Tactical_Considerations/Ongoing_Assessment/FanandDoorFlow.pdf
 >]
-Overfull \hbox (0.21016pt too wide) in paragraph at lines 2687--2688
-\OT1/cmr/m/n/10 (+3) lit-tle ex-haust. Use the neu-tral plane at the at-tack en
--trance and the ex-haust to iden-tify progress. Al-though 
- []
-
-
-<0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/Open.png, id=243
-0, 1303.87125pt x 737.75626pt>
+<0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/Open.png, id=261
+3, 1303.87125pt x 737.75626pt>
 File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/Open.png Gr
 aphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/Open.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
-adInlet/Open.png used on input line 2692.
+adInlet/Open.png used on input line 2773.
 (pdftex.def)             Requested size: 108.405pt x 61.32944pt.
 
-<0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/FanOn.png, id=24
-31, 1306.8825pt x 728.7225pt>
+<0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/FanOn.png, id=26
+14, 1306.8825pt x 728.7225pt>
 File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/FanOn.png G
 raphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/FanOn.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
-adInlet/FanOn.png used on input line 2693.
+adInlet/FanOn.png used on input line 2774.
 (pdftex.def)             Requested size: 108.405pt x 60.44502pt.
 
-<0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/30Sec.png, id=24
-32, 1300.86pt x 731.73375pt>
+<0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/30Sec.png, id=26
+15, 1300.86pt x 731.73375pt>
 File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/30Sec.png G
 raphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/30Sec.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
-adInlet/30Sec.png used on input line 2694.
+adInlet/30Sec.png used on input line 2775.
 (pdftex.def)             Requested size: 108.405pt x 60.97394pt.
 
-<0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/60Sec.png, id=24
-33, 1303.87125pt x 725.71124pt>
+<0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/60Sec.png, id=26
+16, 1303.87125pt x 725.71124pt>
 File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/60Sec.png G
 raphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/60Sec.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
-adInlet/60Sec.png used on input line 2695.
+adInlet/60Sec.png used on input line 2776.
 (pdftex.def)             Requested size: 108.405pt x 60.32814pt.
 
-<0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/90Sec.png, id=24
-34, 1300.86pt x 728.7225pt>
+<0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/90Sec.png, id=26
+17, 1300.86pt x 728.7225pt>
 File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/90Sec.png G
 raphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/90Sec.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
-adInlet/90Sec.png used on input line 2696.
+adInlet/90Sec.png used on input line 2777.
 (pdftex.def)             Requested size: 108.405pt x 60.723pt.
 
 <0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/120Sec.png, id=2
-435, 1306.8825pt x 728.7225pt>
+618, 1306.8825pt x 728.7225pt>
 File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/120Sec.png 
 Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/120Sec.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
-adInlet/120Sec.png used on input line 2697.
+adInlet/120Sec.png used on input line 2778.
 (pdftex.def)             Requested size: 108.405pt x 60.44502pt.
 
 <0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/150Sec.png, id=2
-436, 1300.86pt x 731.73375pt>
+619, 1300.86pt x 731.73375pt>
 File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/150Sec.png 
 Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/150Sec.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
-adInlet/150Sec.png used on input line 2698.
+adInlet/150Sec.png used on input line 2779.
 (pdftex.def)             Requested size: 108.405pt x 60.97394pt.
 
 <0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/180Sec.png, id=2
-437, 1306.8825pt x 725.71124pt>
+620, 1306.8825pt x 725.71124pt>
 File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/180Sec.png 
 Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/180Sec.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
-adInlet/180Sec.png used on input line 2699.
+adInlet/180Sec.png used on input line 2780.
 (pdftex.def)             Requested size: 108.405pt x 60.19525pt.
 
 <0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/210Sec.png, id=2
-438, 1303.87125pt x 740.7675pt>
+621, 1303.87125pt x 740.7675pt>
 File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/210Sec.png 
 Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/210Sec.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
-adInlet/210Sec.png used on input line 2700.
+adInlet/210Sec.png used on input line 2781.
 (pdftex.def)             Requested size: 108.405pt x 61.57976pt.
 
-[145 <./0_Images/Tactical_Considerations/Ongoing_Assessment/SingleStoryFrontDoo
+[149 <./0_Images/Tactical_Considerations/Ongoing_Assessment/SingleStoryFrontDoo
 rVelocities.pdf> <./0_Images/Tactical_Considerations/Ongoing_Assessment/TwoStor
 yFrontDoorVelocities.pdf
 
@@ -6029,50 +6147,62 @@ pdfTeX warning: pdflatex.exe (file ./0_Images/Tactical_Considerations/Ongoing_A
 ssessment/TwoStoryFrontDoorVelocities.pdf): PDF inclusion: multiple pdfs with p
 age group included in a single page
 >]
+Overfull \hbox (0.14954pt too wide) in paragraph at lines 2787--2788
+[]\OT1/cmr/m/n/10 (+14) When assessing the exhaust locations (s), the impact of
+ PPA will be noticeable within seconds. When the 
+ []
+
+
+Overfull \hbox (0.2118pt too wide) in paragraph at lines 2787--2788
+\OT1/cmr/m/n/10 (+14) plane above the window sill on the exhaust opening while 
+conducting PPA indicates more flow is required 
+ []
+
+
 <0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/NoFanSmoke.png
-, id=2462, 619.31375pt x 620.3175pt>
+, id=2645, 619.31375pt x 620.3175pt>
 File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/NoFanSmok
 e.png Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/NoFanSmoke
 .png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
-adExhaust/NoFanSmoke.png used on input line 2711.
+adExhaust/NoFanSmoke.png used on input line 2792.
 (pdftex.def)             Requested size: 180.67499pt x 180.9665pt.
 
 <0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/FanSmoke.png, 
-id=2463, 619.31375pt x 617.30624pt>
+id=2646, 619.31375pt x 617.30624pt>
 File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/FanSmoke.
 png Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/FanSmoke.p
 ng>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
-adExhaust/FanSmoke.png used on input line 2712.
+adExhaust/FanSmoke.png used on input line 2793.
 (pdftex.def)             Requested size: 180.67499pt x 180.08803pt.
 
 <0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/NoFanFire.png,
- id=2464, 614.295pt x 614.295pt>
+ id=2647, 614.295pt x 614.295pt>
 File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/NoFanFire
 .png Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/NoFanFire.
 png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
-adExhaust/NoFanFire.png used on input line 2713.
+adExhaust/NoFanFire.png used on input line 2794.
 (pdftex.def)             Requested size: 180.67499pt x 180.67178pt.
 
 <0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/FanFire.png, i
-d=2465, 613.29124pt x 614.295pt>
+d=2648, 613.29124pt x 614.295pt>
 File: 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/FanFire.p
 ng Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/FanFire.pn
 g>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Ongoing_Assessment/Re
-adExhaust/FanFire.png used on input line 2714.
+adExhaust/FanFire.png used on input line 2795.
 (pdftex.def)             Requested size: 180.67499pt x 180.97174pt.
- [146 <./0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/Open.png
+ [150 <./0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/Open.png
 > <./0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/FanOn.png> <
 ./0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/30Sec.png> <./0
 _Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/60Sec.png> <./0_Im
@@ -6081,7 +6211,7 @@ s/Tactical_Considerations/Ongoing_Assessment/ReadInlet/120Sec.png> <./0_Images/
 Tactical_Considerations/Ongoing_Assessment/ReadInlet/150Sec.png> <./0_Images/Ta
 ctical_Considerations/Ongoing_Assessment/ReadInlet/180Sec.png> <./0_Images/Tact
 ical_Considerations/Ongoing_Assessment/ReadInlet/210Sec.png>]
-Overfull \hbox (0.15263pt too wide) in paragraph at lines 2720--2721
+Overfull \hbox (0.15263pt too wide) in paragraph at lines 2801--2802
 \OT1/cmr/m/n/10 (-2) dur-ing PPA. With the fan in-tro-duced, in-te-rior crews s
 hould no-tice a de-crease in tem-per-a-ture and in-creased 
  []
@@ -6093,30 +6223,30 @@ Missing character: There is no ‚ in font cmbx12!
 Missing character: There is no Ä in font cmbx12!
 Missing character: There is no ù in font cmbx12!
 
-Overfull \hbox (6.40408pt too wide) in paragraph at lines 2722--2722
+Overfull \hbox (6.40408pt too wide) in paragraph at lines 2803--2803
 []\OT1/cmr/bx/n/12 The set-back of the fan or de-vel-op-ment of a cone of air i
 s not as im-por-tant 
  []
 
 
-<0_Images/Tactical_Considerations/Exhaust_Over_Cone/Cone3.pdf, id=2483, 2672.37
+<0_Images/Tactical_Considerations/Exhaust_Over_Cone/Cone3.pdf, id=2665, 2672.37
 361pt x 2071.81303pt>
 File: 0_Images/Tactical_Considerations/Exhaust_Over_Cone/Cone3.pdf Graphic file
  (type pdf)
 
 <use 0_Images/Tactical_Considerations/Exhaust_Over_Cone/Cone3.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Exhaust_Over_Cone/Con
-e3.pdf used on input line 2728.
+e3.pdf used on input line 2809.
 (pdftex.def)             Requested size: 180.67499pt x 140.04683pt.
 
-<0_Images/Tactical_Considerations/Exhaust_Over_Cone/howdoes.png, id=2486, 351.3
+<0_Images/Tactical_Considerations/Exhaust_Over_Cone/howdoes.png, id=2668, 351.3
 125pt x 176.66pt>
 File: 0_Images/Tactical_Considerations/Exhaust_Over_Cone/howdoes.png Graphic fi
 le (type png)
 
 <use 0_Images/Tactical_Considerations/Exhaust_Over_Cone/howdoes.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Exhaust_Over_Cone/how
-does.png used on input line 2729.
+does.png used on input line 2810.
 (pdftex.def)             Requested size: 216.81pt x 109.02667pt.
 
 
@@ -6125,92 +6255,101 @@ ver_Cone/SV-Training-Manual.pdf): PDF inclusion: found PDF version <1.7>, but a
 t most version <1.6> allowed
 
 <0_Images/Tactical_Considerations/Exhaust_Over_Cone/SV-Training-Manual.pdf, id=
-2489, 238.04555pt x 155.71675pt>
+2671, 238.04555pt x 155.71675pt>
 File: 0_Images/Tactical_Considerations/Exhaust_Over_Cone/SV-Training-Manual.pdf
  Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Exhaust_Over_Cone/SV-Training-Manual.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Exhaust_Over_Cone/SV-
-Training-Manual.pdf used on input line 2731.
+Training-Manual.pdf used on input line 2812.
 (pdftex.def)             Requested size: 180.67499pt x 118.19388pt.
-[147 <./0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/NoFanSm
+[151 <./0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/NoFanSm
 oke.png> <./0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/Fan
 Smoke.png> <./0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/N
 oFanFire.png> <./0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaus
 t/FanFire.png>]
-Overfull \hbox (0.17691pt too wide) in paragraph at lines 2736--2737
+Overfull \hbox (0.17691pt too wide) in paragraph at lines 2817--2818
 \OT1/cmr/m/n/10 (+4) The pressure gradient seen when the flows from the fire ar
 e opposed by the flow from the fan as illustrated 
  []
 
+File: 0_Images/Coldflow/Setback/SingleStoryFlow.pdf Graphic file (type pdf)
+<use 0_Images/Coldflow/Setback/SingleStoryFlow.pdf>
+Package pdftex.def Info: 0_Images/Coldflow/Setback/SingleStoryFlow.pdf used on 
+input line 2824.
+(pdftex.def)             Requested size: 216.81pt x 157.23756pt.
+File: 0_Images/Coldflow/Setback/SingleStoryPressure.pdf Graphic file (type pdf)
 
-Overfull \hbox (7.25018pt too wide) in paragraph at lines 2740--2741
-\OT1/cmr/m/n/10 (-20) ef-fec-tive place-ment for their par-tic-u-lar fan to pro
--duce the great-est pres-sure in-crease in ad-ja-cent com-part-ments, 
+
+<use 0_Images/Coldflow/Setback/SingleStoryPressure.pdf>
+Package pdftex.def Info: 0_Images/Coldflow/Setback/SingleStoryPressure.pdf used
+ on input line 2825.
+(pdftex.def)             Requested size: 216.81pt x 159.64467pt.
+File: 0_Images/Coldflow/Setback/TwoStoryFlow.pdf Graphic file (type pdf)
+
+<use 0_Images/Coldflow/Setback/TwoStoryFlow.pdf>
+Package pdftex.def Info: 0_Images/Coldflow/Setback/TwoStoryFlow.pdf used on inp
+ut line 2826.
+(pdftex.def)             Requested size: 216.81pt x 157.71468pt.
+File: 0_Images/Coldflow/Setback/TwoStoryPressure.pdf Graphic file (type pdf)
+
+<use 0_Images/Coldflow/Setback/TwoStoryPressure.pdf>
+Package pdftex.def Info: 0_Images/Coldflow/Setback/TwoStoryPressure.pdf used on
+ input line 2827.
+(pdftex.def)             Requested size: 216.81pt x 153.94208pt.
+ [152 <./0_Images/Tactical_Considerations/Exhaust_Over_Cone/Cone3.pdf, page is 
+rotated 270 degrees> <./0_Images/Tactical_Considerations/Exhaust_Over_Cone/howd
+oes.png> <./0_Images/Tactical_Considerations/Exhaust_Over_Cone/SV-Training-Manu
+al.pdf>]
+Overfull \hbox (0.12086pt too wide) in paragraph at lines 2833--2834
+\OT1/cmr/m/n/10 (+6) developing a "cone of air". Much like pump operator must h
+ave an understanding the pressure required to 
  []
 
-[148 <./0_Images/Tactical_Considerations/Exhaust_Over_Cone/Cone3.pdf, page is r
-otated 270 degrees> <./0_Images/Tactical_Considerations/Exhaust_Over_Cone/howdo
-es.png> <./0_Images/Tactical_Considerations/Exhaust_Over_Cone/SV-Training-Manua
-l.pdf>]
+[153]
 <0_Images/Tactical_Considerations/Compartmentalization/SingleStoryCompartments.
-pdf, id=2588, 769.13135pt x 465.15833pt>
+pdf, id=2779, 769.13135pt x 465.15833pt>
 File: 0_Images/Tactical_Considerations/Compartmentalization/SingleStoryCompartm
 ents.pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Compartmentalization/SingleStoryCompartme
 nts.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Compartmentalization/
-SingleStoryCompartments.pdf used on input line 2749.
+SingleStoryCompartments.pdf used on input line 2842.
 (pdftex.def)             Requested size: 180.67499pt x 109.26962pt.
 
 <0_Images/Tactical_Considerations/Compartmentalization/TwoStoryCompartments1st.
-pdf, id=2589, 659.0251pt x 443.35526pt>
+pdf, id=2780, 659.0251pt x 443.35526pt>
 File: 0_Images/Tactical_Considerations/Compartmentalization/TwoStoryCompartment
 s1st.pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Compartmentalization/TwoStoryCompartments
 1st.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Compartmentalization/
-TwoStoryCompartments1st.pdf used on input line 2751.
+TwoStoryCompartments1st.pdf used on input line 2844.
 (pdftex.def)             Requested size: 144.54pt x 97.23402pt.
 
 <0_Images/Tactical_Considerations/Compartmentalization/TwoStoryCompartments2nd.
-pdf, id=2590, 667.43555pt x 520.85172pt>
+pdf, id=2781, 667.43555pt x 520.85172pt>
 File: 0_Images/Tactical_Considerations/Compartmentalization/TwoStoryCompartment
 s2nd.pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Compartmentalization/TwoStoryCompartments
 2nd.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Compartmentalization/
-TwoStoryCompartments2nd.pdf used on input line 2752.
+TwoStoryCompartments2nd.pdf used on input line 2845.
 (pdftex.def)             Requested size: 144.54pt x 112.79158pt.
 
-<0_Images/Tactical_Considerations/Compartmentalization/FamilyRoom5Ft.pdf, id=25
-91, 671.25592pt x 497.67863pt>
-File: 0_Images/Tactical_Considerations/Compartmentalization/FamilyRoom5Ft.pdf G
-raphic file (type pdf)
+<0_Images/Tactical_Considerations/Compartmentalization/CirculatingFlow.png, id=
+2782, 1925.1925pt x 1083.04625pt>
+File: 0_Images/Tactical_Considerations/Compartmentalization/CirculatingFlow.png
+ Graphic file (type png)
 
-<use 0_Images/Tactical_Considerations/Compartmentalization/FamilyRoom5Ft.pdf>
+<use 0_Images/Tactical_Considerations/Compartmentalization/CirculatingFlow.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Compartmentalization/
-FamilyRoom5Ft.pdf used on input line 2763.
-(pdftex.def)             Requested size: 234.87749pt x 174.13696pt.
-
-<0_Images/Tactical_Considerations/Compartmentalization/Bedroom35Ft.pdf, id=2592
-, 671.25592pt x 497.67863pt>
-File: 0_Images/Tactical_Considerations/Compartmentalization/Bedroom35Ft.pdf Gra
-phic file (type pdf)
-
-<use 0_Images/Tactical_Considerations/Compartmentalization/Bedroom35Ft.pdf>
-Package pdftex.def Info: 0_Images/Tactical_Considerations/Compartmentalization/
-Bedroom35Ft.pdf used on input line 2764.
-(pdftex.def)             Requested size: 234.87749pt x 174.13696pt.
-
-Overfull \hbox (23.99995pt too wide) in paragraph at lines 2762--2766
- [][] 
- []
-
-[149 <./0_Images/Tactical_Considerations/Compartmentalization/SingleStoryCompar
+CirculatingFlow.png used on input line 2855.
+(pdftex.def)             Requested size: 361.34999pt x 203.26898pt.
+[154 <./0_Images/Tactical_Considerations/Compartmentalization/SingleStoryCompar
 tments.pdf> <./0_Images/Tactical_Considerations/Compartmentalization/TwoStoryCo
 mpartments1st.pdf
 
@@ -6224,897 +6363,757 @@ pdfTeX warning: pdflatex.exe (file ./0_Images/Tactical_Considerations/Compartme
 ntalization/TwoStoryCompartments2nd.pdf): PDF inclusion: multiple pdfs with pag
 e group included in a single page
 >]
-<0_Images/Tactical_Considerations/Compartmentalization/FamilyRoomGas.pdf, id=26
-29, 557.54465pt x 468.16698pt>
+<0_Images/Tactical_Considerations/Compartmentalization/FamilyRoom5Ft.pdf, id=28
+19, 671.25592pt x 497.67863pt>
+File: 0_Images/Tactical_Considerations/Compartmentalization/FamilyRoom5Ft.pdf G
+raphic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/Compartmentalization/FamilyRoom5Ft.pdf>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Compartmentalization/
+FamilyRoom5Ft.pdf used on input line 2863.
+(pdftex.def)             Requested size: 234.87749pt x 174.13696pt.
+
+<0_Images/Tactical_Considerations/Compartmentalization/Bedroom35Ft.pdf, id=2820
+, 671.25592pt x 497.67863pt>
+File: 0_Images/Tactical_Considerations/Compartmentalization/Bedroom35Ft.pdf Gra
+phic file (type pdf)
+
+<use 0_Images/Tactical_Considerations/Compartmentalization/Bedroom35Ft.pdf>
+Package pdftex.def Info: 0_Images/Tactical_Considerations/Compartmentalization/
+Bedroom35Ft.pdf used on input line 2864.
+(pdftex.def)             Requested size: 234.87749pt x 174.13696pt.
+
+Overfull \hbox (23.99995pt too wide) in paragraph at lines 2862--2866
+ [][] 
+ []
+
+
+<0_Images/Tactical_Considerations/Compartmentalization/FamilyRoomGas.pdf, id=28
+21, 557.54465pt x 468.16698pt>
 File: 0_Images/Tactical_Considerations/Compartmentalization/FamilyRoomGas.pdf G
 raphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Compartmentalization/FamilyRoomGas.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Compartmentalization/
-FamilyRoomGas.pdf used on input line 2773.
+FamilyRoomGas.pdf used on input line 2873.
 (pdftex.def)             Requested size: 234.87749pt x 197.22885pt.
 
-<0_Images/Tactical_Considerations/Compartmentalization/Bed3Gas.pdf, id=2630, 55
+<0_Images/Tactical_Considerations/Compartmentalization/Bed3Gas.pdf, id=2822, 55
 5.20572pt x 480.55655pt>
 File: 0_Images/Tactical_Considerations/Compartmentalization/Bed3Gas.pdf Graphic
  file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Compartmentalization/Bed3Gas.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Compartmentalization/
-Bed3Gas.pdf used on input line 2774.
+Bed3Gas.pdf used on input line 2874.
 (pdftex.def)             Requested size: 234.87749pt x 203.29158pt.
 
-Overfull \hbox (23.99995pt too wide) in paragraph at lines 2772--2776
+Overfull \hbox (23.99995pt too wide) in paragraph at lines 2872--2876
  [][] 
  []
 
-
-<0_Images/Tactical_Considerations/Compartmentalization/Open_Fan_On.png, id=2631
+[155 <./0_Images/Tactical_Considerations/Compartmentalization/CirculatingFlow.p
+ng> <./0_Images/Tactical_Considerations/Compartmentalization/FamilyRoom5Ft.pdf>
+ <./0_Images/Tactical_Considerations/Compartmentalization/Bedroom35Ft.pdf>]
+<0_Images/Tactical_Considerations/Compartmentalization/Open_Fan_On.png, id=2858
 , 1284.8pt x 552.0625pt>
 File: 0_Images/Tactical_Considerations/Compartmentalization/Open_Fan_On.png Gra
 phic file (type png)
 
 <use 0_Images/Tactical_Considerations/Compartmentalization/Open_Fan_On.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Compartmentalization/
-Open_Fan_On.png used on input line 2783.
+Open_Fan_On.png used on input line 2883.
 (pdftex.def)             Requested size: 234.87749pt x 100.91693pt.
 
-<0_Images/Tactical_Considerations/Compartmentalization/Bed3_Fan_On.png, id=2632
+<0_Images/Tactical_Considerations/Compartmentalization/Bed3_Fan_On.png, id=2859
 , 1284.8pt x 560.0925pt>
 File: 0_Images/Tactical_Considerations/Compartmentalization/Bed3_Fan_On.png Gra
 phic file (type png)
 
 <use 0_Images/Tactical_Considerations/Compartmentalization/Bed3_Fan_On.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Compartmentalization/
-Bed3_Fan_On.png used on input line 2784.
+Bed3_Fan_On.png used on input line 2884.
 (pdftex.def)             Requested size: 234.87749pt x 102.38481pt.
 
 <0_Images/Tactical_Considerations/Compartmentalization/Open_30s_After.png, id=2
-633, 1284.8pt x 552.0625pt>
+860, 1284.8pt x 552.0625pt>
 File: 0_Images/Tactical_Considerations/Compartmentalization/Open_30s_After.png 
 Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Compartmentalization/Open_30s_After.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Compartmentalization/
-Open_30s_After.png used on input line 2785.
+Open_30s_After.png used on input line 2885.
 (pdftex.def)             Requested size: 234.87749pt x 100.91693pt.
 
 <0_Images/Tactical_Considerations/Compartmentalization/Bed3_30s_After.png, id=2
-634, 1284.8pt x 558.085pt>
+861, 1284.8pt x 558.085pt>
 File: 0_Images/Tactical_Considerations/Compartmentalization/Bed3_30s_After.png 
 Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Compartmentalization/Bed3_30s_After.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Compartmentalization/
-Bed3_30s_After.png used on input line 2786.
+Bed3_30s_After.png used on input line 2886.
 (pdftex.def)             Requested size: 234.87749pt x 102.01785pt.
 
-<0_Images/Tactical_Considerations/Compartmentalization/Open_1m_After.png, id=26
-35, 1284.8pt x 556.0775pt>
+<0_Images/Tactical_Considerations/Compartmentalization/Open_1m_After.png, id=28
+62, 1284.8pt x 556.0775pt>
 File: 0_Images/Tactical_Considerations/Compartmentalization/Open_1m_After.png G
 raphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Compartmentalization/Open_1m_After.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Compartmentalization/
-Open_1m_After.png used on input line 2787.
+Open_1m_After.png used on input line 2887.
 (pdftex.def)             Requested size: 234.87749pt x 101.65088pt.
 
-<0_Images/Tactical_Considerations/Compartmentalization/Bed3_1m_After.png, id=26
-36, 1284.8pt x 560.0925pt>
+<0_Images/Tactical_Considerations/Compartmentalization/Bed3_1m_After.png, id=28
+63, 1284.8pt x 560.0925pt>
 File: 0_Images/Tactical_Considerations/Compartmentalization/Bed3_1m_After.png G
 raphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Compartmentalization/Bed3_1m_After.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Compartmentalization/
-Bed3_1m_After.png used on input line 2788.
+Bed3_1m_After.png used on input line 2888.
 (pdftex.def)             Requested size: 234.87749pt x 102.38481pt.
 
-Overfull \hbox (23.99995pt too wide) in paragraph at lines 2782--2790
+Overfull \hbox (23.99995pt too wide) in paragraph at lines 2882--2890
  [][] 
  []
 
-[150 <./0_Images/Tactical_Considerations/Compartmentalization/FamilyRoom5Ft.pdf
-> <./0_Images/Tactical_Considerations/Compartmentalization/Bedroom35Ft.pdf> <./
-0_Images/Tactical_Considerations/Compartmentalization/FamilyRoomGas.pdf, page i
-s rotated 90 degrees> <./0_Images/Tactical_Considerations/Compartmentalization/
-Bed3Gas.pdf>]
-<0_Images/Tactical_Considerations/Additional_Vent/SingleVent.png, id=2709, 210.
-0648pt x 145.9854pt>
-File: 0_Images/Tactical_Considerations/Additional_Vent/SingleVent.png Graphic f
-ile (type png)
-
-<use 0_Images/Tactical_Considerations/Additional_Vent/SingleVent.png>
-Package pdftex.def Info: 0_Images/Tactical_Considerations/Additional_Vent/Singl
-eVent.png used on input line 2802.
-(pdftex.def)             Requested size: 234.87749pt x 163.22853pt.
-
-<0_Images/Tactical_Considerations/Additional_Vent/Multiple_Vents.png, id=2710, 
-209.583pt x 153.2124pt>
-File: 0_Images/Tactical_Considerations/Additional_Vent/Multiple_Vents.png Graph
-ic file (type png)
-
-<use 0_Images/Tactical_Considerations/Additional_Vent/Multiple_Vents.png>
-Package pdftex.def Info: 0_Images/Tactical_Considerations/Additional_Vent/Multi
-ple_Vents.png used on input line 2803.
-(pdftex.def)             Requested size: 234.87749pt x 171.70657pt.
-
-Overfull \hbox (23.99995pt too wide) in paragraph at lines 2801--2805
- [][] 
- []
-
-
-<0_Images/Tactical_Considerations/Additional_Vent/PressureSingle_Multiple.pdf, 
-id=2711, 493.61073pt x 423.09468pt>
-File: 0_Images/Tactical_Considerations/Additional_Vent/PressureSingle_Multiple.
-pdf Graphic file (type pdf)
-
-<use 0_Images/Tactical_Considerations/Additional_Vent/PressureSingle_Multiple.p
-df>
-Package pdftex.def Info: 0_Images/Tactical_Considerations/Additional_Vent/Press
-ureSingle_Multiple.pdf used on input line 2811.
-(pdftex.def)             Requested size: 216.81pt x 185.83298pt.
- [151 <./0_Images/Tactical_Considerations/Compartmentalization/Open_Fan_On.png>
- <./0_Images/Tactical_Considerations/Compartmentalization/Bed3_Fan_On.png> <./0
-_Images/Tactical_Considerations/Compartmentalization/Open_30s_After.png> <./0_I
-mages/Tactical_Considerations/Compartmentalization/Bed3_30s_After.png> <./0_Ima
-ges/Tactical_Considerations/Compartmentalization/Open_1m_After.png> <./0_Images
-/Tactical_Considerations/Compartmentalization/Bed3_1m_After.png>]
-<0_Images/Tactical_Considerations/Additional_Vent/SingleStoryOneVentDoor.pdf, i
-d=2724, 673.96814pt x 442.75815pt>
-File: 0_Images/Tactical_Considerations/Additional_Vent/SingleStoryOneVentDoor.p
-df Graphic file (type pdf)
-
-<use 0_Images/Tactical_Considerations/Additional_Vent/SingleStoryOneVentDoor.pd
-f>
-Package pdftex.def Info: 0_Images/Tactical_Considerations/Additional_Vent/Singl
-eStoryOneVentDoor.pdf used on input line 2821.
-(pdftex.def)             Requested size: 234.87749pt x 154.29883pt.
-
-<0_Images/Tactical_Considerations/Additional_Vent/SingleStoryMultiVentDoor.pdf,
- id=2725, 680.07095pt x 455.64038pt>
-File: 0_Images/Tactical_Considerations/Additional_Vent/SingleStoryMultiVentDoor
-.pdf Graphic file (type pdf)
-
-<use 0_Images/Tactical_Considerations/Additional_Vent/SingleStoryMultiVentDoor.
-pdf>
-Package pdftex.def Info: 0_Images/Tactical_Considerations/Additional_Vent/Singl
-eStoryMultiVentDoor.pdf used on input line 2822.
-(pdftex.def)             Requested size: 234.87749pt x 157.36296pt.
-
-Overfull \hbox (23.99995pt too wide) in paragraph at lines 2820--2824
- [][] 
- []
-
-[152 <./0_Images/Tactical_Considerations/Additional_Vent/SingleVent.png> <./0_I
-mages/Tactical_Considerations/Additional_Vent/Multiple_Vents.png> <./0_Images/T
-actical_Considerations/Additional_Vent/PressureSingle_Multiple.pdf, page is rot
-ated 90 degrees>]
-Overfull \hbox (1.50525pt too wide) in paragraph at lines 2828--2829
-\OT1/cmr/m/n/10 (-20) dou-ble that of the sin-gle vent. In ad-di-tion the out-f
-low oc-curred at both the top and top mid-dle mea-sure-ment 
- []
-
-
-<0_Images/Tactical_Considerations/Additional_Vent/SingleStoryOneVent5Ft.pdf, id
-=2759, 669.22232pt x 479.37213pt>
-File: 0_Images/Tactical_Considerations/Additional_Vent/SingleStoryOneVent5Ft.pd
-f Graphic file (type pdf)
-
-<use 0_Images/Tactical_Considerations/Additional_Vent/SingleStoryOneVent5Ft.pdf
->
-Package pdftex.def Info: 0_Images/Tactical_Considerations/Additional_Vent/Singl
-eStoryOneVent5Ft.pdf used on input line 2833.
-(pdftex.def)             Requested size: 234.87749pt x 168.24358pt.
-
-<0_Images/Tactical_Considerations/Additional_Vent/SingleStoryAdditionalVents5Ft
-.pdf, id=2760, 668.54425pt x 459.70908pt>
-File: 0_Images/Tactical_Considerations/Additional_Vent/SingleStoryAdditionalVen
-ts5Ft.pdf Graphic file (type pdf)
-
-<use 0_Images/Tactical_Considerations/Additional_Vent/SingleStoryAdditionalVent
-s5Ft.pdf>
-Package pdftex.def Info: 0_Images/Tactical_Considerations/Additional_Vent/Singl
-eStoryAdditionalVents5Ft.pdf used on input line 2834.
-(pdftex.def)             Requested size: 234.87749pt x 161.50383pt.
-
-Overfull \hbox (23.99995pt too wide) in paragraph at lines 2832--2836
- [][] 
- []
-
-
-Overfull \hbox (0.16801pt too wide) in paragraph at lines 2840--2841
-\OT1/cmr/m/n/10 (+12) flow out of the fire compartment results in heat transfer
- to other rooms in the structure. As seen in figure 
- []
-
-
-<0_Images/Tactical_Considerations/Additional_Vent/TwoStoryKitchenVent.png, id=2
-762, 339.1872pt x 137.313pt>
-File: 0_Images/Tactical_Considerations/Additional_Vent/TwoStoryKitchenVent.png 
-Graphic file (type png)
-
-<use 0_Images/Tactical_Considerations/Additional_Vent/TwoStoryKitchenVent.png>
-Package pdftex.def Info: 0_Images/Tactical_Considerations/Additional_Vent/TwoSt
-oryKitchenVent.png used on input line 2846.
-(pdftex.def)             Requested size: 234.87749pt x 95.08759pt.
-
-[153 <./0_Images/Tactical_Considerations/Additional_Vent/SingleStoryOneVentDoor
-.pdf, page is rotated 90 degrees> <./0_Images/Tactical_Considerations/Additiona
-l_Vent/SingleStoryMultiVentDoor.pdf, page is rotated 90 degrees> <./0_Images/Ta
-ctical_Considerations/Additional_Vent/SingleStoryOneVent5Ft.pdf, page is rotate
-d 90 degrees> <./0_Images/Tactical_Considerations/Additional_Vent/SingleStoryAd
-ditionalVents5Ft.pdf, page is rotated 90 degrees>]
-<0_Images/Tactical_Considerations/Additional_Vent/RearDoorOpen.pdf, id=2861, 69
-5.66522pt x 470.5571pt>
-File: 0_Images/Tactical_Considerations/Additional_Vent/RearDoorOpen.pdf Graphic
- file (type pdf)
-
-<use 0_Images/Tactical_Considerations/Additional_Vent/RearDoorOpen.pdf>
-Package pdftex.def Info: 0_Images/Tactical_Considerations/Additional_Vent/RearD
-oorOpen.pdf used on input line 2855.
-(pdftex.def)             Requested size: 234.87749pt x 158.87437pt.
-
-<0_Images/Tactical_Considerations/Additional_Vent/5SecBeforeDoorOpen.png, id=28
-62, 1284.8pt x 700.6175pt>
-File: 0_Images/Tactical_Considerations/Additional_Vent/5SecBeforeDoorOpen.png G
-raphic file (type png)
-
-<use 0_Images/Tactical_Considerations/Additional_Vent/5SecBeforeDoorOpen.png>
-Package pdftex.def Info: 0_Images/Tactical_Considerations/Additional_Vent/5SecB
-eforeDoorOpen.png used on input line 2857.
-(pdftex.def)             Requested size: 234.87749pt x 128.07277pt.
-
-<0_Images/Tactical_Considerations/Additional_Vent/5SecAfterDoorOpen.png, id=286
-3, 1284.8pt x 700.6175pt>
-File: 0_Images/Tactical_Considerations/Additional_Vent/5SecAfterDoorOpen.png Gr
-aphic file (type png)
-
-<use 0_Images/Tactical_Considerations/Additional_Vent/5SecAfterDoorOpen.png>
-Package pdftex.def Info: 0_Images/Tactical_Considerations/Additional_Vent/5SecA
-fterDoorOpen.png used on input line 2858.
-(pdftex.def)             Requested size: 234.87749pt x 128.07277pt.
-
-Overfull \hbox (23.99995pt too wide) in paragraph at lines 2855--2860
- [] 
- []
-
-[154 <./0_Images/Tactical_Considerations/Additional_Vent/TwoStoryKitchenVent.pn
-g> <./0_Images/Tactical_Considerations/Additional_Vent/RearDoorOpen.pdf, page i
-s rotated 90 degrees> <./0_Images/Tactical_Considerations/Additional_Vent/5SecB
-eforeDoorOpen.png (PNG copy)> <./0_Images/Tactical_Considerations/Additional_Ve
-nt/5SecAfterDoorOpen.png (PNG copy)>]
+[156 <./0_Images/Tactical_Considerations/Compartmentalization/FamilyRoomGas.pdf
+, page is rotated 90 degrees> <./0_Images/Tactical_Considerations/Compartmental
+ization/Bed3Gas.pdf>] [157 <./0_Images/Tactical_Considerations/Compartmentaliza
+tion/Open_Fan_On.png> <./0_Images/Tactical_Considerations/Compartmentalization/
+Bed3_Fan_On.png> <./0_Images/Tactical_Considerations/Compartmentalization/Open_
+30s_After.png> <./0_Images/Tactical_Considerations/Compartmentalization/Bed3_30
+s_After.png> <./0_Images/Tactical_Considerations/Compartmentalization/Open_1m_A
+fter.png> <./0_Images/Tactical_Considerations/Compartmentalization/Bed3_1m_Afte
+r.png>]
 <0_Images/Tactical_Considerations/Locate_Fire/FireRoomLeft/PriorToOpen.png, id=
-2896, 502.87875pt x 804.00375pt>
+2918, 502.87875pt x 804.00375pt>
 File: 0_Images/Tactical_Considerations/Locate_Fire/FireRoomLeft/PriorToOpen.png
  Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Locate_Fire/FireRoomLeft/PriorToOpen.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Locate_Fire/FireRoomL
-eft/PriorToOpen.png used on input line 2876.
+eft/PriorToOpen.png used on input line 2908.
 (pdftex.def)             Requested size: 108.405pt x 173.31136pt.
 
-<0_Images/Tactical_Considerations/Locate_Fire/FireRoomLeft/5Sec.png, id=2897, 5
+<0_Images/Tactical_Considerations/Locate_Fire/FireRoomLeft/5Sec.png, id=2919, 5
 02.87875pt x 804.00375pt>
 File: 0_Images/Tactical_Considerations/Locate_Fire/FireRoomLeft/5Sec.png Graphi
 c file (type png)
 
 <use 0_Images/Tactical_Considerations/Locate_Fire/FireRoomLeft/5Sec.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Locate_Fire/FireRoomL
-eft/5Sec.png used on input line 2877.
+eft/5Sec.png used on input line 2909.
 (pdftex.def)             Requested size: 108.405pt x 173.31136pt.
 
-<0_Images/Tactical_Considerations/Locate_Fire/FireRoomLeft/10Sec.png, id=2898, 
+<0_Images/Tactical_Considerations/Locate_Fire/FireRoomLeft/10Sec.png, id=2920, 
 502.87875pt x 804.00375pt>
 File: 0_Images/Tactical_Considerations/Locate_Fire/FireRoomLeft/10Sec.png Graph
 ic file (type png)
 
 <use 0_Images/Tactical_Considerations/Locate_Fire/FireRoomLeft/10Sec.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Locate_Fire/FireRoomL
-eft/10Sec.png used on input line 2878.
+eft/10Sec.png used on input line 2910.
 (pdftex.def)             Requested size: 108.405pt x 173.31136pt.
 
-<0_Images/Tactical_Considerations/Locate_Fire/FireRoomLeft/20Sec.png, id=2899, 
+<0_Images/Tactical_Considerations/Locate_Fire/FireRoomLeft/20Sec.png, id=2921, 
 502.87875pt x 804.00375pt>
 File: 0_Images/Tactical_Considerations/Locate_Fire/FireRoomLeft/20Sec.png Graph
 ic file (type png)
 
 <use 0_Images/Tactical_Considerations/Locate_Fire/FireRoomLeft/20Sec.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Locate_Fire/FireRoomL
-eft/20Sec.png used on input line 2879.
+eft/20Sec.png used on input line 2911.
 (pdftex.def)             Requested size: 108.405pt x 173.31136pt.
 
-Overfull \hbox (11.86497pt too wide) in paragraph at lines 2875--2881
+Overfull \hbox (11.86497pt too wide) in paragraph at lines 2907--2913
  [][] 
  []
 
 
+Overfull \hbox (5.93405pt too wide) in paragraph at lines 2917--2918
+\OT1/cmr/m/n/10 (-20) far-ther to in-ter-act with the fire it takes more time t
+o cause iden-ti-fi-able changes in the smoke and con-se-quently 
+ []
+
+
 <0_Images/Tactical_Considerations/Locate_Fire/NotFireRoom/PriorToOpen.png, id=2
-900, 502.87875pt x 1084.05pt>
+924, 502.87875pt x 1084.05pt>
 File: 0_Images/Tactical_Considerations/Locate_Fire/NotFireRoom/PriorToOpen.png 
 Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Locate_Fire/NotFireRoom/PriorToOpen.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Locate_Fire/NotFireRo
-om/PriorToOpen.png used on input line 2888.
+om/PriorToOpen.png used on input line 2922.
 (pdftex.def)             Requested size: 108.405pt x 233.67824pt.
 
-<0_Images/Tactical_Considerations/Locate_Fire/NotFireRoom/5Sec.png, id=2901, 50
+<0_Images/Tactical_Considerations/Locate_Fire/NotFireRoom/5Sec.png, id=2925, 50
 2.87875pt x 1084.05pt>
 File: 0_Images/Tactical_Considerations/Locate_Fire/NotFireRoom/5Sec.png Graphic
  file (type png)
 
 <use 0_Images/Tactical_Considerations/Locate_Fire/NotFireRoom/5Sec.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Locate_Fire/NotFireRo
-om/5Sec.png used on input line 2889.
+om/5Sec.png used on input line 2923.
 (pdftex.def)             Requested size: 108.405pt x 233.67824pt.
 
-<0_Images/Tactical_Considerations/Locate_Fire/NotFireRoom/10Sec.png, id=2902, 5
+<0_Images/Tactical_Considerations/Locate_Fire/NotFireRoom/10Sec.png, id=2926, 5
 02.87875pt x 1084.05pt>
 File: 0_Images/Tactical_Considerations/Locate_Fire/NotFireRoom/10Sec.png Graphi
 c file (type png)
 
 <use 0_Images/Tactical_Considerations/Locate_Fire/NotFireRoom/10Sec.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Locate_Fire/NotFireRo
-om/10Sec.png used on input line 2890.
+om/10Sec.png used on input line 2924.
 (pdftex.def)             Requested size: 108.405pt x 233.67824pt.
 
-<0_Images/Tactical_Considerations/Locate_Fire/NotFireRoom/20Sec.png, id=2903, 5
+<0_Images/Tactical_Considerations/Locate_Fire/NotFireRoom/20Sec.png, id=2927, 5
 02.87875pt x 1084.05pt>
 File: 0_Images/Tactical_Considerations/Locate_Fire/NotFireRoom/20Sec.png Graphi
 c file (type png)
 
 <use 0_Images/Tactical_Considerations/Locate_Fire/NotFireRoom/20Sec.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Locate_Fire/NotFireRo
-om/20Sec.png used on input line 2891.
+om/20Sec.png used on input line 2925.
 (pdftex.def)             Requested size: 108.405pt x 233.67824pt.
 
-Overfull \hbox (11.86497pt too wide) in paragraph at lines 2887--2893
+Overfull \hbox (11.86497pt too wide) in paragraph at lines 2921--2927
  [][] 
  []
 
-[155 <./0_Images/Tactical_Considerations/Locate_Fire/FireRoomLeft/PriorToOpen.p
+[158 <./0_Images/Tactical_Considerations/Locate_Fire/FireRoomLeft/PriorToOpen.p
 ng> <./0_Images/Tactical_Considerations/Locate_Fire/FireRoomLeft/5Sec.png> <./0
 _Images/Tactical_Considerations/Locate_Fire/FireRoomLeft/10Sec.png> <./0_Images
 /Tactical_Considerations/Locate_Fire/FireRoomLeft/20Sec.png>]
-Overfull \hbox (0.17004pt too wide) in paragraph at lines 2897--2898
-\OT1/cmr/m/n/10 (+18) show a change in neutral plane, smoke color and density o
-ver the 20 second period shown. In figure []10.26[] 
- []
-
-
-Overfull \hbox (0.19327pt too wide) in paragraph at lines 2905--2906
-\OT1/cmr/m/n/10 (+14) hose team. If the flow from the fan was cut off for any r
-eason including being obstructed by firefighters in 
- []
-
-
 <0_Images/Tactical_Considerations/Reach_of_Stream/Bed2DoorFlowChanges.pdf, id=2
-916, 671.25604pt x 465.81168pt>
+939, 671.25604pt x 465.81168pt>
 File: 0_Images/Tactical_Considerations/Reach_of_Stream/Bed2DoorFlowChanges.pdf 
 Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Reach_of_Stream/Bed2DoorFlowChanges.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Reach_of_Stream/Bed2D
-oorFlowChanges.pdf used on input line 2910.
+oorFlowChanges.pdf used on input line 2941.
 (pdftex.def)             Requested size: 144.54pt x 100.29681pt.
 
-<0_Images/Tactical_Considerations/Reach_of_Stream/HallTempIncrease.pdf, id=2917
+<0_Images/Tactical_Considerations/Reach_of_Stream/HallTempIncrease.pdf, id=2940
 , 654.30568pt x 450.89435pt>
 File: 0_Images/Tactical_Considerations/Reach_of_Stream/HallTempIncrease.pdf Gra
 phic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Reach_of_Stream/HallTempIncrease.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Reach_of_Stream/HallT
-empIncrease.pdf used on input line 2911.
+empIncrease.pdf used on input line 2942.
 (pdftex.def)             Requested size: 144.54pt x 99.60298pt.
 
 <0_Images/Tactical_Considerations/Reach_of_Stream/ExteriorVentConfig.png, id=29
-18, 210.0648pt x 145.9854pt>
+41, 210.0648pt x 145.9854pt>
 File: 0_Images/Tactical_Considerations/Reach_of_Stream/ExteriorVentConfig.png G
 raphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Reach_of_Stream/ExteriorVentConfig.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Reach_of_Stream/Exter
-iorVentConfig.png used on input line 2912.
+iorVentConfig.png used on input line 2943.
 (pdftex.def)             Requested size: 144.54pt x 100.44934pt.
 
-<0_Images/Tactical_Considerations/Reach_of_Stream/1minAfterFan.png, id=2919, 72
+<0_Images/Tactical_Considerations/Reach_of_Stream/1minAfterFan.png, id=2942, 72
 2.7pt x 491.8375pt>
 File: 0_Images/Tactical_Considerations/Reach_of_Stream/1minAfterFan.png Graphic
  file (type png)
 
 <use 0_Images/Tactical_Considerations/Reach_of_Stream/1minAfterFan.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Reach_of_Stream/1minA
-fterFan.png used on input line 2913.
+fterFan.png used on input line 2944.
 (pdftex.def)             Requested size: 144.54pt x 98.36575pt.
 
-<0_Images/Tactical_Considerations/Reach_of_Stream/15SecAfterMoveObs.png, id=292
-0, 722.7pt x 491.8375pt>
+<0_Images/Tactical_Considerations/Reach_of_Stream/15SecAfterMoveObs.png, id=294
+3, 722.7pt x 491.8375pt>
 File: 0_Images/Tactical_Considerations/Reach_of_Stream/15SecAfterMoveObs.png Gr
 aphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Reach_of_Stream/15SecAfterMoveObs.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Reach_of_Stream/15Sec
-AfterMoveObs.png used on input line 2914.
+AfterMoveObs.png used on input line 2945.
 (pdftex.def)             Requested size: 144.54pt x 98.36575pt.
 
-<0_Images/Tactical_Considerations/Reach_of_Stream/CameraView.pdf, id=2921, 641.
+<0_Images/Tactical_Considerations/Reach_of_Stream/CameraView.pdf, id=2944, 641.
 34203pt x 445.1096pt>
 File: 0_Images/Tactical_Considerations/Reach_of_Stream/CameraView.pdf Graphic f
 ile (type pdf)
 
 <use 0_Images/Tactical_Considerations/Reach_of_Stream/CameraView.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Reach_of_Stream/Camer
-aView.pdf used on input line 2915.
+aView.pdf used on input line 2946.
 (pdftex.def)             Requested size: 144.54pt x 100.31512pt.
- [156 <./0_Images/Tactical_Considerations/Locate_Fire/NotFireRoom/PriorToOpen.p
+ [159 <./0_Images/Tactical_Considerations/Locate_Fire/NotFireRoom/PriorToOpen.p
 ng> <./0_Images/Tactical_Considerations/Locate_Fire/NotFireRoom/5Sec.png> <./0_
 Images/Tactical_Considerations/Locate_Fire/NotFireRoom/10Sec.png> <./0_Images/T
 actical_Considerations/Locate_Fire/NotFireRoom/20Sec.png>]
-Overfull \hbox (0.166pt too wide) in paragraph at lines 2922--2923
+Overfull \hbox (0.166pt too wide) in paragraph at lines 2955--2956
 \OT1/cmr/m/n/10 (+9) they are using, especially as they approach the door to a 
 fire room. The same is true for a crew advancing 
  []
 
-
+[160 <./0_Images/Tactical_Considerations/Reach_of_Stream/Bed2DoorFlowChanges.pd
+f> <./0_Images/Tactical_Considerations/Reach_of_Stream/HallTempIncrease.pdf> <.
+/0_Images/Tactical_Considerations/Reach_of_Stream/ExteriorVentConfig.png> <./0_
+Images/Tactical_Considerations/Reach_of_Stream/1minAfterFan.png (PNG copy)> <./
+0_Images/Tactical_Considerations/Reach_of_Stream/15SecAfterMoveObs.png (PNG cop
+y)> <./0_Images/Tactical_Considerations/Reach_of_Stream/CameraView.pdf>]
 <0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryBed3Temps.p
-df, id=2935, 658.37386pt x 466.4891pt>
+df, id=3001, 658.37386pt x 466.4891pt>
 File: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryBed3Te
 mps.pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryBed3Tem
 ps.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroo
-m/SingleStoryBed3Temps.pdf used on input line 2930.
+m/SingleStoryBed3Temps.pdf used on input line 2963.
 (pdftex.def)             Requested size: 216.81pt x 153.62157pt.
 
 <0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryBed1Temps.p
-df, id=2936, 636.67671pt x 459.03073pt>
+df, id=3002, 636.67671pt x 459.03073pt>
 File: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryBed1Te
 mps.pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryBed1Tem
 ps.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroo
-m/SingleStoryBed1Temps.pdf used on input line 2931.
+m/SingleStoryBed1Temps.pdf used on input line 2964.
 (pdftex.def)             Requested size: 216.81pt x 156.31352pt.
- [157 <./0_Images/Tactical_Considerations/Reach_of_Stream/Bed2DoorFlowChanges.p
-df> <./0_Images/Tactical_Considerations/Reach_of_Stream/HallTempIncrease.pdf> <
-./0_Images/Tactical_Considerations/Reach_of_Stream/ExteriorVentConfig.png> <./0
-_Images/Tactical_Considerations/Reach_of_Stream/1minAfterFan.png (PNG copy)> <.
-/0_Images/Tactical_Considerations/Reach_of_Stream/15SecAfterMoveObs.png (PNG co
-py)> <./0_Images/Tactical_Considerations/Reach_of_Stream/CameraView.pdf>]
+
 <0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoStoryBed2Temps.pdf,
- id=2982, 633.96407pt x 456.99664pt>
+ id=3003, 633.96407pt x 456.99664pt>
 File: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoStoryBed2Temps
 .pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoStoryBed2Temps.
 pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroo
-m/TwoStoryBed2Temps.pdf used on input line 2939.
+m/TwoStoryBed2Temps.pdf used on input line 2972.
 (pdftex.def)             Requested size: 216.81pt x 156.29028pt.
 
 <0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoStoryBed1Temps.pdf,
- id=2983, 676.00272pt x 484.79648pt>
+ id=3004, 676.00272pt x 484.79648pt>
 File: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoStoryBed1Temps
 .pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoStoryBed1Temps.
 pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroo
-m/TwoStoryBed1Temps.pdf used on input line 2940.
+m/TwoStoryBed1Temps.pdf used on input line 2973.
 (pdftex.def)             Requested size: 216.81pt x 155.48572pt.
 
 <0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryBed3CO.pdf,
- id=2985, 649.55943pt x 471.23584pt>
+ id=3006, 649.55943pt x 471.23584pt>
 File: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryBed3CO
 .pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryBed3CO.
 pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroo
-m/SingleStoryBed3CO.pdf used on input line 2952.
+m/SingleStoryBed3CO.pdf used on input line 2985.
 (pdftex.def)             Requested size: 216.81pt x 157.29153pt.
 
 <0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryDiningCO.pd
-f, id=2986, 645.49126pt x 469.20172pt>
+f, id=3007, 645.49126pt x 469.20172pt>
 File: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryDining
 CO.pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryDiningC
 O.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroo
-m/SingleStoryDiningCO.pdf used on input line 2953.
+m/SingleStoryDiningCO.pdf used on input line 2986.
 (pdftex.def)             Requested size: 216.81pt x 157.59341pt.
- [158 <./0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryBed
+ [161 <./0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryBed
 3Temps.pdf> <./0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleSt
 oryBed1Temps.pdf> <./0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/Tw
 oStoryBed2Temps.pdf> <./0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom
 /TwoStoryBed1Temps.pdf>]
 <0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoStoryBed2CO.pdf, id
-=3050, 669.22244pt x 480.7283pt>
+=3071, 669.22244pt x 480.7283pt>
 File: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoStoryBed2CO.pd
 f Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoStoryBed2CO.pdf
 >
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroo
-m/TwoStoryBed2CO.pdf used on input line 2961.
+m/TwoStoryBed2CO.pdf used on input line 2994.
 (pdftex.def)             Requested size: 216.81pt x 155.74338pt.
 
 <0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoStoryBed3CO.pdf, id
-=3051, 646.92159pt x 465.33008pt>
+=3072, 663.94638pt x 462.49226pt>
 File: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoStoryBed3CO.pd
 f Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoStoryBed3CO.pdf
 >
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroo
-m/TwoStoryBed3CO.pdf used on input line 2962.
-(pdftex.def)             Requested size: 216.81pt x 155.95221pt.
+m/TwoStoryBed3CO.pdf used on input line 2995.
+(pdftex.def)             Requested size: 216.81pt x 151.02097pt.
 
 <0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryBed3O2.pdf,
- id=3052, 668.20282pt x 484.48183pt>
+ id=3073, 668.20282pt x 484.48183pt>
 File: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryBed3O2
 .pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryBed3O2.
 pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroo
-m/SingleStoryBed3O2.pdf used on input line 2972.
+m/SingleStoryBed3O2.pdf used on input line 3005.
 (pdftex.def)             Requested size: 216.81pt x 157.19598pt.
 
 <0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryDiningO2.pd
-f, id=3053, 670.33015pt x 488.73804pt>
+f, id=3074, 670.33015pt x 488.73804pt>
 File: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryDining
 O2.pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryDiningO
 2.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroo
-m/SingleStoryDiningO2.pdf used on input line 2973.
+m/SingleStoryDiningO2.pdf used on input line 3006.
 (pdftex.def)             Requested size: 216.81pt x 158.06985pt.
- [159 <./0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryBed
+ [162 <./0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryBed
 3CO.pdf> <./0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStory
 DiningCO.pdf> <./0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoSto
 ryBed2CO.pdf> <./0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoSto
 ryBed3CO.pdf>]
 <0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoStoryBed2O2.pdf, id
-=3140, 652.59679pt x 490.86589pt>
+=3162, 652.59679pt x 490.86589pt>
 File: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoStoryBed2O2.pd
 f Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoStoryBed2O2.pdf
 >
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroo
-m/TwoStoryBed2O2.pdf used on input line 2981.
+m/TwoStoryBed2O2.pdf used on input line 3014.
 (pdftex.def)             Requested size: 216.81pt x 163.07228pt.
 
 <0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoStoryBed3O2.pdf, id
-=3141, 645.50351pt x 479.51666pt>
+=3163, 645.50351pt x 479.51666pt>
 File: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoStoryBed3O2.pd
 f Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoStoryBed3O2.pdf
 >
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Open_vs_Closed_Bedroo
-m/TwoStoryBed3O2.pdf used on input line 2982.
+m/TwoStoryBed3O2.pdf used on input line 3015.
 (pdftex.def)             Requested size: 216.81pt x 161.05795pt.
- [160 <./0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryBed
+ [163 <./0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStoryBed
 3O2.pdf> <./0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/SingleStory
 DiningO2.pdf> <./0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoSto
 ryBed2O2.pdf> <./0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoSto
 ryBed3O2.pdf>]
 <0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Switch.jpg
-, id=3205, 245.2362pt x 369.0588pt>
+, id=3227, 245.2362pt x 369.0588pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Switc
 h.jpg Graphic file (type jpg)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Switch
 .jpg>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-Single_Outlet_Switch.jpg used on input line 2995.
+Single_Outlet_Switch.jpg used on input line 3028.
 (pdftex.def)             Requested size: 144.07066pt x 216.81pt.
 
 <0_Images/Tactical_Considerations/Void_Space_Extension/Double_Outlet_Switch.jpg
-, id=3206, 608.15205pt x 686.20364pt>
+, id=3228, 608.15205pt x 686.20364pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/Double_Outlet_Switc
 h.jpg Graphic file (type jpg)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/Double_Outlet_Switch
 .jpg>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-Double_Outlet_Switch.jpg used on input line 2996.
+Double_Outlet_Switch.jpg used on input line 3029.
 (pdftex.def)             Requested size: 192.14424pt x 216.81pt.
 
+Overfull \hbox (0.19083pt too wide) in paragraph at lines 3037--3038
+\OT1/cmr/m/n/10 (+8) space reached just over 500F regardless of if it was enclo
+sed or contained small penetrations. The enclosed 
+ []
+
+
 <0_Images/Tactical_Considerations/Void_Space_Extension/Platform_PipeVsNoPipe.pd
-f, id=3207, 670.2902pt x 481.33357pt>
+f, id=3229, 670.2902pt x 481.33357pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/Platform_PipeVsNoPi
 pe.pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/Platform_PipeVsNoPip
 e.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-Platform_PipeVsNoPipe.pdf used on input line 3009.
+Platform_PipeVsNoPipe.pdf used on input line 3042.
 (pdftex.def)             Requested size: 216.81pt x 155.68976pt.
 
 <0_Images/Tactical_Considerations/Void_Space_Extension/Outlet_SwitchLocation.pn
-g, id=3208, 635.0124pt x 446.6286pt>
+g, id=3230, 635.0124pt x 446.6286pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/Outlet_SwitchLocati
 on.png Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/Outlet_SwitchLocatio
 n.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-Outlet_SwitchLocation.png used on input line 3010.
+Outlet_SwitchLocation.png used on input line 3043.
 (pdftex.def)             Requested size: 216.81pt x 152.49231pt.
 
 <0_Images/Tactical_Considerations/Void_Space_Extension/SingleGangTopPlate.jpg, 
-id=3209, 454.8192pt x 172.0026pt>
+id=3231, 454.8192pt x 172.0026pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/SingleGangTopPlate.
 jpg Graphic file (type jpg)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/SingleGangTopPlate.j
 pg>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-SingleGangTopPlate.jpg used on input line 3012.
+SingleGangTopPlate.jpg used on input line 3045.
 (pdftex.def)             Requested size: 361.34999pt x 136.65479pt.
- [161 <./0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Sw
+ [164 <./0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Sw
 itch.jpg> <./0_Images/Tactical_Considerations/Void_Space_Extension/Double_Outle
 t_Switch.jpg>]
-Overfull \hbox (0.12926pt too wide) in paragraph at lines 3017--3018
-[]\OT1/cmr/m/n/10 (+4) Although the penetration existed in the gypsum, no exhau
-st prevented extension. The plastic melted away 
- []
-
-
 <0_Images/Tactical_Considerations/Void_Space_Extension/Single_Post_Fire_Front.j
-pg, id=3217, 452.6511pt x 681.5061pt>
+pg, id=3239, 452.6511pt x 681.5061pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/Single_Post_Fire_Fr
 ont.jpg Graphic file (type jpg)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/Single_Post_Fire_Fro
 nt.jpg>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-Single_Post_Fire_Front.jpg used on input line 3022.
+Single_Post_Fire_Front.jpg used on input line 3055.
 (pdftex.def)             Requested size: 120.0003pt x 180.67499pt.
 
 <0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Post_Rear_
-Overall.jpg, id=3218, 529.98pt x 974.9223pt>
+Overall.jpg, id=3240, 529.98pt x 974.9223pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Post_
 Rear_Overall.jpg Graphic file (type jpg)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Post_R
 ear_Overall.jpg>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-Single_Outlet_Post_Rear_Overall.jpg used on input line 3023.
+Single_Outlet_Post_Rear_Overall.jpg used on input line 3056.
 (pdftex.def)             Requested size: 98.21458pt x 180.67499pt.
 
 <0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Post_Rear_
-Bottom.jpg, id=3219, 1032.9792pt x 686.0832pt>
+Bottom.jpg, id=3241, 1032.9792pt x 686.0832pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Post_
 Rear_Bottom.jpg Graphic file (type jpg)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Post_R
 ear_Bottom.jpg>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-Single_Outlet_Post_Rear_Bottom.jpg used on input line 3024.
+Single_Outlet_Post_Rear_Bottom.jpg used on input line 3057.
 (pdftex.def)             Requested size: 216.81pt x 143.99797pt.
 
 <0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Post_Rear_
-Middle.jpg, id=3220, 1032.9792pt x 686.0832pt>
+Middle.jpg, id=3242, 1032.9792pt x 686.0832pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Post_
 Rear_Middle.jpg Graphic file (type jpg)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Post_R
 ear_Middle.jpg>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-Single_Outlet_Post_Rear_Middle.jpg used on input line 3025.
+Single_Outlet_Post_Rear_Middle.jpg used on input line 3058.
 (pdftex.def)             Requested size: 216.81pt x 143.99797pt.
 
 <0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Post_Rear_
-Top.jpg, id=3221, 1032.9792pt x 686.0832pt>
+Top.jpg, id=3243, 1032.9792pt x 686.0832pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Post_
 Rear_Top.jpg Graphic file (type jpg)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outlet_Post_R
 ear_Top.jpg>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-Single_Outlet_Post_Rear_Top.jpg used on input line 3027.
+Single_Outlet_Post_Rear_Top.jpg used on input line 3060.
 (pdftex.def)             Requested size: 216.81pt x 143.99797pt.
- [162 <./0_Images/Tactical_Considerations/Void_Space_Extension/Platform_PipeVsN
+ [165 <./0_Images/Tactical_Considerations/Void_Space_Extension/Platform_PipeVsN
 oPipe.pdf> <./0_Images/Tactical_Considerations/Void_Space_Extension/Outlet_Swit
 chLocation.png> <./0_Images/Tactical_Considerations/Void_Space_Extension/Single
 GangTopPlate.jpg>]
-Overfull \hbox (0.15007pt too wide) in paragraph at lines 3032--3033
-[]\OT1/cmr/m/n/10 (+2) During the fire, light gray smoke was noted in exiting t
-he holes in the top plate with the pipe penetrations. 
- []
-
-
 <0_Images/Tactical_Considerations/Void_Space_Extension/Single_No_Fan_Exhaust.pn
-g, id=3245, 707.64375pt x 683.55376pt>
+g, id=3266, 707.64375pt x 683.55376pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/Single_No_Fan_Exhau
 st.png Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/Single_No_Fan_Exhaus
 t.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-Single_No_Fan_Exhaust.png used on input line 3037.
+Single_No_Fan_Exhaust.png used on input line 3070.
 (pdftex.def)             Requested size: 205.74052pt x 198.7425pt.
 
 <0_Images/Tactical_Considerations/Void_Space_Extension/Single_Fan_Exhaust.png, 
-id=3246, 897.3525pt x 632.3625pt>
+id=3267, 897.3525pt x 632.3625pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/Single_Fan_Exhaust.
 png Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/Single_Fan_Exhaust.p
 ng>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-Single_Fan_Exhaust.png used on input line 3038.
+Single_Fan_Exhaust.png used on input line 3071.
 (pdftex.def)             Requested size: 282.02399pt x 198.7425pt.
 
-Overfull \hbox (42.00949pt too wide) in paragraph at lines 3036--3040
+Overfull \hbox (42.00949pt too wide) in paragraph at lines 3069--3073
  [][] 
  []
 
-[163 <./0_Images/Tactical_Considerations/Void_Space_Extension/Single_Post_Fire_
+[166 <./0_Images/Tactical_Considerations/Void_Space_Extension/Single_Post_Fire_
 Front.jpg> <./0_Images/Tactical_Considerations/Void_Space_Extension/Single_Outl
 et_Post_Rear_Overall.jpg> <./0_Images/Tactical_Considerations/Void_Space_Extens
 ion/Single_Outlet_Post_Rear_Bottom.jpg> <./0_Images/Tactical_Considerations/Voi
 d_Space_Extension/Single_Outlet_Post_Rear_Middle.jpg> <./0_Images/Tactical_Cons
 iderations/Void_Space_Extension/Single_Outlet_Post_Rear_Top.jpg>]
-Overfull \hbox (0.10977pt too wide) in paragraph at lines 3043--3044
+Overfull \hbox (0.10977pt too wide) in paragraph at lines 3076--3077
 []\OT1/cmr/m/n/10 (+15) Increasing the size of the gyp-sum pen-e-tra-tion has l
 it-tle ef-fect on the po-ten-tial for ex-ten-sion if the ex-haust 
  []
 
 
 <0_Images/Tactical_Considerations/Void_Space_Extension/SingleGangPost.jpg, id=3
-257, 695.7192pt x 607.068pt>
+278, 695.7192pt x 607.068pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/SingleGangPost.jpg 
 Graphic file (type jpg)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/SingleGangPost.jpg>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-SingleGangPost.jpg used on input line 3048.
+SingleGangPost.jpg used on input line 3081.
 (pdftex.def)             Requested size: 207.05067pt x 180.67499pt.
 
 <0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPost.jpg, id=3
-258, 333.4056pt x 422.0568pt>
+279, 333.4056pt x 422.0568pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPost.jpg 
 Graphic file (type jpg)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPost.jpg>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-DoubleGangPost.jpg used on input line 3049.
+DoubleGangPost.jpg used on input line 3082.
 (pdftex.def)             Requested size: 142.72568pt x 180.67499pt.
 
 <0_Images/Tactical_Considerations/Void_Space_Extension/SingleVsDouble.pdf, id=3
-259, 635.9987pt x 486.15204pt>
+280, 635.9987pt x 486.15204pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/SingleVsDouble.pdf 
 Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/SingleVsDouble.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-SingleVsDouble.pdf used on input line 3051.
+SingleVsDouble.pdf used on input line 3084.
 (pdftex.def)             Requested size: 216.81pt x 165.72717pt.
 
-[164 <./0_Images/Tactical_Considerations/Void_Space_Extension/Single_No_Fan_Exh
+[167 <./0_Images/Tactical_Considerations/Void_Space_Extension/Single_No_Fan_Exh
 aust.png> <./0_Images/Tactical_Considerations/Void_Space_Extension/Single_Fan_E
 xhaust.png>]
+Overfull \hbox (0.21364pt too wide) in paragraph at lines 3087--3088
+\OT1/cmr/m/n/10 (+14) stud space. There was charing of studs and flames observe
+d from the exhaust point, even before PPA was 
+ []
+
+
 <0_Images/Tactical_Considerations/Void_Space_Extension/FireBeforeFan.png, id=32
-67, 1927.2pt x 1084.05pt>
+88, 1927.2pt x 1084.05pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/FireBeforeFan.png G
 raphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/FireBeforeFan.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-FireBeforeFan.png used on input line 3058.
+FireBeforeFan.png used on input line 3091.
 (pdftex.def)             Requested size: 289.07999pt x 162.60048pt.
 
-[165 <./0_Images/Tactical_Considerations/Void_Space_Extension/SingleGangPost.jp
+[168 <./0_Images/Tactical_Considerations/Void_Space_Extension/SingleGangPost.jp
 g> <./0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPost.jpg>
  <./0_Images/Tactical_Considerations/Void_Space_Extension/SingleVsDouble.pdf>]
 <0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangTopPlate.jpg, 
-id=3289, 353.8821pt x 304.7385pt>
+id=3311, 353.8821pt x 304.7385pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangTopPlate.
 jpg Graphic file (type jpg)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangTopPlate.j
 pg>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-DoubleGangTopPlate.jpg used on input line 3066.
+DoubleGangTopPlate.jpg used on input line 3099.
 (pdftex.def)             Requested size: 230.79279pt x 198.7425pt.
 
 <0_Images/Tactical_Considerations/Void_Space_Extension/BalloonVsPlatform.pdf, i
-d=3290, 663.11949pt x 472.59189pt>
+d=3312, 663.11949pt x 472.59189pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/BalloonVsPlatform.p
 df Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/BalloonVsPlatform.pd
 f>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-BalloonVsPlatform.pdf used on input line 3067.
+BalloonVsPlatform.pdf used on input line 3100.
 (pdftex.def)             Requested size: 216.81pt x 154.51357pt.
 
 <0_Images/Tactical_Considerations/Void_Space_Extension/Balloon_Exhaust_No_Fan.p
-ng, id=3291, 1927.2pt x 1084.05pt>
+ng, id=3313, 1927.2pt x 1084.05pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/Balloon_Exhaust_No_
 Fan.png Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/Balloon_Exhaust_No_F
 an.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-Balloon_Exhaust_No_Fan.png used on input line 3068.
+Balloon_Exhaust_No_Fan.png used on input line 3101.
 (pdftex.def)             Requested size: 216.81pt x 121.9421pt.
 
 <0_Images/Tactical_Considerations/Void_Space_Extension/Balloon_Exhaust_With_Fan
-.png, id=3292, 1927.2pt x 1084.05pt>
+.png, id=3314, 1927.2pt x 1084.05pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/Balloon_Exhaust_Wit
 h_Fan.png Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/Balloon_Exhaust_With
 _Fan.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-Balloon_Exhaust_With_Fan.png used on input line 3069.
+Balloon_Exhaust_With_Fan.png used on input line 3102.
 (pdftex.def)             Requested size: 216.81pt x 121.9421pt.
 
-Overfull \hbox (1.84776pt too wide) in paragraph at lines 3065--3071
+Overfull \hbox (1.84776pt too wide) in paragraph at lines 3098--3104
  [][] 
  []
 
 
 <0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostOverall.jp
-g, id=3293, 455.7828pt x 686.0832pt>
+g, id=3315, 455.7828pt x 686.0832pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostOvera
 ll.jpg Graphic file (type jpg)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostOveral
 l.jpg>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-DoubleGangPostOverall.jpg used on input line 3078.
+DoubleGangPostOverall.jpg used on input line 3111.
 (pdftex.def)             Requested size: 108.02003pt x 162.6075pt.
 
 <0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostBottom.jpg
-, id=3294, 1032.9792pt x 686.0832pt>
+, id=3316, 1032.9792pt x 686.0832pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostBotto
 m.jpg Graphic file (type jpg)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostBottom
 .jpg>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-DoubleGangPostBottom.jpg used on input line 3079.
+DoubleGangPostBottom.jpg used on input line 3112.
 (pdftex.def)             Requested size: 244.81496pt x 162.6075pt.
 
 <0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostMiddle.jpg
-, id=3295, 1032.9792pt x 686.0832pt>
+, id=3317, 1032.9792pt x 686.0832pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostMiddl
 e.jpg Graphic file (type jpg)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostMiddle
 .jpg>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-DoubleGangPostMiddle.jpg used on input line 3080.
+DoubleGangPostMiddle.jpg used on input line 3113.
 (pdftex.def)             Requested size: 216.81pt x 143.99797pt.
 
 <0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostTop.jpg, i
-d=3296, 1032.9792pt x 686.0832pt>
+d=3318, 1032.9792pt x 686.0832pt>
 File: 0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostTop.j
 pg Graphic file (type jpg)
 
 <use 0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostTop.jp
 g>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Void_Space_Extension/
-DoubleGangPostTop.jpg used on input line 3081.
+DoubleGangPostTop.jpg used on input line 3114.
 (pdftex.def)             Requested size: 216.81pt x 143.99797pt.
 
-Overfull \hbox (15.86993pt too wide) in paragraph at lines 3077--3083
+Overfull \hbox (15.86993pt too wide) in paragraph at lines 3110--3116
  [][] 
  []
 
-[166 <./0_Images/Tactical_Considerations/Void_Space_Extension/FireBeforeFan.png
+[169 <./0_Images/Tactical_Considerations/Void_Space_Extension/FireBeforeFan.png
 > <./0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangTopPlate.j
 pg> <./0_Images/Tactical_Considerations/Void_Space_Extension/BalloonVsPlatform.
 pdf> <./0_Images/Tactical_Considerations/Void_Space_Extension/Balloon_Exhaust_N
@@ -7123,121 +7122,115 @@ Balloon_Exhaust_With_Fan.png (PNG copy)>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-
-Overfull \hbox (0.12953pt too wide) in paragraph at lines 3092--3093
-\OT1/cmr/m/n/10 (+4) improve faster. In the single story structure, positive pr
-essure ventilation was most effective when multiple 
- []
-
-[167 <./0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostOve
-rall.jpg> <./0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPo
-stBottom.jpg> <./0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGa
-ngPostMiddle.jpg> <./0_Images/Tactical_Considerations/Void_Space_Extension/Doub
-leGangPostTop.jpg>]
+ [170 <./0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostOv
+erall.jpg> <./0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangP
+ostBottom.jpg> <./0_Images/Tactical_Considerations/Void_Space_Extension/DoubleG
+angPostMiddle.jpg> <./0_Images/Tactical_Considerations/Void_Space_Extension/Dou
+bleGangPostTop.jpg>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
 <0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/EntrainedAir.pdf
-, id=3334, 778.14842pt x 493.61505pt>
+, id=3356, 778.14842pt x 493.61505pt>
 File: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/EntrainedAi
 r.pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/EntrainedAir
 .pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Sys
-tematic/EntrainedAir.pdf used on input line 3112.
+tematic/EntrainedAir.pdf used on input line 3145.
 (pdftex.def)             Requested size: 361.34999pt x 229.21982pt.
 
 <0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic_Bed1.
-pdf, id=3335, 746.03014pt x 477.97183pt>
+pdf, id=3357, 746.03014pt x 477.97183pt>
 File: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic_
 Bed1.pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic_B
 ed1.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Sys
-tematic/Systematic_Bed1.pdf used on input line 3121.
+tematic/Systematic_Bed1.pdf used on input line 3154.
 (pdftex.def)             Requested size: 144.54pt x 92.60243pt.
 
 <0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic_Bed2.
-pdf, id=3336, 716.46474pt x 486.84193pt>
+pdf, id=3358, 716.46474pt x 486.84193pt>
 File: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic_
 Bed2.pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic_B
 ed2.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Sys
-tematic/Systematic_Bed2.pdf used on input line 3122.
+tematic/Systematic_Bed2.pdf used on input line 3155.
 (pdftex.def)             Requested size: 144.54pt x 98.21352pt.
 
 <0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic_Bed3.
-pdf, id=3337, 728.29187pt x 493.73999pt>
+pdf, id=3359, 728.29187pt x 493.73999pt>
 File: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic_
 Bed3.pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic_B
 ed3.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Sys
-tematic/Systematic_Bed3.pdf used on input line 3123.
+tematic/Systematic_Bed3.pdf used on input line 3156.
 (pdftex.def)             Requested size: 144.54pt x 97.98532pt.
- [168 <./0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Entraine
+ [171 <./0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Entraine
 dAir.pdf>]
 <0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic.pdf, 
-id=3352, 645.40672pt x 458.78322pt>
+id=3373, 645.40672pt x 458.78322pt>
 File: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic.
 pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic.p
 df>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Sys
-tematic/Systematic.pdf used on input line 3130.
+tematic/Systematic.pdf used on input line 3163.
 (pdftex.def)             Requested size: 361.34999pt x 256.87485pt.
 
 <0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic/Begin
-Vent.png, id=3353, 1445.4pt x 816.04875pt>
+Vent.png, id=3374, 1445.4pt x 816.04875pt>
 File: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic/
 BeginVent.png Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic/B
 eginVent.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Sys
-tematic/Systematic/BeginVent.png used on input line 3132.
+tematic/Systematic/BeginVent.png used on input line 3165.
 (pdftex.def)             Requested size: 216.81pt x 122.40202pt.
 
 <0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic/Bed2O
-pen.png, id=3354, 1445.4pt x 816.04875pt>
+pen.png, id=3375, 1445.4pt x 816.04875pt>
 File: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic/
 Bed2Open.png Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic/B
 ed2Open.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Sys
-tematic/Systematic/Bed2Open.png used on input line 3133.
+tematic/Systematic/Bed2Open.png used on input line 3166.
 (pdftex.def)             Requested size: 216.81pt x 122.40202pt.
 
 <0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic/Bed3O
-pen.png, id=3355, 1445.4pt x 816.04875pt>
+pen.png, id=3376, 1445.4pt x 816.04875pt>
 File: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic/
 Bed3Open.png Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic/B
 ed3Open.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Sys
-tematic/Systematic/Bed3Open.png used on input line 3134.
+tematic/Systematic/Bed3Open.png used on input line 3167.
 (pdftex.def)             Requested size: 216.81pt x 122.40202pt.
 
 <0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic/Compl
-ete.png, id=3356, 1445.4pt x 816.04875pt>
+ete.png, id=3377, 1445.4pt x 816.04875pt>
 File: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic/
 Complete.png Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systematic/C
 omplete.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Sys
-tematic/Systematic/Complete.png used on input line 3135.
+tematic/Systematic/Complete.png used on input line 3168.
 (pdftex.def)             Requested size: 216.81pt x 122.40202pt.
- [169 <./0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systemat
+ [172 <./0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systemat
 ic_Bed1.pdf> <./0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/S
 ystematic_Bed2.pdf
 
@@ -7251,140 +7244,146 @@ pdfTeX warning: pdflatex.exe (file ./0_Images/Tactical_Considerations/Systemati
 c_Vs_Non-Systematic/Systematic_Bed3.pdf): PDF inclusion: multiple pdfs with pag
 e group included in a single page
 >]
-Overfull \hbox (0.13431pt too wide) in paragraph at lines 3140--3141
+Overfull \hbox (0.13431pt too wide) in paragraph at lines 3173--3174
 \OT1/cmr/m/n/10 (-10) chang-ing the at-mo-sphere faster. Tem-per-a-tures re-tur
 n to am-bi-ent in all ex-hausted rooms, with tem-per-a-tures 
  []
 
 
 <0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Non_Systematic.p
-df, id=3386, 739.05922pt x 492.70665pt>
+df, id=3407, 739.05922pt x 492.70665pt>
 File: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Non_Systema
 tic.pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Non_Systemat
 ic.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Sys
-tematic/Non_Systematic.pdf used on input line 3144.
+tematic/Non_Systematic.pdf used on input line 3177.
 (pdftex.def)             Requested size: 216.81pt x 144.53523pt.
- [170 <./0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systemat
+ [173 <./0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Systemat
 ic.pdf> <./0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/System
 atic/BeginVent.png> <./0_Images/Tactical_Considerations/Systematic_Vs_Non-Syste
 matic/Systematic/Bed2Open.png> <./0_Images/Tactical_Considerations/Systematic_V
 s_Non-Systematic/Systematic/Bed3Open.png> <./0_Images/Tactical_Considerations/S
 ystematic_Vs_Non-Systematic/Systematic/Complete.png>]
 <0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Non-Systematic.p
-df, id=3410, 665.62477pt x 473.5583pt>
+df, id=3431, 665.62477pt x 473.5583pt>
 File: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Non-Systema
 tic.pdf Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Non-Systemat
 ic.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Sys
-tematic/Non-Systematic.pdf used on input line 3150.
+tematic/Non-Systematic.pdf used on input line 3183.
 (pdftex.def)             Requested size: 361.34999pt x 257.09059pt.
 
 <0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Non-Systematic/S
-tartVent.png, id=3411, 1445.4pt x 807.015pt>
+tartVent.png, id=3432, 1445.4pt x 807.015pt>
 File: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Non-Systema
 tic/StartVent.png Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Non-Systemat
 ic/StartVent.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Sys
-tematic/Non-Systematic/StartVent.png used on input line 3152.
+tematic/Non-Systematic/StartVent.png used on input line 3185.
 (pdftex.def)             Requested size: 216.81pt x 121.04703pt.
 
 <0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Non-Systematic/C
-ompleteVent.png, id=3412, 1445.4pt x 806.01125pt>
+ompleteVent.png, id=3433, 1445.4pt x 806.01125pt>
 File: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Non-Systema
 tic/CompleteVent.png Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Non-Systemat
 ic/CompleteVent.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Systematic_Vs_Non-Sys
-tematic/Non-Systematic/CompleteVent.png used on input line 3153.
+tematic/Non-Systematic/CompleteVent.png used on input line 3186.
 (pdftex.def)             Requested size: 216.81pt x 120.89647pt.
- [171 <./0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Non_Syst
+ [174 <./0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/Non_Syst
 ematic.pdf> <./0_Images/Tactical_Considerations/Systematic_Vs_Non-Systematic/No
 n-Systematic.pdf> <./0_Images/Tactical_Considerations/Systematic_Vs_Non-Systema
 tic/Non-Systematic/StartVent.png> <./0_Images/Tactical_Considerations/Systemati
 c_Vs_Non-Systematic/Non-Systematic/CompleteVent.png>]
-Overfull \hbox (0.20114pt too wide) in paragraph at lines 3169--3170
+Overfull \hbox (0.20114pt too wide) in paragraph at lines 3202--3203
 []\OT1/cmr/m/n/10 (+19) Both horizontal and vertical ventilation take advantage
  of the buoyancy of fire gases. The boyancy drives 
  []
 
 
 <0_Images/Tactical_Considerations/Fan_Earlier/Horizontal_Flows_Arrows.png, id=3
-445, 777.6252pt x 442.65375pt>
+467, 777.6252pt x 442.65375pt>
 File: 0_Images/Tactical_Considerations/Fan_Earlier/Horizontal_Flows_Arrows.png 
 Graphic file (type png)
 
 <use 0_Images/Tactical_Considerations/Fan_Earlier/Horizontal_Flows_Arrows.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Fan_Earlier/Horizonta
-l_Flows_Arrows.png used on input line 3176.
+l_Flows_Arrows.png used on input line 3209.
 (pdftex.def)             Requested size: 216.81pt x 123.41536pt.
 
-<0_Images/Tactical_Considerations/Fan_Earlier/PPV_Flows_Arrows.png, id=3446, 71
+<0_Images/Tactical_Considerations/Fan_Earlier/PPV_Flows_Arrows.png, id=3468, 71
 9.68875pt x 479.7925pt>
 File: 0_Images/Tactical_Considerations/Fan_Earlier/PPV_Flows_Arrows.png Graphic
  file (type png)
 
 <use 0_Images/Tactical_Considerations/Fan_Earlier/PPV_Flows_Arrows.png>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Fan_Earlier/PPV_Flows
-_Arrows.png used on input line 3177.
+_Arrows.png used on input line 3210.
 (pdftex.def)             Requested size: 216.81pt x 144.53917pt.
 
-[172]
-<0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/HallTemps.pdf, id=345
-2, 659.72981pt x 467.16763pt>
+[175]
+Overfull \hbox (2.8602pt too wide) in paragraph at lines 3222--3223
+\OT1/cmr/m/n/10 (-20) open-ing rather than al-low-ing it to flow back into the 
+struc-ture is very ef-fec-tive at con-trol-ling the tem-per-a-ture.  
+ []
+
+
+<0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/HallTemps.pdf, id=347
+4, 659.72981pt x 467.16763pt>
 File: 0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/HallTemps.pdf Gr
 aphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/HallTemps.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Horizontal_Vertical_P
-PV/HallTemps.pdf used on input line 3194.
+PV/HallTemps.pdf used on input line 3227.
 (pdftex.def)             Requested size: 216.81pt x 153.52423pt.
 
 <0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/BedDoorFlow.pdf, id=3
-453, 671.93405pt x 484.11795pt>
+475, 671.93405pt x 484.11795pt>
 File: 0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/BedDoorFlow.pdf 
 Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/BedDoorFlow.pdf>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Horizontal_Vertical_P
-PV/BedDoorFlow.pdf used on input line 3195.
+PV/BedDoorFlow.pdf used on input line 3228.
 (pdftex.def)             Requested size: 216.81pt x 156.20625pt.
 
-[173 <./0_Images/Tactical_Considerations/Fan_Earlier/Horizontal_Flows_Arrows.pn
-g> <./0_Images/Tactical_Considerations/Fan_Earlier/PPV_Flows_Arrows.png> <./0_I
-mages/Tactical_Considerations/Horizontal_Vertical_PPV/HallTemps.pdf> <./0_Image
-s/Tactical_Considerations/Horizontal_Vertical_PPV/BedDoorFlow.pdf>]
+[176 <./0_Images/Tactical_Considerations/Fan_Earlier/Horizontal_Flows_Arrows.pn
+g> <./0_Images/Tactical_Considerations/Fan_Earlier/PPV_Flows_Arrows.png>]
 <0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/Vertical_Flows.pdf, i
-d=3498, 626.62807pt x 426.70013pt>
+d=3483, 626.62807pt x 426.70013pt>
 File: 0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/Vertical_Flows.p
 df Graphic file (type pdf)
 
 <use 0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/Vertical_Flows.pd
 f>
 Package pdftex.def Info: 0_Images/Tactical_Considerations/Horizontal_Vertical_P
-PV/Vertical_Flows.pdf used on input line 3205.
+PV/Vertical_Flows.pdf used on input line 3239.
 (pdftex.def)             Requested size: 361.34999pt x 246.06035pt.
 
-Overfull \hbox (0.14pt too wide) in paragraph at lines 3210--3211
+Overfull \hbox (0.14pt too wide) in paragraph at lines 3244--3245
 []\OT1/cmr/m/n/10 (+2) In a scenario with a bedroom fire isolated from the rema
 inder of the structure with a single doorway and a 
  []
 
 
-Overfull \hbox (0.22177pt too wide) in paragraph at lines 3210--3211
+Overfull \hbox (0.22177pt too wide) in paragraph at lines 3244--3245
 \OT1/cmr/m/n/10 (+13) large window, positive pressure attack may be the most ef
 fective means of controlling the flows within the 
  []
 
-[174 <./0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/Vertical_Flows
-.pdf>] (Positive_Pressure_Ventilation_Report.gls
+[177 <./0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/HallTemps.pdf>
+ <./0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/BedDoorFlow.pdf> <
+./0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/Vertical_Flows.pdf>]
+[178] (Positive_Pressure_Ventilation_Report.gls
 Overfull \hbox (0.15352pt too wide) in paragraph at lines 5--5
 []\OT1/cmr/m/n/10 (+4) the phase of fire where the heat release rate begins to 
 decline either due to lack of fuel (fuel 
@@ -7414,50 +7413,50 @@ Overfull \hbox (0.15834pt too wide) in paragraph at lines 26--26
 ot be ten-able for a civil-ian where it is ten-able 
  []
 
-) [175]
+) [179]
 
 Package biblatex Warning: No driver for entry type 'techrepoarrt'.
-(biblatex)                Using fallback driver on input line 3221.
+(biblatex)                Using fallback driver on input line 3255.
 
 
-Overfull \hbox (0.21065pt too wide) in paragraph at lines 3222--3222
+Overfull \hbox (0.21065pt too wide) in paragraph at lines 3256--3256
 []\OT1/cmr/m/n/10 (+16) Stephen Kerber and Robin Zevotek. \OT1/cmr/m/it/10 (+16
 ) Study of Residential Attic Fire Mitigation Tactics and Exterior 
  []
 
-[176]
-Overfull \hbox (0.14688pt too wide) in paragraph at lines 3222--3222
+[180]
+Overfull \hbox (0.14688pt too wide) in paragraph at lines 3256--3256
 []\OT1/cmr/m/it/10 (+11) North Las Vegas: Weeks more to investigate fire chief'
 s role in training accident\OT1/cmr/m/n/10 (+11) . July 24, 2012. \OT1/cmr/m/sc
 /10 (+11) url\OT1/cmr/m/n/10 (+11) : 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3229.
-[177]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3229.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3262.
+[181]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3262.
  (Positive_Pressure_Ventilation_Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3229.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3229.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3262.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3262.
 
 Package rerunfilecheck Info: File `Positive_Pressure_Ventilation_Report.out' ha
 s not changed.
-(rerunfilecheck)             Checksum: FC030BFD2D7F60D5C46F324012B703C5;4436.
+(rerunfilecheck)             Checksum: B249004F3CFBB83A14412FAFF0A28DDF;4436.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3229.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3262.
 Package logreq Info: Writing requests to 'Positive_Pressure_Ventilation_Report.
 run.xml'.
 \openout1 = `Positive_Pressure_Ventilation_Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32784 strings out of 493634
- 701622 string characters out of 3135238
- 1151698 words of memory out of 3000000
- 34333 multiletter control sequences out of 15000+200000
- 16279 words of font info for 110 fonts, out of 3000000 for 9000
+ 32799 strings out of 493634
+ 702105 string characters out of 3135238
+ 1150809 words of memory out of 3000000
+ 34338 multiletter control sequences out of 15000+200000
+ 16171 words of font info for 109 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  46i,18n,85p,10412b,1511s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/39605/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
@@ -7477,10 +7476,10 @@ a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users
 /39605/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.
 pfb><C:/Users/39605/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmtt10.pfb>
-Output written on Positive_Pressure_Ventilation_Report.pdf (178 pages, 21256602
-9 bytes).
+Output written on Positive_Pressure_Ventilation_Report.pdf (182 pages, 21353429
+1 bytes).
 PDF statistics:
- 3788 PDF objects out of 4296 (max. 8388607)
- 940 named destinations out of 1000 (max. 500000)
- 28271 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 3817 PDF objects out of 4296 (max. 8388607)
+ 951 named destinations out of 1000 (max. 500000)
+ 28276 words of extra memory for PDF output out of 29859 (max. 10000000)
 

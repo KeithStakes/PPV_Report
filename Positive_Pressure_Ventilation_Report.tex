@@ -2514,7 +2514,7 @@ Experiment 25 was intended to represent a fire in second floor bedroom of the tw
 \section{Tactical Considerations}
 
 \subsection{The application of water, as quickly as possible, whether from the interior or exterior prior to initiating PPA will increase the likelihood of a successful outcome.} \label{sec:EarlyApplication}
-Fire dynamics research continues to highlight how fires today grow and spread at alarming rates \cite{DHS2008} \cite{DHS2010} \cite{DHS2011}. The application of water to on a developing fire at modern fire flow rates been shown to slow the growth rate of the fire, increasing firefighter and occupant safety while decreasing property loss. This makes rapid hose line deployment a top priority for first arriving crews. Although positive pressure attack can improve the efficiency of a hose stretch, is not a substitute for the application of water on the seat of the fire.  Water should never be delayed to setup positive pressure attack (PPA).  
+Fire dynamics research continues to highlight how fires today grow and spread at alarming rates \cite{DHS2008} \cite{DHS2010} \cite{DHS2011}. The application of water onto a developing fire at modern fire flow rates been shown to slow the growth rate, increasing firefighter and occupant safety while decreasing property loss. This makes rapid hose line deployment a top priority for first arriving crews. Although positive pressure attack can improve the efficiency of a hose stretch, is not a substitute for the application of water on the seat of the fire.  Water should never be delayed to setup positive pressure attack.  
 
 \begin{figure}[H]
 	\centering
@@ -2523,7 +2523,7 @@ Fire dynamics research continues to highlight how fires today grow and spread at
 	\label{fig:TransitionalvsDelayed}
 \end{figure}
 
-For departments that choose to utilize PPA as their primary fire attack method, training should focus on minimizing the time lapse between the start of the fan and application of water to the fire. If an interior attack is chosen, interior hose advancement should take advantage of the fans ability to reduce temperatures by influencing the flow path by following the intended fan flow towards the seat of the fire. 
+For departments that choose to utilize PPA as their primary fire attack method, training should focus on minimizing the time lapse between the start of the fan and application of water to the fire. If an interior attack is chosen, interior hose advancement should take advantage of the fans ability influence the flow path and reduce temperatures by following the intended fan flow towards the seat of the fire. 
 
 \begin{figure} [H]
 	\centering
@@ -2549,43 +2549,76 @@ A 5-10 second application of water off the ceiling at a steep angle into the fir
 
 \begin{figure} [H]
 	\centering
-	\begin{tabular}{*3c}
+	\begin{tabular}{*2c}
 		\setcounter{subfigure}{0} 
-		\subfloat[Bedroom Temperatures]{\includegraphics[width = 2 in ]{0_Images/Tactical_Considerations/Application_of_Water/TwoStoryBed4AttackTemps.pdf}} &
-		\subfloat[Hallway Gas Concentrations]{\includegraphics[width = 2 in ]{0_Images/Tactical_Considerations/Application_of_Water/TwoStoryBed4AttackHallGas.pdf}} &
-		\subfloat[5 Ft Temeperatures]{\includegraphics[width = 2 in ]{0_Images/Tactical_Considerations/Application_of_Water/TwoStoryBed4Attack5Ft.pdf}} \\
+		\subfloat[Bedroom Temperatures]{\includegraphics[width = 3 in ]{0_Images/Tactical_Considerations/Application_of_Water/TwoStoryBed4AttackTemps.pdf}} &
+		\subfloat[Hallway Gas Concentrations]{\includegraphics[width = 3 in ]{0_Images/Tactical_Considerations/Application_of_Water/TwoStoryBed4AttackHallGas.pdf}} \\
 	\end{tabular}
+	\subfloat[5 Ft Temeperatures]{\includegraphics[width = 3 in ]{0_Images/Tactical_Considerations/Application_of_Water/TwoStoryBed4Attack5Ft.pdf}} \\
+	\caption{Two Story Combined Transition and Positive Pressure Attack }
 \end{figure}
 
-\subsection{An outlet of sufficient size, must be provided, in the fire room to allow for effective PPA.} \label{sec:OutletInFireRoom}
-PPA effectiveness is directly dependent on the ability of the fan to exhaust products of combustion to the exterior. Any exhaust opening created in conjunction with PPA should be located in the fire compartment. Exhaust openings not provided in the fire compartment will create unintended flow paths, resulting in the spread of smoke and potentially fire into the room the exhaust is made. For example as shown in figure 9.1b when a vent is opened in the fire room, most of the heat and smoke will be vented out the window resulting in temperatures remaining low in the adjacent rooms. When the exhaust is provided in an adjacent room it results in temperature increase in adjacent spaces as seen in figure \ref{fig:ExhaustLocationComp}.
+\subsection{Positive Pressure Attack is Exhaust Dependant} \label{sec:ExhaustDepend}
+Over time PPV fans have evolved to flow a larger volume of air utilizing more powerful engines and improving fan components. Although fan size does play a role in the effectiveness of PPA, exhaust size plays a greater role. Providing enough exhaust to reduce the pressure in the fire room below what the fan is capable of producing in the remainder of the structure is essential for safe PPA operations.
+
+A fire in post flashover state, venting to the exterior was seen to produce between 9Pa and 11Pa of pressure in the upper layer 1ft from the ceiling. This means for the fan to prevent flow from the fire compartment to an adjacent compartment, the adjacent compartment needs to be at least 9Pa higher, preferably 11Pa higher. 
+
+\begin{table} [H]
+	\centering
+	\caption{Venting - Post Flashover Fire Room Pressure}
+	\centering
+	
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Experiment Number & Pressure (Pa) & Time Period (Min) \\ \hline \hline
+		6 & 11.10 & 7:40 - 8:00 \\ \hline
+		8 & 9.64 & 8:50 - 9:08 \\ \hline
+		9 & 10.56 & 8:00 - 8:40 \\ \hline
+		10 & 10.62 & 6:20 - 6:35 \\ \hline
+		11 & 10.71 & 7:55 - 8:10 \\ \hline
+		12 & 11.27 & 7:30 - 8:00 \\ \hline
+		Average & 10.65 & -  \\ \hline
+	\end{tabular}
+	
+	\begin{tablenotes}
+		\centering
+		\item Note: Only experiments where post flashover fire venting \\ to the exterior without prior to starting the \\ fan were utilized in this analysis.
+	\end{tablenotes}
+	\label{tab:FireRoomPressure}
+\end{table}
+
+With the intent of PPA to direct the flow out the exhaust rather than into the structure, creating the pressure deferential is imperative. The greater the differential pressure between the fire room and adjacent spaces, the more back flow will be prevented. 
+
+The most effective way to create the pressure differential between the fire compartment and the adjacent compartments is through additional exhaust openings in the fire compartment. A great deal of emphasis has been placed on the ideal exhaust to inlet ratio for PPA. The inlet size was thought to be the opening where the fan was placed. The true inlet however is the opening to the fire compartment. In the structures tested the interior doors had 16.7$ft^2$ of opening area and the entrance door had 20$ft^2$ of opening area. It should be noted that in most structures the front door size is slightly larger than interior doors, however not vastly different sizes, thus the front door can be used as an approximation of the interior door size.
+
+The experiments found PPA most effective when the fire was in a compartment separated from the remainder of the structure (see tactical consideration \ref{OpenSpaces}). Figure \ref{fig:RanchStructureOpenings} illustrates the opening sizes and intended fan flow for several of the experiments conducted. In the structures tested the bedrooms had windows with 15$ft^2$ of opening area per window with either one or two windows per bedroom. The bedroom door opening of 16.7$ft^2$ provided a limiting point for the flow, making the pressure in the living room and hallway higher than the pressure in the bedroom when the 15$ft^2$ window was open. However, because the window opening was smaller than the bedroom door the amount of flow exhausting the bedroom window was less than what was entering the bedroom door making the window the most limiting. This resulted in a pressure increase in the bedroom. 
+
+In order to create the intended fan flow the pressure in the fire room must be lower than the pressure in adjacent spaces. As seen in figure \ref{fig:OneVSTwoWindowsColdFlow} done under cold flow conditions, when positive pressure attack is utilized the entire volume of the house is more or less at the same pressure with the exception of the room where the exhaust is provided (bedroom 2). The lower pressure in this space creates a flow from the adjacent spaces into the exhausted compartment. When the single window was open providing an exhaust to inlet ratio of approximately 1:1, the pressure in the exhaust room (bedroom 2) was 1/2 the pressure of the living room. Once the second window as open, the door to the bedroom became the limiting factor for flow in, resulting in no pressure increase in the bedroom.
 
 \begin{figure}[H]
 	\centering
-	\begin{tabular}{c c}
-		\setcounter{subfigure}{0} 
-		\subfloat[5ft Temperature Bedroom \& Hallway Comparison]{\includegraphics[width = 3.75in]{0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/VentComparisonTemps.pdf}} & 
-		\subfloat[Ventilation Configuration]{\includegraphics[width = 1.75in]{0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/ExhaustLocationLayoutFire.pdf}} \\
-	\end{tabular}
-	\caption{Exhaust Location Comparison}
-	\label{fig:ExhaustLocationComp}
+	\includegraphics[width = 4in]{0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Opening_Sizes.pdf}
+	\caption{Opening Sizes - Single Story Ranch Structure}
+	\label{fig:RanchStructureOpenings}
 \end{figure}
 
-Not only is the location of the exhaust important but also the area or size of the opening. In order to create the intended fan flow the pressure in the fire room must be lower than the pressure in adjacent spaces. As seen in figure \ref{fig:OneVSTwoWindowsColdFlow} done under cold flow conditions, when positive pressure attack is utilized the entire volume of the house is more or less at the same pressure with the exception of the room where the exhaust is provided. The lower pressure in this space creates a flow from the adjacent spaces into the exhausted compartment. When the single window was open providing an exhaust to inlet ratio of approximately 1:1, the pressure in the fire room (bedroom 2) was 1/2 the pressure of the living room. Once the second window as open, the door to the bedroom became the limiting factor for flow in, resulting in no pressure increase in the bedroom.
+With this principal in mind, any exhaust to inlet ratio greater than 1:1 will not result in a pressure rise in the fire compartment due to the fan, only what the fire is capable of producing. In the configuration shown, as long as the fan is capable of creating greater than 11Pa of pressure in adjacent spaces, all of the products of combustion being created in the bedroom will exhaust out the bedroom windows. 
 
 \begin{figure}[H]
 	\centering
 	\begin{tabular}{c c}
 		\subfloat[Pressures Within th Structure]{\includegraphics[width = 3.5in]{0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Bedroom2SingleVDoubleWindow.pdf}} & 
-			\subfloat[Ventilation Configuration]{\includegraphics[width = 1.75in]{0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/DoubleWindowBed2.pdf}} \\
-		\end{tabular}
-		\caption{Single Window vs. Double Window Could Flow Pressure}
-		\label{fig:OneVSTwoWindowsColdFlow}
-	\end{figure}
+		\subfloat[Ventilation Configuration]{\includegraphics[width = 1.75in]{0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/DoubleWindowBed2.pdf}} \\
+	\end{tabular}
+	\caption{Single Window vs. Double Window Could Flow Pressure}
+	\label{fig:OneVSTwoWindowsColdFlow}
+\end{figure}
 
-This also applies under fire conditions. If not enough exhaust is provided the pressure created by the fire will overwhelm the pressure created by the fire causing the the fire to grow back towards the fan. The solution is to lower the pressure in the fire compartment by 1) create more exhaust openings in the fire compartment or 2) apply water to reduce the pressure created by the fire. 
+This also applies under fire conditions. If not enough exhaust is provided, the pressure created by the fire will overwhelm the pressure created by the fan causing the the fire to grow back towards the fan. The solution is to lower the pressure in the fire compartment by 1) create more exhaust openings in the fire compartment or 2) apply water to reduce the pressure created by the fire. 
 
-Testing demonstrated a 2:1 exhaust to inlet ratio was much more effective than a 1:1 or less ratio. Although under non-fire conditions the pressure in the bedroom with one window open is less then the remainder of the structure, when fire is introduced it creates additional pressure. As the heat release rate of the fire increases, the pressure in the fire room increases. At the point where the fire room pressure matches the remainder of the structure, combustion products will flow from the fire room into the structure again. This increases temperatures and transfers smoke, and toxic gases from the fire compartment to the remainder of the structure. Figure \ref{fig:SingleVsDoubleWindow}b illustrates the increasing pressure as the fire grows. At 10:15, when the pressure in the fire room is equal to the adjacent spaces flow exits the top of the bedroom 2 door as seen in  figure \ref{fig:SingleVsDoubleWindow}. Creating the additional exhaust opening and reaching a 2:1 ratio of exhaust to inlet results in a decrease of pressure in the fire room and the products of combustion are all exhausted. Application of water would have had a similar effect. 
+Testing demonstrated a 2:1 exhaust to inlet ratio was much more effective than a 1:1 or less ratio. Although under non-fire conditions the pressure in the bedroom with one window open is less then the remainder of the structure, when fire is introduced it creates additional pressure. As the heat release rate of the fire increases, the pressure in the fire room increases. At the point where the fire room pressure matches the remainder of the structure, combustion products will flow from the fire room into the structure again. This increases temperatures, and transfers smoke and toxic gases from the fire compartment to the remainder of the structure. Figure \ref{fig:SingleVsDoubleWindow}b illustrates the increasing pressure as the fire grows (bedroom 2). At 10:15, when the pressure in the fire room (bedroom 2) is equal to the adjacent spaces flow exits the top of the bedroom 2 door as seen in  figure \ref{fig:SingleVsDoubleWindow}a. Creating the additional exhaust opening in the fire compartment and reaching a 2:1 ratio of exhaust to inlet results in a decrease of pressure in the fire room and the products of combustion are all exhausted. 
+
+An additional means of reducing the pressure in the fire compartment would be through the application of water. Applying water to the fire reduces the heat release rate of the fire and thus the pressure it can produce. If the fire is not adding pressure to the pressure created by the fan, the pressure difference between the fire compartment and adjacent spaces created by the fan with one exhaust will direct the flow out the exhaust opening rather than back into the structure. 
 
 \begin{figure}[H]
 	\centering
@@ -2598,49 +2631,9 @@ Testing demonstrated a 2:1 exhaust to inlet ratio was much more effective than a
 	\label{fig:SingleVsDoubleWindow}
 \end{figure}
 
-Creating a 2:1 ratio can become a challenge. Many bedrooms have a single window, eliminating the option of a 2:1 ratio. In addition environmental factors may limit the use of a particular side of the structure as exhaust. Earlier research by NIST involved the impact of wind on positive pressure effectiveness. The work concluded positive pressure fans alone are not capable of overcoming the pressure created by the opposing wind condition. Thus an exhaust on the windward side of the structure will create a hazardous situation. If no other exhaust option is available firefighters should consider another tactic \cite{DHS2008}. If a minimum of a 1:1 ratio cannot be achieved, firefighters should consider another tactic. 
+Earlier research by NIST involved the impact of wind on positive pressure effectiveness. The work concluded positive pressure fans alone are not capable of overcoming the pressure created by the opposing wind condition. An exhaust on the windward side of the structure will create a hazardous situation and should be avoided. If no other exhaust option is available firefighters should consider another tactic \cite{DHS2008}. 
 
-\subsection{Positive Pressure Attack is Exhaust Dependant} \label{sec:ExhaustDepend}
-Over time PPV fans have evolved to flow a larger volume of air utilizing more powerful engines and improving fan components. Although fan size does play a role in the effectiveness of PPA, exhaust size plays a greater role. Providing enough exhaust to reduce the pressure in the fire room below what the fan is capable of producing in the remainder of the structure is essential for safe PPA operations.
-
-A fire in post flashover state, venting to the exterior was seen to produce between 9Pa and 11Pa of pressure in the upper layer 1ft from the ceiling. This means for the fan to prevent flow from the fire compartment to an adjacent compartment, the adjacent compartment needs to be at least 9Pa higher, preferably 11Pa higher. Any pressure differential less than that will cause some flow out of the fire compartment towards the fan. The intent of PPA is to direct the flow out the exhaust rather than into the structure. The greater the differential pressure between the fire room and adjacent spaces, the more back flow will be prevented. 
-
-\begin{table} [H]
-	\centering
-	\caption{Venting - Post Flashover Over Fire Room Pressure}
-	\begin{tabular}{|c|c|c|}
-		\hline
-		Experiment Number & Pressure (Pa) & Time Period (Min) \\ \hline \hline
-		6 & 11.10 & 7:40 - 8:00 \\ \hline
-		8 & 9.64 & 8:50 - 9:08 \\ \hline
-		9 & 10.56 & 8:00 - 8:40 \\ \hline
-		10 & 10.62 & 6:20 - 6:35 \\ \hline
-		11 & 10.71 & 7:55 - 8:10 \\ \hline
-		12 & 11.27 & 7:30 - 8:00 \\ \hline
-		Average & 10.65 & -  \\ \hline
-	\end{tabular}
-	\label{tab:FireRoomPressure}
-\end{table}
-
-The most effective way to create the pressure differential between the fire compartment and the adjacent compartments is through additional exhaust openings in the fire compartment. In the structures tested the bedrooms had windows with 15$ft^2$ of opening area per window with either one or two windows per bedroom. The interior doors had 16.7$ft^2$ of opening area and the entrance door had 20ft2 of opening area. The experiments found PPA most effective when the fire was in a compartment separated from the remainder of the structure (see tactical consideration \ref{OpenSpaces}). Figure 9.9 illustrates the opening sizes and intended fan flow for several of the experiments. It should be noted that in most structures the front door size is slightly larger than interior doors, however not vastly different sizes, thus the front door can be used as an approximation of the interior door size.
-
-The bedroom door opening of 16.7$ft^2$ provided a bottle neck for the flow, making the pressure in the living room and hallway higher than the pressure in the bedroom when the 15$ft^2$ window was open. However, because the window opening was smaller than the bedroom door the amount of flow exhausting the bedroom window was less than what was entering the bedroom door This resulted in a pressure increase in the room. This can be seen in cold flow in as shown in Figure \ref{fig:Bedroom2ColdFlow}. Before the second window was opened the fan created a pressure of approximately 7Pa in the bedroom. Once the second window was opened, the exhaust area went from 15$ft^2$, or less than the door opening, to 30$ft^2$ almost twice the size of the door opening. Creating the additional exhaust opening moved the constraining point for the flow from the single window, to the door of the bedroom. The pressure in the bedroom became equal to the pressure on the exterior.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width = 5in]{0_Images/Tactical_Considerations/PPA_Exhaust_Dependant/Opening_Sizes.pdf}
-	\caption{Opening Sizes - Single Story Ranch Structure}
-	\label{fig:RanchStructureOpenings}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width = 5in]{0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/Bedroom2SingleVDoubleWindow.pdf}
-	\caption{Opening Sizes - Single Story Ranch Structure}
-	\label{fig:Bedroom2ColdFlow}
-\end{figure}
-
-With this principal in mind, any exhaust to inlet ratio greater than 1:1 will not result in a pressure rise in the fire compartment due to the fan, only what the fire is capable of producing. In the configuration shown, as long as the fan is capable of creating greater than 11Pa of pressure in adjacent spaces, all of the products of combustion being created in the bedroom will exhaust out the bedroom windows. This will limit the flow of heat and smoke from the fire compartment to the remainder of the structure. Heat and smoke flowing from the fire room towards the fan has the potential to cause vent point ignition at the fan inlet as seen in Figure \ref{fig:VentPointIgnitionLab} and \ref{fig:VentPointIgnitionField}. This is a very dangerous situation for fire fighters, as it indicates untenable conditions within the intended fan flow path, potentially cutting off the primary means of egress for the attack team.
+Proper exhaust size will limit the flow of heat and smoke from the fire compartment to the remainder of the structure. Heat and smoke flowing from the fire room towards the fan has the potential to cause vent point ignition at the fan inlet as seen in Figure \ref{fig:VentPointIgnitionLab} and \ref{fig:VentPointIgnitionField}. This is a very dangerous situation for fire fighters, as it indicates untenable conditions within the intended fan flow path, potentially cutting off the primary means of egress for the attack team.
 
 \begin{figure}[H]
 	\centering
@@ -2658,143 +2651,28 @@ With this principal in mind, any exhaust to inlet ratio greater than 1:1 will no
 
 Providing additional exhaust in the fire room will not negatively effect positive pressure attack, it can only aid in ensuring the pressure created from the fire is not able to build and overcome the pressure created by the fan. With a single window often being less square footage than the size of the door to the room, it will be necessary to vent additional windows to achieve the greater than 1:1 ratio. 
 
-Many rooms only have one window or the sum of the area the windows in the room is less than the area of the door to the room. This does not mean the tactic of positive pressure attack will be ineffective, just that it will be less effective. An effort should be made to ensure the maximum exhaust ratio is achieved with all exhaust locations being in the fire room. If a ratio of less than 1/2:1 is the only option, a different tactic may be necessary. 
+Many rooms only have one window or the sum of the area the windows in the room is less than the area of the door to the room. This does not mean the tactic of positive pressure attack will be ineffective, just that it will be less effective. An effort should be made to ensure the maximum exhaust ratio is achieved with all exhaust locations being in the fire room. If a minimum of a 1:1 ratio cannot be achieved, firefighters should consider another tactic. 
 
-Even when the required pressure difference is achieved between the fire room and adjacent spaces, backflow at the inlet where the fan is located will still occur. See tactical consideration \ref{sec:OngoingAssessment} for a discription of why backflow at the inlet is not an indicator of what flows are occurring within the structure and alone cannot identify the effectiveness of a positive pressure attack.
+Even when the required pressure difference is achieved between the fire room and adjacent spaces, backflow at the inlet where the fan is located will still occur. See tactical consideration \ref{sec:OngoingAssessment} for a description of why backflow at the inlet is not an indicator of what flows are occurring within the structure and alone cannot identify the effectiveness of a positive pressure attack.
 
-\subsection{An ongoing assessment of inlet and exhaust flow is imperative to understanding whether or not a fan flow path has been established and if conditions are improving} \label{sec:OngoingAssessment}
-The fire attack entrance cannot tell you the conditions at the exhaust location(s). It is important to watch for changes at fire attack entrance and exhaust as opposed to just a snapshot. “You cant set it and forget it.” This ongoing assessment provides indications as to the effectiveness of the tactic. You cannot achieve a unidirectional flow at the front door. The opposing nature of the exhaust flow from the fire with the flow from the fan results in a non-uniform pressure in the “cone of air” on the inlet (Figure \ref{fig:FanAndDoorFlow}).
-
-\begin{figure}
-	\centering
-	\includegraphics[width = 6in]{0_Images/Tactical_Considerations/Ongoing_Assessment/FanandDoorFlow.pdf}
-	\caption{During Positive Pressure Attack}
-	\label{fig:FanAndDoorFlow}
-\end{figure}
-
-With the pressure being greater in the structure than outside, the non-uniform pressure from the fan results in back flow from the top of the doorway. Figure \ref{fig:DoorVelocity} illustrates the flow once steady state had been reached for each ventilation configuration tested in the single story and two story structures. The center line is zero flow, any values to the right of the center are outflow and to the left of the line are inflow. Regardless of the exhaust size or location back flow still occurred at the inlet.
+\subsection{An outlet of sufficient size, must be provided, in the fire room to allow for effective PPA.} \label{sec:OutletInFireRoom}
+PPA effectiveness is directly dependent on the ability of the fan to exhaust products of combustion to the exterior as discussed in tactical consideration \ref{sec:ExhaustDepend}. Any exhaust opening created in conjunction with PPA should be located in the fire compartment. Exhaust openings not provided in the fire compartment will create unintended flow paths, resulting in the spread of smoke and potentially fire into the room the exhaust is made. For example as shown in figure \ref{fig:ExhaustLocationComp} when a vent is opened in the fire room, most of the heat and smoke will be vented out the window resulting in temperatures remaining low in the adjacent rooms. When the exhaust is provided in an adjacent room it results in temperature increase in adjacent spaces.
 
 \begin{figure}[H]
 	\centering
 	\begin{tabular}{c c}
-		\subfloat[Bedroom 2 Door Flow]{\includegraphics[width = 3.0in]{0_Images/Tactical_Considerations/Ongoing_Assessment/SingleStoryFrontDoorVelocities.pdf}} &
-		\subfloat[Pressure Throughout Structure]{\includegraphics[width = 3.in]{0_Images/Tactical_Considerations/Ongoing_Assessment/TwoStoryFrontDoorVelocities.pdf}} \\
+		\setcounter{subfigure}{0} 
+		\subfloat[5ft Temperature Bedroom \& Hallway Comparison]{\includegraphics[width = 3.75in]{0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/VentComparisonTemps.pdf}} & 
+		\subfloat[Ventilation Configuration]{\includegraphics[width = 1.75in]{0_Images/Tactical_Considerations/An_Outlet_Must_be_Provided/ExhaustLocationLayoutFire.pdf}} \\
 	\end{tabular}
-	\caption{Front Door Velocity}
-	\label{fig:DoorVelocity}
+	\caption{Exhaust Location Comparison}
+	\label{fig:ExhaustLocationComp}
 \end{figure}
 
-Immediately after the tactic is initiated the flow out the top of the door will be the stored up smoke from the room where the inlet is created. If the exhaust is effective, over time this smoke will decrease in volume. Increased smoke volume or darkening color at the attack entrance may indicate that there is too little exhaust. Use the neutral plane at the attack entrance and the exhaust to identify progress. Although exhaust flow may appear adequate the neutral plane in the front door will provide one indication the effectiveness of PPA as a tactic. A descending neutral plane at the front door indicates the flow moving towards the fan is increasing, potentially indicating the fire is burning out of the initial compartment.
-
-\begin{figure}[H]
-	\centering
-	\begin{tabular}{c c c}
-		\subfloat[Door Open]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/Open.png}} &
-		\subfloat[Fan On]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/FanOn.png}} &
-		\subfloat[30 Seconds]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/30Sec.png}} \\
-		\subfloat[60 Seconds]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/60Sec.png}} &
-		\subfloat[90 Seconds]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/90Sec.png}} &
-		\subfloat[120 Seconds]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/120Sec.png}} \\
-		\subfloat[150 Seconds]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/150Sec.png}} &
-		\subfloat[180 Seconds]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/180Sec.png}} &
-		\subfloat[210 Seconds]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/210Sec.png}} \\
-	\end{tabular}
-	\caption{Reading the Inlet}
-	\label{fig:ReadingInlet}
-\end{figure}
-
-Impact of PPA will be noticeable within seconds at the exhaust location(s), if no impact is noticed additional action is needed. A neutral plane above the window sill on the exhaust opening indicates more flow is required or an obstruction exists between the inlet and the exhaust requiring a different tactic.
-
-\begin{figure}[H]
-	\centering
-	\begin{tabular}{c c c}
-		\subfloat[Exhaust Without Fan Flow - Pre Flashover]{\includegraphics[width = 2.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/NoFanSmoke.png}} &
-		\subfloat[Exhaust With Fan Flow - Pre Flashover]{\includegraphics[width = 2.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/FanSmoke.png}} \\
-		\subfloat[Exhaust Without Fan Flow - Post Flashover]{\includegraphics[width = 2.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/NoFanFire.png}} &
-		\subfloat[Exhaust With Fan Flow - Post Flashover]{\includegraphics[width = 2.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/FanFire.png}} \\
-	\end{tabular}
-	\caption{Reading the Exhaust}
-	\label{fig:ReadExhaust}
-\end{figure}
-
-In addition to monitoring exterior conditions, interior crews must be monitoring interior conditions. Ineffective PPA has the potential to cause conditions to deteriorate faster than would be noted in horizontal or vertical ventilation. Identifying and reacting to deteriorating conditions becomes even more essential during PPA. With the fan introduced, interior crews should notice a decrease in temperature and increased visibility over time. If this is not the case the structure should be evacuated until the elements required for a successful PPA are re-evaluated.
-
-\subsection{The setback of the fan or development of a “cone of air” is not as important as the exhaust size.}
-In the application of PPA a great deal of emphasis has been placed on the flow occurring at the front door. It was thought, if a "cone of air" was placed over the door the result would be inflow through the door, pressurizing the structure and forcing all flow out the exhaust openings. Manuals make reference to ensuring PPA effectiveness by evaluating for total inflow at the inlet (Figure \ref{fig:ConeImages}) \cite{SuperVacManual} \cite{TempestWebsite}.
-
-\begin{figure}[H]
-	\centering
-	\begin{tabular}{c c}
-		\subfloat[Fan Setup \cite{PPA_Garcia}]{\includegraphics[width = 2.5in]{0_Images/Tactical_Considerations/Exhaust_Over_Cone/Cone3.pdf}} & 
-		\subfloat[PPA \cite{TempestWebsite}]{\includegraphics[width = 3.0in]{0_Images/Tactical_Considerations/Exhaust_Over_Cone/howdoes.png}} \\	
-	\end{tabular}	
-	\subfloat[Setback Distance \cite{SuperVacManual}]{\includegraphics[width = 2.5in]{0_Images/Tactical_Considerations/Exhaust_Over_Cone/SV-Training-Manual.pdf}} 
-	\caption{Images of "Cone of Air" in Fire Service Literature}
-	\label{fig:ConeImages}
-\end{figure}
-
-As discussed in section \ref{sec:OngoingAssessment} the inlet being complete inflow was not noted in any of the fire experiments. The pressure gradient seen when the flows from the fire are opposed by the flow from the fan as illustrated figure \ref{fig:FanAndDoorFlow} prevent complete inflow. To effectively counteract the flow from the fire, an airtight seal as indicated in figure \ref{fig:ConeImages}b would need to be achieved. This is not possible with a PPV fan. Instead of focusing on the flow at the inlet, focus should be on pressure created and exhaust size.
-
-The effectiveness of PPA can be tied directly to the pressure created inside the structure. Flow will always be from a higher pressure to lower pressure. The difference in pressure between compartments determines the direction of flow. The intent of PPA is to increase the pressure in adjacent compartments higher than the fire compartment to prevent the flow of products of combustion from the fire compartment to the remainder of the structure. During the cold flow experiments it was seen the greatest pressure increase in the adjacent compartments occurred when the fan was placed between 5$ft$ and 9$ft$ from the inlet with the maximum tilt angle.
-
-The configuration was independent of structure size. Departments utilizing PPA should verify the most effective placement for their particular fan to produce the greatest pressure increase in adjacent compartments, which cannot be evaluated solely by developing a "cone of air". Much like understanding the pressure required to flow a desired volume of water, firefighters need to determine how much pressure can be provided by the fan they utilize and in what configurations. If the fan is not capable of providing the pressure required to overcome the pressure in the fire compartment the fan may not be effective for positive pressure attack. 
-
-In addition to creating as much pressure as possible in adjacent compartments, it is imperative the pressure created by the fan not provide additional pressure to the fire room. This is accomplished by providing greater than a 1:1 exhaust to inlet ratio, and understanding how the interior doorway acts a separation to help maintain the pressure in the adjacent spaces. See tactical consideration \ref{sec:ExhaustDepend}  and \ref{OpenSpaces} for more information.
-
-\subsection{PPA will not be effective on a fire located in an open concept floor plan or any floor plan with high ceilings.} \label{OpenSpaces}
-In order for positive pressure attack to be effective, the fan must be capable of increasing pressure in the adjacent compartments. This forces the products of combustion out of the structure rather than into adjacent compartments. This pressure increase is only possible where the fire is located within a compartment. 
-
-\begin{figure}[H]
-	\centering
-	\subfloat[Single Story]{\includegraphics[width = 2.5in ]{0_Images/Tactical_Considerations/Compartmentalization/SingleStoryCompartments.pdf}} \
-	\begin{tabular}{c c}
-		\subfloat[Two Story First Floor]{\includegraphics[width = 2in ]{0_Images/Tactical_Considerations/Compartmentalization/TwoStoryCompartments1st.pdf}} & 
-		\subfloat[Two Story Second Floor]{\includegraphics[width = 2in ]{0_Images/Tactical_Considerations/Compartmentalization/TwoStoryCompartments2nd.pdf}} \\
-	\end{tabular}
-	\caption{Understanding Compartmentalization of Structures}
-	\label{fig:Compartmentalization}
-\end{figure}
-
-Without a doorway to separate the fire compartment from the remainder of the structure, the pressure increase in adjacent areas cannot be achieved. This causes the fan to create a churning or mixing of the fire gases. High ceilings compound the problem as buoyant gases are carried vertically instead of out of the structure, further mixing the interior environment. Air added by the fan increases the fire size in open concept. The products of combustion flow from the open concept into adjacent compartments increasing in temperature, reducing visibility and in tenability. 
-
-\begin{figure}[H]
-	\centering
-	\begin{tabular}{*2c}
-		\subfloat[Open Plan Fire (Family Room) 5ft Temperatures]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Compartmentalization/FamilyRoom5Ft.pdf}} &
-		\subfloat[Compartmented Fire (Bedroom 3) 5ft Temperatures]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Compartmentalization/Bedroom35Ft.pdf}} \\
-	\end{tabular}
-	\caption{Two Story Fire in Open Plan versus Compartmented Fire Temperatures}
-	\label{fig:2StoryOpen_Comparment_Temps}
-\end{figure}  
-
-\begin{figure}[H]
-	\centering
-	\begin{tabular}{*2c}
-		\subfloat[Open Plan Fire (Family Room) Gas Concentrations]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Compartmentalization/FamilyRoomGas.pdf}} &
-		\subfloat[Compartmented Fire (Bedroom 3) Gas Concentrations]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Compartmentalization/Bed3Gas.pdf}} \\
-	\end{tabular}
-	\caption{Two Story Fire in Open Plan versus Compartmented Fire Gas Concentrations}
-	\label{fig:2StoryOpen_Comparment_Gas}
-\end{figure}  
-
-\begin{figure}[H]
-	\centering
-	\begin{tabular}{*2c}
-		\subfloat[Open Plan Fire (Family Room) Fan On]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Compartmentalization/Open_Fan_On.png}} &
-		\subfloat[Compartmented Fire (Bed 3) Fan On]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Compartmentalization/Bed3_Fan_On.png}} \\
-		\subfloat[Open Plan Fire (Family Room) 30s After Fan On]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Compartmentalization/Open_30s_After.png}} &
-		\subfloat[Compartmented Fire (Bed 3) 30s After Fan On]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Compartmentalization/Bed3_30s_After.png}} \\
-		\subfloat[Open Plan Fire (Family Room) 1min After Fan On]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Compartmentalization/Open_1m_After.png}} &
-		\subfloat[Compartmented Fire (Bed 3) 1min After Fan On]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Compartmentalization/Bed3_1m_After.png}} \\
-	\end{tabular}
-	\caption{Two Story Fire in Open Plan versus Compartmented Fire Visibility}
-	\label{fig:2StoryOpen_Comparment_Visability}
-\end{figure}  
-
-When the same structure has a fire located in a compartment, the fan is capable of increasing the pressure in the adjacent open plan space, preventing the flow of products of combustion from the fire room to the remainder of the structure. As the fan introduces outside air the built up products of combustion are exhausted through the fire room, improving visibility, temperature and tenability. 
+Not only is the location of the exhaust important but also the area or size of the opening. Even when an exhaust opening is located in the fire compartment, if it is not of sufficient size, the effect will be similar to exhaust in an adjacent compartment. The pressure created by combined with the pressure increase in the room due to the fan will exceed the pressure created by the fan in the adjacent space resulting in flow from the fire compartment into adjacent compartments. This results in increased temperatures, decreased visibility and decreased survivability as discussed in tactical consideration \ref{sec:ExhaustDepend}.
 
 \subsection{Creating additional openings not in the fire room will create additional flow paths making PPA ineffective with the potential to draw the fire into all flow paths}
-Additional openings not in the fire compartment, will lower the pressure in the adjacent compartments, allowing for more flow out of the fire compartment. An example of this would be ventilating all of the bedroom windows in a ranch home prior to implementing positive pressure attack. 
+Additional openings not in the fire compartment, will lower the pressure in the adjacent compartments, allowing for more flow from the fire compartment to the remainder of the structure. An example of this would be ventilating all of the bedroom windows in a ranch home prior to implementing positive pressure attack. 
 
 \begin{figure}
 	\centering
@@ -2813,7 +2691,7 @@ Additional openings not in the fire compartment, will lower the pressure in the 
 	\label{fig:AdditionalVents_Pressure}
 \end{figure}
 
-With four times the additional ventilation openings provide the fan cannot maintain the same amount of pressure in the living room. Figure \ref{fig:AdditionalVents_Pressure} shows the fan utilized produced only approximately 1/2 the pressure when four times the ventilation openings were provided. The reduction in pressure in the living room would result in additional flow from the fire room to surrounding compartments. 
+With four times the additional ventilation openings provide the fan cannot maintain the same amount of pressure in the living room. Figure \ref{fig:AdditionalVents_Pressure} shows the fan utilized produced only approximately 1/2 the pressure when four times the ventilation openings were provided. The reduction in pressure in the living room resulted in additional flow from the fire room to surrounding compartments. 
 
 \begin{figure} [H]
 	\centering
@@ -2825,21 +2703,21 @@ With four times the additional ventilation openings provide the fan cannot maint
 	\label{fig:AdditionalVents_DoorFlow}
 \end{figure}
 
-Figure \ref{fig:AdditionalVents_DoorFlow} shows the flow exiting the top of the doorway from the fire room (bedroom 2) was almost double that of the single vent. In addition the outflow occurred at both the top and top middle measurement point. This additional flow seen represents additional products of combustion that would have been exhausted out the ventilation opening now flowing back into the structure. 
+Figure \ref{fig:AdditionalVents_DoorFlow} shows the flow exiting the top of the doorway from the fire room (bedroom 2) was more than double that of the single vent. In addition the outflow occurred at both the top and top middle measurement point. This additional flow seen represents additional products of combustion that in the single vent case would have been exhausted out the ventilation opening that in the multiple vent case  are flowing back into the structure. 
+
+The primary mode of heat transport from one compartment to another is convection. This increase in the flow out of the fire compartment results in heat transfer to other rooms in the structure. As seen in figure \ref{fig:AdditionalVents_Temperature} the single vent in the fire room was able to exhaust most of the products of combustion created, reducing temperatures in adjacent spaces. The opposite occurs with additional vents as heat flows into adjacent spaces. The additional heat has the potential to ignite items in other rooms as seen the multiple vent case where the temperature in the master bedroom exceeds that of the hallway. 
 
 \begin{figure} [H]
 	\centering
 	\begin{tabular}{*2c}
 		\subfloat[5Ft Temperatures - Single Vent]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Additional_Vent/SingleStoryOneVent5Ft.pdf}} &
-	\subfloat[5Ft Temperatures - Multiple Vents]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Additional_Vent/SingleStoryAdditionalVents5Ft.pdf}} \\
-\end{tabular}
-\caption{Products of Combustion Spreading to Adjacent Compartments Increase Temperature}
-\label{fig:AdditionalVents_Temperature}
+		\subfloat[5Ft Temperatures - Multiple Vents]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Additional_Vent/SingleStoryAdditionalVents5Ft.pdf}} \\
+	\end{tabular}
+	\caption{Products of Combustion Spreading to Adjacent Compartments Increase Temperature}
+	\label{fig:AdditionalVents_Temperature}
 \end{figure}
 
-The primary mode of heat transport from one compartment to another is convection. This increase in the flow out of the fire compartment results in heat transfer to other rooms in the structure. As seen in figure \ref{fig:AdditionalVents_Temperature} the single vent in the fire room was able to exhaust most of the products of combustion created, reducing temperatures in adjacent spaces. The opposite occurs with additional vents as heat flows into adjacent spaces. The additional heat has the potential to ignite items in other rooms as seen the multiple vent case where the temperature in the master bedroom exceeds that of the hallway. 
-
-This is also noted in the two story structure where ventilation is provided via a rear door while crews are advancing onto a second floor, compartmented bedroom fire. This could be a search crew or additional hose line advancing from the rear. 
+This is also noted in the two story structure where ventilation is provided via a rear door while crews are advancing onto a second floor, compartmented bedroom fire. This occur as a search crew or additional hose crew enters from the rear while conducting PPA. 
 
 \begin{figure} [H]
 	\centering
@@ -2861,14 +2739,168 @@ Creating this additional opening has the same affect as providing additional ven
 	\label{fig:AdditionalVents_TwoStory}
 \end{figure}
 
-This requires additional coordination between crews. Providing any additional openings outside the fire will create additional flow paths which can re-direct heat via convection onto potential victims interior suppression and search crews. 
+This requires additional coordination between crews. Providing any additional openings outside the fire will create additional flow paths which can re-direct heat via convection onto potential victims and interior suppression/search crews. 
+
+\subsection{An ongoing assessment of inlet and exhaust flow is imperative to understanding whether or not a fan flow path has been established and if conditions are improving} \label{sec:OngoingAssessment}
+The fire attack entrance cannot tell you the conditions at the exhaust location(s). It is important to watch for changes at fire attack entrance and exhaust as opposed to just a snapshot. “You cant set it and forget it.” This ongoing assessment provides indications as to the effectiveness of the tactic. 
+
+When assessing the inlet it is important to understand you cannot achieve a unidirectional flow at the front door. The opposing nature of the exhaust flow from the fire with the flow from the fan results in a non-uniform pressure in the “cone of air” on the inlet (Figure \ref{fig:FanAndDoorFlow}).
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 6in]{0_Images/Tactical_Considerations/Ongoing_Assessment/FanandDoorFlow.pdf}
+	\caption{Inlet Flows During Positive Pressure Attack}
+	\label{fig:FanAndDoorFlow}
+\end{figure}
+
+The pressure in the structure is greater than the outside pressure. This, combined with the non-uniform pressure from the fan will result in back flow from the top of the doorway. Figure \ref{fig:DoorVelocity} illustrates the front door flow once steady state had been reached for each ventilation configuration tested in the single story and two story structures. The center line is zero flow, any values to the right of the center are outflow and to the left of the line are inflow. Regardless of the exhaust size or location back flow was always seen at the inlet.
+
+\begin{figure}[H]
+	\centering
+	\begin{tabular}{c c}
+		\subfloat[Bedroom 2 Door Flow]{\includegraphics[width = 3.0in]{0_Images/Tactical_Considerations/Ongoing_Assessment/SingleStoryFrontDoorVelocities.pdf}} &
+		\subfloat[Pressure Throughout Structure]{\includegraphics[width = 3.in]{0_Images/Tactical_Considerations/Ongoing_Assessment/TwoStoryFrontDoorVelocities.pdf}} \\
+	\end{tabular}
+	\caption{Front Door Velocity}
+	\label{fig:DoorVelocity}
+\end{figure}
+
+Although backflow at the front door does not indicate the effectiveness of PPA, several other indicators were observed. At the inlet flow out the top of the door was observered immediately after the door is opened. This is the smoke which has been confined to the compartment the inlet is located in. Once PPA is initiated, if the exhaust is effective, over time this smoke will decrease in volume. Increased smoke volume or darkening color at the attack entrance may indicate that there is too little exhaust. Use both the neutral plane at the attack entrance and at the exhaust to identify progress. A descending neutral plane at the front door indicates the flow moving towards the fan is increasing, potentially indicating the fire is burning out of the initial compartment.
+
+\begin{figure}[H]
+	\centering
+	\begin{tabular}{c c c}
+		\subfloat[Door Open]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/Open.png}} &
+		\subfloat[Fan On]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/FanOn.png}} &
+		\subfloat[30 Seconds]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/30Sec.png}} \\
+		\subfloat[60 Seconds]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/60Sec.png}} &
+		\subfloat[90 Seconds]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/90Sec.png}} &
+		\subfloat[120 Seconds]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/120Sec.png}} \\
+		\subfloat[150 Seconds]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/150Sec.png}} &
+		\subfloat[180 Seconds]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/180Sec.png}} &
+		\subfloat[210 Seconds]{\includegraphics[width = 1.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadInlet/210Sec.png}} \\
+	\end{tabular}
+	\caption{Reading the Inlet}
+	\label{fig:ReadingInlet}
+\end{figure}
+
+When assessing the exhaust locations (s), the impact of PPA will be noticeable within seconds. When the exhaust is first created the boyant flows will result in a nuetral plane located somewhere in the window depending on the location of the fire and stage of fire growth. The hot gases (smoke) will flow out the top of the window above the neutral plane. A gravity flow of cooler ambient air will flow in the bottom below the neutral plane. Once the fan is turned in the neutral plane should drop to the windowsill and the exhaust should become a unidirectional flow indicating the fan flow path has been established. A neutral plane above the window sill on the exhaust opening while conducting PPA indicates more flow is required or an obstruction exists between the inlet and the exhaust. This indicates either additional actions such as increasing the fan or ensuring now obstruction exists. If flow cannot be established within a short period of time crews should stop the fan and consider implementing a different tactic.
+
+\begin{figure}[H]
+	\centering
+	\begin{tabular}{c c c}
+		\subfloat[Exhaust Without Fan Flow - Pre Flashover]{\includegraphics[width = 2.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/NoFanSmoke.png}} &
+		\subfloat[Exhaust With Fan Flow - Pre Flashover]{\includegraphics[width = 2.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/FanSmoke.png}} \\
+		\subfloat[Exhaust Without Fan Flow - Post Flashover]{\includegraphics[width = 2.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/NoFanFire.png}} &
+		\subfloat[Exhaust With Fan Flow - Post Flashover]{\includegraphics[width = 2.5in]{0_Images/Tactical_Considerations/Ongoing_Assessment/ReadExhaust/FanFire.png}} \\
+	\end{tabular}
+	\caption{Reading the Exhaust}
+	\label{fig:ReadExhaust}
+\end{figure}
+
+In addition to monitoring exterior conditions, interior crews must be monitoring interior conditions. Ineffective PPA has the potential to cause conditions to deteriorate faster than would be noted in horizontal or vertical ventilation. Identifying and reacting to deteriorating conditions becomes even more essential during PPA. With the fan introduced, interior crews should notice a decrease in temperature and increased visibility over time. If this is not the case the structure should be evacuated until the elements required for a successful PPA are re-evaluated.
+
+\subsection{The setback of the fan or development of a “cone of air” is not as important as the exhaust size.}
+In the application of PPA a great deal of emphasis has been placed on the flow occurring at the front door. It was thought, if a "cone of air" was placed over the door the result would be inflow through the door, pressurizing the structure and forcing all flow out the exhaust openings. Manuals make reference to ensuring PPA effectiveness by evaluating for total inflow at the inlet (Figure \ref{fig:ConeImages}).
+
+\begin{figure}[H]
+	\centering
+	\begin{tabular}{c c}
+		\subfloat[Fan Setup \cite{PPA_Garcia}]{\includegraphics[width = 2.5in]{0_Images/Tactical_Considerations/Exhaust_Over_Cone/Cone3.pdf}} & 
+		\subfloat[PPA \cite{TempestWebsite}]{\includegraphics[width = 3.0in]{0_Images/Tactical_Considerations/Exhaust_Over_Cone/howdoes.png}} \\	
+	\end{tabular}	
+	\subfloat[Setback Distance \cite{SuperVacManual}]{\includegraphics[width = 2.5in]{0_Images/Tactical_Considerations/Exhaust_Over_Cone/SV-Training-Manual.pdf}} 
+	\caption{Images of "Cone of Air" in Fire Service Literature}
+	\label{fig:ConeImages}
+\end{figure}
+
+As discussed in section \ref{sec:OngoingAssessment} the inlet being complete inflow was not noted in any of the fire experiments. The pressure gradient seen when the flows from the fire are opposed by the flow from the fan as illustrated figure \ref{fig:FanAndDoorFlow} prevent complete inflow. To effectively counteract the flow from the fire, an airtight seal as indicated in figure \ref{fig:ConeImages}b would be required. This is not possible with a positive pressure fan. Instead of focusing on the flow at the inlet, focus should be on pressure created and exhaust size.
+
+The effectiveness of PPA can be tied directly to the pressure created inside the structure. Flow will always be from a higher pressure to lower pressure. The difference in pressure between compartments determines the direction of flow. The intent of PPA is to increase the pressure in adjacent compartments higher than the fire compartment to prevent the flow of products of combustion from the fire compartment to the remainder of the structure. During the cold flow experiments it was seen the greatest pressure increase in the adjacent compartments occurred when the fan was placed between 5$ft$ and 9$ft$ from the inlet with the maximum tilt angle.
+
+\begin{figure}[H]
+	\centering
+	\begin{tabular}{c c}
+		\subfloat[Flow Exiting Bedroom 2 Window]{\includegraphics[width = 3 in]{0_Images/Coldflow/Setback/SingleStoryFlow.pdf}} & 
+		\subfloat[Master Bedrooom Pressure]{\includegraphics[width = 3 in]{0_Images/Coldflow/Setback/SingleStoryPressure.pdf}} \\
+		\subfloat[Flow Exiting Bedroom 3 Window]{\includegraphics[width = 3 in]{0_Images/Coldflow/Setback/TwoStoryFlow.pdf}} & 
+		\subfloat[Family Room Pressure]{\includegraphics[width = 3 in]{0_Images/Coldflow/Setback/TwoStoryPressure.pdf}} \\  		
+	\end{tabular}
+	\caption{Fan Setback Results}
+	\label{fig:SetbackResults}
+\end{figure}
+
+The configuration was independent of structure size however only represents the optimal setback for the fan tested. Departments utilizing PPA should verify the most effective placement for their particular fan to produce the greatest pressure increase in adjacent compartments. This cannot be evaluated solely by developing a "cone of air". Much like pump operator must have an understanding the pressure required to flow a given nozzle, firefighters need to have an understanding of how much pressure their fan can produce prior to the incident. If the fan is not capable of providing the pressure required to overcome the pressure created by a fire that fan will not be effective for positive pressure attack. 
+
+In addition to creating as much pressure as possible in adjacent compartments, it is imperative the pressure created by the fan not provide additional pressure to the fire room. This is accomplished by providing greater than a 1:1 exhaust to inlet ratio, and understanding how the interior doorway acts a separation to help maintain the pressure in the adjacent spaces. See tactical consideration \ref{sec:ExhaustDepend}  and \ref{OpenSpaces} for more information.
+
+\subsection{PPA will not be effective on a fire located in an open concept floor plan or any floor plan with high ceilings.} \label{OpenSpaces}
+In order for positive pressure attack to be effective, the fan must be capable of increasing pressure in the adjacent compartments. This forces the products of combustion out of the structure rather than into adjacent compartments. This pressure increase is only possible where the fire is located within a compartment. 
+
+\begin{figure}[H]
+	\centering
+	\subfloat[Single Story]{\includegraphics[width = 2.5in ]{0_Images/Tactical_Considerations/Compartmentalization/SingleStoryCompartments.pdf}} \
+	\begin{tabular}{c c}
+		\subfloat[Two Story - First Floor]{\includegraphics[width = 2in ]{0_Images/Tactical_Considerations/Compartmentalization/TwoStoryCompartments1st.pdf}} & 
+		\subfloat[Two Story - Second Floor]{\includegraphics[width = 2in ]{0_Images/Tactical_Considerations/Compartmentalization/TwoStoryCompartments2nd.pdf}} \\
+	\end{tabular}
+	\caption{Understanding Compartmentalization of Structures}
+	\label{fig:Compartmentalization}
+\end{figure}
+
+Without a doorway to separate the fire compartment from the remainder of the structure, the pressure increase in adjacent areas cannot be achieved. This causes the fan to create a churning or mixing of the fire gases. High ceilings compound the problem as buoyant gases are carried vertically instead of out of the structure, further mixing the interior environment. Air added by the fan increases the fire size in open concept. The products of combustion flow from the open concept into adjacent compartments increasing in temperature, reducing visibility and in tenability. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 5in]{0_Images/Tactical_Considerations/Compartmentalization/CirculatingFlow.png} 
+	\caption{Fan Circulating Flow in an Open Concept Floor Plan}
+	\label{fig:FlowCirculation}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\begin{tabular}{*2c}
+		\subfloat[Open Plan Fire (Family Room) 5ft Temperatures]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Compartmentalization/FamilyRoom5Ft.pdf}} &
+		\subfloat[Compartmented Fire (Bedroom 3) 5ft Temperatures]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Compartmentalization/Bedroom35Ft.pdf}} \\
+	\end{tabular}
+	\caption{Two Story Fire in Open Plan versus Compartmented Fire - Temperatures}
+	\label{fig:2StoryOpen_Comparment_Temps}
+\end{figure}  
+
+\begin{figure}[H]
+	\centering
+	\begin{tabular}{*2c}
+		\subfloat[Open Plan Fire (Family Room) Gas Concentrations]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Compartmentalization/FamilyRoomGas.pdf}} &
+		\subfloat[Compartmented Fire (Bedroom 3) Gas Concentrations]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Compartmentalization/Bed3Gas.pdf}} \\
+	\end{tabular}
+	\caption{Two Story Fire in Open Plan versus Compartmented Fire - Gas Concentrations}
+	\label{fig:2StoryOpen_Comparment_Gas}
+\end{figure}  
+
+\begin{figure}[H]
+	\centering
+	\begin{tabular}{*2c}
+		\subfloat[Open Plan Fire (Family Room) Fan On]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Compartmentalization/Open_Fan_On.png}} &
+		\subfloat[Compartmented Fire (Bed 3) Fan On]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Compartmentalization/Bed3_Fan_On.png}} \\
+		\subfloat[Open Plan Fire (Family Room) 30s After Fan On]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Compartmentalization/Open_30s_After.png}} &
+		\subfloat[Compartmented Fire (Bed 3) 30s After Fan On]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Compartmentalization/Bed3_30s_After.png}} \\
+		\subfloat[Open Plan Fire (Family Room) 1min After Fan On]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Compartmentalization/Open_1m_After.png}} &
+		\subfloat[Compartmented Fire (Bed 3) 1min After Fan On]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Compartmentalization/Bed3_1m_After.png}} \\
+	\end{tabular}
+	\caption{Two Story Fire in Open Plan versus Compartmented Fire Visibility}
+	\label{fig:2StoryOpen_Comparment_Visability}
+\end{figure}  
+
+When the same structure has a fire located in a compartment, the fan is capable of increasing the pressure in the adjacent open plan space, preventing the flow of products of combustion from the fire room to the remainder of the structure. As the fan introduces outside air the built up products of combustion are exhausted through the fire room, improving visibility, temperature and tenability. 
+
+
 
 \subsection{The safety of PPA is decreased when the location and extent of the fire is not known with a high degree of certainty.}
-To ensure the exhaust is provided in the most effective compartment it is essential to identify the location of the fire. Several tools are available to aid firefighters in this identification. Thermal imaging cameras can be utilized from the exterior to identify heat signatures near windows and doors indicating where the highest temperatures exist in the structure. 
+To ensure the exhaust is provided in the most effective location it is essential to identify the location of the fire. Several tools are available to aid firefighters in this identification. Thermal imaging cameras can be utilized from the exterior to identify heat signatures near windows and doors indicating where the highest temperatures exist in the structure. 
 
 \hl{INSERT IMAGES FROM SPARTENBURG AND REFERENCE NIST}
 
-In addition understanding how to "read" smoke conditions and evaluate a changing neutral helps will aid in determining the location and extent of the fire. Although smoke density and color can identify the general location of a fire, identifying changes in the neutral plane after creating an opening will aid in understanding the proximity of the opening created to the seat of the fire. 
+In addition understanding how to ''read'' smoke conditions and evaluate a changing neutral plane will aid in determining the location and extent of the fire. Although smoke density and color can identify the general location of a fire, identifying changes in the neutral plane after creating an opening will aid in understanding the proximity of the opening created to the seat of the fire. 
 
 \begin{figure}[H]
 	\centering
@@ -2882,6 +2914,8 @@ In addition understanding how to "read" smoke conditions and evaluate a changing
 	\label{fig:NeutralPlaneFireRoom}
 \end{figure}
 
+Figure \ref{fig:NeutralPlaneFireRoom} shows a ventilation opening provided in the fire compartment. The chronological pictures show a change in neutral plane, smoke color and density over the 20 second period shown. The neutral plane drops in the opening as the volume and density increase. In figure \ref{fig:NeutralPlaneNonFireRoom} the opening made shows little to no change in the neutral plan, smoke color or density. This is because the ventilation was not provided in the fire compartment but an adjacent connected compartment. The difference between providing an opening in the fire compartment and not in the fire compartment has to do with the distance the clean air must travel along the flow path to the seat of the fire. If the newly added air has to travel farther to interact with the fire it takes more time to cause identifiable changes in the smoke and consequently the neutral plane.
+
 \begin{figure}[H]
 	\centering
 	\begin{tabular}{*4c}
@@ -2894,15 +2928,12 @@ In addition understanding how to "read" smoke conditions and evaluate a changing
 	\label{fig:NeutralPlaneNonFireRoom}
 \end{figure}
 
-Figure \ref{fig:NeutralPlaneFireRoom} shows a ventilation opening provided in the fire compartment. The chronological pictures show a change in neutral plane, smoke color and density over the 20 second period shown. In figure \ref{fig:NeutralPlaneNonFireRoom} the opening made shows little to no change in the neutral plan, smoke color or density. This is because the ventilation was not provided in the fire compartment but an adjacent connected compartment. The difference between providing an opening in the fire compartment and not in the fire compartment has to do with the distance the clean air must travel along the flow path to the seat of the fire. If the newly added air has to travel farther to interact with the fire it takes more time to cause identifiable changes in the smoke and consequently the neutral plane.
+If PPA is implemented where the fire location is not known, it must be understood that the points between where the fire is and where the exhaust location is made will become untenable for both trapped occupants and firefighters. Providing an exhaust of adaquet size in the fire compartment can decrease temperatures, increase visibility and tenability. Providing exhaust in an adjacent compartment will create a flow path, rendering the exhausted compartment and other adjacent compartments untenable.
 
-If PPA is implemented where the fire location is not known, it must be understood that the points between where the fire is and where the exhaust location is made can become untenable for both trapped occupants and firefighters. Providing an exhaust in the fire compartment can decrease temperatures, increase visibility and tenability. Providing exhaust in an adjacent compartment will create a flow path, rendering the exhausted compartment and other adjacent compartments untenable.
-
-For more information on how ventilation location effects tenability see section \ref{sec:OutletInFireRoom}.
+For more information on how ventilation location effects tenability see tactical consideration \ref{sec:OutletInFireRoom}.
  
-
 \subsection{PPA is not a replacement for using the reach of your hose stream.}
-PPA can increase visibility and decrease temperatures allowing firefighters get too close to the fire area before putting water on it. When proper exhaust is provided the fan has the capability of redirecting the majority of the flow path out the exhaust opening rather than back into the structure over the advancing hose team. If the flow from the fan was cut off for any reason including being obstructed by firefighters in the inlet or along the flow path, the result will berapid temperature rise and onset of zero visibility. The energy which was being exhausted is now split between the exhaust and the inlet as if the fan was not in place. 
+PPA can increase visibility and decrease temperatures allowing firefighters get too close to the fire area before putting water on it. When proper exhaust is provided the fan has the capability of redirecting the majority of the flow out the exhaust opening rather than back into the structure over the advancing hose team. If the flow from the fan was cut off for any reason including being obstructed by firefighters in the inlet or along the flow path, the result will be rapid temperature rise and onset of zero visibility. The energy which was being exhausted is now split between the exhaust and the inlet as if the fan was not in place. 
 
 \begin{figure} [H]
 	\centering
@@ -2917,7 +2948,9 @@ PPA can increase visibility and decrease temperatures allowing firefighters get 
 	\caption{Effect of Removing or Obstructing Fan}
 \end{figure}
 
-Using the reach of your stream as you approach the fire from a safe distance will reduce the energy released by the fire. Should the fan become obstructed or shut off while fire fighters are approaching the fire compartment, the upper layer cooling will decrease the thermal assault on the advancing attack line crew. This may be flowing while moving, it may also be the application of water in the direction of the fire to cool prior to advancing. Taking advantage of an open concept floor plans, an attack crew may be capability of applying water to most of the 1st floor from the entrance and most of the 2nd floor bedrooms from the 1st floor.  This early application of water, prior to advancing to the fire compartment, will increase the effectiveness of PPA as described in tactical consideration \ref{sec:EarlyApplication}.
+With modern fuels, compartment fires are often ventilation-limited. The available oxygen limits the heat release rate as the flow available through a bi-directional flow path is not the most efficient. This has the potential to limit the compartment fire growth pre-flashover resulting in less energy release. When a PPA is utilized the additional flow from the fan will provide additional oxygen which increases the fire size often taking the compartment to flashover. Cutting off or obstructing the flow of the fan results in the energy from a flashed over compartment now being directed out of the compartment towards advancing crews in stead of the ventilation limited compartment. The compartment will eventually return to the ventilation-limited state if no water is applied, however the damage may already have been done.  
+
+Using the reach of your stream as you approach the fire from a safe distance will reduce the energy released by the fire. Should the fan become obstructed or shut off while fire fighters are approaching the fire compartment, this upper layer cooling will decrease the thermal assault on the advancing attack crew. This may be flowing while moving, it may also be the application of water in the direction of the fire to cool prior to advancing. Taking advantage of an open concept floor plans, an attack crew may be capability of applying water to most of the 1st floor from the entrance and most of the 2nd floor bedrooms from the 1st floor.  This early application of water, prior to advancing to the fire compartment, will increase the effectiveness of PPA as described in tactical consideration \ref{sec:EarlyApplication}.
 
 Additionally, firefighters should appreciate the fact that they are a potential impediment to the air flow they are using, especially as they approach the door to a fire room. The same is true for a crew advancing down a narrow hallway. Attack line crews should take advantage of the increased visibility and reduced temperature to make the advance as quickly as possible.
 
@@ -2942,9 +2975,9 @@ Prior research has shown the importance of having a closed door between occupant
 	\caption{Open versus Closed Bedroom Ceiling Temperatures Two Story}
 \end{figure}
 
-The SFPE Handbook established occupant tenability threshold criteria for temperature of 250F, CO of greater than 5000 PPM for 5 minutes or oxygen level below 12\% \cite{SFPEHandbookPurser}. Ceiling temperatures in the closed bedroom never exceeded 250F at the ceiling level, where as the open bedroom temperatures reached over exceed that prior to becoming ventilation limited. The two story structure shows the same temperature variations between the open and closed bedroom, with even lower bedroom temperatures due to the increased volume of the structure. 
+The SFPE Handbook established occupant tenability threshold criteria for temperature of 250F, CO of greater than 5000 PPM for 5 minutes or oxygen level below 12\% \cite{SFPEHandbookPurser}. Ceiling temperatures in the closed bedroom never exceeded 250F at the ceiling level, where as the open bedroom temperatures exceed that prior to becoming ventilation limited. The two story structure shows the same temperature variations between the open and closed bedroom, with even lower closed bedroom temperatures due to the increased volume of the structure. 
 
-In closed bedrooms the CO concentration in both the single story and two story experiments remained below the 5000 PPM threshold. The open area in the single story shows concentrations exceeding the 10000PPM level. Data from the two story closed bedroom shows concentrations remained below the 5000 PPM threshold. Data from the open bedroom in the two story also shows values remained below 5000 PPM for some experiments but not all. In general exposure in the open bedroom was greater in than in the two story closed bedroom. 
+In closed bedrooms the CO concentration in both the single story and two story experiments remained below the 5000 PPM threshold. The open area in the single story shows concentrations exceeding the 10000PPM level. Data from the two story closed bedroom shows concentrations remained below the 5000 PPM threshold. Data from the open bedroom in the two story also shows values remained below 5000 PPM for some experiments but not all. In general exposure in the open bedroom was greater in than in the closed bedroom. 
 
 \begin{figure} [H]
 	\centering
@@ -2978,8 +3011,8 @@ Oxygen Concentration remained high in the closed bedrooms for both the single st
  \begin{figure} [H]
  	\centering
  	\begin{tabular}{c c}
- 		\subfloat[Closed Bedroom CO Concentration Two Story]{\includegraphics[width = 3 in]{0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoStoryBed2O2.pdf}} &
- 		\subfloat[Open Bedroom CO Concentration Two Story]{\includegraphics[width = 3 in]{0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoStoryBed3O2.pdf}} \\
+ 		\subfloat[Closed Bedroom Oxygen Concentration Two Story]{\includegraphics[width = 3 in]{0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoStoryBed2O2.pdf}} &
+ 		\subfloat[Open Bedroom Oxygen Concentration Two Story]{\includegraphics[width = 3 in]{0_Images/Tactical_Considerations/Open_vs_Closed_Bedroom/TwoStoryBed3O2.pdf}} \\
  	\end{tabular}
  	\caption{Open Bedroom versus Closed Bedroom Oxygen Concentration Two Story}
  \end{figure}
@@ -2987,7 +3020,7 @@ Oxygen Concentration remained high in the closed bedrooms for both the single st
 Although this analysis only looked at tenability and not lethality, survivability potential of occupants in a closed bedroom or in a compartment isolated from the fire compartment remains higher than those in compartments open to the fire area. The inclusion of positive pressure attack did not negatively impact this increased survivability. The isolation of the compartment prevented the establishment of a flowpath through that space. Regardless of if the tactic of positive pressure attack was used effectively or ineffectively the survivability of victims in an isolated compartment (closed bedroom) exceeded the survivability of any potential victims located in an attached compartment. 
 
 \subsection{Extension into void spaces when using PPA is directly related to the exhaust capabilities of the void space.} \label{TC:Extension_Into_Voids}
-In order for fire extension into the void space there must be an entrance (penetration) for the fire and exit(exhaust) for the products of combustion. An entrance only allows the products of combustion to accumulate and limits oxygen, preventing ignition of objects in that space and thus fire spread. Previous work on fire extension through gypsum walls identified locations such as outlets, switches, lights, and hvac vents as providing break in the fire barrier\cite{DHS2011}.  These breaks in the gypsum typically lead to stud or joist bays. 
+In order for fire extension into the void space there must be an entrance (penetration) for the fire and exit(exhaust) for the products of combustion. An entrance only allows the products of combustion to accumulate and limits oxygen, preventing ignition of objects in that space and thus fire spread. Previous work on fire extension through gypsum walls identified locations such as outlets, switches, lights, and hvac vents as providing a break in the fire barrier\cite{DHS2011}.  These breaks in the gypsum typically lead to stud or joist bays. 
 
 \begin{figure} [H]
 	\centering
@@ -3001,7 +3034,7 @@ In order for fire extension into the void space there must be an entrance (penet
 
 To transfer heat enough heat into the void space to extend fire, there must be an exhaust provided. Take for an example an outlet and light switch in a stud bay in platform construction. The stud cavity can either be enclosed on all side or have penetrations for lighting, plumbing or HVAC. In the the stud bay that is enclosed, no exhaust was provided. In the case of a bay with plumbing, lighting or HVAC penetrations, limited exhaust is provided as the majority of the hole created to run the utility contains the utility itself. 
 
-These two configurations were tested with single outlet and light switches. With the room adjacent the void space at flash-over, with PPA being conducted the room temperature peaked at 1700F. The void space reached just over 500F regardless if it was enclosed or contained small penetrations. The enclosed cavity grew slightly slower but both peaked at the same point and remained relatively steady during the positive pressure attack. 
+These two configurations were tested with single outlet and light switches. With the room adjacent the void space at flash-over, with PPA being conducted the room temperature peaked at 1700F. The void space reached just over 500F regardless of if it was enclosed or contained small penetrations. The enclosed cavity grew slightly slower but both peaked at the same point and remained relatively steady during the positive pressure attack. 
 
 \begin{figure} [H]
 	\centering
@@ -3009,12 +3042,12 @@ These two configurations were tested with single outlet and light switches. With
 		\subfloat[Stud Bay Temperatures]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/Platform_PipeVsNoPipe.pdf}} &
 		\subfloat[Outlet and Switch Locations]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/Outlet_SwitchLocation.png}} \\
 	\end{tabular}
-	\subfloat[Top Plate Coniguration]{\includegraphics[width = 5in]{0_Images/Tactical_Considerations/Void_Space_Extension/SingleGangTopPlate.jpg}}
+	\subfloat[Top Plate Configuration]{\includegraphics[width = 5in]{0_Images/Tactical_Considerations/Void_Space_Extension/SingleGangTopPlate.jpg}}
 	\caption{Void Space Wall Penetrations}
 	\label{fig:VoidSpaceSingleGraphs}
 \end{figure}
 
-Although the penetration existed in the gypsum, no exhaust prevented extension. The plastic melted away allowing smoke damage and discoloration of materials however no charing of the wood occurred. 
+Although the penetration existed in the gypsum and the fire melted the plastic switch/outlet boxes away, the lack of exhaust prevented extension. This caused smoke damage and discoloration of materials however no charing of the wood occurred. 
 
 \begin{figure} [H]
 	\centering
@@ -3029,7 +3062,7 @@ Although the penetration existed in the gypsum, no exhaust prevented extension. 
 	\label{fig:VoidSpaceSingleAfterPhotos}
 \end{figure}
 
-During the fire, light gray smoke was noted in exiting the holes in the top plate with the pipe penetrations. This would have caused non-thermal damage to any void connected, but would not have led to extension.
+During the fire, light gray smoke was noted exiting the holes in the top plate with the pipe penetrations. This would have caused non-thermal damage to any void connected, but would not have led to extension.
 
 \begin{figure} [H]
 	\centering
@@ -3051,7 +3084,7 @@ Increasing the size of the gypsum penetration has little effect on the potential
 	\subfloat[Single Vs. Double Outle/Switch Comparison (Platform Construction)]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/SingleVsDouble.pdf}}
 \end{figure}
 
-If the exhaust size in increased for instance with balloon construction, then combustion can occur in the stud space. There was charing of studs and flames were observed from the exhaust point even before PPA was applied. Temperatures in the stud cavity with balloon frame construction began approaching temperatures in the adjacent compartment. 
+If the exhaust size in increased for instance with balloon construction, then combustion can occur in the stud space. There was charing of studs and flames observed from the exhaust point, even before PPA was applied. Temperatures in the stud cavity with balloon frame construction began approaching temperatures in the adjacent compartment. 
 
 \begin{figure}[H]
 	\centering
@@ -3080,7 +3113,7 @@ If the exhaust size in increased for instance with balloon construction, then co
 		\subfloat[Double Switch \& Outlet Rear Middle]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostMiddle.jpg}} &
 		\subfloat[Double Switch \& Outlet Rear Top]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Void_Space_Extension/DoubleGangPostTop.jpg}} \\
 	\end{tabular}
-	\caption{Double Box Post Fire Wall Images}
+	\caption{Double Box Post Fire Wall Images - Platform (Left), Balloon (Right)}
 	\label{fig:VoidSpaceDoubleAfterPhotos}
 \end{figure}
 
@@ -3089,7 +3122,7 @@ With the top plate of the wall opened simulating balloon frame construction, fir
 \subsection{In single story residential structures, the more openings made in the structure during PPV (Post Knockdown) the more effective it is at ventilating the structure.}
 The 18 in. gas fan used was capable of moving so much air it could exhaust through more than 5 times the inlet size to most efficiently remove products of combustion. As the number of exhaust points increased the exhaust flow continued to increase. 
 
-Ventilation by definition is the \textit{"planned, systematic and coordinated removal of heated air, smoke, gases or other airborne contaminants from a structure, replacing them with cooler and/or fresher air"} \cite{Essentials6}. Thus ventilation is changing out the air in the structure. If we can change the air out faster, conditions will improve faster. In the single story structure, positive pressure ventilation was most effective when multiple openings were provided, (up to 5 times the size of the inlet). 
+Ventilation by definition is the \textit{''planned, systematic and coordinated removal of heated air, smoke, gases or other airborne contaminants from a structure, replacing them with cooler and/or fresher air''} \cite{Essentials6}. By definition ventilation is changing out the air in the structure, with outside air. If this change occurs faster, conditions will improve faster. In the single story structure, positive pressure ventilation was most effective when multiple openings were provided, (up to 5 times the size of the inlet). 
 
 \begin{table}[H]
 	\centering
@@ -3137,7 +3170,7 @@ The temperature is gradually reduced throughout the structure during systematic 
 	\caption{Systematic Ventilation}
 \end{figure}
 
-Providing additional exhaust during positive pressure ventilation increases the flow though the structure changing the atmosphere faster. Temperatures return to ambient in all exhausted rooms, with temperatures slowly decreasing in connected spaces as air in entrained. Once the connected space is provided with exhaust temperatures drop. 
+Providing additional exhaust during positive pressure ventilation increases the flow though the structure, changing the atmosphere faster. Temperatures return to ambient in all exhausted rooms, with temperatures slowly decreasing in connected spaces as air is entrained. Once the connected space is provided with exhaust temperatures drop. 
 
 \begin{figure} [H]
 	\centering
@@ -3162,15 +3195,15 @@ While the fan provides additional visibility after fire control by exhausting pr
 
 Interior crews should use the increased visibility provided with positive pressure ventilation to evaluate for extension faster. Knowing where to check for extension such as ductwork penetrations, outlets, switches and HVAC return plenums will speed up the overhaul process and limit the chance of a fire in the structure getting ahead of interior crews. Priority should be given to void spaces connected to the fire compartment with an exhaust as described in tactical consideration \ref{TC:Extension_Into_Voids} above. Directing attention to these spaces immediately following knockdown will limit the possibility of extension.  
 
-In addition to checking void spaces immediately post knockdown, incident commanders should consider shutting down the fan or closing a door to block fan flow periodically to assess the smoke conditions during overhaul. The fan alters the flows within the structure hiding the possibility of a growing fire. Smoke from a void space that would build up on the interior is exhausted to the exterior. Shutting the fan down or closing the door temporarily will allow interior crews to evaluate if smoke conditions on the interior are changing. 
+In addition to checking void spaces immediately post knockdown, incident commanders should consider shutting down the fan or closing a door to block fan flow periodically to assess the smoke conditions during overhaul. The fan alters the flows within the structure hiding the possibility of a growing fire. Smoke from a void space that would build up on the interior is exhausted to the exterior. Shutting the fan down or closing the door temporarily will allow interior crews to evaluate if smoke conditions on the interior are changing and incident commanders to evaluate the exterior conditions.
 
 \subsection{When PPV is used, starting or turning in the fan immediately after fire control will provide the most benefit.}  Once water is on the fire and the attack crew has the upper hand, fans will assist with increasing visibility and reducing temperatures to ambient to allow for other fireground operations like search, rescue and overhaul to happen faster and more efficiently.  
 
-Both horizontal and vertical ventilation take advantage of the buoyancy of fire gases. The boyancy drives the flow out the vent to the exterior which causes a low pressure inside the structure, drawing in cooler ambient air. If the attack crew has applied water to the fire, bringing it from ventilation limited to fuel limited, the ventilation is effective in as the additional oxygen created is not causing the fire to grow. \cite{DHS2008}, \cite{DHS2010}. Adding a fan to the boyant flow will increase the ventilations effectiveness. 
+Both horizontal and vertical ventilation take advantage of the buoyancy of fire gases. The boyancy drives the flow out the vent to the exterior which causes a low pressure inside the structure, drawing in cooler ambient air. If the attack crew has applied water to the fire, bringing it from ventilation limited to fuel limited, the ventilation is effective. The additional oxygen introduced is not causing the fire to grow \cite{DHS2008} \cite{DHS2010}. Adding a fan to the boyant flow will increase the ventilations effectiveness. 
 
-A fan, capable of providing enough CFM for the given exhaust size (up to 5:1 in our single story ranch) used in conjunction with horizontal ventilation will take the bi-directional window vent and make it uni-directional increasing the flow.
+A fan, capable of providing enough CFM for the given exhaust size (up to 5:1 in our single story ranch, up to 4:1 in out two story colonial) used in conjunction with horizontal ventilation will take the bi-directional window vent and make it uni-directional increasing the flow.
 
-\begin{figure}
+\begin{figure}[H]
 	\centering
 	\begin{tabular}{c c }
 		\subfloat[Flow with Horizontal Ventilation]{\includegraphics[width = 3in ]{0_Images/Tactical_Considerations/Fan_Earlier/Horizontal_Flows_Arrows.png}} &
@@ -3186,21 +3219,22 @@ When the fan is applied sooner, more attention needs to be paid to fire extensio
 \subsection{Horizontal, Vertical and Positive Pressure Attack are different tactics.} 
 No one tactic will work in every scenario. Understanding the modern fire environment with emphasis on ventilation limited fire dynamics and how fire department operations impact those will ensure the tactic chosen is most effective.
 
-Positive Pressure Attack as tactical ventilation has the goal of controlling the flows within the structure to aid the attack crew as they approach a fire with increased visibility and reduced temperatures. When the tactic is employed correctly, using the fan to direct the heat created by the fire out an exhaust opening rather than allowing it to flow back into the structure is very effective at controlling the temperature. 
+Positive Pressure Attack as tactical ventilation has the goal of controlling the flows within the structure. This aids the attack crew as they approach a fire through increased visibility and reduced temperatures. When the tactic is employed correctly, using the fan to direct the heat created by the fire out an exhaust opening rather than allowing it to flow back into the structure is very effective at controlling the temperature. 
 
-\begin{figure}
+\begin{figure}[H]
 	\centering
 	\begin{tabular}{c c}
 		\subfloat[Hallway Temperature]{\includegraphics[width = 3in ]{0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/HallTemps.pdf}} &
 		\subfloat[Bedroom 2 Doorway Temperature]{\includegraphics[width = 3in ]{0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/BedDoorFlow.pdf}} \\
 	\end{tabular}
+	\caption{Positive Pressure Attack - Controlling Flows}
 \end{figure}
 
 It is not as effective at increasing visibility because the interior environment is often already charged with smoke, which although diluted by the fan with clean cool air, does not reduce the optical density enough to increase visibility. Given enough time, the fan is capable of exhausting the built up smoke from the structure out the exhaust, however in the research conducted this occurred on the order of 3-5 minutes, time which is not available to wait prior to applying water to the fire. 
 
 Positive pressure Attack uses an increase in pressure to alter the flows within the structure where as vertical and horizontal rely on negative pressure. When an opening is made the hot fire gases are at a higher pressure and less dense thus exit the opening to the exterior as a buoyantly driven flow. This creates a negative pressure inside the structure drawing in the ambient air lower. 
 
-\begin{figure}
+\begin{figure}[H]
 	\centering
 	\includegraphics[width = 5in ]{0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/Vertical_Flows.pdf}
 	\caption{Vertical Ventilation Flows}
@@ -3219,7 +3253,6 @@ With proper training and education they can all be implemented successfully to i
 \newpage
 
 \printbibliography
-
 
 
 \begin{appendices}

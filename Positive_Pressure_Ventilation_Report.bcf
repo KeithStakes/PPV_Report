@@ -2280,21 +2280,19 @@
     <bcf:citekey order="40">DHS2010</bcf:citekey>
     <bcf:citekey order="41">DHS2011</bcf:citekey>
     <bcf:citekey order="42">DHS2008</bcf:citekey>
-    <bcf:citekey order="43">SuperVacManual</bcf:citekey>
-    <bcf:citekey order="44">TempestWebsite</bcf:citekey>
-    <bcf:citekey order="45">PPA_Garcia</bcf:citekey>
-    <bcf:citekey order="46">PPA_Garcia</bcf:citekey>
-    <bcf:citekey order="47">TempestWebsite</bcf:citekey>
-    <bcf:citekey order="48">TempestWebsite</bcf:citekey>
-    <bcf:citekey order="49">SuperVacManual</bcf:citekey>
-    <bcf:citekey order="50">SuperVacManual</bcf:citekey>
-    <bcf:citekey order="51">DHS2008</bcf:citekey>
-    <bcf:citekey order="52">DHS2010</bcf:citekey>
-    <bcf:citekey order="53">SFPEHandbookPurser</bcf:citekey>
-    <bcf:citekey order="54">DHS2011</bcf:citekey>
-    <bcf:citekey order="55">Essentials6</bcf:citekey>
-    <bcf:citekey order="56">DHS2008</bcf:citekey>
-    <bcf:citekey order="57">DHS2010</bcf:citekey>
+    <bcf:citekey order="43">PPA_Garcia</bcf:citekey>
+    <bcf:citekey order="44">PPA_Garcia</bcf:citekey>
+    <bcf:citekey order="45">TempestWebsite</bcf:citekey>
+    <bcf:citekey order="46">TempestWebsite</bcf:citekey>
+    <bcf:citekey order="47">SuperVacManual</bcf:citekey>
+    <bcf:citekey order="48">SuperVacManual</bcf:citekey>
+    <bcf:citekey order="49">DHS2008</bcf:citekey>
+    <bcf:citekey order="50">DHS2010</bcf:citekey>
+    <bcf:citekey order="51">SFPEHandbookPurser</bcf:citekey>
+    <bcf:citekey order="52">DHS2011</bcf:citekey>
+    <bcf:citekey order="53">Essentials6</bcf:citekey>
+    <bcf:citekey order="54">DHS2008</bcf:citekey>
+    <bcf:citekey order="55">DHS2010</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty" type="entry" sortscheme="nty">
   <bcf:sorting>
