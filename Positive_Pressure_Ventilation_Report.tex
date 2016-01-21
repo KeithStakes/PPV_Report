@@ -303,11 +303,151 @@ The individuals below provided direction for the project, assisting in planing t
 \subsection{Research Work}
 
 \section{Instrumentation}
+Throughout this project measurements were taking of temperature, heat flux, pressure, gas velocity and heat release rate. The same instrumentation was utilized for all three sets of experiments. The following describes the instrumentation used and potential uncertainty.
+
+Heat flux measurements were made using a 2.54 cm nominal diameter water-cooled Schmidt- Boelter heat flux gauge (Figure \ref{fig:HeatFluxGauge}). The gauges measured the combined radiative and convective heat flux. For these experiments, the dominant form of heat flux is radiative due to the distance of the heat flux gauges from the flames. It should be noted that the convective contribution to the heat flux is dependent upon the surface temperature of the heat flux gauge. The manufacturer gives an uncertainty of ±3\% and results from a study on heat flux calibration found the typical expanded uncertainty to be ±8\% \cite{HeatFluxRoundRobin}.
+
+\begin{figure} [H]
+	\centering
+	\includegraphics[width = 3.5in]{0_Images/Instrumentation/Heat_Flux_Gauge.jpg}
+	\caption{Water Cooled Schmidt-Boelter Heat Flux Gauge}
+	\label{fig:HeatFluxGauge}
+\end{figure}
+
+Temperatures were recorded using a bare-bead, Chromel-Alumel (type K) thermocouple with a 0.5 mm nominal diameter (Figure \ref{fig:Thermocouple}). The uncertainty given by the manufacturer for the temperature measurements is ±2.2 oC for temperatures below 293 oC and ±0.75\% for higher temperatures \cite{TemperatureHandbook}. The thermocouple readings will be lower than the air temperature when the thermocouple is in the flame region, due to radiative losses to the surrounding cooler environment. When the thermocouples are farther from the flame region, the impact of radiation will result in temperature readings higher than the air temperature. Due to the effect of radiative heat transfer to the thermocouples, the expanded uncertainty is approximately ±15\%.
+
+\begin{figure} [H]
+	\centering
+	\includegraphics[width = 4in]{0_Images/Instrumentation/Thermocouple.jpg}
+	\caption{Chromel-Alumel (Type K) Thermocouple}
+	\label{fig:Thermocouple}
+\end{figure}
+
+Pressure was recorded through the use of a Setra Model 264 differential pressure transducer with a range of ±0.5” Wc (±124.5 Pa) (Figure \ref{fig:Setra}). The transducer was used to evaluate the pressure difference from ambient pressure. The uncertainty given by the manufacture is ±1\% or ±1.2 Pa \cite{SetraManual}.
+
+\begin{figure} [H]
+	\centering
+	\includegraphics[width = 3in]{0_Images/Instrumentation/Setra.jpg}
+	\caption{Setra Model 264 Differential Pressure Transducer}
+	\label{fig:Setra}
+\end{figure}
+
+Gas velocity was obtained through the use of a bi-directional probe in conjunction with a differential pressure transducer and iconel thermocouple. The probe was constructed of stainless steel. The iconel thermocouple was a 0.063in. diameter type KSL iconel 600 sheathed grounded junction with a type K, 24 gauge glass/glass insulation lead. The differential pressure transducer was a Setra Model 264 with a range of ±1.0in. WC (±248.8 Pa). The configuration had a velocity range of ±24.2 m/s (±54 mph). The pressure transducers were configured in groups of 6, contained in a single plastic box with connections for pressure, temperature and power (Figure \ref{fig:BDP})b. Five probes were installed in openings where velocity measurements were taken, centered horizontally in the opening (Figure \ref{fig:BDP}a). Velocity measurement with this configuration was determined to have an uncertainty of ±5\% \cite{BDPInPoolFires}.
+
+\begin{figure} [H]
+	\centering
+	\begin{tabular}{c c}
+		\subfloat[Pressure Transducer Box]{\includegraphics[height = 2.5in]{0_Images/Instrumentation/PressureBox.jpg}} &
+		\subfloat[Bi-Directional Probe Array]{\includegraphics[height = 2.5in]{0_Images/Instrumentation/BDPArray.jpg}} \\
+	\end{tabular}
+	\caption{Bi-Directional Probe}
+	\label{fig:BDP}
+\end{figure}
+
+The heat release rate is measured through the use of oxygen consumption techniques. The oxygen consumption calorimeter is capable of accurately measuring the heat release rate up to 10 MW. Above 10 MW, larger inaccuracies are expected due to the combustion products overflowing the collection hood. Figure \ref{fig:Hood} shows the collection hood utilized for the calorimetry data.
+
+\begin{figure} [H]
+	\centering
+	\includegraphics[width = 5in]{0_Images/Instrumentation/Calorimetry_hood.jpg}
+	\caption{Oxygen Consumption Calorimetry Hood}
+	\label{fig:Hood}
+\end{figure}
+
+Stand video was obtained through the use of BoschVTC-206F03-4 video cameras (Figure \ref{fig:BullettCam}). Thermal imaging of the front and rear of the structure was taken using ISG Infrasys Elite XR (Figure \ref{fig:IRCam}). The thermal imaging camera has a fixed emissivity value of 0.9 and was utilized for visual representation of relative conditions, no temperature measurements or analysis were derived using the camera. All cameras were recorded using a TriCaster 8200 video acquisition system.
+
+\begin{figure} [H]
+	\centering
+	\includegraphics[width = 3in]{0_Images/Instrumentation/BullettCam.jpg}
+	\caption{Oxygen Consumption Calorimetry Hood}
+	\label{fig:BullettCam}
+\end{figure}
+
+\begin{figure} [H]
+	\centering
+	\includegraphics[width = 2.5in]{0_Images/Instrumentation/ISG_IR.jpg}
+	\includegraphics[width = 2.5in]{0_Images/Instrumentation/ISG_IR2.jpg}
+	\caption{ISG Elite XR Fire Service Thermal Imaging Camera}
+	\label{fig:IRCam}
+\end{figure}
+
+Gas samples were analyzed through the use of OxyMat6 and UltraMat23 Siemens gas analyzers. Samples were pulled from the structure through the use of cole palmer model L-79200-30 vacuum/pressure diaphragm pump rated at 0.75CFM via a stainless steel tube. The sample is filtered through a course filter, solberg model 842, 2 micron paper filter before running through a condensing trap to remove moisture. The sample then runs through a drying tube dry fine filter, perma pure model FF-250-SG-2.5G with a 1micron filter FF-250-E-2.5G before splitting into two branches and entering the UltraMat and OxyMat analyzer. The analyzers are calibrated to measure CO from 0-50000PPM, CO2 from 0-20\% and O$_2$ from 0-25\%. 
+
+\begin{figure}[H]
+	\centering
+	\begin{tabular}{*3c}
+		\subfloat[Sample Line]{\includegraphics[width = 2in]{0_Images/Instrumentation/Gas_Analyzer/SamplePoint.jpg}} &
+		\subfloat[Vaccum Pump - Cole Palmber L-79200-30]{\includegraphics[width = 2in]{0_Images/Instrumentation/Gas_Analyzer/VaccumPump.jpg}} &
+		\subfloat[Course Filter - Solberg 842]{\includegraphics[width = 2in]{0_Images/Instrumentation/Gas_Analyzer/CourseFilter.jpg}} \\
+		\subfloat[Condensing Tube]{\includegraphics[height = 2in]{0_Images/Instrumentation/Gas_Analyzer/CoilCondenser.png}} &
+		\subfloat[Dririte Tube]{\includegraphics[height = 2in]{0_Images/Instrumentation/Gas_Analyzer/DriRightTube.jpg}} &
+		\subfloat[Fine Filter - Perma Pure FF-250-SG-2.5G]{\includegraphics[height = 2in]{0_Images/Instrumentation/Gas_Analyzer/FineFilter.jpg}} \\
+	\end{tabular}
+	\subfloat[Gas Analyzers]{\includegraphics[width = 2in]{0_Images/Instrumentation/Gas_Analyzer/GasAnalyzers.jpg}}
+	\caption{Gas Analyzer Configuration}
+	\label{fig:GasAnalyzers}
+\end{figure}
+
+All data was logged through the use of a national instruments data acquisition system incorporating a SCXI-1001 chassis with 8 SCXI-1102C 32-Channel modules (Figure \ref{fig:DataSystem}). The system is configured for a total of 256 channels capable of reading values between 0-10 volts DC. Values are recorded once a second and translated to quantities of interest through the use of LabVIEW software specifically programmed for use with the system.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 4in]{0_Images/Instrumentation/DataSystem.jpg}
+	\caption{Data Acquisition System}
+	\label{fig:DataSystem}
+\end{figure}
 
 \section{Test Set Up}
+
 \subsection{Structures}
 
+\paragraph{Single Story Structure} \mbox{}
 
+The house was designed by a residential architectural company to be representative of a home constructed in the mid-twentieth century with walls and doorways separating all of the rooms and 8 ft. ceilings. The experiments aim to examine the fire dynamics in a structure of this type and to further understand the impact of positive pressure attack on tenability throughout the structure.
+
+The one-story house had an area of 1200 ft2, with 3 bedrooms, 1 bathroom and 8 total rooms (Figure \ref{fig:SingleStory}). The home was a wood frame, type 5 structure lined with two layers of gypsum board (Base layer 5/8 in, Surface layer ½ in.) The intent of the study was to focus on content fires thus no roof structure was included in the design. The ceilings were supported with engineered i-joists instead of engineered trusses. The front and rear of the structure were covered with cement board to limit exterior fire spread. Figure \ref{fig:SingleStoryISO} is a 3D rendering of the house with the roof cut away to show the interior layout with furniture and floor coverings. The tan floor shows the carpet placement and the grey show the cement floor or simulated tile locations. Construction plans can be found in appendix XX.
+
+\begin{figure}[H]
+	\centering
+	\begin{tabular}{*2c}
+		\subfloat[Single Story Side A]{\includegraphics[Width = 3in]{0_Images/Structures/SingleStory/ExteriorAB_Corner.jpg}} & 
+		\subfloat[Single Story Side C]{\includegraphics[width = 3in]{0_Images/Structures/SingleStory/ExteriorBC_Corner.jpg}} \\
+	\end{tabular}
+	\caption{Single Story Test Structure}
+	\label{fig:SingleStory}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[Width = 4in]{0_Images/Experiment_ISO/Single_Story_Base_Bed3_Closed.jpg}
+	\caption{Single Story Isometric}
+	\label{fig:SingleStoryISO}
+\end{figure}
+
+\paragraph{Two Story Structure} \mbox{}
+
+The house was designed by a residential architectural company to be representative of a home constructed in the late-twentieth  early twenty-first century with an open floor plan, two story foyer and two story great room. The experiments aim to examine the fire dynamics in a structure of this type and to further understand the impact of positive pressure attack on tenability throughout the structure.
+
+The two-story house had an area of 3200 ft2, with 4 bedrooms, 2.5 bathrooms house and 12 total rooms (Figure \ref{fig:TwoStory}). This home was also a wood frame, type 5 structure lined with two layers of gypsum board (Base layer 5/8 in, Surface layer ½ in.) The intent of the study was to focus on content fires thus no roof structure was included in the design. The second floor ceilings were supported with engineered i-joists instead of engineered trusses. The front and rear of the structure were covered with cement board to limit exterior fire spread. Figure \ref{fig:TwoStoryISO} is a 3D rendering of the house with the roof cut away to show the interior layout with furniture and floor coverings. The tan floor shows the carpet placement and the grey show the cement floor or simulated tile locations. Construction plans can be found in appendix XX.
+
+\begin{figure}[H]
+	\centering
+	\begin{tabular}{*2c}
+		\subfloat[Two Story Side A]{\includegraphics[Width = 3in]{0_Images/Structures/SingleStory/ExteriorTwoStory_A.jpg}} & 
+		\subfloat[Two Story Side C]{\includegraphics[width = 3in]{0_Images/Structures/SingleStory/ExteriorTwoStory_C.jpg}} \\
+	\end{tabular}
+	\caption{Two Story Test Structure}
+	\label{fig:TwoStory}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\begin{tabular}{*2c}
+		\subfloat[First FLoow]{\includegraphics[width = 3in]{0_Images/Experiment_ISO/Two_Story_Base_First.jpg}} &
+		\subfloat[Second Floor]{\includegraphics[width = 3in]{0_Images/Experiment_ISO/Two_Story_Base_Second.jpg}} \\
+	\end{tabular}
+	\caption{Two Story Isometric}
+	\label{fig:TwoStoryISO}
+\end{figure}
 
 \subsection{Furnishings}
 
@@ -448,6 +588,13 @@ For exact locations and exact quantities of furniture see Figure \ref{fig:Single
 	\caption{Two Story Furniture Layout}
 	\label{fig:TwoStoryFurniture}
 \end{figure}
+
+\subsection{Measurement Locations}
+
+\paragraph{Single Story} \mbox{}
+
+\paragraph{Two Story} \mbox{}
+
 
 \section{Heat Release Fuel Load Characterization} \mbox{}
 

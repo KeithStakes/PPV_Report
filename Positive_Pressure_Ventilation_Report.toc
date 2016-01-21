@@ -10,76 +10,78 @@
 \contentsline {subsection}{\numberline {4.3}Firefighter Line of Duty Deaths}{13}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}Research Work}{13}{subsection.4.4}
 \contentsline {section}{\numberline {5}Instrumentation}{13}{section.5}
-\contentsline {section}{\numberline {6}Test Set Up}{13}{section.6}
-\contentsline {subsection}{\numberline {6.1}Structures}{13}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Furnishings}{13}{subsection.6.2}
-\contentsline {section}{\numberline {7}Heat Release Fuel Load Characterization}{20}{section.7}
-\contentsline {subsection}{\numberline {7.1}Ventilation Limited Room Burns}{26}{subsection.7.1}
-\contentsline {paragraph}{Furnished Compartment}{26}{section*.23}
-\contentsline {paragraph}{Over Furnished Compartment}{29}{section*.27}
-\contentsline {paragraph}{Compartment Burn Results}{30}{section*.31}
-\contentsline {section}{\numberline {8}Cold Flow Experiments}{32}{section.8}
-\contentsline {subsection}{\numberline {8.1}Single Story Cold Flow Experiments}{32}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Two Story Cold Flow Experiments}{35}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}Single Story Cold Flow Results}{37}{subsection.8.3}
-\contentsline {paragraph}{Fan Flow Rates}{37}{section*.41}
-\contentsline {paragraph}{Exhaust to Inlet Ratio}{38}{section*.43}
-\contentsline {paragraph}{Single Story Results Summary}{40}{section*.49}
-\contentsline {subsection}{\numberline {8.4}Two Story Cold Flow Results}{40}{subsection.8.4}
-\contentsline {paragraph}{Fan Flow Rates}{40}{section*.50}
-\contentsline {paragraph}{Exhaust to Inlet Ratio}{41}{section*.52}
-\contentsline {paragraph}{Two Story Results Summary}{43}{section*.58}
-\contentsline {subsection}{\numberline {8.5}Single Story and Two Story Cold Flow Comparison}{44}{subsection.8.5}
-\contentsline {paragraph}{Structure Comparison Summary}{45}{section*.63}
-\contentsline {subsection}{\numberline {8.6}Fan Selection}{45}{subsection.8.6}
-\contentsline {paragraph}{Selected Fan Analysis}{45}{section*.64}
-\contentsline {paragraph}{Setback Analysis}{46}{section*.66}
-\contentsline {section}{\numberline {9}Full Scale Fire Experiments}{49}{section.9}
-\contentsline {subsection}{\numberline {9.1}Single Story Experiments}{49}{subsection.9.1}
-\contentsline {paragraph}{Experiment 1}{50}{section*.72}
-\contentsline {paragraph}{Experiment 2}{54}{section*.77}
-\contentsline {paragraph}{Experiment 3}{57}{section*.82}
-\contentsline {paragraph}{Experiment 4}{60}{section*.88}
-\contentsline {paragraph}{Experiment 5}{64}{section*.93}
-\contentsline {paragraph}{Experiment 6}{67}{section*.99}
-\contentsline {paragraph}{Experiment 7}{71}{section*.106}
-\contentsline {paragraph}{Experiment 8}{74}{section*.111}
-\contentsline {paragraph}{Experiment 9}{77}{section*.117}
-\contentsline {paragraph}{Experiment 10}{80}{section*.122}
-\contentsline {paragraph}{Experiment 11}{83}{section*.128}
-\contentsline {paragraph}{Experiment 12}{87}{section*.134}
-\contentsline {paragraph}{Experiment 13}{91}{section*.139}
-\contentsline {paragraph}{Experiment 14}{94}{section*.144}
-\contentsline {paragraph}{Experiment 15}{97}{section*.150}
-\contentsline {subsection}{\numberline {9.2}Two Story Experiments}{100}{subsection.9.2}
-\contentsline {paragraph}{Experiment 16}{100}{section*.156}
-\contentsline {paragraph}{Experiment 17}{104}{section*.161}
-\contentsline {paragraph}{Experiment 18}{107}{section*.166}
-\contentsline {paragraph}{Experiment 19}{110}{section*.171}
-\contentsline {paragraph}{Experiment 20}{113}{section*.177}
-\contentsline {paragraph}{Experiment 21}{117}{section*.183}
-\contentsline {paragraph}{Experiment 22}{121}{section*.189}
-\contentsline {paragraph}{Experiment 23}{125}{section*.194}
-\contentsline {paragraph}{Experiment 24}{128}{section*.200}
-\contentsline {paragraph}{Experiment 25}{132}{section*.206}
-\contentsline {subsection}{\numberline {9.3}Smoke Removal Experiments}{136}{subsection.9.3}
-\contentsline {paragraph}{Systematic Smoke Removal}{136}{section*.212}
-\contentsline {paragraph}{Non-Systematic Smoke Removal}{136}{section*.213}
-\contentsline {section}{\numberline {10}Tactical Considerations}{136}{section.10}
-\contentsline {subsection}{\numberline {10.1}The application of water, as quickly as possible, whether from the interior or exterior prior to initiating PPA will increase the likelihood of a successful outcome.}{136}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}Positive Pressure Attack is Exhaust Dependant}{139}{subsection.10.2}
-\contentsline {subsection}{\numberline {10.3}An outlet of sufficient size, must be provided, in the fire room to allow for effective PPA.}{144}{subsection.10.3}
-\contentsline {subsection}{\numberline {10.4}Creating additional openings not in the fire room will create additional flow paths making PPA ineffective with the potential to draw the fire into all flow paths}{145}{subsection.10.4}
-\contentsline {subsection}{\numberline {10.5}An ongoing assessment of inlet and exhaust flow is imperative to understanding whether or not a fan flow path has been established and if conditions are improving}{148}{subsection.10.5}
-\contentsline {subsection}{\numberline {10.6}The setback of the fan or development of a “cone of air” is not as important as the exhaust size.}{151}{subsection.10.6}
-\contentsline {subsection}{\numberline {10.7}PPA will not be effective on a fire located in an open concept floor plan or any floor plan with high ceilings.}{154}{subsection.10.7}
-\contentsline {subsection}{\numberline {10.8}The safety of PPA is decreased when the location and extent of the fire is not known with a high degree of certainty.}{157}{subsection.10.8}
-\contentsline {subsection}{\numberline {10.9}PPA is not a replacement for using the reach of your hose stream.}{159}{subsection.10.9}
-\contentsline {subsection}{\numberline {10.10}PPA does not negatively affect the survivability of occupants behind a closed door.}{160}{subsection.10.10}
-\contentsline {subsection}{\numberline {10.11}Extension into void spaces when using PPA is directly related to the exhaust capabilities of the void space.}{163}{subsection.10.11}
-\contentsline {subsection}{\numberline {10.12}In single story residential structures, the more openings made in the structure during PPV (Post Knockdown) the more effective it is at ventilating the structure.}{170}{subsection.10.12}
-\contentsline {subsection}{\numberline {10.13}Post fire control it is important to assess for extension.}{175}{subsection.10.13}
-\contentsline {subsection}{\numberline {10.14}When PPV is used, starting or turning in the fan immediately after fire control will provide the most benefit.}{175}{subsection.10.14}
-\contentsline {subsection}{\numberline {10.15}Horizontal, Vertical and Positive Pressure Attack are different tactics.}{176}{subsection.10.15}
-\contentsline {section}{Glossary}{179}{section*.268}
-\contentsline {section}{Appendices}{181}{section*.271}
+\contentsline {section}{\numberline {6}Test Set Up}{18}{section.6}
+\contentsline {subsection}{\numberline {6.1}Structures}{18}{subsection.6.1}
+\contentsline {paragraph}{Single Story Structure}{18}{section*.17}
+\contentsline {paragraph}{Two Story Structure}{18}{section*.18}
+\contentsline {subsection}{\numberline {6.2}Furnishings}{19}{subsection.6.2}
+\contentsline {section}{\numberline {7}Heat Release Fuel Load Characterization}{25}{section.7}
+\contentsline {subsection}{\numberline {7.1}Ventilation Limited Room Burns}{31}{subsection.7.1}
+\contentsline {paragraph}{Furnished Compartment}{31}{section*.34}
+\contentsline {paragraph}{Over Furnished Compartment}{34}{section*.38}
+\contentsline {paragraph}{Compartment Burn Results}{35}{section*.42}
+\contentsline {section}{\numberline {8}Cold Flow Experiments}{37}{section.8}
+\contentsline {subsection}{\numberline {8.1}Single Story Cold Flow Experiments}{37}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Two Story Cold Flow Experiments}{40}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Single Story Cold Flow Results}{42}{subsection.8.3}
+\contentsline {paragraph}{Fan Flow Rates}{42}{section*.52}
+\contentsline {paragraph}{Exhaust to Inlet Ratio}{43}{section*.54}
+\contentsline {paragraph}{Single Story Results Summary}{45}{section*.60}
+\contentsline {subsection}{\numberline {8.4}Two Story Cold Flow Results}{45}{subsection.8.4}
+\contentsline {paragraph}{Fan Flow Rates}{45}{section*.61}
+\contentsline {paragraph}{Exhaust to Inlet Ratio}{46}{section*.63}
+\contentsline {paragraph}{Two Story Results Summary}{48}{section*.69}
+\contentsline {subsection}{\numberline {8.5}Single Story and Two Story Cold Flow Comparison}{49}{subsection.8.5}
+\contentsline {paragraph}{Structure Comparison Summary}{50}{section*.74}
+\contentsline {subsection}{\numberline {8.6}Fan Selection}{50}{subsection.8.6}
+\contentsline {paragraph}{Selected Fan Analysis}{50}{section*.75}
+\contentsline {paragraph}{Setback Analysis}{51}{section*.77}
+\contentsline {section}{\numberline {9}Full Scale Fire Experiments}{54}{section.9}
+\contentsline {subsection}{\numberline {9.1}Single Story Experiments}{54}{subsection.9.1}
+\contentsline {paragraph}{Experiment 1}{55}{section*.83}
+\contentsline {paragraph}{Experiment 2}{59}{section*.88}
+\contentsline {paragraph}{Experiment 3}{62}{section*.93}
+\contentsline {paragraph}{Experiment 4}{65}{section*.99}
+\contentsline {paragraph}{Experiment 5}{69}{section*.104}
+\contentsline {paragraph}{Experiment 6}{72}{section*.110}
+\contentsline {paragraph}{Experiment 7}{76}{section*.117}
+\contentsline {paragraph}{Experiment 8}{79}{section*.122}
+\contentsline {paragraph}{Experiment 9}{82}{section*.128}
+\contentsline {paragraph}{Experiment 10}{85}{section*.133}
+\contentsline {paragraph}{Experiment 11}{88}{section*.139}
+\contentsline {paragraph}{Experiment 12}{92}{section*.145}
+\contentsline {paragraph}{Experiment 13}{96}{section*.150}
+\contentsline {paragraph}{Experiment 14}{99}{section*.155}
+\contentsline {paragraph}{Experiment 15}{102}{section*.161}
+\contentsline {subsection}{\numberline {9.2}Two Story Experiments}{105}{subsection.9.2}
+\contentsline {paragraph}{Experiment 16}{105}{section*.167}
+\contentsline {paragraph}{Experiment 17}{109}{section*.172}
+\contentsline {paragraph}{Experiment 18}{112}{section*.177}
+\contentsline {paragraph}{Experiment 19}{115}{section*.182}
+\contentsline {paragraph}{Experiment 20}{118}{section*.188}
+\contentsline {paragraph}{Experiment 21}{122}{section*.194}
+\contentsline {paragraph}{Experiment 22}{126}{section*.200}
+\contentsline {paragraph}{Experiment 23}{130}{section*.205}
+\contentsline {paragraph}{Experiment 24}{133}{section*.211}
+\contentsline {paragraph}{Experiment 25}{137}{section*.217}
+\contentsline {subsection}{\numberline {9.3}Smoke Removal Experiments}{141}{subsection.9.3}
+\contentsline {paragraph}{Systematic Smoke Removal}{141}{section*.223}
+\contentsline {paragraph}{Non-Systematic Smoke Removal}{141}{section*.224}
+\contentsline {section}{\numberline {10}Tactical Considerations}{141}{section.10}
+\contentsline {subsection}{\numberline {10.1}The application of water, as quickly as possible, whether from the interior or exterior prior to initiating PPA will increase the likelihood of a successful outcome.}{141}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Positive Pressure Attack is Exhaust Dependant}{144}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.3}An outlet of sufficient size, must be provided, in the fire room to allow for effective PPA.}{149}{subsection.10.3}
+\contentsline {subsection}{\numberline {10.4}Creating additional openings not in the fire room will create additional flow paths making PPA ineffective with the potential to draw the fire into all flow paths}{150}{subsection.10.4}
+\contentsline {subsection}{\numberline {10.5}An ongoing assessment of inlet and exhaust flow is imperative to understanding whether or not a fan flow path has been established and if conditions are improving}{153}{subsection.10.5}
+\contentsline {subsection}{\numberline {10.6}The setback of the fan or development of a “cone of air” is not as important as the exhaust size.}{156}{subsection.10.6}
+\contentsline {subsection}{\numberline {10.7}PPA will not be effective on a fire located in an open concept floor plan or any floor plan with high ceilings.}{159}{subsection.10.7}
+\contentsline {subsection}{\numberline {10.8}The safety of PPA is decreased when the location and extent of the fire is not known with a high degree of certainty.}{162}{subsection.10.8}
+\contentsline {subsection}{\numberline {10.9}PPA is not a replacement for using the reach of your hose stream.}{164}{subsection.10.9}
+\contentsline {subsection}{\numberline {10.10}PPA does not negatively affect the survivability of occupants behind a closed door.}{165}{subsection.10.10}
+\contentsline {subsection}{\numberline {10.11}Extension into void spaces when using PPA is directly related to the exhaust capabilities of the void space.}{168}{subsection.10.11}
+\contentsline {subsection}{\numberline {10.12}In single story residential structures, the more openings made in the structure during PPV (Post Knockdown) the more effective it is at ventilating the structure.}{175}{subsection.10.12}
+\contentsline {subsection}{\numberline {10.13}Post fire control it is important to assess for extension.}{180}{subsection.10.13}
+\contentsline {subsection}{\numberline {10.14}When PPV is used, starting or turning in the fan immediately after fire control will provide the most benefit.}{180}{subsection.10.14}
+\contentsline {subsection}{\numberline {10.15}Horizontal, Vertical and Positive Pressure Attack are different tactics.}{181}{subsection.10.15}
+\contentsline {section}{Glossary}{184}{section*.279}
+\contentsline {section}{Appendices}{187}{section*.282}
