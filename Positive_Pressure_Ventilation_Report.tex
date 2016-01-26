@@ -1,5 +1,4 @@
 
-
 \documentclass{article}
 \usepackage{float}
 \usepackage{graphicx}
@@ -24,7 +23,6 @@
 \usepackage[toc]{glossaries}
 \usepackage[subfigure]{tocloft}
 \cftsetindents{subsection}{.25in}{.4in}
-
 
 \usepackage[flushleft]{threeparttable}
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
@@ -2660,17 +2658,75 @@ Experiment 25 was intended to represent a fire in second floor bedroom of the tw
 
 \section{Tactical Considerations}
 
-\subsection{The application of water, as quickly as possible, whether from the interior or exterior prior to initiating PPA will increase the likelihood of a successful outcome.} \label{sec:EarlyApplication}
-Fire dynamics research continues to highlight how fires today grow and spread at alarming rates \cite{DHS2008} \cite{DHS2010} \cite{DHS2011}. The application of water onto a developing fire at modern fire flow rates been shown to slow the growth rate, increasing firefighter and occupant safety while decreasing property loss. This makes rapid hose line deployment a top priority for first arriving crews. Although positive pressure attack can improve the efficiency of a hose stretch, is not a substitute for the application of water on the seat of the fire.  Water should never be delayed to setup positive pressure attack.  
+\subsection{Understanding the Basics of Positive Pressure}
+
+\paragraph{Pressure} \mbox{}
+
+Pressure in the fire service is typically thought of in the Units of pounds per square inch (PSI), as this is the standard pressure unit for many of the pump panel gauges on an engine. This however is not the only unit for pressure. The scientific community uses the units of Pascal (Pa).  1Pa is equal to 0.00015PSI. Standard atmospheric pressure, 1atm  is equal to 14.7PSI or 101,325Pa. When pressure is discussed in this report it is referring to the differential pressure ($\delta$P) where the reference pressure is atmospheric pressure. 
+
+\paragraph{Fire Flows are Caused by Pressure} \mbox{}
+
+One by-product of the combustion reaction is heat, most often thought of as "hot gases". The hot gases are made of up the products of combustion mixed with the air in the proximity of the fire. As these gases are heated they expand, becoming less dense. When confined in a compartment or structure, the expanding gases create pressure. When one area of a structure has a different pressure than an adjacent area a flow occurs. The greater the differential pressure the greater the velocity of flow. Pressure always flows from high to low. This flow is the primary method of heat transfer (convention) from one compartment to the next in a structure fire. 
+
+\paragraph{Ventilation} \mbox{}
+
+The gases and soot produced during a fire are less dense than the density of the ambient air both inside and outside the structure. This makes them buoyant. When fire fighters preform ventilation they are using this buoyancy to their advantage. The less dense fire gases flow out of the structure. As less dense gases flow out of the structure up high, they create a lower pressure inside than outside, drawing in clean ambient air down low. The flows during both horizontal and vertical ventilation use the buoyancy of the gases in order to reduce temperatures, toxic gas concentrations and given enough time visibility. Positive pressure ventilation seaks to alter the bouyant flows within the fire. 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width = 4in ]{0_Images/Tactical_Considerations/Application_of_Water/TransitionalvsDelayed.pdf}
+	\begin{tabular}{c c }
+		\subfloat[Flow with Horizontal Ventilation]{\includegraphics[height  = 1.9in ]{0_Images/Tactical_Considerations/Fan_Earlier/Horizontal_Flows_Arrows.png}} &
+		\subfloat[Flow with Vertical Ventilation]{\includegraphics[height = 1.9in ]{0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/Vertical_Flows.pdf}} \\
+	\end{tabular}
+	\subfloat[Flow with Positive Pressure Ventilation]{\includegraphics[height = 2.0in ]{0_Images/Tactical_Considerations/Fan_Earlier/PPV_Flows_Arrows.png}}
+	\caption{Comparing Horizontal Vertical and Positive Pressure Ventilation Flows in a Living Room Fire}
+\end{figure}
+
+\paragraph{Positive Pressure Attack/Ventilation} \mbox{}
+
+The intent of positive pressure attack or positive pressure attack/ventilation is to alter the flow of the products of combustion within a structure. In theory the fan creates a uni-directional inlet of ambient air which replaces the heat, smoke and toxic gases as they are forced out the unidirectional exhaust. This is accomplished by increasing the pressure in adjacent compartments to force the products of combustion out of intended exhaust locations. Altering flow was thought to reduce temperatures, gas concentrations all while increasing visibility. The tactic can be employed prior to fire control and is defined as positive pressure attack (PPA) or post fire control defined as positive pressure ventilation (PPV).  Figure \ref{fig:PPAConcept} illustrates a possible ventilation profile for PPA on a bedroom fire in a single story structure. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 4in]{0_Images/Tactical_Considerations/Understanding_Basics/Positive_Pressure.jpg}
+	\caption{Positive Pressure Attack/Ventilation}
+	\label{fig:PPAConcept}
+\end{figure}
+
+When PPA is employed correctly, using the fan to direct the heat created by the fire out an exhaust opening rather than allowing it to flow back into the structure is very effective at controlling the temperature. 
+
+\begin{figure}[H]
+	\centering
+	\begin{tabular}{c c}
+		\subfloat[Hallway Temperature]{\includegraphics[width = 3in ]{0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/HallTemps.pdf}} &
+		\subfloat[Bedroom 2 Doorway Temperature]{\includegraphics[width = 3in ]{0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/BedDoorFlow.pdf}} \\
+	\end{tabular}
+	\subfloat[Ventilation Profile]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Understanding_Basics/Experiment_6.jpg}}
+	\caption{Positive Pressure Attack - Controlling Flows}
+\end{figure}
+
+It is not as effective at increasing visibility because the interior environment is often already charged with smoke, which although diluted by the fan with clean cool air, does not reduce the optical density enough to increase visibility. The area of the structure charged with smoke must be all exhausted through the fire room which requires a substantial amount of time. Although the fan is capable of exhausting the built up smoke, in the research conducted this occurred on the order of 3-5 minutes. It is not recommended nor practical to wait 5 minutes prior to applying water to the fire. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 4in ]{0_Images/Tactical_Considerations/Understanding_Basics/SmokeToBeExhausted.pdf}
+	\caption{Volume of Builtup Smoke to Exhaust}
+\end{figure}
+
+\subsection{The application of water, as quickly as possible, whether from the interior or exterior prior to initiating PPA will increase the likelihood of a successful outcome.} \label{sec:EarlyApplication}
+The application of water onto a developing fire has been shown to slow the growth rate, increasing firefighter and occupant safety while decreasing property loss. This makes rapid hose line deployment a top priority for first arriving crews. Although positive pressure attack can improve the efficiency of a hose stretch, is not a substitute for the application of water on the seat of the fire.  Water should never be delayed to setup positive pressure attack.  
+
+\begin{figure}[H]
+	\centering
+	\begin{tabular}{*2c}
+		\subfloat[Hallway Temperatures]{\includegraphics[width = 4in ]{0_Images/Tactical_Considerations/Application_of_Water/TransitionalvsDelayed.pdf}} & 
+		\subfloat[Ventilation Profile]{\includegraphics[width = 3in]{0_Images/Tactical_Considerations/Application_of_Water/Experiment_8.jpg}}\\
+	end{tabular}
 	\caption{Hallway Temperatures - Transitional vs Delayed Attack}
 	\label{fig:TransitionalvsDelayed}
 \end{figure}
 
-For departments that choose to utilize PPA as their primary fire attack method, training should focus on minimizing the time lapse between the start of the fan and application of water to the fire. If an interior attack is chosen, interior hose advancement should take advantage of the fans ability influence the flow path and reduce temperatures by following the intended fan flow towards the seat of the fire. 
+For departments that choose to utilize PPA as their primary fire attack method, training should focus on minimizing the time lapse between the start of the fan and application of water to the fire. If an interior attack is chosen, interior hose advancement should take advantage of the fans ability influence the flow path and reduce temperatures by following the intended fan flow towards the seat of the fire. Figure \ref{fig:TransitionalvsDelayed} shows that after water has been applied, the temperatures in the hallway decrease to tenable levels for victims. PPA without water application, does not reduce temperatures to tenable levels for victims. 
 
 \begin{figure} [H]
 	\centering
@@ -2682,7 +2738,7 @@ For departments that choose to utilize PPA as their primary fire attack method, 
 	\label{fig:ReachOfStreamApplication}
 \end{figure} 
 
-The effectiveness of PPA, was seen to increase dramatically after water was applied to the fire. Cooling the upper gas layer reduced the overall heat release rate of the fire, thus reducing the pressure created by the fire. Once water application transitioned the fire from vent limited to fuel limited, the fan was capable of preventing any flow from the fire compartment into the structure, redirecting the smoke, heat and toxic gases out the exhaust. 
+Hence, the effectiveness of PPA, was seen to increase dramatically after water was applied to the fire as seen in figure \. Cooling the upper gas layer reduced the overall heat release rate of the fire, thus reducing the pressure created by the fire. Once water application transitioned the fire from vent limited to fuel limited, the fan was capable of preventing any flow from the fire compartment into the structure, redirecting the smoke, heat and toxic gases out the exhaust. 
 
 \begin{figure} [H]
 	\centering
@@ -2690,6 +2746,8 @@ The effectiveness of PPA, was seen to increase dramatically after water was appl
 		\subfloat[Bedroom 2 Door Velocities]{\includegraphics[width = 3.25in ]{0_Images/Tactical_Considerations/Application_of_Water/Bed2Door_ExteriorAttack.pdf}} &
 		\subfloat[Ventilation Configuration]{\includegraphics[width = 3.25in]{0_Images/Tactical_Considerations/Application_of_Water/ExteriorVentConfig.png}} \\
 	\end{tabular}
+	\caption{Positive Pressure Attack Effectiveness}
+	\label{fig:PPAFlowEffectivness}
 \end{figure}
 
 A 5-10 second application of water off the ceiling at a steep angle into the fire compartment from the exterior, reduced the heat release rate of the fire making PPA more effective at exhausting the already created products of combustion. The increased effectiveness of the fan lends to cooler temperatures for the attack crew stretching to the seat of the fire. The short duration between the exterior attack and the interior suppression did not permit much visibility improvement as the structure was still charged with smoke. Had the application from the exterior not been followed by a rapid stretch to the interior the bedroom fire would have regrown. 
@@ -3350,43 +3408,12 @@ Both horizontal and vertical ventilation take advantage of the buoyancy of fire 
 
 A fan, capable of providing enough CFM for the given exhaust size (up to 5:1 in our single story ranch, up to 4:1 in out two story colonial) used in conjunction with horizontal ventilation will take the bi-directional window vent and make it uni-directional increasing the flow.
 
-\begin{figure}[H]
-	\centering
-	\begin{tabular}{c c }
-		\subfloat[Flow with Horizontal Ventilation]{\includegraphics[width = 3in ]{0_Images/Tactical_Considerations/Fan_Earlier/Horizontal_Flows_Arrows.png}} &
-		\subfloat[Flow with Positive Pressure Ventilation]{\includegraphics[width = 3in ]{0_Images/Tactical_Considerations/Fan_Earlier/PPV_Flows_Arrows.png}} \\
-	\end{tabular}
-	\caption{Comparing Horizontal and Positive Pressure Flows}
-\end{figure}
-
 As with horizontal ventilation, vertical ventilation would be more effective with the addition of pressure from a fan. The additional pressure would accelerate the rate at which gases are exhausted through a vertical vent, increasing the number of air changes occurring in the structure.
 
 When the fan is applied sooner, more attention needs to be paid to fire extension as discussed in tactical consideration \ref{Assess_For_Extension}. Knowing where to check for extension such as ductwork penetrations, outlets, switches and HVAC return plenums will speed up the overhaul process and limit the chance of a fire in the structure getting ahead of interior crews.  The use of the fan must be coordinated with interior crews and incident command to ensure fire control has been achieved.  
 
 \subsection{Horizontal, Vertical and Positive Pressure Attack are different tactics.} 
 No one tactic will work in every scenario. Understanding the modern fire environment with emphasis on ventilation limited fire dynamics and how fire department operations impact those will ensure the tactic chosen is most effective.
-
-Positive Pressure Attack as tactical ventilation has the goal of controlling the flows within the structure. This aids the attack crew as they approach a fire through increased visibility and reduced temperatures. When the tactic is employed correctly, using the fan to direct the heat created by the fire out an exhaust opening rather than allowing it to flow back into the structure is very effective at controlling the temperature. 
-
-\begin{figure}[H]
-	\centering
-	\begin{tabular}{c c}
-		\subfloat[Hallway Temperature]{\includegraphics[width = 3in ]{0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/HallTemps.pdf}} &
-		\subfloat[Bedroom 2 Doorway Temperature]{\includegraphics[width = 3in ]{0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/BedDoorFlow.pdf}} \\
-	\end{tabular}
-	\caption{Positive Pressure Attack - Controlling Flows}
-\end{figure}
-
-It is not as effective at increasing visibility because the interior environment is often already charged with smoke, which although diluted by the fan with clean cool air, does not reduce the optical density enough to increase visibility. Given enough time, the fan is capable of exhausting the built up smoke from the structure out the exhaust, however in the research conducted this occurred on the order of 3-5 minutes, time which is not available to wait prior to applying water to the fire. 
-
-Positive pressure Attack uses an increase in pressure to alter the flows within the structure where as vertical and horizontal rely on negative pressure. When an opening is made the hot fire gases are at a higher pressure and less dense thus exit the opening to the exterior as a buoyantly driven flow. This creates a negative pressure inside the structure drawing in the ambient air lower. 
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width = 5in ]{0_Images/Tactical_Considerations/Horizontal_Vertical_PPV/Vertical_Flows.pdf}
-	\caption{Vertical Ventilation Flows}
-	\label{fig:VerticalVentFLows}
-\end{figure} 
 
 In a scenario with a bedroom fire isolated from the remainder of the structure with a single doorway and a large window, positive pressure attack may be the most effective means of controlling the flows within the structure. If the bedroom does not have a large window, utilizing horizontal or vertical ventilation with door control may be the more effective option. 
 
