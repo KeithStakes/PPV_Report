@@ -412,6 +412,27 @@
       \field{type}{Report}
       \field{year}{2013}
     \endentry
+    \entry{KerberMadrzykowskiLabWindDriven}{report}{}
+      \name{author}{2}{}{%
+        {{hash=a1cb05e4fb1864f3a981578554debce1}{Kerber}{K\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3374c193ffba45b6e5f44da08cd12843}{Madrzykowski}{M\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{2}{%
+        {National Institutes of Standards}%
+        {Technology}%
+      }
+      \strng{namehash}{4a8f5e7bbc7e7d4e7860581fb19ca52b}
+      \strng{fullhash}{4a8f5e7bbc7e7d4e7860581fb19ca52b}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{21}
+      \field{month}{01}
+      \field{title}{Fire Fighting Tactics under Wind Drive Conditions: Laboratory Experiments}
+      \field{type}{report}
+      \field{year}{2009}
+    \endentry
     \entry{DHS2011}{report}{}
       \name{author}{2}{}{%
         {{hash=a1cb05e4fb1864f3a981578554debce1}{Kerber}{K\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
@@ -738,6 +759,23 @@
       \field{title}{Smoke Ventilation in Operational Fire Fighting}
       \field{type}{Report}
       \field{year}{1997}
+    \endentry
+    \entry{WeinschenkStrongVentFlowFires}{report}{}
+      \name{author}{1}{}{%
+        {{hash=4aead55d4d38ba41c43842a61252f5e6}{Weinschenk}{W\bibinitperiod}{Craig\bibnamedelima Ph.D.}{C\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {The University of Texas at Austin}%
+      }
+      \strng{namehash}{4aead55d4d38ba41c43842a61252f5e6}
+      \strng{fullhash}{4aead55d4d38ba41c43842a61252f5e6}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Experimental and Computational Characterization of Strong Vent Flow Enclosure Fires}
+      \field{type}{report}
+      \field{year}{2011}
     \endentry
   \endsortlist
 \endrefsection
