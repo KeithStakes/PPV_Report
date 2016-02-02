@@ -38,6 +38,22 @@
       \field{type}{Report}
       \field{year}{1998}
     \endentry
+    \entry{RetroTecManual}{booklet}{}
+      \list{location}{1}{%
+        {Everson}%
+      }
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{month}{03}
+      \field{pubstate}{WA}
+      \field{title}{Blower Door Operation Manual}
+      \field{year}{2015}
+      \verb{url}
+      \verb https://retrotec.com/sites/default/files/manual-guides-specs/Manual-Blower%20Door%20Operation.pdf
+      \endverb
+    \endentry
     \entry{Didona1993modeling}{book}{}
       \name{author}{4}{}{%
         {{hash=360e9a6d9ccd9d77aac120b706100c03}{Didona}{D\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
@@ -300,7 +316,7 @@
       \field{type}{Report}
       \field{year}{2007}
     \endentry
-    \entry{KerberMadrzyPPVInHighRise}{techrepoarrt}{}
+    \entry{KerberMadrzyPPVInHighRise}{report}{}
       \name{author}{2}{}{%
         {{hash=ffc8b2a611409b6e8f7d4cda652efb1a}{Kerber}{K\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
         {{hash=67318829e09f8dd973c723a0b0d014f1}{Madrzykowski}{M\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
@@ -610,7 +626,7 @@
       \field{type}{Report}
       \field{year}{2007}
     \endentry
-    \entry{HeatFluxRoundRobin}{atricle}{}
+    \entry{HeatFluxRoundRobin}{article}{}
       \name{author}{7}{}{%
         {{hash=3b554ebe3261b7d2da6dcf779e0a926f}{Pitts}{P\bibinitperiod}{William\bibnamedelima M.}{W\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
         {{hash=1f1874525fd150263ef69f44374a4e2f}{Murthy}{M\bibinitperiod}{Annageri\bibnamedelima V.}{A\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
@@ -680,6 +696,21 @@
       \field{month}{01}
       \field{title}{Essential of Firefighting and Fire Department Operations}
       \field{year}{2013}
+    \endentry
+    \entry{USFA_Response_Times}{article}{}
+      \list{institution}{1}{%
+        {U.S. Fire Administration/National Fire Data Center}%
+      }
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Topical Fire Research Series}
+      \field{month}{08}
+      \field{number}{7}
+      \field{title}{Sturucture Fire Response Times}
+      \field{type}{report}
+      \field{volume}{5}
+      \field{year}{2006}
     \endentry
     \entry{SurbarbanFirefighting_Knapp}{misc}{}
       \field{sortinit}{S}
