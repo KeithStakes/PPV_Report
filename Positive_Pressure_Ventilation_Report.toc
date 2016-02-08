@@ -1,100 +1,129 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\contentsline {section}{\numberline {1}Background}{4}{section.1}
-\contentsline {section}{\numberline {2}Objectives and Technical Plan}{8}{section.2}
-\contentsline {subsection}{\numberline {2.1}Objectives}{8}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Technical Plan}{8}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Limitation and Scope}{11}{subsection.2.3}
-\contentsline {section}{\numberline {3}Project Technical Panel}{12}{section.3}
-\contentsline {section}{\numberline {4}Previous Literature}{14}{section.4}
-\contentsline {subsection}{\numberline {4.1}Fire Service Publications}{14}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Fire Service Training Manuals}{14}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Firefighter Line of Duty Deaths}{14}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Research Work}{14}{subsection.4.4}
-\contentsline {section}{\numberline {5}Instrumentation}{14}{section.5}
-\contentsline {section}{\numberline {6}Test Set Up}{19}{section.6}
-\contentsline {subsection}{\numberline {6.1}Structures}{19}{subsection.6.1}
-\contentsline {paragraph}{Single Story Structure}{19}{section*.17}
-\contentsline {paragraph}{Two Story Structure}{20}{section*.20}
-\contentsline {paragraph}{Air Leakage in Structures}{21}{section*.23}
-\contentsline {subsection}{\numberline {6.2}Furnishings}{22}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Measurement Locations}{28}{subsection.6.3}
-\contentsline {paragraph}{Single Story}{28}{section*.33}
-\contentsline {paragraph}{Two Story}{28}{section*.34}
-\contentsline {section}{\numberline {7}Heat Release Fuel Load Characterization}{29}{section.7}
-\contentsline {subsection}{\numberline {7.1}Ventilation Limited Room Burns}{34}{subsection.7.1}
-\contentsline {paragraph}{Furnished Compartment}{34}{section*.41}
-\contentsline {paragraph}{Over Furnished Compartment}{37}{section*.45}
-\contentsline {paragraph}{Compartment Burn Results}{38}{section*.49}
-\contentsline {section}{\numberline {8}Cold Flow Experiments}{40}{section.8}
-\contentsline {subsection}{\numberline {8.1}Single Story Cold Flow Experiments}{40}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Two Story Cold Flow Experiments}{43}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}Single Story Cold Flow Results}{45}{subsection.8.3}
-\contentsline {paragraph}{Fan Flow Rates}{45}{section*.59}
-\contentsline {paragraph}{Exhaust to Inlet Ratio}{46}{section*.61}
-\contentsline {paragraph}{Single Story Results Summary}{48}{section*.67}
-\contentsline {subsection}{\numberline {8.4}Two Story Cold Flow Results}{48}{subsection.8.4}
-\contentsline {paragraph}{Fan Flow Rates}{48}{section*.68}
-\contentsline {paragraph}{Exhaust to Inlet Ratio}{49}{section*.70}
-\contentsline {paragraph}{Two Story Results Summary}{51}{section*.76}
-\contentsline {subsection}{\numberline {8.5}Single Story and Two Story Cold Flow Comparison}{52}{subsection.8.5}
-\contentsline {paragraph}{Structure Comparison Summary}{53}{section*.81}
-\contentsline {subsection}{\numberline {8.6}Fan Selection}{53}{subsection.8.6}
-\contentsline {paragraph}{Selected Fan Analysis}{53}{section*.82}
-\contentsline {paragraph}{Setback Analysis}{54}{section*.84}
-\contentsline {section}{\numberline {9}Full Scale Fire Experiments}{57}{section.9}
-\contentsline {subsection}{\numberline {9.1}Single Story Experiments}{57}{subsection.9.1}
-\contentsline {paragraph}{Experiment 1}{58}{section*.90}
-\contentsline {paragraph}{Experiment 2}{62}{section*.95}
-\contentsline {paragraph}{Experiment 3}{65}{section*.100}
-\contentsline {paragraph}{Experiment 4}{68}{section*.106}
-\contentsline {paragraph}{Experiment 5}{72}{section*.111}
-\contentsline {paragraph}{Experiment 6}{76}{section*.117}
-\contentsline {paragraph}{Experiment 7}{81}{section*.124}
-\contentsline {paragraph}{Experiment 8}{85}{section*.129}
-\contentsline {paragraph}{Experiment 9}{89}{section*.135}
-\contentsline {paragraph}{Experiment 10}{93}{section*.140}
-\contentsline {paragraph}{Experiment 11}{96}{section*.146}
-\contentsline {paragraph}{Experiment 12}{100}{section*.152}
-\contentsline {paragraph}{Experiment 13}{104}{section*.157}
-\contentsline {paragraph}{Experiment 14}{107}{section*.162}
-\contentsline {paragraph}{Experiment 15}{110}{section*.168}
-\contentsline {subsection}{\numberline {9.2}Two Story Experiments}{114}{subsection.9.2}
-\contentsline {paragraph}{Experiment 16}{114}{section*.174}
-\contentsline {paragraph}{Experiment 17}{118}{section*.179}
-\contentsline {paragraph}{Experiment 18}{121}{section*.184}
-\contentsline {paragraph}{Experiment 19}{124}{section*.189}
-\contentsline {paragraph}{Experiment 20}{127}{section*.195}
-\contentsline {paragraph}{Experiment 21}{131}{section*.201}
-\contentsline {paragraph}{Experiment 22}{135}{section*.207}
-\contentsline {paragraph}{Experiment 23}{139}{section*.212}
-\contentsline {paragraph}{Experiment 24}{142}{section*.218}
-\contentsline {paragraph}{Experiment 25}{146}{section*.224}
-\contentsline {subsection}{\numberline {9.3}Smoke Removal Experiments}{150}{subsection.9.3}
-\contentsline {paragraph}{Experiment 26}{150}{section*.231}
-\contentsline {paragraph}{Experiment 27}{155}{section*.238}
-\contentsline {section}{\numberline {10}Tactical Considerations}{160}{section.10}
-\contentsline {subsection}{\numberline {10.1}Understanding the Basics of Positive Pressure}{160}{subsection.10.1}
-\contentsline {paragraph}{Pressure}{160}{section*.245}
-\contentsline {paragraph}{Fire Flows are Caused by Pressure}{160}{section*.246}
-\contentsline {paragraph}{Ventilation}{160}{section*.247}
-\contentsline {paragraph}{Positive Pressure Attack/Ventilation}{161}{section*.249}
-\contentsline {subsection}{\numberline {10.2}Horizontal, Vertical and Positive Pressure Attack are different tactics.}{163}{subsection.10.2}
-\contentsline {subsection}{\numberline {10.3}The setback of the fan or development of a “cone of air” is not as important as the exhaust size.}{163}{subsection.10.3}
-\contentsline {subsection}{\numberline {10.4}An ongoing assessment of inlet and exhaust flow is imperative to understanding whether or not a fan flow path has been established and if conditions are improving}{166}{subsection.10.4}
-\contentsline {subsection}{\numberline {10.5}Positive Pressure Attack is Exhaust Dependant}{169}{subsection.10.5}
-\contentsline {subsection}{\numberline {10.6}An outlet of sufficient size, must be provided, in the fire room to allow for effective PPA.}{174}{subsection.10.6}
-\contentsline {subsection}{\numberline {10.7}Creating additional openings not in the fire room will create additional flow paths making PPA ineffective with the potential to draw the fire into all flow paths}{175}{subsection.10.7}
-\contentsline {subsection}{\numberline {10.8}The safety of PPA is decreased when the location and extent of the fire is not known with a high degree of certainty.}{178}{subsection.10.8}
-\contentsline {subsection}{\numberline {10.9}PPA will not be effective on a fire located in an open concept floor plan or any floor plan with high ceilings.}{179}{subsection.10.9}
-\contentsline {subsection}{\numberline {10.10}The application of water, as quickly as possible, whether from the interior or exterior prior to initiating PPA will increase the likelihood of a successful outcome.}{183}{subsection.10.10}
-\contentsline {subsection}{\numberline {10.11}PPA is not a replacement for using the reach of your hose stream.}{187}{subsection.10.11}
-\contentsline {subsection}{\numberline {10.12}Extension into void spaces when using PPA is directly related to the exhaust capabilities of the void space.}{188}{subsection.10.12}
-\contentsline {subsection}{\numberline {10.13}PPA does not negatively affect the survivability of occupants behind a closed door.}{195}{subsection.10.13}
-\contentsline {subsection}{\numberline {10.14}In single story residential structures, the more openings made in the structure during PPV (Post Knockdown) the more effective it is at ventilating the structure.}{198}{subsection.10.14}
-\contentsline {subsection}{\numberline {10.15}Post fire control it is important to assess for extension.}{201}{subsection.10.15}
-\contentsline {subsection}{\numberline {10.16}When PPV is used, starting or turning in the fan immediately after fire control will provide the most benefit.}{202}{subsection.10.16}
-\contentsline {section}{Glossary}{203}{section*.302}
-\contentsline {section}{Appendices}{206}{section*.305}
-\contentsline {section}{\numberline {A}Construction Drawings}{207}{Appendix.1.A}
-\contentsline {subsection}{\numberline {A.1}Single Story Construction Drawings}{208}{subsection.1.A.1}
-\contentsline {subsection}{\numberline {A.2}Two Story Construction Drawings}{210}{subsection.1.A.2}
+\contentsline {section}{\numberline {1}Background}{5}{section.1}
+\contentsline {section}{\numberline {2}Objectives and Technical Plan}{10}{section.2}
+\contentsline {subsection}{\numberline {2.1}Objectives}{10}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Technical Plan}{10}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Limitation and Scope}{12}{subsection.2.3}
+\contentsline {section}{\numberline {3}Project Technical Panel}{14}{section.3}
+\contentsline {section}{\numberline {4}Previous Literature}{16}{section.4}
+\contentsline {subsection}{\numberline {4.1}Fire Service Publications}{16}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Fire Service Training Manuals}{16}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Firefighter Line of Duty Deaths}{16}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Research Work}{16}{subsection.4.4}
+\contentsline {section}{\numberline {5}Instrumentation}{17}{section.5}
+\contentsline {section}{\numberline {6}Test Set Up}{23}{section.6}
+\contentsline {subsection}{\numberline {6.1}Structures}{23}{subsection.6.1}
+\contentsline {paragraph}{Single Story Structure}{23}{section*.17}
+\contentsline {paragraph}{Two Story Structure}{24}{section*.20}
+\contentsline {paragraph}{Air Leakage in Structures}{25}{section*.23}
+\contentsline {subsection}{\numberline {6.2}Furnishings}{26}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Measurement Locations}{32}{subsection.6.3}
+\contentsline {paragraph}{Single Story}{32}{section*.33}
+\contentsline {paragraph}{Two Story}{33}{section*.35}
+\contentsline {section}{\numberline {7}Heat Release Fuel Load Characterization}{35}{section.7}
+\contentsline {subsection}{\numberline {7.1}Ventilation Limited Room Burns}{40}{subsection.7.1}
+\contentsline {paragraph}{Furnished Compartment}{40}{section*.43}
+\contentsline {paragraph}{Over Furnished Compartment}{43}{section*.47}
+\contentsline {paragraph}{Compartment Burn Results}{44}{section*.51}
+\contentsline {section}{\numberline {8}Cold Flow Experiments}{46}{section.8}
+\contentsline {subsection}{\numberline {8.1}Single Story Cold Flow Experiments}{46}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Two Story Cold Flow Experiments}{49}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Single Story Cold Flow Results}{51}{subsection.8.3}
+\contentsline {paragraph}{Fan Flow Rates}{51}{section*.61}
+\contentsline {paragraph}{Exhaust to Inlet Ratio}{52}{section*.63}
+\contentsline {paragraph}{Single Story Results Summary}{54}{section*.69}
+\contentsline {subsection}{\numberline {8.4}Two Story Cold Flow Results}{54}{subsection.8.4}
+\contentsline {paragraph}{Fan Flow Rates}{54}{section*.70}
+\contentsline {paragraph}{Exhaust to Inlet Ratio}{55}{section*.72}
+\contentsline {paragraph}{Two Story Results Summary}{57}{section*.78}
+\contentsline {subsection}{\numberline {8.5}Single Story and Two Story Cold Flow Comparison}{58}{subsection.8.5}
+\contentsline {paragraph}{Structure Comparison Summary}{59}{section*.83}
+\contentsline {subsection}{\numberline {8.6}Fan Selection}{59}{subsection.8.6}
+\contentsline {paragraph}{Selected Fan Analysis}{59}{section*.84}
+\contentsline {paragraph}{Setback Analysis}{60}{section*.86}
+\contentsline {section}{\numberline {9}Full Scale Fire Experiments}{63}{section.9}
+\contentsline {subsection}{\numberline {9.1}Single Story Experiments}{63}{subsection.9.1}
+\contentsline {paragraph}{Experiment 1}{64}{section*.92}
+\contentsline {paragraph}{Experiment 2}{68}{section*.97}
+\contentsline {paragraph}{Experiment 3}{71}{section*.102}
+\contentsline {paragraph}{Experiment 4}{74}{section*.108}
+\contentsline {paragraph}{Experiment 5}{78}{section*.113}
+\contentsline {paragraph}{Experiment 6}{82}{section*.119}
+\contentsline {paragraph}{Experiment 7}{87}{section*.126}
+\contentsline {paragraph}{Experiment 8}{91}{section*.131}
+\contentsline {paragraph}{Experiment 9}{95}{section*.137}
+\contentsline {paragraph}{Experiment 10}{99}{section*.142}
+\contentsline {paragraph}{Experiment 11}{102}{section*.148}
+\contentsline {paragraph}{Experiment 12}{106}{section*.154}
+\contentsline {paragraph}{Experiment 13}{110}{section*.159}
+\contentsline {paragraph}{Experiment 14}{113}{section*.164}
+\contentsline {paragraph}{Experiment 15}{116}{section*.170}
+\contentsline {subsection}{\numberline {9.2}Two Story Experiments}{120}{subsection.9.2}
+\contentsline {paragraph}{Experiment 16}{120}{section*.176}
+\contentsline {paragraph}{Experiment 17}{124}{section*.181}
+\contentsline {paragraph}{Experiment 18}{127}{section*.186}
+\contentsline {paragraph}{Experiment 19}{130}{section*.191}
+\contentsline {paragraph}{Experiment 20}{133}{section*.197}
+\contentsline {paragraph}{Experiment 21}{137}{section*.203}
+\contentsline {paragraph}{Experiment 22}{141}{section*.209}
+\contentsline {paragraph}{Experiment 23}{145}{section*.214}
+\contentsline {paragraph}{Experiment 24}{148}{section*.220}
+\contentsline {paragraph}{Experiment 25}{152}{section*.226}
+\contentsline {subsection}{\numberline {9.3}Smoke Removal Experiments}{156}{subsection.9.3}
+\contentsline {paragraph}{Experiment 26}{156}{section*.233}
+\contentsline {paragraph}{Experiment 27}{161}{section*.240}
+\contentsline {section}{\numberline {10}Tactical Considerations}{167}{section.10}
+\contentsline {subsection}{\numberline {10.1}Understanding the Basics of Positive Pressure}{167}{subsection.10.1}
+\contentsline {paragraph}{Pressure}{167}{section*.247}
+\contentsline {paragraph}{Fire Flows are Caused by Pressure}{167}{section*.248}
+\contentsline {paragraph}{Ventilation}{167}{section*.249}
+\contentsline {paragraph}{Positive Pressure Attack/Ventilation}{168}{section*.251}
+\contentsline {subsection}{\numberline {10.2}Horizontal, Vertical and Positive Pressure Attack are different tactics.}{171}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.3}The setback of the fan or development of a “cone of air” is not as important as the exhaust size.}{171}{subsection.10.3}
+\contentsline {subsection}{\numberline {10.4}An ongoing assessment of inlet and exhaust flow is imperative to understanding whether or not a fan flow path has been established and if conditions are improving}{174}{subsection.10.4}
+\contentsline {subsection}{\numberline {10.5}Positive Pressure Attack is Exhaust Dependant}{177}{subsection.10.5}
+\contentsline {subsection}{\numberline {10.6}An outlet of sufficient size, must be provided, in the fire room to allow for effective PPA.}{182}{subsection.10.6}
+\contentsline {subsection}{\numberline {10.7}Creating additional openings not in the fire room will create additional flow paths making PPA ineffective with the potential to draw the fire into all flow paths}{183}{subsection.10.7}
+\contentsline {subsection}{\numberline {10.8}The safety of PPA is decreased when the location and extent of the fire is not known with a high degree of certainty.}{187}{subsection.10.8}
+\contentsline {subsection}{\numberline {10.9}PPA will not be effective on a fire located in an open concept floor plan or any floor plan with high ceilings.}{188}{subsection.10.9}
+\contentsline {subsection}{\numberline {10.10}The application of water, as quickly as possible, whether from the interior or exterior prior to initiating PPA will increase the likelihood of a successful outcome.}{192}{subsection.10.10}
+\contentsline {subsection}{\numberline {10.11}PPA is not a replacement for using the reach of your hose stream.}{196}{subsection.10.11}
+\contentsline {subsection}{\numberline {10.12}Extension into void spaces when using PPA is directly related to the exhaust capabilities of the void space.}{198}{subsection.10.12}
+\contentsline {subsection}{\numberline {10.13}PPA does not negatively affect the survivability of occupants behind a closed door.}{204}{subsection.10.13}
+\contentsline {subsection}{\numberline {10.14}In single story residential structures, the more openings made in the structure during PPV (Post Knockdown) the more effective it is at ventilating the structure.}{207}{subsection.10.14}
+\contentsline {subsection}{\numberline {10.15}Post fire control it is important to assess for extension.}{210}{subsection.10.15}
+\contentsline {subsection}{\numberline {10.16}When PPV is used, starting or turning in the fan immediately after fire control will provide the most benefit.}{211}{subsection.10.16}
+\contentsline {section}{\numberline {11}Future Research Needs}{212}{section.11}
+\contentsline {section}{Glossary}{213}{section*.306}
+\contentsline {section}{Appendices}{217}{section*.309}
+\contentsline {section}{\numberline {A}Experimental Results}{217}{Appendix.1.A}
+\contentsline {subsection}{\numberline {A}Experiment 1 Results}{218}{subsection.1.A.1}
+\contentsline {subsection}{\numberline {A}Experiment 2 Results}{234}{subsection.1.A.2}
+\contentsline {subsection}{\numberline {A}Experiment 3 Results}{250}{subsection.1.A.3}
+\contentsline {subsection}{\numberline {A}Experiment 4 Results}{263}{subsection.1.A.4}
+\contentsline {subsection}{\numberline {A}Experiment 5 Results}{279}{subsection.1.A.5}
+\contentsline {subsection}{\numberline {A}Experiment 6 Results}{295}{subsection.1.A.6}
+\contentsline {subsection}{\numberline {A}Experiment 7 Results}{312}{subsection.1.A.7}
+\contentsline {subsection}{\numberline {A}Experiment 8 Results}{328}{subsection.1.A.8}
+\contentsline {subsection}{\numberline {A}Experiment 9 Results}{345}{subsection.1.A.9}
+\contentsline {subsection}{\numberline {A}Experiment 10 Results}{361}{subsection.1.A.10}
+\contentsline {subsection}{\numberline {A}Experiment 11 Results}{376}{subsection.1.A.11}
+\contentsline {subsection}{\numberline {A}Experiment 12 Results}{393}{subsection.1.A.12}
+\contentsline {subsection}{\numberline {A}Experiment 13 Results}{408}{subsection.1.A.13}
+\contentsline {subsection}{\numberline {A}Experiment 14 Results}{424}{subsection.1.A.14}
+\contentsline {subsection}{\numberline {A}Experiment 15 Results}{439}{subsection.1.A.15}
+\contentsline {subsection}{\numberline {A}Experiment 16 Results}{456}{subsection.1.A.16}
+\contentsline {subsection}{\numberline {A}Experiment 17 Results}{476}{subsection.1.A.17}
+\contentsline {subsection}{\numberline {A}Experiment 18 Results}{496}{subsection.1.A.18}
+\contentsline {subsection}{\numberline {A}Experiment 19 Results}{516}{subsection.1.A.19}
+\contentsline {subsection}{\numberline {A}Experiment 20 Results}{536}{subsection.1.A.20}
+\contentsline {subsection}{\numberline {A}Experiment 21 Results}{556}{subsection.1.A.21}
+\contentsline {subsection}{\numberline {A}Experiment 22 Results}{576}{subsection.1.A.22}
+\contentsline {subsection}{\numberline {A}Experiment 23 Results}{596}{subsection.1.A.23}
+\contentsline {subsection}{\numberline {A}Experiment 24 Results}{616}{subsection.1.A.24}
+\contentsline {subsection}{\numberline {A}Experiment 25 Results}{636}{subsection.1.A.25}
+\contentsline {subsection}{\numberline {A}Experiment 26 Results}{655}{subsection.1.A.26}
+\contentsline {subsection}{\numberline {A}Experiment 27 Results}{671}{subsection.1.A.27}
+\contentsline {section}{\numberline {B}Construction Drawings}{687}{Appendix.1.B}
+\contentsline {subsection}{\numberline {B}Single Story Construction Drawings}{688}{subsection.1.B.1}
+\contentsline {subsection}{\numberline {B}Two Story Construction Drawings}{690}{subsection.1.B.2}

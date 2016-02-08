@@ -1,7 +1,7 @@
 This is makeindex, version 2.15 [MiKTeX 2.9] (kpathsea + Thai support).
-Scanning style file ./Positive_Pressure_Ventilation_Report.ist.............................done (29 attributes redefined, 0 ignored).
-Scanning input file Positive_Pressure_Ventilation_Report.glo....done (10 entries accepted, 0 rejected).
-Sorting entries....done (33 comparisons).
-Generating output file Positive_Pressure_Ventilation_Report.gls....done (30 lines written, 0 warnings).
+Scanning style file D:/GitHub/PPV_Report/Positive_Pressure_Ventilation_Report.ist.............................done (29 attributes redefined, 0 ignored).
+Scanning input file Positive_Pressure_Ventilation_Report.glo....done (8 entries accepted, 0 rejected).
+Sorting entries....done (25 comparisons).
+Generating output file Positive_Pressure_Ventilation_Report.gls....done (26 lines written, 0 warnings).
 Output written in Positive_Pressure_Ventilation_Report.gls.
 Transcript written in Positive_Pressure_Ventilation_Report.glg.
