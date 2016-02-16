@@ -2238,95 +2238,21 @@
     <bcf:datasource type="file" datatype="bibtex">PPVReport.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">NFFF</bcf:citekey>
-    <bcf:citekey order="2">NFPAFireLoss</bcf:citekey>
-    <bcf:citekey order="3">NFPAFFInjuries</bcf:citekey>
-    <bcf:citekey order="4">NFPALast30</bcf:citekey>
-    <bcf:citekey order="5">ChangingResdFires_Kerber</bcf:citekey>
-    <bcf:citekey order="6">HowToKeepFirefighterSafer_Goldfeder</bcf:citekey>
-    <bcf:citekey order="7">SurbarbanFirefighting_Knapp</bcf:citekey>
-    <bcf:citekey order="8">NIOSHF2000-44</bcf:citekey>
-    <bcf:citekey order="9">NIOSH98F-32</bcf:citekey>
-    <bcf:citekey order="10">TexasFMFY07-02</bcf:citekey>
-    <bcf:citekey order="11">ContraCostaFalaityInvestigation</bcf:citekey>
-    <bcf:citekey order="12">NIOSHF2004-02</bcf:citekey>
-    <bcf:citekey order="13">NIOSHF2002-12</bcf:citekey>
-    <bcf:citekey order="14">LasVegasNews_ChiefsRole</bcf:citekey>
-    <bcf:citekey order="15">HughesPPVTesting</bcf:citekey>
-    <bcf:citekey order="16">KerberPPVinTraining</bcf:citekey>
-    <bcf:citekey order="17">SvennsonFireVentilationDuringOperatoins</bcf:citekey>
-    <bcf:citekey order="18">HughesPPVTesting</bcf:citekey>
-    <bcf:citekey order="19">KerberPPVinTraining</bcf:citekey>
-    <bcf:citekey order="20">SvennsonFireVentilationDuringOperatoins</bcf:citekey>
-    <bcf:citekey order="21">ExekoyePPVHouseFires</bcf:citekey>
-    <bcf:citekey order="22">SvenssonFireVentinLargeFireHall</bcf:citekey>
-    <bcf:citekey order="23">BowserTacticalVent</bcf:citekey>
-    <bcf:citekey order="24">EzekoyePPVStrucuresReport</bcf:citekey>
-    <bcf:citekey order="25">Didona1993modeling</bcf:citekey>
-    <bcf:citekey order="26">KerberPPVCFD</bcf:citekey>
-    <bcf:citekey order="27">KerberPPVFDS</bcf:citekey>
-    <bcf:citekey order="28">TuomisaariVentilationInFirefighting</bcf:citekey>
-    <bcf:citekey order="29">SymposiumHighRisePPV</bcf:citekey>
-    <bcf:citekey order="30">KerberMadrzyPPVInLargeStructures</bcf:citekey>
-    <bcf:citekey order="31">KerberMadrzyPPVInHighRise</bcf:citekey>
-    <bcf:citekey order="32">KerberMadrzyPPVInHighRise</bcf:citekey>
-    <bcf:citekey order="33">LougheedPPVHighRise</bcf:citekey>
-    <bcf:citekey order="34">NFFF</bcf:citekey>
-    <bcf:citekey order="35">DHS2008</bcf:citekey>
-    <bcf:citekey order="36">DHS2010</bcf:citekey>
-    <bcf:citekey order="37">USFA_Response_Times</bcf:citekey>
-    <bcf:citekey order="38">HeatFluxRoundRobin</bcf:citekey>
-    <bcf:citekey order="39">TemperatureHandbook</bcf:citekey>
-    <bcf:citekey order="40">SetraManual</bcf:citekey>
-    <bcf:citekey order="41">BDPInPoolFires</bcf:citekey>
-    <bcf:citekey order="42">RetroTecManual</bcf:citekey>
-    <bcf:citekey order="43">DHS2008</bcf:citekey>
-    <bcf:citekey order="44">DHS2010</bcf:citekey>
-    <bcf:citekey order="45">PPA_Garcia</bcf:citekey>
-    <bcf:citekey order="46">PPA_Garcia</bcf:citekey>
-    <bcf:citekey order="47">TempestWebsite</bcf:citekey>
-    <bcf:citekey order="48">TempestWebsite</bcf:citekey>
-    <bcf:citekey order="49">SuperVacManual</bcf:citekey>
-    <bcf:citekey order="50">SuperVacManual</bcf:citekey>
-    <bcf:citekey order="51">DHS2008</bcf:citekey>
-    <bcf:citekey order="52">DHS2011</bcf:citekey>
-    <bcf:citekey order="53">WeinschenkStrongVentFlowFires</bcf:citekey>
-    <bcf:citekey order="54">DHS2008</bcf:citekey>
-    <bcf:citekey order="55">DHS2010</bcf:citekey>
-    <bcf:citekey order="56">SFPEHandbookPurser</bcf:citekey>
-    <bcf:citekey order="57">Essentials6</bcf:citekey>
-    <bcf:citekey order="58">KerberMadrzykowskiLabWindDriven</bcf:citekey>
-    <bcf:citekey order="59">DHS2008</bcf:citekey>
-    <bcf:citekey order="60">DHS2010</bcf:citekey>
+    <bcf:citekey order="1">PPA_Garcia</bcf:citekey>
+    <bcf:citekey order="2">PPA_Garcia</bcf:citekey>
+    <bcf:citekey order="3">TempestWebsite</bcf:citekey>
+    <bcf:citekey order="4">TempestWebsite</bcf:citekey>
+    <bcf:citekey order="5">SuperVacManual</bcf:citekey>
+    <bcf:citekey order="6">SuperVacManual</bcf:citekey>
+    <bcf:citekey order="7">DHS2008</bcf:citekey>
+    <bcf:citekey order="8">DHS2011</bcf:citekey>
+    <bcf:citekey order="9">WeinschenkStrongVentFlowFires</bcf:citekey>
+    <bcf:citekey order="10">DHS2008</bcf:citekey>
+    <bcf:citekey order="11">DHS2010</bcf:citekey>
+    <bcf:citekey order="12">SFPEHandbookPurser</bcf:citekey>
+    <bcf:citekey order="13">Essentials6</bcf:citekey>
+    <bcf:citekey order="14">KerberMadrzykowskiLabWindDriven</bcf:citekey>
+    <bcf:citekey order="15">DHS2008</bcf:citekey>
+    <bcf:citekey order="16">DHS2010</bcf:citekey>
   </bcf:section>
-  <bcf:sortlist section="0" name="nty" type="entry" sortscheme="nty">
-  <bcf:sorting>
-    <bcf:sort order="1">
-      <bcf:sortitem order="1">presort</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="2" final="1">
-      <bcf:sortitem order="1">sortkey</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="3">
-      <bcf:sortitem order="1">sortname</bcf:sortitem>
-      <bcf:sortitem order="2">author</bcf:sortitem>
-      <bcf:sortitem order="3">editor</bcf:sortitem>
-      <bcf:sortitem order="4">translator</bcf:sortitem>
-      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="6">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="4">
-      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="2">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="5">
-      <bcf:sortitem order="1">sortyear</bcf:sortitem>
-      <bcf:sortitem order="2">year</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="6">
-      <bcf:sortitem order="1" pad_side="left" pad_width="4" pad_char="0">volume</bcf:sortitem>
-      <bcf:sortitem order="2">0000</bcf:sortitem>
-    </bcf:sort>
-  </bcf:sorting>
-  </bcf:sortlist>
 </bcf:controlfile>

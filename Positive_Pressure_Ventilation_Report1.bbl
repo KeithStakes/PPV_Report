@@ -1,0 +1,194 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nty}{nty}
+    \entry{PPA_Garcia}{book}{}
+      \name{author}{3}{}{%
+        {{hash=76db6e1300b25cd176b34caaed04cdba}{Garcia}{G\bibinitperiod}{Kriss}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=b293e5914ebcb43a315a834df607e7c6}{Kauffmann}{K\bibinitperiod}{ReinHard}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=9e202158507abf5ef09c853cc4db56ad}{Schelble}{S\bibinitperiod}{Ray}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4081f1404e65054e9d66592a5732b46f}
+      \strng{fullhash}{4081f1404e65054e9d66592a5732b46f}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Positive Pressure Attack for Ventilation \& Firefighting}
+      \field{year}{2006}
+    \endentry
+    \entry{TempestWebsite}{misc}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labeltitlesource}{title}
+      \field{title}{How does PPV Work}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://www.tempest.us.com/training/ppa-ppv-how-does-it-work.cfm
+      \endverb
+    \endentry
+    \entry{DHS2008}{report}{}
+      \name{author}{1}{}{%
+        {{hash=a1cb05e4fb1864f3a981578554debce1}{Kerber}{K\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Underwriters Laboratories}%
+      }
+      \strng{namehash}{a1cb05e4fb1864f3a981578554debce1}
+      \strng{fullhash}{a1cb05e4fb1864f3a981578554debce1}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{14}
+      \field{month}{12}
+      \field{title}{Impact of Ventilation on Fire Behavior in Legacy and Contemporary Residential Construction}
+      \field{type}{Report}
+      \field{year}{2010}
+    \endentry
+    \entry{DHS2010}{report}{}
+      \name{author}{1}{}{%
+        {{hash=a1cb05e4fb1864f3a981578554debce1}{Kerber}{K\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Underwriters Laboratories}%
+      }
+      \strng{namehash}{a1cb05e4fb1864f3a981578554debce1}
+      \strng{fullhash}{a1cb05e4fb1864f3a981578554debce1}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{15}
+      \field{month}{06}
+      \field{title}{Study of the Effectiveness of Fire Service Vertical Ventilation and Suppression Tactics in Single Family Homes}
+      \field{type}{Report}
+      \field{year}{2013}
+    \endentry
+    \entry{KerberMadrzykowskiLabWindDriven}{report}{}
+      \name{author}{2}{}{%
+        {{hash=a1cb05e4fb1864f3a981578554debce1}{Kerber}{K\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3374c193ffba45b6e5f44da08cd12843}{Madrzykowski}{M\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{2}{%
+        {National Institutes of Standards}%
+        {Technology}%
+      }
+      \strng{namehash}{4a8f5e7bbc7e7d4e7860581fb19ca52b}
+      \strng{fullhash}{4a8f5e7bbc7e7d4e7860581fb19ca52b}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{21}
+      \field{month}{01}
+      \field{title}{Fire Fighting Tactics under Wind Drive Conditions: Laboratory Experiments}
+      \field{type}{report}
+      \field{year}{2009}
+    \endentry
+    \entry{DHS2011}{report}{}
+      \name{author}{2}{}{%
+        {{hash=a1cb05e4fb1864f3a981578554debce1}{Kerber}{K\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=ac64a97f31820f2c3b97d465896d1ae7}{Zevotek}{Z\bibinitperiod}{Robin}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Underwriters Laboratories}%
+      }
+      \strng{namehash}{7a7eb6522b6bc8e879b88730d782cd7b}
+      \strng{fullhash}{7a7eb6522b6bc8e879b88730d782cd7b}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{month}{11}
+      \field{title}{Study of Residential Attic Fire Mitigation Tactics and Exterior Fire Spread Hazards on Firefighter Safety}
+      \field{type}{Report}
+      \field{year}{2014}
+    \endentry
+    \entry{SFPEHandbookPurser}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0458f2d1c0379bd4c5380eac91f15b80}{Purser}{P\bibinitperiod}{D.A.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=93cd1cdd13339e7d18eace19d2285ce6}{DiNenno}{D\bibinitperiod}{P.J}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {National Fire Protection Association}%
+      }
+      \strng{namehash}{0458f2d1c0379bd4c5380eac91f15b80}
+      \strng{fullhash}{0458f2d1c0379bd4c5380eac91f15b80}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{6}
+      \field{subtitle}{Assessment of Hazards to Occupants from Smoke, Toxic Gases, and Heat}
+      \field{title}{Society of Fire Protection Engineers' Handbook, Fourth Edition}
+      \field{year}{2008}
+    \endentry
+    \entry{SuperVacManual}{manual}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{Smoke Ventilation Training Manual}
+      \field{year}{2011}
+    \endentry
+    \entry{Essentials6}{book}{}
+      \name{editor}{2}{}{%
+        {{hash=1d0a91a120494d12af379b4d7c2edb11}{Stowell}{S\bibinitperiod}{Fedrick\bibnamedelima M.}{F\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=cfa3d3a5868f2796d6998fc45ed03674}{Murnane}{M\bibinitperiod}{Lynne}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Brady Publishing, International Fire Service Training Association}%
+      }
+      \strng{namehash}{98e3f11c8a1ac8834e3ba5c3cd91797e}
+      \strng{fullhash}{98e3f11c8a1ac8834e3ba5c3cd91797e}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{edition}{6}
+      \field{month}{01}
+      \field{title}{Essential of Firefighting and Fire Department Operations}
+      \field{year}{2013}
+    \endentry
+    \entry{WeinschenkStrongVentFlowFires}{report}{}
+      \name{author}{1}{}{%
+        {{hash=4aead55d4d38ba41c43842a61252f5e6}{Weinschenk}{W\bibinitperiod}{Craig\bibnamedelima Ph.D.}{C\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {The University of Texas at Austin}%
+      }
+      \strng{namehash}{4aead55d4d38ba41c43842a61252f5e6}
+      \strng{fullhash}{4aead55d4d38ba41c43842a61252f5e6}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Experimental and Computational Characterization of Strong Vent Flow Enclosure Fires}
+      \field{type}{report}
+      \field{year}{2011}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
