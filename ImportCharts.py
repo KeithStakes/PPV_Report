@@ -23,7 +23,7 @@ file.write('\\section{Experimental Results}\n')
 
 for exp in range(1,28):
 
-	filenames = os.listdir('0_Images\Results_Charts\Exp_' + str(exp) + '_Charts')
+	filenames = os.listdir('0_Images/Results_Charts/Exp_' + str(exp) + '_Charts')
 
 	#file.write('\t\\Begin{center}\n' + '\t\t\\large\n' + '\t\t\\textbf{Experiment ' + str(exp)+' Data}\n' + '\t\\end{center}\n\n')
 	file.write('\\clearpage')
@@ -32,7 +32,7 @@ for exp in range(1,28):
 	x = 0
 
 	for name in filenames:
-		if name.replace(' ',' ')[len(name)-4:] == '.png':
+		if name.replace(' ',' ')[len(name)-4:] == '.pdf':
 			x = x + 1
 			file.write(firstline)
 			file.write(secondline)
