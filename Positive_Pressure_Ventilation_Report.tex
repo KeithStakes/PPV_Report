@@ -7,7 +7,6 @@
 \usepackage{tikz}
 \usepackage{eso-pic}
 \usepackage{changepage}
-\usepackage{xcolor}
 \usepackage{afterpage}
 \usepackage[document]{ragged2e}
 \usepackage[none]{hyphenat}
@@ -19,12 +18,19 @@
 \usepackage{siunitx}
 \usepackage{microtype}
 \usepackage[backend=biber]{biblatex}
-\usepackage[hidelinks]{hyperref}
+\usepackage{hyperref}
 \usepackage[toc,page]{appendix}
 \usepackage[toc]{glossaries}
 \usepackage[subfigure]{tocloft}
 \usepackage{rotating}
 \usepackage[printwatermark]{xwatermark}
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor={black!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
 
 \cftsetindents{subsection}{.25in}{.4in}
 
@@ -97,8 +103,11 @@
 \begin{center}
 DISCLAIMER\\
 \vspace*{\baselineskip}
+\begin{adjustwidth}{-0.25in}{-0.25in}
 In no event shall UL be responsible to anyone for whatever use or nonuse is made of the information contained in this Report and in no event shall UL, its employees, or its agents incur any obligation or liability for damages including, but not limited to, consequential damage arising out of or in connection  with the use or inability to use the information contained in this Report. Information conveyed by this Report applies only to the specimens actually involved in these tests. UL has not established a factory Follow-Up Service Program to determine the conformance of subsequently produced material, nor has any provision been made to apply any registered mark of UL to such material. The issuance of this Report in no way implies Listing, Classification or Recognition by UL and does not authorize the use of UL Listing, Classification or Recognition Marks or other reference to UL on or in connection with the product or system.
+\end{adjustwidth}
 \end{center}
+
 
 \clearpage
 
@@ -1103,7 +1112,7 @@ Each of the six electric and six gas fans were tested in the single story struct
 \end{table}
 
 
-The results were graphed by opening for flow and room for pressure. The results of all 12 experiments can be found grouped by fan in Appendix \ref{App:Single_StoryElectricFanAResults} through Appendix \ref{App:Single_StoryGasFanFResults}. 
+The results were graphed by opening for flow and room for pressure. The results of all 12 experiments can be found grouped by fan in Appendix \ref{App:Single_StoryGasFanAResults} through Appendix \ref{App:Single_StoryElectricFanFResults}. 
 
 \subsection{Two Story Cold Flow Experiments}
 The two story structure was instrumented with air flow and pressure sensors to evaluate the flow and pressure capabilities of each fan tested. The front, bedroom 3, Kitchen and master bedroom doorways were instrumented with five bi-directional probes arrayed vertically along the center line at 8in, 24in, 30in, 46in and 62in above the floor. In addition the Family Room 1, Family Room 2, and bedroom 3 windows were instrumented with five bi-directional probes arrayed vertically along the center line at 6in, 18in, 30in, 42in and 54in above the window sill. Pressure was recorded through a differential pressure transducer in the Family Room, Foyer, Living Room, Master Bedroom, Bedroom 2, Bedroom 3 and Bedroom 4at 12in, 48in and 84in above the floor. The locations of each sensor is shown in Figure \ref{fig:TwoStoryColdFlowSensors}. 
@@ -1474,7 +1483,7 @@ Fifteen full scale fire experiments were conducted in the single story 1200$ft^2
 
 \paragraph{Experiment 1} \mbox{}
 
-Experiment 1 was a room and contents fire in the living room of the single story structure testing the impact of PPA with no exhaust openings. The inlet for the fan was the front door with no outlet initially provided. After steady state is achieved, the living room window was vented and a fog stream was introduced through the living room window. Figure \ref{fig:Exp1VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp1Interventions} show at what times interventions were preformed and Figures \ref{fig:Experiment1Images} shows images of the experiment at each of the intervention times. The results of experiment 1 can be found in Appendix \ref{App:Exp1Results}.
+Experiment 1 was a room and contents fire in the living room of the single story structure testing the impact of PPA with no exhaust openings. The inlet for the fan was the front door with no outlet initially provided. After steady state is achieved, the living room window was vented and a fog stream was introduced through the living room window. Figure \ref{fig:Exp1VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp1Interventions} show at what times interventions were preformed and Figures \ref{fig:Experiment1Images} shows images of the experiment at each of the intervention times. The results of experiment 1 can be found in Appendix \ref{App:Exp1Results}. To view the full experiment video \href{https://youtu.be/gl8rc1Nsl1k}{Click Here}.
 
 \begin{figure}[H]
 	\centering
@@ -1527,7 +1536,7 @@ Experiment 1 was a room and contents fire in the living room of the single story
 
 \paragraph{Experiment 2}\mbox{}
 
-Experiment 2 was a room and contents fire in the living room of the single story structure testing positive pressure attack. The inlet is the front door and the exhaust point is the living room window Water is applied with a straight stream through the front door. Figure \ref{fig:Exp2VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp2Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment2ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 2 can be found in Appendix \ref{App:Exp2Results}.
+Experiment 2 was a room and contents fire in the living room of the single story structure testing positive pressure attack. The inlet is the front door and the exhaust point is the living room window Water is applied with a straight stream through the front door. Figure \ref{fig:Exp2VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp2Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment2ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 2 can be found in Appendix \ref{App:Exp2Results}. To view the full experiment video \href{https://youtu.be/B-GvQX4JoAc}{Click Here}.
 
 \begin{figure}[H]
 	\centering
@@ -1581,7 +1590,7 @@ Experiment 2 was a room and contents fire in the living room of the single story
 
 \paragraph{Experiment 3}\mbox{}
 
-Experiment 3 was a room and contents fire in the bedroom of the single story structure testing positive pressure attack and the effect of additional ventilation openings in the fire room. The inlet is the front door and the exhaust points are the bedroom 2 windows Water is applied via an interior attack using a straight stream. Figure \ref{fig:Exp3VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp3Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment3ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 3 can be found in Appendix \ref{App:Exp3Results}.
+Experiment 3 was a room and contents fire in the bedroom of the single story structure testing positive pressure attack and the effect of additional ventilation openings in the fire room. The inlet is the front door and the exhaust points are the bedroom 2 windows Water is applied via an interior attack using a straight stream. Figure \ref{fig:Exp3VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp3Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment3ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 3 can be found in Appendix \ref{App:Exp3Results}. To view the full experiment video \href{https://youtu.be/fi9lZvUhMwE}{Click Here}.
 
 \begin{figure}[H]
 	\centering
@@ -1644,7 +1653,7 @@ Experiment 3 was a room and contents fire in the bedroom of the single story str
 
 \paragraph{Experiment 4}\mbox{}
 
-Experiment 4 was a room and contents fire in the living room of the single story structure intended to demonstrate the hazards of positive pressure attack with remote ventilation location. The fire is located in the living room, the front door is the air inlet and the rear window of bedroom 2 is the exhaust point. Suppression is initiated with a straight stream through the front door. Figure \ref{fig:Exp4VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp4Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment4ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 4 can be found in Appendix \ref{App:Exp4Results}.
+Experiment 4 was a room and contents fire in the living room of the single story structure intended to demonstrate the hazards of positive pressure attack with remote ventilation location. The fire is located in the living room, the front door is the air inlet and the rear window of bedroom 2 is the exhaust point. Suppression is initiated with a straight stream through the front door. Figure \ref{fig:Exp4VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp4Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment4ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 4 can be found in Appendix \ref{App:Exp4Results}. To view the full experiment video \href{https://youtu.be/RPpYMvXUp}{Click Here}.
 
 \begin{figure}[H]
 	\centering
@@ -1698,7 +1707,7 @@ Experiment 4 was a room and contents fire in the living room of the single story
 
 \paragraph{Experiment 5}\mbox{}
 
-Experiment 5 was a room and contents fire in the living room of the single story structure intended to identify the impact of additional ventilation remote from the fire on the effectiveness of positive pressure attack. The front door is the inlet air, the front living room window and rear window of bedroom 2 are the exhaust points. Suppression occurs via a straight stream introduced through the front door. Figure \ref{fig:Exp5VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp5Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment5ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 5 can be found in Appendix \ref{App:Exp5Results}.
+Experiment 5 was a room and contents fire in the living room of the single story structure intended to identify the impact of additional ventilation remote from the fire on the effectiveness of positive pressure attack. The front door is the inlet air, the front living room window and rear window of bedroom 2 are the exhaust points. Suppression occurs via a straight stream introduced through the front door. Figure \ref{fig:Exp5VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp5Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment5ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 5 can be found in Appendix \ref{App:Exp5Results}. To view the full experiment video \href{https://youtu.be/IezjGcmbLqU}{Click Here}.
 
 \begin{figure}[H]
 	\centering
@@ -1764,7 +1773,8 @@ Experiment 5 was a room and contents fire in the living room of the single story
 
 \paragraph{Experiment 6}\mbox{}
 
-Experiment 6 was a room and contents fire in the living room of the single story structure intended to test fan position and ventilation area on the effectiveness of positive pressure attack. The inlet is the front door, the exhaust vents are the bedroom 2 windows. Suppression was initiated via an interior attack through the front door. In addition this experiment was utilized to evaluate the ability of the PPV fan to extend fire into a void space. A double outlet in a plastic box, double switch in a plastic box were each installed in two stud cavities adjacent the fire room. The first stud cavity was not provided with an opening in the wall plate simulating platform construction with no utilities running in the cavity. The top plate in the second cavity completely removed simulating balloon frame construction. Figure \ref{fig:Exp6VentConfig} shows the configuration fo the structure and wall cavities, Table \ref{Table:Exp6Interventions} shows at what times interventions were preformed and the Figures in \ref{fig:Experiment6ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 6 can be found in Appendix \ref{App:Exp6Results}.
+Experiment 6 was a room and contents fire in the living room of the single story structure intended to test fan position and ventilation area on the effectiveness of positive pressure attack. The inlet is the front door, the exhaust vents are the bedroom 2 windows. Suppression was initiated via an interior attack through the front door. In addition this experiment was utilized to evaluate the ability of the PPV fan to extend fire into a void space. A double outlet in a plastic box, double switch in a plastic box were each installed in two stud cavities adjacent the fire room. The first stud cavity was not provided with an opening in the wall plate simulating platform construction with no utilities running in the cavity. The top plate in the second cavity completely removed simulating balloon frame construction. Figure \ref{fig:Exp6VentConfig} shows the configuration fo the structure and wall cavities, Table \ref{Table:Exp6Interventions} shows at what times interventions were preformed and the Figures in \ref{fig:Experiment6ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 6 can be found in Appendix \ref{App:Exp6Results}. To view the full experiment video \href{https://youtu.be/IDuoI21e-WI}{Click Here}.
+
 
 \begin{figure}[H]
 	\centering
@@ -1848,7 +1858,7 @@ Experiment 6 was a room and contents fire in the living room of the single story
 
 \paragraph{Experiment 7}\mbox{}
 
-Experiment 7 was a room and contents fire in the bedroom of the single story structure intended to demonstrate the effect of fan flow on fire behavior and survivability. Fan flow is regulated by using fan set back to achieve reduce flow through the exhaust window. The fire is located in bedroom 3, the front door is the air inlet and the bedroom 3 window is the exhaust point. Suppression is initiated through the front door via a straight stream. Figure \ref{fig:Exp7VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp7Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment7ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 7 can be found in Appendix \ref{App:Exp7Results}.
+Experiment 7 was a room and contents fire in the bedroom of the single story structure intended to demonstrate the effect of fan flow on fire behavior and survivability. Fan flow is regulated by using fan set back to achieve reduce flow through the exhaust window. The fire is located in bedroom 3, the front door is the air inlet and the bedroom 3 window is the exhaust point. Suppression is initiated through the front door via a straight stream. Figure \ref{fig:Exp7VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp7Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment7ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 7 can be found in Appendix \ref{App:Exp7Results}. To view the full experiment video \href{https://youtu.be/PmMNYFz9DYU}{Click Here}.
 
 \begin{figure}[H]
 	\centering
@@ -1902,7 +1912,8 @@ Experiment 7 was a room and contents fire in the bedroom of the single story str
 
 \paragraph{Experiment 8}\mbox{}
 
-Experiment 8 was a room and contents fire in the bedroom of the single story structure intended to show proper use of PPA and identify the impact of an obstructed or repositioned ppv fan during attack. The fire is located in the bedroom 2, the front door is the air inlet and the rear window of bedroom 2 is the exhaust point. Suppression is introduced via a straight stream through the bedroom 2 window off the ceiling. In addition this experiment was utilized to evaluate the ability of the PPV fan to extend fire into a void space. A single outlet in a plastic box, single switch in a plastic box and light fixture in a metal box were each installed in two stud cavities adjacent the fire room. The first stud cavity was not provided with an opening in the wall plate simulating platform construction with no utilities running in the cavity. The second cavity was provided with 3 1" holes in the top plate simulating electrical of plumbing utilities run in the cavity. Figure \ref{fig:Exp8VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp8Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment8ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 8 can be found in Appendix \ref{App:Exp8Results}.
+Experiment 8 was a room and contents fire in the bedroom of the single story structure intended to show proper use of PPA and identify the impact of an obstructed or repositioned ppv fan during attack. The fire is located in the bedroom 2, the front door is the air inlet and the rear window of bedroom 2 is the exhaust point. Suppression is introduced via a straight stream through the bedroom 2 window off the ceiling. In addition this experiment was utilized to evaluate the ability of the PPV fan to extend fire into a void space. A single outlet in a plastic box, single switch in a plastic box and light fixture in a metal box were each installed in two stud cavities adjacent the fire room. The first stud cavity was not provided with an opening in the wall plate simulating platform construction with no utilities running in the cavity. The second cavity was provided with 3 1" holes in the top plate simulating electrical of plumbing utilities run in the cavity. Figure \ref{fig:Exp8VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp8Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment8ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 8 can be found in Appendix \ref{App:Exp8Results}. To view the full experiment video \href{https://youtu.be/OzkzBTcsMs0}{Click Here}.
+
 
 \begin{figure}[H]
 	\centering
@@ -1970,7 +1981,7 @@ Experiment 8 was a room and contents fire in the bedroom of the single story str
 
 \paragraph{Experiment 9}\mbox{}
 
-Experiment 9 was a room and contents fire in the bedroom of the single story structure intended to identify the impact of an open front door on the effectiveness of positive pressure attack. The fire is located in the bedroom 2, the front door is the inlet air, open upon ignition and the rear window of bedroom 2 is the exhaust point. Suppression occurs with a straight stream introduced in the bedroom 2 window off the ceiling. Figure \ref{fig:Exp9VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp9Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment9ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 9 can be found in Appendix \ref{App:Exp9Results}.
+Experiment 9 was a room and contents fire in the bedroom of the single story structure intended to identify the impact of an open front door on the effectiveness of positive pressure attack. The fire is located in the bedroom 2, the front door is the inlet air, open upon ignition and the rear window of bedroom 2 is the exhaust point. Suppression occurs with a straight stream introduced in the bedroom 2 window off the ceiling. Figure \ref{fig:Exp9VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp9Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment9ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 9 can be found in Appendix \ref{App:Exp9Results}. To view the full experiment video \href{https://youtu.be/_t64OLbhjks}{Click Here}.
 
 \begin{figure}[H]
 	\centering
@@ -2024,7 +2035,7 @@ Experiment 9 was a room and contents fire in the bedroom of the single story str
 
 \paragraph{Experiment 10}\mbox{}
 
-Experiment 10 was a room and contents fire in the bedroom of the single story structure intended to identify the impact of door control by the fire department upon arrival on the effectiveness of positive pressure attack. The fire is located in the bedroom 2, the front door is the inlet air, open upon ignition, closed by arriving fire personal and the rear window of bedroom 2 is the exhaust point. Suppression is performed via a narrow fog stream introduced through the bedroom 2 window. Figure \ref{fig:Exp10VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp10Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment10ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 10 can be found in Appendix \ref{App:Exp10Results}.
+Experiment 10 was a room and contents fire in the bedroom of the single story structure intended to identify the impact of door control by the fire department upon arrival on the effectiveness of positive pressure attack. The fire is located in the bedroom 2, the front door is the inlet air, open upon ignition, closed by arriving fire personal and the rear window of bedroom 2 is the exhaust point. Suppression is performed via a narrow fog stream introduced through the bedroom 2 window. Figure \ref{fig:Exp10VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp10Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment10ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 10 can be found in Appendix \ref{App:Exp10Results}. To view the full experiment video \href{https://youtu.be/e76r4kRpdQg}{Click Here}.
 
 \begin{figure}[H]
 	\centering
@@ -2090,7 +2101,7 @@ Experiment 10 was a room and contents fire in the bedroom of the single story st
 
 \paragraph{Experiment 11}\mbox{}
 
-Experiment 11 was a room and contents fire in bedroom 2 of the single story structure intended to evaluate the effect of a large number of exhaust points on the effectiveness of positive pressure attack. The front door is the inlet air, the windows of bedroom 2, bedroom 3 and the master bedroom are the exhaust points. The bedroom 2, bedroom 3 and master bedroom windows are ventilated by fire department personal. Suppression occurs via an interior attack using a straight stream. Figure \ref{fig:Exp11VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp11Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment11ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 11 can be found in Appendix \ref{App:Exp11Results}.
+Experiment 11 was a room and contents fire in bedroom 2 of the single story structure intended to evaluate the effect of a large number of exhaust points on the effectiveness of positive pressure attack. The front door is the inlet air, the windows of bedroom 2, bedroom 3 and the master bedroom are the exhaust points. The bedroom 2, bedroom 3 and master bedroom windows are ventilated by fire department personal. Suppression occurs via an interior attack using a straight stream. Figure \ref{fig:Exp11VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp11Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment11ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 11 can be found in Appendix \ref{App:Exp11Results}. To view the full experiment video \href{https://youtu.be/XlgvKuJ40kU}{Click Here}.
 
 \begin{figure}[H]
 	\centering
@@ -2157,7 +2168,7 @@ Experiment 11 was a room and contents fire in bedroom 2 of the single story stru
 
 \paragraph{Experiment 12}\mbox{}
 
-Eperiment 12 was a room and contents fire in bedroom 3 of the single story structure intended to identify the potential venture effect as the flow path is directed down the hallway past the fire room and out the bedroom 2 window. The front door is the inlet air, the rear window of bedroom 2 is the exhaust point. Suppression will be conducted via a narrow fog from the interior living room into bedroom 3. Figure \ref{fig:Exp12VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp12Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment12ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 12 can be found in Appendix \ref{App:Exp12Results}.
+Eperiment 12 was a room and contents fire in bedroom 3 of the single story structure intended to identify the potential venture effect as the flow path is directed down the hallway past the fire room and out the bedroom 2 window. The front door is the inlet air, the rear window of bedroom 2 is the exhaust point. Suppression will be conducted via a narrow fog from the interior living room into bedroom 3. Figure \ref{fig:Exp12VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp12Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment12ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 12 can be found in Appendix \ref{App:Exp12Results}. To view the full experiment video \href{https://youtu.be/4ROh9dXBXM0}{Click Here}.
 
 \begin{figure}[H]
 	\centering
@@ -2211,7 +2222,7 @@ Eperiment 12 was a room and contents fire in bedroom 3 of the single story struc
 
 \paragraph{Experiment 13}\mbox{}
 
-Experiment 13 was a room and contents fire in bedroom 3 of the single story structure intended to test the effectiveness of positive pressure attack. The front door is the inlet air, the rear window of bedroom 3 is the exhaust point. Suppression will be conducted via a narrow fog from the interior living room into bedroom 3. Figure \ref{fig:Exp13VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp13Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment13ImagesCont1} show images of the experiment at each of the intervention times. The results of experiment 13 can be found in Appendix \ref{App:Exp13Results}.
+Experiment 13 was a room and contents fire in bedroom 3 of the single story structure intended to test the effectiveness of positive pressure attack. The front door is the inlet air, the rear window of bedroom 3 is the exhaust point. Suppression will be conducted via a narrow fog from the interior living room into bedroom 3. Figure \ref{fig:Exp13VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp13Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment13ImagesCont1} show images of the experiment at each of the intervention times. The results of experiment 13 can be found in Appendix \ref{App:Exp13Results}. To view the full experiment video \href{https://youtu.be/bMQUpJWIFus}{Click Here}.
 
 \begin{figure}[H]
 	\centering
@@ -2265,7 +2276,7 @@ Experiment 13 was a room and contents fire in bedroom 3 of the single story stru
 
 \paragraph{Experiment 14}\mbox{}
 
-Experiment 14 was a room and contents fire in the kitchen of the single story structure intended to identify the potential effect as the flow path is remote from the fire directed down the hallway and out the bedroom window. The front door is the inlet air, the rear window of bedroom 2 is the exhaust point. Suppression is introduced from the living room into the kitchen via a straight stream. Figure \ref{fig:Exp14VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp14Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment14ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 14 can be found in Appendix \ref{App:Exp14Results}.
+Experiment 14 was a room and contents fire in the kitchen of the single story structure intended to identify the potential effect as the flow path is remote from the fire directed down the hallway and out the bedroom window. The front door is the inlet air, the rear window of bedroom 2 is the exhaust point. Suppression is introduced from the living room into the kitchen via a straight stream. Figure \ref{fig:Exp14VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp14Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment14ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 14 can be found in Appendix \ref{App:Exp14Results}. To view the full experiment video \href{https://youtu.be/WzkDldq_ECA}{Click Here}.
 
 \begin{figure}[H]
 	\centering
@@ -2329,7 +2340,7 @@ Experiment 14 was a room and contents fire in the kitchen of the single story st
 
 \paragraph{Experiment 15}\mbox{}
 
-Experiment 15 was intended to represent a fire involving multiple rooms in an over furnished home. Additional fuel was provided in each bedroom making it difficult to maneuver through the rooms. The fire was ignited pusillanimously in the master bedroom, bedroom 2 and bedroom 3. The front door is the inlet air, the master bedroom window, rear window of bedroom 2 and bedroom 3 window were all exhaust points. Suppression was accomplished with two attack crews, one from the rear and one from the front. Figure \ref{fig:Exp15VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp15Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment15ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 15 can be found in Appendix \ref{App:Exp15Results}.
+Experiment 15 was intended to represent a fire involving multiple rooms in an over furnished home. Additional fuel was provided in each bedroom making it difficult to maneuver through the rooms. The fire was ignited pusillanimously in the master bedroom, bedroom 2 and bedroom 3. The front door is the inlet air, the master bedroom window, rear window of bedroom 2 and bedroom 3 window were all exhaust points. Suppression was accomplished with two attack crews, one from the rear and one from the front. Figure \ref{fig:Exp15VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp15Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment15ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 15 can be found in Appendix \ref{App:Exp15Results}. To view the full experiment video \href{https://youtu.be/yoZ9sIg_LEA}{Click Here}.
 
 \begin{figure}[H]
 	\centering
@@ -2394,7 +2405,7 @@ Experiment 15 was intended to represent a fire involving multiple rooms in an ov
 
 \subsection{Two Story Experiments} \label{TwoStoryExp}
 
-Ten full scale fire experiments were conducted in the two story 3200$ft^2$ ranch style structure. Experiments were intended to test the impact of PPA on fire dynamics in a open plan two story structure. Variables within the experiments were the ignition location, fan positioning and exhaust size and location. Table \ref{Tab:TwoStoryExperiments} lists the experiment number, ignition location, pan placement and exhaust location for each of the experiments preformed in the two story structure. The results of the experiments can be found in appendix \ref{App:Results}.
+Ten full scale fire experiments were conducted in the two story 3200$ft^2$ ranch style structure. Experiments were intended to test the impact of PPA on fire dynamics in a open plan two story structure. Variables within the experiments were the ignition location, fan positioning and exhaust size and location. Table \ref{Tab:TwoStoryExperiments} lists the experiment number, ignition location, pan placement and exhaust location for each of the experiments preformed in the two story structure. The results of the experiments can be found in appendix \ref{App:Results}. 
 
 \begin{table}[H]
 	\centering
@@ -2413,12 +2424,12 @@ Ten full scale fire experiments were conducted in the two story 3200$ft^2$ ranch
 		24 & Bedroom 3 & Front Door & Bedroom 3 Window, 1/2 Rear Door \\ \hline
 		25 & Bedroom 4 & Front Door & Bedroom 4 Window \\ \hline
 	\end{tabular}
-	\label{T ab:TwoStoryExperiments}
+	\label{Tab:TwoStoryExperiments}
 \end{table}
 
 \paragraph{Experiment 16}\mbox{}
 
-Experiment 16 was intended to represent a fire in the family room of an open concept floor plan, two story structure testing the impact of a positive pressure fan with no outlet. The inlet for the fan is the front door, no outlet will be provided. After steady state is achieved family room window is opened as exhaust and a narrow fog is introduced through the family room window for suppression. Figure \ref{fig:Exp16VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp16Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment16ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 16 can be found in Appendix \ref{App:Exp16Results}.
+Experiment 16 was intended to represent a fire in the family room of an open concept floor plan, two story structure testing the impact of a positive pressure fan with no outlet. The inlet for the fan is the front door, no outlet will be provided. After steady state is achieved family room window is opened as exhaust and a narrow fog is introduced through the family room window for suppression. Figure \ref{fig:Exp16VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp16Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment16ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 16 can be found in Appendix \ref{App:Exp16Results}. To view the full experiment video \href{https://youtu.be/yq3QWlFDFmc}{Click Here}.
 
 \begin{figure}[H]
 	\centering
@@ -2475,7 +2486,7 @@ Experiment 16 was intended to represent a fire in the family room of an open con
 
 \paragraph{Experiment 17}\mbox{}
 
-Experiment 17 was intended to represent a fire in the family room of an open concept floor plan, two story structure testing the impact of positive pressure attack. The inlet for the fan is the front door with the rear family room window being the exhaust. Water is applied via a straight stream through the front door. Figure \ref{fig:Exp17VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp17Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment17ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 17 can be found in Appendix \ref{App:Exp17Results}.
+Experiment 17 was intended to represent a fire in the family room of an open concept floor plan, two story structure testing the impact of positive pressure attack. The inlet for the fan is the front door with the rear family room window being the exhaust. Water is applied via a straight stream through the front door. Figure \ref{fig:Exp17VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp17Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment17ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 17 can be found in Appendix \ref{App:Exp17Results}. To view the full experiment video \href{https://youtu.be/XrCjt5Ad0DU}{Click Here}.
 
 \begin{figure}[H]
 	\centering
@@ -2530,7 +2541,7 @@ Experiment 17 was intended to represent a fire in the family room of an open con
 
 \paragraph{Experiment 18}\mbox{}
 
-Experiment 18 was intended to represent a fire in the family room of the open concept, two story structure testing impact of opposing the positive pressure exhaust with a hose stream. Positive pressure attack is initiated with the inlet being the front door and the exhaust point being the family room window which vented before fire department arrival. Water is applied with a straight stream through the family room window. Figure \ref{fig:Exp18VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp18Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment18ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 18 can be found in Appendix \ref{App:Exp18Results}.
+Experiment 18 was intended to represent a fire in the family room of the open concept, two story structure testing impact of opposing the positive pressure exhaust with a hose stream. Positive pressure attack is initiated with the inlet being the front door and the exhaust point being the family room window which vented before fire department arrival. Water is applied with a straight stream through the family room window. Figure \ref{fig:Exp18VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp18Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment18ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 18 can be found in Appendix \ref{App:Exp18Results}. To view the full experiment video \href{https://youtu.be/hOQdiU0YDCE}{Click Here}.
 
 \begin{figure}[H]
 	\centering
@@ -2587,7 +2598,7 @@ Experiment 18 was intended to represent a fire in the family room of the open co
 
 \paragraph{Experiment 19}\mbox{}
 
-Experiment 19 was intended to represent a fire in the open floor plan of the two story structure intended to demonstrate the hazards of positive pressure attack with remote ventilation location. The fire is located in the family room, the front door is the air inlet and the 2nd floor bedroom 3 window is the exhaust point. Suppression is initiated through the front door via a straight stream. PPV is evaluated using systematic ventilation practices after suppression. Figure \ref{fig:Exp19VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp19Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment19ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 19 can be found in Appendix \ref{App:Exp19Results}.
+Experiment 19 was intended to represent a fire in the open floor plan of the two story structure intended to demonstrate the hazards of positive pressure attack with remote ventilation location. The fire is located in the family room, the front door is the air inlet and the 2nd floor bedroom 3 window is the exhaust point. Suppression is initiated through the front door via a straight stream. PPV is evaluated using systematic ventilation practices after suppression. Figure \ref{fig:Exp19VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp19Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment19ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 19 can be found in Appendix \ref{App:Exp19Results}. To view the full experiment video \href{https://youtu.be/fZWICkdxGec}{Click Here}.
 
 \begin{figure}[H]
 	\centering
@@ -2654,7 +2665,7 @@ Experiment 19 was intended to represent a fire in the open floor plan of the two
 
 \paragraph{Experiment 20}\mbox{}
 
-Experiment 20 was intended to represent a fire in open floor plan family room of a two story structure intended to demonstrate effect additional ventilation openings remote from the fire. The front door is the air inlet and the family room window and 2nd floor bedroom 3 window are the exhaust points. The bedroom 3 window will be opened after the fan is started at the front door. Suppression is via a straight stream through the front door. Figure \ref{fig:Exp20VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp20Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment20ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 20 can be found in Appendix \ref{App:Exp20Results}.
+Experiment 20 was intended to represent a fire in open floor plan family room of a two story structure intended to demonstrate effect additional ventilation openings remote from the fire. The front door is the air inlet and the family room window and 2nd floor bedroom 3 window are the exhaust points. The bedroom 3 window will be opened after the fan is started at the front door. Suppression is via a straight stream through the front door. Figure \ref{fig:Exp20VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp20Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment20ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 20 can be found in Appendix \ref{App:Exp20Results}. To view the full experiment video \href{https://youtu.be/lMBMZXApou4}{Click Here}.
 
 \begin{figure}[H]
 	\centering
@@ -2721,7 +2732,7 @@ Experiment 20 was intended to represent a fire in open floor plan family room of
 
 \paragraph{Experiment 21}\mbox{}
 
-Experiment 21 was intended to represent a fire in open floor plan family room of a two story structure intended to demonstrate effect additional ventilation openings in the fire compartment. The front door is the air inlet and the two family room windows are the exhaust points. Suppression is via a straight stream through the front door. Figure \ref{fig:Exp21VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp21Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment21ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 21 can be found in Appendix \ref{App:Exp21Results}.
+Experiment 21 was intended to represent a fire in open floor plan family room of a two story structure intended to demonstrate effect additional ventilation openings in the fire compartment. The front door is the air inlet and the two family room windows are the exhaust points. Suppression is via a straight stream through the front door. Figure \ref{fig:Exp21VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp21Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment21ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 21 can be found in Appendix \ref{App:Exp21Results}. To view the full experiment video \href{https://youtu.be/ykWOmLX9Xts}{Click Here}.
 
 \begin{figure}[H]
 	\centering
@@ -2788,7 +2799,7 @@ Experiment 21 was intended to represent a fire in open floor plan family room of
 
 \paragraph{Experiment 22}\mbox{}
 
-Experiment 22 was intended to represent a fire in open floor plan family room of a two story structure intended to demonstrate effect of positive pressure fan flow rate on the effectiveness of positive pressure attack. The front door is the air inlet and the family room window is the exhaust point. Suppression is via a narrow fog through the family room window. Figure \ref{fig:Exp22VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp22Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment22ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 22 can be found in Appendix \ref{App:Exp22Results}.
+Experiment 22 was intended to represent a fire in open floor plan family room of a two story structure intended to demonstrate effect of positive pressure fan flow rate on the effectiveness of positive pressure attack. The front door is the air inlet and the family room window is the exhaust point. Suppression is via a narrow fog through the family room window. Figure \ref{fig:Exp22VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp22Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment22ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 22 can be found in Appendix \ref{App:Exp22Results}. To view the full experiment video \href{https://youtu.be/so4YGhws3SY}{Click Here}.
 
 \begin{figure}[H]
 	\centering
@@ -2845,7 +2856,7 @@ Experiment 22 was intended to represent a fire in open floor plan family room of
 
 \paragraph{Experiment 23}\mbox{}
 
-Experiment 23 was intended to represent a fire in second floor bedroom of the two story structure intended to demonstrate effect of a proper use of PPA and identify the impact of a obstructed or repositioned positive pressure fan during. The fire is located in the bedroom 3, the front door is the air inlet and the 2nd floor bedroom 3 window is the exhaust point. Suppression is via a transitional attack into the second floor bedroom window off the ceiling. Figure \ref{fig:Exp23VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp23Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment23ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 23 can be found in Appendix \ref{App:Exp23Results}.
+Experiment 23 was intended to represent a fire in second floor bedroom of the two story structure intended to demonstrate effect of a proper use of PPA and identify the impact of a obstructed or repositioned positive pressure fan during. The fire is located in the bedroom 3, the front door is the air inlet and the 2nd floor bedroom 3 window is the exhaust point. Suppression is via a transitional attack into the second floor bedroom window off the ceiling. Figure \ref{fig:Exp23VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp23Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment23ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 23 can be found in Appendix \ref{App:Exp23Results}. To view the full experiment video \href{https://youtu.be/jq7i2Jael9M}{Click Here}.
 
 \begin{figure}[H]
 	\centering
@@ -2910,7 +2921,7 @@ Experiment 23 was intended to represent a fire in second floor bedroom of the tw
 
 \paragraph{Experiment 24}\mbox{}
 
-Experiment 24 was intended to represent a fire in second floor bedroom of the two story structure intended to demonstrate the effect of additional ventilation openings remote from the fire. The fire is located in the bedroom 3, the front door is the air inlet and the 2nd floor bedroom 3 window is the exhaust point. The rear door is opened 1/2 way after the fan is started at the front door. Suppression is via a transitional attack through the bedroom 3 window off the ceiling with a straight stream. Figure \ref{fig:Exp24VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp24Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment24ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 24 can be found in Appendix \ref{App:Exp24Results}.
+Experiment 24 was intended to represent a fire in second floor bedroom of the two story structure intended to demonstrate the effect of additional ventilation openings remote from the fire. The fire is located in the bedroom 3, the front door is the air inlet and the 2nd floor bedroom 3 window is the exhaust point. The rear door is opened 1/2 way after the fan is started at the front door. Suppression is via a transitional attack through the bedroom 3 window off the ceiling with a straight stream. Figure \ref{fig:Exp24VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp24Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment24ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 24 can be found in Appendix \ref{App:Exp24Results}. To view the full experiment video \href{https://youtu.be/T430FepUd4E}{Click Here}.
 
 \begin{figure}[H]
 	\centering
@@ -2977,7 +2988,7 @@ Experiment 24 was intended to represent a fire in second floor bedroom of the tw
 
 \paragraph{Experiment 25}\mbox{}
 
-Experiment 25 was intended to represent a fire in second floor bedroom of the two story structure intended to demonstrate the effect of transitional attack combined with positive pressure attack. The fire is located in bedroom 4 and self vents bedroom 4 window. Straight Stream Attack off the bedroom 4 ceiling through the window occurs followed by positive pressure attack. The front door is the air inlet and the 2nd floor bedroom 4 window is the exhaust point. Final suppression is via interior attack with a straight stream. Figure \ref{fig:Exp25VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp25Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment25ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 25 can be found in Appendix \ref{App:Exp25Results}.
+Experiment 25 was intended to represent a fire in second floor bedroom of the two story structure intended to demonstrate the effect of transitional attack combined with positive pressure attack. The fire is located in bedroom 4 and self vents bedroom 4 window. Straight Stream Attack off the bedroom 4 ceiling through the window occurs followed by positive pressure attack. The front door is the air inlet and the 2nd floor bedroom 4 window is the exhaust point. Final suppression is via interior attack with a straight stream. Figure \ref{fig:Exp25VentConfig} shows the configuration fo the structure, Table \ref{Table:Exp25Interventions} show at what times interventions were preformed and the Figures in \ref{fig:Experiment25ImagesCont1} shows images of the experiment at each of the intervention times. The results of experiment 25 can be found in Appendix \ref{App:Exp25Results}. To view the full experiment video \href{https://youtu.be/vMflFNnWxHU}{Click Here}.
 
 \begin{figure}[H]
 	\centering
@@ -6681,7 +6692,7 @@ This project built on the previous horizontal and vertical ventilation studies. 
 	\clearpage
 
 \section{Full Scale Fire Experiment Results} \label{App:Results}
-\clearpage		\large
+
 \subsection{Experiment 1 Data} \label{App:Exp1Results} 
 
 	\begin{figure}[h!]
@@ -13703,6 +13714,7 @@ This project built on the previous horizontal and vertical ventilation studies. 
 \section{Literature Review}
 
 \subsection{Positive Pressure Ventilation Fire Service Publications Literature Review} \label{app:FireServicePublicationsLiteratureReview}
+\normalsize
 Carlson discusses some concerns that readers had voiced about some of the possible consequences of a Positive Pressure Attack. First, he addresses the concern that PPA will force smoke and heat into habitable apartments, as opposed to venting these toxic gases out of the structure. Carlson says that if the exhaust point is correctly placed, the smoke and gases should follow the path of least resistance, which would be out of the hallway and through the exhaust point. Similarly, he argues that Positive Pressure Ventilation should not disrupt the thermal balance. He says that rather than forcing the hot air downward, PPV will force it out of the structure. He also acknowledges the concern that forcing air into a structure will entrain oxygen into materials that may be smoldering in a wall cavity or a similar void space, leading to rapid fire growth. While Carlson states that this is concern, he also emphasizes that it is for this reason that the introduction of PPV must be coordinated with a swift and effective fire attack, so that excess air is not entrained into hidden fires, complicating the fire attack.\cite{CarlsonFE}
 
 Positive pressure attack is a necessary change for a safer fire ground for both victims and for firefighters. The authors say that PPA is a solution that clears the atmosphere to help victim tenability while at the same time clearing the way for the attack crew, hastening the fire attack. The authors go on to address some of the concern that many firefighters have expressed with the idea of a positive pressure attack. Citing field experiments that they have conducted in makeshift house with pallets and straw as a fuel load, the authors say that fire will not be pushed into other compartments, and will not be pushed from void spaces to the attic. They stated that the only time that fire was observed to spread to the attic was when a hole was cut for vertical ventilation. This is because the fire is seeking the path of least resistance, which is straight out the exhaust point. When addressing the concerns that a PPA may require extra staffing or time, the authors say that a well-trained crew can conduct PPA in the same time that it takes for a conventional attack, while eliminating the need for vertical ventilation. With regards to time, they say that the victim’s best chance for survival is immediate removal of toxic gases from the structure. When talking about where to put exhaust openings, the best place is as close to the seat of the fire as possible. According to the authors, however, you cannot make an exhaust opening in the wrong location; some exhaust locations are simply better than others. They go on to say that if there is insufficient pressure coming out of the first exhaust opening that you make, you should take another window, making sure that no crews are inside of the structure while you do this. The blowers should be started ten seconds before the initial attack crew makes entry. The authors also argue that it is impossible to place the blower too close to the seat of the fire, because fire will not be blown throughout the structure.\cite{PositiveReinforcement}
